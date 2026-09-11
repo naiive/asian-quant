@@ -1,0 +1,17 @@
+
+/venv311/
+data/logs/
+conf/config.py
+core/util/vid/
+/.idea/
+__pycache__/
+*.egg-info/
+
+.DS_Store
+.DS_Store?
+.installed.cfg
+*.py[cod]
+*$py.class
+*.egg
+*.swp
+*.swo

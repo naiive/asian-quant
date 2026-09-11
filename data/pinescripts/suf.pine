@@ -1,0 +1,60 @@
+//@version=5
+indicator(title="SUF", shorttitle="SUF", overlay=true, max_labels_count=500)
+
+// Surf Indicator v2.1 — Cleaned & Optimized (Daily, Weekly & Monthly)
+
+// Only allow Daily, Weekly and Monthly timeframes
+if not (timeframe.isdaily or timeframe.isweekly or timeframe.ismonthly)
+    runtime.error("Surf Indicator only works on Daily, Weekly and Monthly timeframes.")
+
+// ── Inputs ─────────────────────────────────────────────────────
+rsiLength        = input.int(14,  "RSI Length", minval=1, group="RSI Settings")
+
+// Bottom (Accumulation) thresholds
+dailyThreshold   = input.int(30,  "Daily RSI Threshold (Bottom)",   minval=0, maxval=100, group="RSI Settings - Bottom")
+accumThreshold   = input.int(35,  "Weekly RSI Threshold (Bottom)",  minval=0, maxval=100, group="RSI Settings - Bottom")
+monthlyThreshold = input.int(45,  "Monthly RSI Threshold (Bottom)", minval=0, maxval=100, group="RSI Settings - Bottom")
+
+// Top (Distribution) thresholds
+dailyTopThreshold   = input.int(70, "Daily RSI Threshold (Top)",   minval=0, maxval=100, group="RSI Settings - Top")
+weeklyTopThreshold  = input.int(65, "Weekly RSI Threshold (Top)",  minval=0, maxval=100, group="RSI Settings - Top")
+monthlyTopThreshold = input.int(55, "Monthly RSI Threshold (Top)", minval=0, maxval=100, group="RSI Settings - Top")
+
+dailySmaLen   = input.int(200, "Daily SMA Length", minval=1, group="SMA Settings")
+weeklySmaLen  = input.int(200, "Weekly SMA Length", minval=1, group="SMA Settings")
+monthlySmaLen = input.int(46,  "Monthly SMA Length", minval=1, group="SMA Settings")
+
+// Colors
+bottomColor = input.color(#3179f5, "Bottom Zone Color (Paddle)", group="Visual Settings")
+topColor    = input.color(#f53179, "Top Zone Color (Wave Crest)", group="Visual Settings")
+
+// SMA Settings
+isDaily   = timeframe.isdaily
+isWeekly  = timeframe.isweekly
+isMonthly = timeframe.ismonthly
+
+smaLength = isDaily ? dailySmaLen : isWeekly ? weeklySmaLen : monthlySmaLen
+sma       = ta.sma(close, smaLength)
+
+// ── Calculations ───────────────────────────────────────────────
+rsiVal = ta.rsi(close, rsiLength)
+
+// Dynamic RSI thresholds
+currentThreshold    = isDaily ? dailyThreshold    : isMonthly ? monthlyThreshold    : accumThreshold
+currentTopThreshold = isDaily ? dailyTopThreshold : isMonthly ? monthlyTopThreshold : weeklyTopThreshold
+
+// Zone Logic
+priceBelowSMA = low  <= sma
+priceAboveSMA = high >= sma
+
+inAccumZone       = priceBelowSMA and rsiVal < currentThreshold        // 底部 / 抄底区
+inDistributionZone = priceAboveSMA and rsiVal > currentTopThreshold    // 顶部 / 派发区
+
+// ── Visuals ────────────────────────────────────────────────────
+bgColorBottom = inAccumZone        ? color.new(bottomColor, 75) : na
+bgColorTop    = inDistributionZone ? color.new(topColor, 75)    : na
+
+bgcolor(bgColorBottom, title="Paddle Zone Background (Bottom)")
+bgcolor(bgColorTop,    title="Wave Crest Zone Background (Top)")
+
+plot(sma, title="SMA (Ocean Floor)", color=color.rgb(12, 181, 228), linewidth=2)

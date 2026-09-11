@@ -1,0 +1,14 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,名称,周期,交易所
+2026-06-29 08:00:00,Long,ETH-USDT,1769.84,12.65%,1249.46,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",ETH,1W,Binance
+2026-06-29 08:00:00,Long,ETH-USDT,1769.84,12.65%,1249.46,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",ETH,1W,Binance
+2026-06-29 08:00:00,Long,BTC-USDT,63066.3,5.90%,50544.3,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",BTC,1W,Binance
+2026-06-29 08:00:00,Long,BTC-USDT,63066.3,5.90%,50544.3,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",BTC,1W,Binance
+2026-06-29 08:00:00,Long,LINK-USDT,7.92,9.04%,5.57,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",LINK,1W,Binance
+2026-06-29 08:00:00,Long,LINK-USDT,7.92,9.04%,5.57,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",LINK,1W,Binance
+2026-06-29 08:00:00,Long,MSTR-USDT,107.0,29.92%,54.5,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",MSTR,1W,Binance
+2026-06-29 08:00:00,Long,MSTR-USDT,107.0,29.92%,54.5,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",MSTR,1W,Binance
+2026-06-29 08:00:00,Long,LIT-USDT,2.27,31.17%,1.22,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",LIT,1W,Binance
+2026-06-29 08:00:00,Long,M-USDT,1.41,111.91%,-0.36,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",M,1W,Binance
+2026-06-29 08:00:00,Long,M-USDT,1.41,111.91%,-0.36,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",M,1W,Binance
+2026-06-29 08:00:00,Long,XPT-USDT,1650.91,1.68%,1324.78,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",XPT,1W,Binance
+2026-06-29 08:00:00,Long,XPT-USDT,1650.91,1.68%,1324.78,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",XPT,1W,Binance

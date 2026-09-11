@@ -1,0 +1,191 @@
+//@version=6
+indicator(title = "VFI_STO_SQZ_WT_PRO_MAX", shorttitle = "MAX", overlay = false)
+
+// ─────────────────────────────────────────────────────
+// 0. 全局显示控制与偏移量
+// ─────────────────────────────────────────────────────
+grp_display = "显示控制"
+showVFI     = input.bool(true, "显示 VFI", group=grp_display)
+showStoch   = input.bool(true, "显示 STO", group=grp_display)
+showSQZ     = input.bool(true, "显示 SQZ", group=grp_display)
+showCRO     = input.bool(true, "显示 CRO", group=grp_display)
+
+sqzOffset   = -100 // SQZ 区域偏移
+emaLinePos  = -160 // EMA200 状态横线位置
+
+// ─────────────────────────────────────────────────────
+// 1. VFI 参数与核心逻辑
+// ─────────────────────────────────────────────────────
+grp_vfi    = "VFI 核心参数"
+v_length   = input.int(100, "VFI 周期", group=grp_vfi)
+v_coef     = input.float(0.15, "波动阈值系数", group=grp_vfi)
+v_vcoef    = input.float(2.0, "成交量截断", group=grp_vfi)
+v_sigLen   = input.int(15, "VFI 信号线周期", group=grp_vfi)
+v_vfiMult  = input.float(3.0, "VFI 视觉放大", group=grp_vfi)
+
+grp_vdiv   = "VFI 背离视觉"
+sizeRatio_VFI = input.float(1.2, "背离能量差比例", group=grp_vdiv)
+v_bullColor = input.color(color.new(#00bcd4, 0), "VFI 底背离颜色", group=grp_vdiv)
+v_bearColor = input.color(color.new(#ff9800, 0), "VFI 顶背离颜色", group=grp_vdiv)
+
+float typical = hlc3
+float inter   = math.log(typical) - math.log(nz(typical[1], typical))
+float vinter  = ta.stdev(inter, 30)
+float cutoff  = v_coef * vinter * close
+float vave    = nz(ta.sma(volume, v_length)[1])
+float vmax    = vave * v_vcoef
+float vc      = math.min(volume, vmax)
+float mf      = typical - nz(typical[1], typical)
+float vcp     = mf > cutoff ? vc : (mf < -cutoff ? -vc : 0.0)
+float vfi_raw = (math.sum(vcp, v_length) / (vave + 1e-10)) * v_vfiMult
+float vfi     = ta.sma(vfi_raw, 3)
+float vfima   = ta.ema(vfi, v_sigLen)
+
+v_buySig  = ta.crossover(vfi, vfima)
+v_sellSig = ta.crossunder(vfi, vfima)
+
+var float pBuyVFI = na, var float pBuyPx = na, var int pBuyBar = na
+var float pSellVFI = na, var float pSellPx = na, var int pSellBar = na
+
+if showVFI
+    if v_buySig
+        if not na(pBuyVFI) and close < pBuyPx and vfi > (pBuyVFI * sizeRatio_VFI)
+            line.new(pBuyBar, pBuyVFI, bar_index, vfi, color=v_bullColor, width=1)
+            label.new(bar_index, vfi, "B", style=label.style_label_up, color=v_bullColor, textcolor=color.black, size=size.tiny)
+        pBuyVFI := vfi, pBuyPx := close, pBuyBar := bar_index
+    if v_sellSig
+        if not na(pSellVFI) and close > pSellPx and vfi < (pSellVFI / sizeRatio_VFI)
+            line.new(pSellBar, pSellVFI, bar_index, vfi, color=v_bearColor, width=1)
+            label.new(bar_index, vfi, "S", style=label.style_label_down, color=v_bearColor, textcolor=color.white, size=size.tiny)
+        pSellVFI := vfi, pSellPx := close, pSellBar := bar_index
+
+
+bgcolor(showVFI ? (vfi > 0 ? color.new(color.red, 97) : color.new(color.green, 97)) : na, title="VFI 净流量背景")
+
+// ─────────────────────────────────────────────────────
+// 2. Stochastic 参数与逻辑
+// ─────────────────────────────────────────────────────
+grp_stoch  = "Stochastic 参数"
+periodK    = input.int(14, "%K Length", group=grp_stoch)
+smoothK    = input.int(3, "%K Smoothing", group=grp_stoch)
+periodD    = input.int(3, "%D Smoothing", group=grp_stoch)
+upperBound = input.int(80, "Stoch Upper Band", group=grp_stoch)
+lowerBound = input.int(20, "Stoch Lower Band", group=grp_stoch)
+
+k_stoch = ta.sma(ta.stoch(close, high, low, periodK), smoothK)
+d_stoch = ta.sma(k_stoch, periodD)
+stochSell = ta.crossunder(k_stoch, upperBound)
+stochBuy  = ta.crossover(k_stoch, lowerBound)
+
+// ─────────────────────────────────────────────────────
+// 3. Squeeze Momentum 逻辑
+// ─────────────────────────────────────────────────────
+grp_sqz   = "SQZ 核心参数"
+sqz_len   = input.int(20, "BB Length", group=grp_sqz)
+sqz_mult  = input.float(1.5, "BB MultFactor", group=grp_sqz)
+sqz_lenKC = input.int(20, "KC Length", group=grp_sqz)
+sqz_multKC= input.float(1.2, "KC MultFactor", group=grp_sqz)
+sqz_scale = input.float(10.0, "SQZ 视觉缩放比例", minval=1.0, group=grp_sqz)
+
+basis = ta.sma(close, sqz_len)
+dev = sqz_mult * ta.stdev(close, sqz_len)
+upperBB = basis + dev
+lowerBB = basis - dev
+ma_kc = ta.sma(close, sqz_lenKC)
+rangema = ta.sma(ta.tr, sqz_lenKC)
+upperKC = ma_kc + rangema * sqz_multKC
+lowerKC = ma_kc - rangema * sqz_multKC
+
+sqzOn  = (lowerBB > lowerKC) and (upperBB < upperKC)
+sqzOff = (lowerBB < lowerKC) and (upperBB > upperKC)
+noSqz  = not sqzOn and not sqzOff
+
+val_raw = ta.linreg(close - math.avg(math.avg(ta.highest(high, sqz_lenKC), ta.lowest(low, sqz_lenKC)), ta.sma(close, sqz_lenKC)), sqz_lenKC, 0)
+sqz_visual = (val_raw * sqz_scale) + sqzOffset
+
+// ─────────────────────────────────────────────────────
+// 4. WaveTrend (CRO) + EMA 200 逻辑
+// ─────────────────────────────────────────────────────
+grp_wt    = "WaveTrend 参数"
+n1        = input.int(10, "通道长度 (Channel)", group=grp_wt)
+n2        = input.int(21, "平均长度 (Average)", group=grp_wt)
+obLevel1  = input.float(60, "超买 1", group=grp_wt)
+osLevel1  = input.float(-60, "超卖 1", group=grp_wt)
+
+grp_div   = "背离与趋势设置"
+sizeRatio_WT = input.float(1.1, "背离能量差比例", step=0.05, minval=1.0, group=grp_div)
+trendFilter = input.bool(true, "启用 EMA 200 趋势过滤", group=grp_div)
+
+ap  = hlc3
+esa = ta.ema(ap, n1)
+d   = ta.ema(math.abs(ap - esa), n1)
+ci  = (ap - esa) / (0.015 * d)
+wt1 = ta.ema(ci, n2)
+wt2 = ta.sma(wt1, 4)
+
+ema200 = ta.ema(close, 200)
+isBullish = close >= ema200
+isBearish = close < ema200
+
+var float prevBuyWT = na, var float prevBuyPrice = na, var int prevBuyBar = na
+var float prevSellWT = na, var float prevSellPrice = na, var int prevSellBar = na
+
+buySignalWT  = ta.crossover(wt1, wt2)
+sellSignalWT = ta.crossunder(wt1, wt2)
+
+if buySignalWT
+    if not na(prevBuyWT)
+        if close < prevBuyPrice and wt1 > (prevBuyWT * (wt1 > 0 ? 1/sizeRatio_WT : sizeRatio_WT)) and prevBuyWT < -40
+            if not trendFilter or isBullish
+                if showCRO
+                    line.new(prevBuyBar, prevBuyWT, bar_index, wt1, color=color.lime, width=2, style=line.style_solid)
+                    label.new(bar_index, wt1, "B", style=label.style_label_up, color=color.lime, textcolor=color.black, size=size.tiny)
+    prevBuyWT := wt1, prevBuyPrice := close, prevBuyBar := bar_index
+
+if sellSignalWT
+    if not na(prevSellWT)
+        if close > prevSellPrice and wt1 < (prevSellWT * (wt1 > 0 ? 1/sizeRatio_WT : sizeRatio_WT)) and prevSellWT > 40
+            if not trendFilter or isBearish
+                if showCRO
+                    line.new(prevSellBar, prevSellWT, bar_index, wt1, color=color.red, width=2, style=line.style_solid)
+                    label.new(bar_index, wt1, "S", style=label.style_label_down, color=color.red, textcolor=color.white, size=size.tiny)
+    prevSellWT := wt1, prevSellPrice := close, prevSellBar := bar_index
+
+// ─────────────────────────────────────────────────────
+// 5. 绘图输出
+// ─────────────────────────────────────────────────────
+
+// --- VFI 绘制 ---
+plot(showVFI ? vfi : na, "VFI 主线", color=#2962ff, linewidth=2)
+plot(showVFI ? vfima : na, "VFI 信号线", color=#ff9800, linewidth=2)
+v_diff = vfi - vfima
+plot(showVFI ? v_diff : na, "VFI 动能差", style=plot.style_histogram, color=v_diff > 0 ? color.new(#ff5252, 20) : color.new(#26a69a, 20), linewidth=2)
+
+// --- Stochastic 绘制 ---
+plot(showStoch ? k_stoch : na, "Stoch %K", color=color.new(#2962FF, 40), linewidth=2)
+plot(showStoch ? d_stoch : na, "Stoch %D", color=color.new(#FF6D00, 40))
+plotshape(showStoch and stochBuy ? k_stoch : na, "Stoch Buy", style=shape.labelup, location=location.absolute, color=color.green, text="B", textcolor=color.white, size=size.tiny)
+plotshape(showStoch and stochSell ? k_stoch : na, "Stoch Sell", style=shape.labeldown, location=location.absolute, color=color.red, text="S", textcolor=color.white, size=size.tiny)
+
+// --- WaveTrend 绘制 ---
+plot(showCRO ? wt1 : na, "WT1", color=#2196f3, linewidth=1)
+plot(showCRO ? wt2 : na, "WT2", color=#ff5252, linewidth=1)
+plot(showCRO ? wt1 - wt2 : na, "WT Diff Area", color=color.new(#0f7fdb, 80), style=plot.style_area)
+plot(showCRO and buySignalWT ? wt1 : na, "WT Buy Dot", color=color.lime, style=plot.style_circles, linewidth=3)
+plot(showCRO and sellSignalWT ? wt1 : na, "WT Sell Dot", color=color.red, style=plot.style_circles, linewidth=3)
+
+// --- SQZ 绘制 ---
+sqz_bcolor = sqz_visual > sqzOffset ? (sqz_visual > nz(sqz_visual[1]) ? color.new(color.lime, 40) : color.new(color.green, 40)) : (sqz_visual < nz(sqz_visual[1]) ? color.red : color.maroon)
+plot(showSQZ ? sqz_visual : na, "SQZ Momentum", color=sqz_bcolor, style=plot.style_histogram, linewidth=4, histbase=sqzOffset)
+plot(showSQZ ? sqzOffset : na, "SQZ Status Dots", color=noSqz ? color.blue : sqzOn ? color.black : color.gray, style=plot.style_cross, linewidth=2)
+
+// --- 底部 EMA200 趋势横线 ---
+plot(true ? emaLinePos : na, "EMA200 趋势横线", color=isBullish ? color.lime : color.red, linewidth=3, style=plot.style_linebr)
+
+// --- 参考辅助线 ---
+hline(0, "中轴", color=color.gray, linestyle=hline.style_dotted)
+hline(showCRO ? obLevel1 : na, "WT 超买", color=color.new(color.red, 50))
+hline(showCRO ? osLevel1 : na, "WT 超卖", color=color.new(color.green, 50))
+hline(showStoch ? upperBound : na, "Stoch Upper", color=color.new(#787B86, 70))
+hline(showStoch ? lowerBound : na, "Stoch Lower", color=color.new(#787B86, 70))
+hline(sqzOffset, "SQZ 基准线", color=color.new(color.white, 50), linestyle=hline.style_dashed)

@@ -1,0 +1,119 @@
+//@version=5
+indicator('ATD_PRO', shorttitle='ATD_PRO', overlay=true, format=format.price, precision=2)
+
+// ==========================================
+// === 0. 全局函数定义 ===
+// ==========================================
+
+// 严格按照原版逻辑定义的 Tilson T3
+gd_func(src, length, factor) =>
+    ta.ema(src, length) * (1 + factor) - ta.ema(ta.ema(src, length), length) * factor
+
+t3_func(src, length, factor) =>
+    _g1 = gd_func(src, length, factor)
+    _g2 = gd_func(_g1, length, factor)
+    _g3 = gd_func(_g2, length, factor)
+    _g3
+
+// ==========================================
+// === 1. AlphaTrend (ATD) ===
+// ==========================================
+coeff = input.float(1, 'coeff', step=0.1)
+AP = input.int(21, 'ap')
+src_atd = input.source(close, title="src (ATD)")
+showsignalsk = input.bool(title='Show Signals?', defval=true)
+novolumedata = input.bool(title='Change calculation (no volume data)?', defval=false)
+
+// ATD 计算逻辑
+ATR = ta.sma(ta.tr, AP)
+upT = low - ATR * coeff
+downT = high + ATR * coeff
+var float AlphaTrend = 0.0
+AlphaTrend := (novolumedata ? ta.rsi(src_atd, AP) >= 50 : ta.mfi(hlc3, AP) >= 50) ? (upT < nz(AlphaTrend[1]) ? nz(AlphaTrend[1]) : upT) : (downT > nz(AlphaTrend[1]) ? nz(AlphaTrend[1]) : downT)
+
+// ATD 样式与绘图
+color1 = AlphaTrend > AlphaTrend[2] ? #00E60F : AlphaTrend < AlphaTrend[2] ? #80000B : AlphaTrend[1] > AlphaTrend[3] ? #00E60F : #80000B
+k1 = plot(AlphaTrend, color=color.new(#0022FC, 0), linewidth=3, title="ATD line 1")
+k2 = plot(AlphaTrend[2], color=color.new(#FC0400, 0), linewidth=3, title="ATD line 2")
+fill(k1, k2, color=color1, title="ATD Background Fill")
+
+// ATD 信号
+buySignalk = ta.crossover(AlphaTrend, AlphaTrend[2])
+sellSignalk = ta.crossunder(AlphaTrend, AlphaTrend[2])
+K1 = ta.barssince(buySignalk)
+K2 = ta.barssince(sellSignalk)
+O1 = ta.barssince(buySignalk[1])
+O2 = ta.barssince(sellSignalk[1])
+
+plotshape(buySignalk and showsignalsk and O1 > K2 ? AlphaTrend[2] * 0.9999 : na, title='B', text='B', location=location.absolute, style=shape.labelup, size=size.tiny, color=color.new(#0022FC, 0), textcolor=color.white)
+plotshape(sellSignalk and showsignalsk and O2 > K1 ? AlphaTrend[2] * 1.0001 : na, title='S', text='S', location=location.absolute, style=shape.labeldown, size=size.tiny, color=color.new(color.maroon, 0), textcolor=color.white)
+
+// ==========================================
+// === 2. Ultimate MA MTF ===
+// ==========================================
+src_ma = input.source(close, title="src (MA)")
+useCurrentRes = input.bool(true, title="Use Current Chart Resolution?")
+resCustom = input.timeframe(title="Use Different Timeframe? Uncheck Box Above", defval="D")
+len = input.int(20, title="Moving Average Length - LookBack Period")
+factorT3 = input.float(defval=7, title="Tilson T3 Factor - *.10 - so 7 = .7 etc.", minval=0)
+atype = input.int(1, minval=1, maxval=8, title="1=SMA, 2=EMA, 3=WMA, 4=HullMA, 5=VWMA, 6=RMA, 7=TEMA, 8=Tilson T3")
+spc = input.bool(false, title="Show Price Crossing 1st Mov Avg - Highlight Bar?")
+cc = input.bool(true, title="Change Color Based On Direction?")
+smoothe = input.int(2, minval=1, maxval=10, title="Color Smoothing - Setting 1 = No Smoothing")
+doma2 = input.bool(false, title="Optional 2nd Moving Average")
+spc2 = input.bool(false, title="Show Price Crossing 2nd Mov Avg?")
+len2 = input.int(50, title="Moving Average Length - Optional 2nd MA")
+sfactorT3 = input.float(defval=7, title="Tilson T3 Factor - *.10 - so 7 = .7 etc.", minval=0)
+atype2 = input.int(1, minval=1, maxval=8, title="2nd MA Type (1-8)")
+cc2 = input.bool(true, title="Change Color Based On Direction 2nd MA?")
+sd = input.bool(false, title="Show Dots on Cross of Both MA's")
+
+// MA 计算逻辑
+res = useCurrentRes ? timeframe.period : resCustom
+
+// MA 1 计算过程
+hullma = ta.wma(2*ta.wma(src_ma, len/2)-ta.wma(src_ma, len), math.round(math.sqrt(len)))
+ema1 = ta.ema(src_ma, len)
+ema2 = ta.ema(ema1, len)
+ema3 = ta.ema(ema2, len)
+tema = 3 * (ema1 - ema2) + ema3
+f1 = factorT3 * 0.1
+tilT3 = t3_func(src_ma, len, f1)
+
+avg1_raw = atype == 1 ? ta.sma(src_ma,len) : atype == 2 ? ta.ema(src_ma,len) : atype == 3 ? ta.wma(src_ma,len) : atype == 4 ? hullma : atype == 5 ? ta.vwma(src_ma, len) : atype == 6 ? ta.rma(src_ma,len) : atype == 7 ? tema : tilT3
+
+// MA 2 计算过程
+hullma2 = ta.wma(2*ta.wma(src_ma, len2/2)-ta.wma(src_ma, len2), math.round(math.sqrt(len2)))
+sema1 = ta.ema(src_ma, len2)
+sema2 = ta.ema(sema1, len2)
+sema3 = ta.ema(sema2, len2)
+stema = 3 * (sema1 - sema2) + sema3
+f2 = sfactorT3 * 0.1
+stilT3 = t3_func(src_ma, len2, f2)
+
+avg2_raw = atype2 == 1 ? ta.sma(src_ma,len2) : atype2 == 2 ? ta.ema(src_ma,len2) : atype2 == 3 ? ta.wma(src_ma,len2) : atype2 == 4 ? hullma2 : atype2 == 5 ? ta.vwma(src_ma, len2) : atype2 == 6 ? ta.rma(src_ma,len2) : atype2 == 7 ? stema : stilT3
+
+// MTF 安全处理
+out1 = request.security(syminfo.tickerid, res, avg1_raw[barstate.isrealtime ? 1 : 0])[barstate.isrealtime ? 0 : 1]
+out2 = request.security(syminfo.tickerid, res, avg2_raw[barstate.isrealtime ? 1 : 0])[barstate.isrealtime ? 0 : 1]
+
+// MA 样式逻辑
+ma_up = out1 >= out1[smoothe]
+ma_down = out1 < out1[smoothe]
+col1_ma = cc ? (ma_up ? color.lime : ma_down ? color.red : color.aqua) : color.aqua
+col2_ma = cc2 ? (ma_up ? color.lime : ma_down ? color.red : color.aqua) : color.white
+
+// MA 绘图样式
+plot(out1, title="Multi-Timeframe Moving Avg", style=plot.style_line, linewidth=4, color=col1_ma)
+plot(doma2 ? out2 : na, title="2nd Multi-TimeFrame Moving Average", style=plot.style_circles, linewidth=4, color=col2_ma)
+plotshape(sd and ta.cross(out1, out2) ? out2 : na, title="MA Cross Dot", style=shape.cross, location=location.absolute, size=size.normal, color=color.aqua)
+
+// Barcolor
+barcolor(spc and ((open < out1 and close > out1) or (open > out1 and close < out1)) ? color.yellow : na)
+barcolor(spc2 and ((open < out2 and close > out2) or (open > out2 and close < out2)) ? color.yellow : na)
+
+alertcondition(buySignalk and O1 > K2, title='Potential BUY Alarm', message='BUY SIGNAL!')
+alertcondition(sellSignalk and O2 > K1, title='Potential SELL Alarm', message='SELL SIGNAL!')
+alertcondition(ta.cross(close, AlphaTrend), title='Price Cross Alert', message='Price - AlphaTrend Crossing!')
+alertcondition(ta.crossover(low, AlphaTrend), title='Candle CrossOver Alarm', message='LAST BAR is ABOVE ALPHATREND')
+alertcondition(ta.crossunder(high, AlphaTrend), title='Candle CrossUnder Alarm', message='LAST BAR is BELOW ALPHATREND!')

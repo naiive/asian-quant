@@ -1,0 +1,302 @@
+//@version=6
+indicator("PRO", shorttitle="PRO", overlay=true, precision=3)
+
+// ══════════════════════════════════════════
+// ░░  0. 核心函数定义
+// ══════════════════════════════════════════
+
+// Generalized Double EMA (GD)
+gd_func(src, length, factor) =>
+    ema1 = ta.ema(src, length)
+    ema1 * (1 + factor) - ta.ema(ema1, length) * factor
+
+// Tillson T3 (三层 GD 叠加)
+t3_func(src, length, factor) =>
+    gd_func(gd_func(gd_func(src, length, factor), length, factor), length, factor)
+
+// 内联版本 (用于 TMA 层)
+_gd(src, l, a) =>
+    ta.ema(src, l) * (1 + a) - ta.ema(ta.ema(src, l), l) * a
+_t3(src, l, a) =>
+    _gd(_gd(_gd(src, l, a), l, a), l, a)
+
+// Range Filter：计算动态波动范围
+f_rng_size(src, qty, n) =>
+    wper  = n * 2 - 1
+    avrng = ta.ema(math.abs(src - src[1]), n)
+    ta.ema(avrng, wper) * qty
+
+// Range Filter：滤波器主体
+f_rng_filt(src, rng) =>
+    var float rfilt = src
+    rfilt := src - rng > rfilt ? src - rng : src + rng < rfilt ? src + rng : rfilt
+    rfilt
+
+// ══════════════════════════════════════════
+// ░░  1. 参数设置
+// ══════════════════════════════════════════
+
+// ── 0. RF 执行层 ──────────────────────────
+var grp_rf = "0. RF · Range Filter"
+rng_per = input.int(14,   "Swing 周期[默认:14]",  group=grp_rf, minval=1)
+rng_qty = input.float(2.5,"Swing 倍数[默认:2.5]",  group=grp_rf, minval=0.1, step=0.1)
+
+// ── 1. UT Bot ─────────────────────────────
+var grp_ut = "1. UT Bot"
+a_ut = input.float(1.5, "敏感度[默认:1.5]", group=grp_ut)
+c_ut = input.int(14,    "ATR 周期[默认:14]", group=grp_ut)
+
+// ── 2. ATD 趋势层 ─────────────────────────
+var grp_atd = "2. ATD · AlphaTrend"
+coeff        = input.float(1.0,  "强度系数[默认:1.0]", group=grp_atd, step=0.1)
+AP           = input.int(14,     "回望周期[默认:14]", group=grp_atd)
+novolumedata = input.bool(false, "无成交量？(改用 RSI)[默认:false]", group=grp_atd)
+
+// ── 3. TMA 动能层 ─────────────────────────
+var grp_tma = "3. TMA · Tillson T3"
+aLength    = input.int(5,       "快线周期[默认:5]",    group=grp_tma)
+Length     = input.int(8,       "慢线周期[默认:8]",    group=grp_tma)
+alphaInput = input.float(0.618, "Alpha 因子[默认:0.618]",  group=grp_tma)
+
+// ── 4–7. 四条均线 ─────────────────────────
+var grp_ma1 = "4. 均线 1"
+show_ma1 = input.bool(true,   "启用", group=grp_ma1)
+type_ma1 = input.string("EMA","类型", group=grp_ma1, options=["SMA","EMA","WMA","HullMA","VWMA","RMA","TEMA","Tilson T3"])
+len_ma1  = input.int(20,      "周期", group=grp_ma1)
+tf_ma1   = input.timeframe("","时间周期", group=grp_ma1)
+
+var grp_ma2 = "5. 均线 2"
+show_ma2 = input.bool(true,   "启用", group=grp_ma2)
+type_ma2 = input.string("EMA","类型", group=grp_ma2, options=["SMA","EMA","WMA","HullMA","VWMA","RMA","TEMA","Tilson T3"])
+len_ma2  = input.int(50,      "周期", group=grp_ma2)
+tf_ma2   = input.timeframe("","时间周期", group=grp_ma2)
+
+var grp_ma3 = "6. 均线 3"
+show_ma3 = input.bool(true,   "启用", group=grp_ma3)
+type_ma3 = input.string("EMA","类型", group=grp_ma3, options=["SMA","EMA","WMA","HullMA","VWMA","RMA","TEMA","Tilson T3"])
+len_ma3  = input.int(100,     "周期", group=grp_ma3)
+tf_ma3   = input.timeframe("","时间周期", group=grp_ma3)
+
+var grp_ma4 = "7. 均线 4"
+show_ma4 = input.bool(true,   "启用", group=grp_ma4)
+type_ma4 = input.string("EMA","类型", group=grp_ma4, options=["SMA","EMA","WMA","HullMA","VWMA","RMA","TEMA","Tilson T3"])
+len_ma4  = input.int(200,     "周期", group=grp_ma4)
+tf_ma4   = input.timeframe("","时间周期", group=grp_ma4)
+
+// ── 9. ATR 止损 ───────────────────────────
+var grp_atr = "9. ATR Stop Loss"
+showATR     = input.bool(true,  "显示止损线",  group=grp_atr)
+atr_len     = input.int(14,     "ATR 长度",    group=grp_atr, minval=1)
+atr_mult    = input.float(1.0,  "ATR 倍数",    group=grp_atr, step=0.1)
+atr_smooth  = input.string("RMA","平滑算法",   group=grp_atr, options=["RMA","SMA","EMA","WMA"])
+
+// ── 10. 支撑 / 压力 ───────────────────────
+var grp_sr = "10. Support & Resistance"
+showSR    = input.bool(true, "显示支撑/压力线", group=grp_sr)
+leftBars  = input.int(15,    "左侧 K 线数",     group=grp_sr, minval=1)
+rightBars = input.int(15,    "右侧 K 线数",     group=grp_sr, minval=1)
+
+// ══════════════════════════════════════════
+// ░░  3. 核心计算
+// ══════════════════════════════════════════
+
+// ── RF ────────────────────────────────────
+r_size = f_rng_size(close, rng_qty, rng_per)
+filt   = f_rng_filt(close, r_size)
+
+var int fdir = 0
+fdir := filt > filt[1] ? 1 : filt < filt[1] ? -1 : fdir
+
+longCond  = close > filt and fdir ==  1
+shortCond = close < filt and fdir == -1
+
+var int last_signal = 0
+bool buy_signal  = longCond  and last_signal <= 0
+bool sell_signal = shortCond and last_signal >= 0
+if buy_signal
+    last_signal := 1
+if sell_signal
+    last_signal := -1
+
+// ── UT Bot ────────────────────────────────
+xATR_ut  = ta.atr(c_ut)
+nLoss_ut = a_ut * xATR_ut
+var float xStop = 0.0
+xStop := close > nz(xStop[1]) and close[1] > nz(xStop[1]) ? math.max(nz(xStop[1]), close - nLoss_ut) :
+         close < nz(xStop[1]) and close[1] < nz(xStop[1]) ? math.min(nz(xStop[1]), close + nLoss_ut) :
+         close > nz(xStop[1]) ? close - nLoss_ut : close + nLoss_ut
+
+buy_sig_ut  = ta.crossover(close, xStop)
+sell_sig_ut = ta.crossunder(close, xStop)
+
+// ── ATD ───────────────────────────────────
+ATR_val   = ta.sma(ta.tr, AP)
+var float AlphaTrend = 0.0
+trendCond  = novolumedata ? ta.rsi(close, AP) >= 50 : ta.mfi(hlc3, AP) >= 50
+AlphaTrend := trendCond ?
+     (low  - ATR_val * coeff < nz(AlphaTrend[1]) ? nz(AlphaTrend[1]) : low  - ATR_val * coeff) :
+     (high + ATR_val * coeff > nz(AlphaTrend[1]) ? nz(AlphaTrend[1]) : high + ATR_val * coeff)
+atd_bull = AlphaTrend > AlphaTrend[2]
+
+// ── TMA ───────────────────────────────────
+anT3     = _t3(close, aLength, alphaInput)
+nT3      = _t3(close, Length,  alphaInput)
+tma_bull = anT3 > nT3
+
+// ── 4MA ───────────────────────────────────
+calc_ma_logic(type, source, length, factor) =>
+    float _r = na
+    if type == "SMA"
+        _r := ta.sma(source, length)
+    else if type == "EMA"
+        _r := ta.ema(source, length)
+    else if type == "WMA"
+        _r := ta.wma(source, length)
+    else if type == "HullMA"
+        _r := ta.wma(2 * ta.wma(source, length / 2) - ta.wma(source, length), math.round(math.sqrt(length)))
+    else if type == "VWMA"
+        _r := ta.vwma(source, length)
+    else if type == "RMA"
+        _r := ta.rma(source, length)
+    else if type == "TEMA"
+        e1 = ta.ema(source, length)
+        e2 = ta.ema(e1, length)
+        e3 = ta.ema(e2, length)
+        _r := 3 * (e1 - e2) + e3
+    else if type == "Tilson T3"
+        _r := t3_func(source, length, factor)
+    _r
+
+get_m_ma(s, t, l, tf) =>
+    float raw = s ? calc_ma_logic(t, close, l, alphaInput) : na
+    request.security(syminfo.tickerid, tf == "" ? timeframe.period : tf,
+         raw[barstate.isrealtime ? 1 : 0])[barstate.isrealtime ? 0 : 1]
+
+ma1 = get_m_ma(show_ma1, type_ma1, len_ma1, tf_ma1)
+ma2 = get_m_ma(show_ma2, type_ma2, len_ma2, tf_ma2)
+ma3 = get_m_ma(show_ma3, type_ma3, len_ma3, tf_ma3)
+ma4 = get_m_ma(show_ma4, type_ma4, len_ma4, tf_ma4)
+
+// ── ATR 止损 ──────────────────────────────
+ma_func(src, len) =>
+    switch atr_smooth
+        "RMA" => ta.rma(src, len)
+        "SMA" => ta.sma(src, len)
+        "EMA" => ta.ema(src, len)
+        =>       ta.wma(src, len)
+
+atr_raw   = ma_func(ta.tr(true), atr_len)
+atr_val   = atr_raw * atr_mult
+atr_short = high + atr_val
+atr_long  = low  - atr_val
+
+// ── S/R ───────────────────────────────────
+ph = ta.pivothigh(high, leftBars, rightBars)
+pl = ta.pivotlow(low,  leftBars, rightBars)
+highLevel    = ta.valuewhen(not na(ph), ph, 0)
+lowLevel     = ta.valuewhen(not na(pl), pl, 0)
+bool highChanged = ta.change(highLevel) != 0
+bool lowChanged  = ta.change(lowLevel)  != 0
+float plotHigh   = showSR and not highChanged ? highLevel : na
+float plotLow    = showSR and not lowChanged  ? lowLevel  : na
+
+// ── 量能爆破 ──────────────────────────────
+vol_ma20  = ta.sma(volume, 20)
+vol_burst = volume > vol_ma20 * 1.5
+
+// ══════════════════════════════════════════
+// ░░  4. RF 信号绘图
+// ══════════════════════════════════════════
+
+plotshape(buy_signal,
+     title    = "RF 买入",
+     style    = shape.triangleup,
+     location = location.belowbar,
+     color    = color.new(#2962ff, 0),
+     size     = size.tiny)
+
+plotshape(sell_signal,
+     title    = "RF 卖出",
+     style    = shape.triangledown,
+     location = location.abovebar,
+     color    = color.new(#ea1e64, 0),
+     size     = size.tiny)
+
+// ══════════════════════════════════════════
+// ░░  5. UTB 信号绘图
+// ══════════════════════════════════════════
+
+plotshape(buy_sig_ut,
+     title    = "UTB 买入",
+     text     = "B",
+     style    = shape.labelup,
+     location = location.belowbar,
+     color    = color.new(#2962ff, 0),
+     textcolor= color.white,
+     size     = size.tiny)
+
+plotshape(sell_sig_ut,
+     title    = "UTB 卖出",
+     text     = "S",
+     style    = shape.labeldown,
+     location = location.abovebar,
+     color    = color.new(#ea1e64, 0),
+     textcolor= color.white,
+     size     = size.tiny)
+
+// ══════════════════════════════════════════
+// ░░  6. ATD 信号绘图
+// ══════════════════════════════════════════
+
+plotshape(ta.crossover(AlphaTrend, AlphaTrend[2])  ? AlphaTrend[2] : na,
+     title    = "ATD 买入",
+     style    = shape.triangleup,
+     location = location.belowbar,
+     color    = color.new(#2962ff, 0),
+     size     = size.tiny)
+
+plotshape(ta.crossunder(AlphaTrend, AlphaTrend[2]) ? AlphaTrend[2] : na,
+     title    = "ATD 卖出",
+     style    = shape.triangledown,
+     location = location.abovebar,
+     color    = color.new(#ea1e64, 0),
+     size     = size.tiny)
+
+// ══════════════════════════════════════════
+// ░░  7. TMA 动能层绘图
+// ══════════════════════════════════════════
+
+c_tma   = tma_bull ? color.new(#2962ff, 50)  : color.new(#ea1e64, 50)
+c_tma_f = tma_bull ? color.new(#2962ff, 85) : color.new(#ea1e64, 85)
+panT3   = plot(anT3, "T3 快线", c_tma, 1)
+ptma    = plot(nT3,  "T3 慢线", c_tma, 1)
+fill(panT3, ptma, c_tma_f)
+
+// ══════════════════════════════════════════
+// ░░  8. 四条均线绘图
+// ══════════════════════════════════════════
+
+// MA 变色：当前值高于 2 根前 = 上升 = 绿，否则红
+plot(ma1, "MA 1", ma1 >= ma1[2] ? color.new(#04f80f, 0) : color.new(#ea1e64, 0), 1)
+plot(ma2, "MA 2", ma2 >= ma2[2] ? color.new(#04f80f, 0) : color.new(#ea1e64, 0), 1, display=display.none)
+plot(ma3, "MA 3", ma3 >= ma3[2] ? color.new(#04f80f, 0) : color.new(#ea1e64, 0), 1, display=display.none)
+plot(ma4, "MA 4", ma4 >= ma4[2] ? color.new(#04f80f, 0) : color.new(#ea1e64, 0), 1, display=display.none)
+
+// ══════════════════════════════════════════
+// ░░  9. K 线着色 & ATR 止损线
+// ══════════════════════════════════════════
+
+// K 线：UT Bot 方向着色
+barcolor(close > xStop ? color.new(#04f80f, 0) : color.new(#ea1e64, 0))
+
+// ATR 止损：只显示最近 5 根
+is_last_5 = last_bar_index - bar_index < 5
+plot(showATR and is_last_5 ? atr_short : na, "ATR 空头止损", color.new(#ea1e64, 0), 1, style=plot.style_linebr)
+plot(showATR and is_last_5 ? atr_long  : na, "ATR 多头止损", color.new(#2979FF, 0), 1, style=plot.style_linebr)
+
+// ══════════════════════════════════════════
+// ░░  10. 支撑 / 压力线
+// ══════════════════════════════════════════
+
+plot(plotHigh, title="压力线", color=color.new(#2979FF, 0), linewidth=1, offset=-(rightBars + 1), style=plot.style_linebr)
+plot(plotLow,  title="支撑线", color=color.new(#ea1e64, 0), linewidth=1, offset=-(rightBars + 1), style=plot.style_linebr, display=display.none)

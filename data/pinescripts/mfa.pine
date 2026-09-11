@@ -1,0 +1,32 @@
+//@version=6
+//下降趋势是不适用的，一定是上升趋势回踩的情况
+indicator("MFA", shorttitle="MFA", overlay=false)
+
+sma_tdx(src, n, m) =>
+    alpha = m / n
+    var float result = na
+    result := na(result) ? src : alpha * src + (1 - alpha) * result
+    result
+
+var1 = (low[1] + open[1] + close[1] + high[1]) / 4
+
+diff = low - var1
+numerator = sma_tdx(math.abs(diff), 13, 1)
+denominator = sma_tdx(math.max(diff, 0.0), 10, 1)
+var2 = denominator == 0 ? 0.0 : numerator / denominator
+
+var3 = ta.ema(var2, 10)
+
+var4 = ta.lowest(low, 33)
+
+cond_val = low <= var4 ? var3 : 0.0
+var5 = ta.ema(cond_val, 3)
+
+threshold = 0.01
+mfa_val = math.round(var5 * 100) / 100
+is_red = mfa_val > mfa_val[1] and mfa_val >= threshold
+is_green = mfa_val < mfa_val[1] and mfa_val[1] >= threshold
+
+hline(0, "Zero", color=color.gray, linestyle=hline.style_dashed)
+plot(is_red ? mfa_val : na, title="进场 (Red)", style=plot.style_columns, color=color.red, linewidth=3)
+plot(is_green ? mfa_val : na, title="洗盘 (Green)", style=plot.style_columns, color=color.green, linewidth=3)

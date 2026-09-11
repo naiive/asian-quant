@@ -1,0 +1,55 @@
+//@version=6
+indicator(title = "VFI", shorttitle = "VFI", overlay = false)
+
+// --- 1. 输入参数设置 ---
+int length         = input.int(130, title = "VFI 周期 (中长线推荐130)", minval = 1)
+float coef         = input.float(0.15, title = "波动阈值系数 (A股建议0.15)")
+float vcoef        = input.float(2.0, title = "最大成交量截断 (屏蔽异常波动)")
+int signalLength   = input.int(10, title = "信号线周期 (平滑度)")
+bool smoothVFI     = input.bool(true, title = "开启 VFI 平滑 (过滤杂波)")
+
+// --- 2. 颜色自定义 ---
+color histUpColor   = input.color(color.new(#ff5252, 0), title = "上方动能柱颜色 (多头加速)") // 大A通常红涨
+color histDownColor = input.color(color.new(#26a69a, 0), title = "下方动能柱颜色 (空头加速)") // 大A通常绿跌
+color vfiColor      = input.color(#2962ff, title = "VFI 主线颜色")
+color signalColor   = input.color(#ff9800, title = "信号线颜色")
+bool showHisto      = input.bool(true, title = "显示差值柱状图")
+
+// --- 3. 核心计算逻辑 ---
+float typical = hlc3
+float inter   = math.log(typical) - math.log(nz(typical[1], typical))
+float vinter  = ta.stdev(inter, 30)
+float cutoff  = coef * vinter * close
+float vave    = nz(ta.sma(volume, length)[1])
+float vmax    = vave * vcoef
+float vc      = math.min(volume, vmax)
+float mf      = typical - nz(typical[1], typical)
+
+// 核心方向成交量计算
+float vcp = mf > cutoff ? vc : (mf < -cutoff ? -vc : 0.0)
+
+float vfi_raw = math.sum(vcp, length) / (vave + 1e-10)
+float vfi     = smoothVFI ? ta.sma(vfi_raw, 3) : vfi_raw
+float vfima   = ta.ema(vfi, signalLength)
+
+// 差值计算 (柱状图数据)
+float d = vfi - vfima
+
+// --- 4. 绘图与视觉输出 ---
+// 零轴
+plot(0, color = color.new(color.gray, 50), title = "零轴")
+
+// 动态颜色的上下轴柱状图
+// 根据 d 的正负直接应用对应的颜色变量
+plot(showHisto ? d : na,
+     title     = "动能差值柱",
+     style     = plot.style_histogram,
+     color     = d > 0 ? histUpColor : histDownColor,
+     linewidth = 3)
+
+// 绘制 VFI 主线与信号线
+plot(vfi,   title = "VFI 主线", color = vfiColor, linewidth = 2)
+plot(vfima, title = "信号线 (EMA)", color = signalColor, linewidth = 1)
+
+// 背景趋势填充
+bgcolor(vfi > 0 ? color.new(color.red, 95) : color.new(color.green, 95), title = "长线多空背景")

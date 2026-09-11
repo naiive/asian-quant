@@ -1,0 +1,2 @@
+﻿日期,代码,名称,现价,涨幅(%),成交量,STC,换手(%),条件,参组,参数,行业,总市值(亿),流通市值(亿)
+2026-05-18,603358,华达科技,37.84,10.0,266100.0,16.1,6.0,fit,stc,"{""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""tma"": {""tma_fast_length"": 5, ""tma_slow_length"": 8, ""tma_vfactor"": 0.618}, ""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""use_true_range"": true}}",汽车零部件,142.33,137.92

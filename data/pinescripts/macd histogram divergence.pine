@@ -1,0 +1,144 @@
+//@version=6
+indicator("MACD Histogram Double Divergence", overlay = false)
+
+// ─────────────────────
+// 1. 参数配置
+// ─────────────────────
+grp_macd = "MACD 核心设置"
+fastLen    = input.int(13, "MACD 快线长度", group = grp_macd)
+slowLen    = input.int(34, "MACD 慢线长度", group = grp_macd)
+signalLen  = input.int(9,  "MACD 信号线长度", group = grp_macd)
+
+grp_vis = "显示设置"
+showLines  = input.bool(false, "显示 MACD/信号线", group = grp_vis)
+
+grp_div = "背离检测参数"
+lbLeft     = input.int(2,   "左侧回溯数量", minval = 1, group = grp_div)
+lbRight    = input.int(2,   "右侧回溯数量", minval = 1, group = grp_div)
+sizeFactor = input.float(0.1, "波峰最小高度乘数", step = 0.1, group = grp_div)
+sizeRatio  = input.float(1.2, "波峰大小差异比例", step = 0.1, group = grp_div)
+maxBars    = input.int(0,   "允许跨越零轴的最大柱数", minval = 0, group = grp_div, tooltip = "底背离时允许中间出现的绿柱数，顶背离时允许出现的红柱数")
+
+// ─────────────────────
+// 2. MACD 计算
+// ─────────────────────
+[macd, sig, rawHist] = ta.macd(close, fastLen, slowLen, signalLen)
+hist = math.round(rawHist, 4)
+
+plot(showLines ? macd : na, color = color.blue, title = "MACD Line")
+plot(showLines ? sig : na, color = color.orange, title = "Signal Line")
+
+minThreshold = ta.sma(math.abs(sig), 100) * sizeFactor
+
+color hColor = hist >= 0 ? (hist > hist[1] ? #26a69a : color.new(#26a69a, 60)) : (hist < hist[1] ? #ef5350 : color.new(#ef5350, 60))
+plot(hist, style = plot.style_columns, color = hColor, title = "MACD Histogram")
+hline(0, color = color.gray, linestyle = hline.style_dotted)
+
+// ─────────────────────
+// 3. 状态存储与计数 (新增顶背离变量)
+// ─────────────────────
+// 底背离变量 (Bull)
+var float bullLeftH  = na
+var float bullLeftP  = na
+var int   bullLeftB  = na
+var int   greenCount = 0
+
+// 顶背离变量 (Bear)
+var float bearLeftH  = na
+var float bearLeftP  = na
+var int   bearLeftB  = na
+var int   redCount   = 0
+
+// 跨越零轴计数逻辑
+if hist > 0
+    greenCount := greenCount + 1
+    redCount   := 0 // 进入正值区，重置红柱计数
+else if hist < 0
+    redCount   := redCount + 1
+    greenCount := 0 // 进入负值区，重置绿柱计数
+
+// 物理熔断
+if greenCount > maxBars
+    bullLeftH := na
+if redCount > maxBars
+    bearLeftH := na
+
+// ─────────────────────
+// 4. 形态检测函数 (增强以支持顶/底)
+// ─────────────────────
+// 检测底背离极点 (Pivot Low)
+checkPivotLow(idx) =>
+    float centerVal = hist[idx]
+    bool ok = centerVal < 0
+    if ok
+        for i = 1 to lbLeft
+            if hist[idx + i] < centerVal
+                ok := false
+                break
+        if ok
+            for i = 1 to lbRight
+                if hist[idx - i] < centerVal
+                    ok := false
+                    break
+    ok and math.abs(centerVal) > minThreshold
+
+// 检测顶背离极点 (Pivot High)
+checkPivotHigh(idx) =>
+    float centerVal = hist[idx]
+    bool ok = centerVal > 0
+    if ok
+        for i = 1 to lbLeft
+            if hist[idx + i] > centerVal
+                ok := false
+                break
+        if ok
+            for i = 1 to lbRight
+                if hist[idx - i] > centerVal
+                    ok := false
+                    break
+    ok and math.abs(centerVal) > minThreshold
+
+// ─────────────────────
+// 5. 探测与匹配逻辑
+// ─────────────────────
+detectIdx = lbRight
+
+// --- 底背离匹配 (Bullish Divergence) ---
+if checkPivotLow(detectIdx)
+    curH = hist[detectIdx]
+    curP = low[detectIdx]
+    curB = bar_index - detectIdx
+
+    if not na(bullLeftH)
+        ratioOk  = math.abs(bullLeftH / curH) >= sizeRatio
+        priceOk  = curP <= bullLeftP
+        energyOk = curH > bullLeftH
+
+        if ratioOk and priceOk and energyOk
+            line.new(bullLeftB, bullLeftH, curB, curH, color = color.lime, width = 2)
+            label.new(curB, curH, "Bull", style = label.style_label_up, color = color.new(#84ddb2, 20), textcolor = color.black, size = size.tiny)
+
+    bullLeftH := curH
+    bullLeftP := curP
+    bullLeftB := curB
+    greenCount := 0
+
+// --- 顶背离匹配 (Bearish Divergence) ---
+if checkPivotHigh(detectIdx)
+    curH_bear = hist[detectIdx]
+    curP_bear = high[detectIdx]
+    curB_bear = bar_index - detectIdx
+
+    if not na(bearLeftH)
+        ratioOk_bear  = math.abs(bearLeftH / curH_bear) >= sizeRatio
+        priceOk_bear  = curP_bear >= bearLeftP
+        energyOk_bear = curH_bear < bearLeftH
+
+        if ratioOk_bear and priceOk_bear and energyOk_bear
+            line.new(bearLeftB, bearLeftH, curB_bear, curH_bear, color = color.red, width = 2)
+            label.new(curB_bear, curH_bear, "Bear", style = label.style_label_down, color = color.new(#ef5350, 20), textcolor = color.white, size = size.tiny)
+
+    bearLeftH := curH_bear
+    bearLeftP := curP_bear
+    bearLeftB := curB_bear
+    redCount := 0

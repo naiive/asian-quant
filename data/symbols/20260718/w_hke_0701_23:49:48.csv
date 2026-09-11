@@ -1,0 +1,173 @@
+﻿日期,信号,代码,名称,现价,涨幅,止损,策略,参组,参数,周期
+2026-06-29 00:00:00,Short,00001,CKH HOLDINGS,65.0,-3.35%,71.21,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,00013,HUTCHMED,17.6,11.18%,14.55,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00013,HUTCHMED,17.6,11.18%,14.55,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00038,FIRST TRACTOR,7.01,9.53%,5.73,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00038,FIRST TRACTOR,7.01,9.53%,5.73,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,00066,MTR CORPORATION,30.74,-0.65%,32.72,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Short,00100,MINIMAX-W,356.8,-16.44%,650.81,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,00136,CHINA RUYI,1.45,7.41%,1.21,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00136,CHINA RUYI,1.45,7.41%,1.21,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00142,FIRST PACIFIC,4.89,1.24%,4.47,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00142,FIRST PACIFIC,4.89,1.24%,4.47,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,00148,KINGBOARD HLDG,102.3,-19.07%,150.23,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Short,00177,JIANGSU EXPRESS,9.3,-3.63%,10.36,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Short,00267,CITIC,10.69,-5.61%,12.53,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Short,00270,GUANGDONG INV,7.52,-1.47%,8.34,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,00322,TINGYI,10.16,5.07%,8.85,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00322,TINGYI,10.16,5.07%,8.85,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00325,BLOKS,44.6,10.72%,32.36,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00325,BLOKS,44.6,10.72%,32.36,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00354,CHINASOFT INT'L,3.03,3.77%,2.49,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00354,CHINASOFT INT'L,3.03,3.77%,2.49,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00388,HKEX,367.6,1.49%,342.2,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00388,HKEX,367.6,1.49%,342.2,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00551,YUE YUEN IND,12.72,1.03%,11.04,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00551,YUE YUEN IND,12.72,1.03%,11.04,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00719,SHANDONG XINHUA,5.59,9.92%,4.67,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00719,SHANDONG XINHUA,5.59,9.92%,4.67,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00866,CHINA QINFA,1.52,14.29%,0.93,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00866,CHINA QINFA,1.52,14.29%,0.93,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00867,CMS,11.25,13.29%,8.77,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00867,CMS,11.25,13.29%,8.77,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,00941,CHINA MOBILE,76.5,-1.16%,80.31,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,00956,CHINA SUNTIEN,3.11,6.61%,2.87,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,00956,CHINA SUNTIEN,3.11,6.61%,2.87,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01057,ZHEJIANG SHIBAO,3.66,3.10%,2.78,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01057,ZHEJIANG SHIBAO,3.66,3.10%,2.78,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01087,INVESTECH HLDGS,1.76,70.87%,0.71,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,01087,INVESTECH HLDGS,1.76,70.87%,0.71,mfa,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""mfa"": {""mfa_all"": 18}}",1WK
+2026-06-29 00:00:00,Long,01099,SINOPHARM,16.43,4.05%,14.88,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01099,SINOPHARM,16.43,4.05%,14.88,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01167,JACOBIO-B,4.94,15.69%,3.4,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01167,JACOBIO-B,4.94,15.69%,3.4,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01199,COSCO SHIP PORT,4.6,1.32%,4.15,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01199,COSCO SHIP PORT,4.6,1.32%,4.15,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01211,BYD COMPANY,78.3,7.78%,64.08,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01211,BYD COMPANY,78.3,7.78%,64.08,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01276,HENGRUI PHARMA,59.4,12.18%,46.4,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01276,HENGRUI PHARMA,59.4,12.18%,46.4,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,01288,ABC,5.31,-0.38%,5.73,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Short,01300,TRIGIANT,2.57,-20.68%,3.96,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,01339,PICC GROUP,4.76,5.01%,4.19,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01339,PICC GROUP,4.76,5.01%,4.19,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01357,MEITU,3.93,8.86%,2.91,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01357,MEITU,3.93,8.86%,2.91,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01415,COWELL,23.1,4.43%,18.89,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01415,COWELL,23.1,4.43%,18.89,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01513,LIVZON PHARMA,24.34,4.02%,21.75,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01513,LIVZON PHARMA,24.34,4.02%,21.75,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01530,3SBIO,18.14,14.02%,12.91,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01530,3SBIO,18.14,14.02%,12.91,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01681,CONSUN PHARMA,13.13,5.21%,11.34,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01681,CONSUN PHARMA,13.13,5.21%,11.34,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,01729,TIME INTERCON,14.7,-17.69%,20.83,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,01768,BUSYMING,335.2,15.03%,240.53,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01768,BUSYMING,335.2,15.03%,240.53,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01877,JUNSHI BIO,18.17,18.22%,12.6,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01877,JUNSHI BIO,18.17,18.22%,12.6,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01910,SAMSONITE,13.82,3.29%,12.28,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01910,SAMSONITE,13.82,3.29%,12.28,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01951,JXR,2.02,4.76%,1.77,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,01951,JXR,2.02,4.76%,1.77,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02013,WEIMOB INC,1.15,3.60%,0.92,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02013,WEIMOB INC,1.15,3.60%,0.92,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,02018,AAC TECH,40.66,-5.49%,47.46,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,02020,ANTA SPORTS,72.95,6.11%,64.54,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02020,ANTA SPORTS,72.95,6.11%,64.54,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02026,PONY-W,55.3,5.74%,40.78,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02026,PONY-W,55.3,5.74%,40.78,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02028,JOLIMARK,2.78,198.92%,0.56,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,02050,SANHUA,27.17,12.53%,20.41,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02050,SANHUA,27.17,12.53%,20.41,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02096,SIMCERE PHARMA,10.79,16.40%,8.18,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02096,SIMCERE PHARMA,10.79,16.40%,8.18,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,02097,MIXUE GROUP,220.0,-9.32%,287.39,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,02157,LEPU BIO,4.14,15.64%,3.0,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02157,LEPU BIO,4.14,15.64%,3.0,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02162,KEYMED BIO-B,74.95,17.02%,57.31,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,02172,MICROPORT NEURO,11.0,2.20%,9.49,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Short,02218,ANDRE JUICE,17.16,-16.37%,24.0,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,02256,ABBISKO-B,11.23,19.98%,8.25,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02256,ABBISKO-B,11.23,19.98%,8.25,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02291,SCIENTECH,10.65,6.93%,7.33,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02291,SCIENTECH,10.65,6.93%,7.33,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02318,PING AN,52.3,3.46%,46.56,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02318,PING AN,52.3,3.46%,46.56,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,02338,WEICHAI POWER,33.94,-5.62%,39.97,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Short,02388,BOC HONG KONG,42.3,-4.53%,46.43,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,02400,XD INC,45.54,4.88%,37.03,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02400,XD INC,45.54,4.88%,37.03,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02507,CIRRUS,34.72,10.24%,26.7,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02507,CIRRUS,34.72,10.24%,26.7,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02525,HESAI-W,17.15,19.41%,11.7,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02525,HESAI-W,17.15,19.41%,11.7,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02559,DIDA INC,2.45,99.19%,0.91,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,02559,DIDA INC,2.45,99.19%,0.91,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02559,DIDA INC,2.45,99.19%,0.91,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,02559,DIDA INC,2.45,99.19%,0.91,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02601,CPIC,27.5,1.85%,24.03,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02601,CPIC,27.5,1.85%,24.03,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,02609,BAYZED HEALTH,3.63,-29.92%,5.97,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,02616,CSTONE PHARMA-B,5.16,17.01%,3.44,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02616,CSTONE PHARMA-B,5.16,17.01%,3.44,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02650,ZHIDA TECH,13.95,18.22%,2.8,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02650,ZHIDA TECH,13.95,18.22%,2.8,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02714,MUYUAN,31.94,9.91%,24.98,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,02714,MUYUAN,31.94,9.91%,24.98,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,02718,MININGLAMP-W,199.6,-8.52%,289.22,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,03306,JNBY,17.74,2.31%,15.55,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,03306,JNBY,17.74,2.31%,15.55,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,03396,LEGENDHOLDING,13.31,-9.23%,16.22,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,03690,MEITUAN-W,70.85,10.27%,58.55,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,03690,MEITUAN-W,70.85,10.27%,58.55,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,03692,HANSOH PHARMA,31.52,10.68%,25.78,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,03692,HANSOH PHARMA,31.52,10.68%,25.78,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,03759,PHARMARON,18.64,8.96%,15.34,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,03759,PHARMARON,18.64,8.96%,15.34,mfa,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""mfa"": {""mfa_all"": 18}}",1WK
+2026-06-29 00:00:00,Long,03933,UNITED LAB,8.98,12.52%,7.1,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,03933,UNITED LAB,8.98,12.52%,7.1,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,03988,BANK OF CHINA,4.81,-2.30%,5.37,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,03998,BOSIDENG,4.44,12.41%,3.6,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,06049,POLY PPT SER,26.42,1.54%,23.87,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06049,POLY PPT SER,26.42,1.54%,23.87,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06078,HYGEIA HEALTH,9.41,7.91%,7.85,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06078,HYGEIA HEALTH,9.41,7.91%,7.85,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06098,CG SERVICES,5.0,1.21%,4.51,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06098,CG SERVICES,5.0,1.21%,4.51,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,06651,51WORLD,83.15,-15.93%,126.42,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,06690,HAIER SMARTHOME,20.32,3.15%,18.48,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06690,HAIER SMARTHOME,20.32,3.15%,18.48,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06806,SWHY,2.48,4.05%,2.2,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06806,SWHY,2.48,4.05%,2.2,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Short,06818,CEB BANK,2.88,-5.39%,3.32,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Short,06818,CEB BANK,2.88,-5.39%,3.32,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,06855,ASCENTAGE,34.9,14.50%,25.75,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06855,ASCENTAGE,34.9,14.50%,25.75,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06887,SUNSHINE PHARMA,37.68,10.82%,30.6,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06887,SUNSHINE PHARMA,37.68,10.82%,30.6,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06936,SF HOLDING,30.58,4.65%,27.33,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,06936,SF HOLDING,30.58,4.65%,27.33,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,07618,JD INDUSTRIALS,11.5,7.38%,9.15,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,07618,JD INDUSTRIALS,11.5,7.38%,9.15,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09606,DUALITYBIO-B,209.2,28.50%,125.88,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09606,DUALITYBIO-B,209.2,28.50%,125.88,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09618,JD-SW,102.8,7.08%,89.85,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09618,JD-SW,102.8,7.08%,89.85,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09626,BILIBILI-W,134.5,7.86%,109.26,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09626,BILIBILI-W,134.5,7.86%,109.26,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09690,TUHU-W,12.82,12.06%,10.32,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09690,TUHU-W,12.82,12.06%,10.32,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09868,XPENG-W,51.8,13.65%,39.51,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09868,XPENG-W,51.8,13.65%,39.51,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09901,NEW ORIENTAL-S,36.3,4.61%,32.32,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09901,NEW ORIENTAL-S,36.3,4.61%,32.32,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09926,AKESO,94.8,13.81%,68.11,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09926,AKESO,94.8,13.81%,68.11,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09936,XIMEI RESOURCES,20.94,11.00%,15.14,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",1WK
+2026-06-29 00:00:00,Long,09987,YUM CHINA,325.8,3.04%,293.43,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,09987,YUM CHINA,325.8,3.04%,293.43,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,83690,MEITUAN-WR,70.85,10.27%,58.55,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,83690,MEITUAN-WR,70.85,10.27%,58.55,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,89618,JD-SWR,102.8,7.08%,89.85,suf,参数一,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK
+2026-06-29 00:00:00,Long,89618,JD-SWR,102.8,7.08%,89.85,suf,参数二,"{""suf"": {""timeframe"": ""w"", ""rsi_length"": 14, ""weekly_rsi_threshold"": 35, ""monthly_rsi_threshold"": 45}}",1WK

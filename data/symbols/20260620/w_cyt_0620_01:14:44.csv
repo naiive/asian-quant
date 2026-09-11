@@ -1,0 +1,4 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,名称,周期,交易所,释放类型,支撑压力价格,支撑压力趋势,支撑压力涨幅,区间K线数量,区间K线振幅
+2026-06-15 08:00:00,Short,BEAT-USDT,1.86,-66.22%,7.27,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",BEAT,1W,Binance,,,,,,
+2026-06-15 08:00:00,Short,BEAT-USDT,1.86,-66.22%,7.27,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",BEAT,1W,Binance,,,,,,
+2026-06-15 08:00:00,Short,AVAX-USDT,6.09,-10.24%,8.87,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",AVAX,1W,Binance,支撑释放,8.61-17.25-14.65-8.43-7.53,高-低-低-低,100.46%-15.07%-42.44%-10.66%,19.0,39.94

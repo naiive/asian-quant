@@ -1,0 +1,90 @@
+//@version=6
+indicator(shorttitle = "SQZ_MACD", title="Squeeze Momentum + MACD Ultra", overlay=false)
+
+// ==========================================
+// 1. Squeeze Momentum 输入参数
+// ==========================================
+length       = input.int(12, title="BB Length【默认:12】", group="SQZ 选项")
+mult         = input.float(1.8, title="BB MultFactor【默认:1.8】", group="SQZ 选项")
+lengthKC     = input.int(12, title="KC Length【默认:12】", group="SQZ 选项")
+multKC       = input.float(1.2, title="KC MultFactor【默认:1.2】", group="SQZ 选项")
+useTrueRange = input.bool(true, title="Use TrueRange", group="SQZ 选项")
+
+// ==========================================
+// 2. MACD 注入参数
+// ==========================================
+fastLength   = input.int(12, title="MACD 快线长度【默认:12】", group="MACD 选项")
+slowLength   = input.int(26, title="MACD 慢线长度【默认:26】", group="MACD 选项")
+signalLength = input.int(9, title="MACD 信号线长度【默认:9】", group="MACD 选项")
+showMacd     = input.bool(true, title="MACD & 信号线", group="MACD 选项")
+showDots     = input.bool(true, title="金叉/死叉", group="MACD 选项")
+macdColorChg = input.bool(true, title="MACD线随交叉变色", group="MACD 选项")
+
+// ==========================================
+// 3. 核心计算
+// ==========================================
+source = close
+
+// --- Squeeze 部分 ---
+basis = ta.sma(source, length)
+dev = mult * ta.stdev(source, length)
+upperBB = basis + dev
+lowerBB = basis - dev
+
+ma = ta.sma(source, lengthKC)
+tr_range = useTrueRange ? ta.tr : (high - low)
+rangema = ta.sma(tr_range, lengthKC)
+upperKC = ma + rangema * multKC
+lowerKC = ma - rangema * multKC
+
+sqzOn  = (lowerBB > lowerKC) and (upperBB < upperKC)
+sqzOff = (lowerBB < lowerKC) and (upperBB > upperKC)
+noSqz  = (sqzOn == false) and (sqzOff == false)
+
+// 动量逻辑计算
+val = ta.linreg(source - math.avg(math.avg(ta.highest(high, lengthKC), ta.lowest(low, lengthKC)), ta.sma(close, lengthKC)), lengthKC, 0)
+
+// --- MACD 部分 ---
+fastMA = ta.ema(source, fastLength)
+slowMA = ta.ema(source, slowLength)
+macdLine = fastMA - slowMA
+signalLine = ta.sma(macdLine, signalLength)
+
+// ==========================================
+// 4. 颜色逻辑
+// ==========================================
+
+// Squeeze 柱子颜色逻辑
+float prevVal = nz(val[1])
+color bcolor = val > 0 ?
+  (val > prevVal ? color.new(color.lime, 20) : color.new(color.green, 20)) :
+  (val < prevVal ? color.new(color.red, 20) : color.new(color.maroon, 20))
+
+// Squeeze 中轴点颜色
+color scolor = noSqz ? color.blue : sqzOn ? color.black : color.gray
+
+// MACD 线颜色逻辑
+bool macd_IsAbove = macdLine >= signalLine
+color m_color = macdColorChg ? (macd_IsAbove ? color.lime : color.red) : color.red
+color s_color = macdColorChg ? (macd_IsAbove ? color.yellow : color.yellow) : color.lime
+
+// ==========================================
+// 5. 绘图
+// ==========================================
+
+// 绘制 Squeeze 动量柱 (底层)
+plot(val, color=bcolor, style=plot.style_histogram, linewidth=4, title="Momentum Histogram")
+
+// 绘制 MACD 线与信号线 (中层)
+plot(showMacd ? macdLine : na, title="MACD Line", color=m_color, linewidth=2)
+plot(showMacd ? signalLine : na, title="Signal Line", color=s_color, linewidth=1)
+
+// 绘制金叉/死叉圆点 (顶层)
+bool dotTrigger = ta.cross(macdLine, signalLine)
+plot(showDots and dotTrigger ? signalLine : na, title="Cross Dots", style=plot.style_circles, linewidth=4, color=m_color)
+
+// 绘制 Squeeze 状态点 (0轴中线)
+plot(0, color=scolor, style=plot.style_cross, linewidth=2, title="Squeeze Dots")
+
+// 0 轴基准背景线
+hline(0, "Zero Line", color=color.new(color.white, 50), linestyle=hline.style_solid)

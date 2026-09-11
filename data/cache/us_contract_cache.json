@@ -1,0 +1,1204 @@
+{
+    "data": [
+        {
+            "code": "TSLA",
+            "name": "特斯拉"
+        },
+        {
+            "code": "CRCL",
+            "name": "CRCL"
+        },
+        {
+            "code": "NVDA",
+            "name": "英伟达"
+        },
+        {
+            "code": "GOOGL",
+            "name": "谷歌A类股"
+        },
+        {
+            "code": "AAPL",
+            "name": "苹果"
+        },
+        {
+            "code": "AMZN",
+            "name": "亚马逊"
+        },
+        {
+            "code": "META",
+            "name": "Meta Platforms"
+        },
+        {
+            "code": "MCD",
+            "name": "麦当劳"
+        },
+        {
+            "code": "MSTR",
+            "name": "MSTR"
+        },
+        {
+            "code": "COIN",
+            "name": "COIN"
+        },
+        {
+            "code": "HOOD",
+            "name": "罗宾汉"
+        },
+        {
+            "code": "ARM",
+            "name": "ARM"
+        },
+        {
+            "code": "ASML",
+            "name": "阿斯麦"
+        },
+        {
+            "code": "BABA",
+            "name": "阿里巴巴"
+        },
+        {
+            "code": "INTC",
+            "name": "英特尔"
+        },
+        {
+            "code": "IBM",
+            "name": "IBM"
+        },
+        {
+            "code": "APP",
+            "name": "APP AppLovin"
+        },
+        {
+            "code": "GE",
+            "name": "GE航空航天"
+        },
+        {
+            "code": "ORCL",
+            "name": "甲骨文"
+        },
+        {
+            "code": "PLTR",
+            "name": "PLTR"
+        },
+        {
+            "code": "GME",
+            "name": "游戏驿站"
+        },
+        {
+            "code": "MRVL",
+            "name": "迈威尔科技"
+        },
+        {
+            "code": "MSFT",
+            "name": "微软"
+        },
+        {
+            "code": "NFLX",
+            "name": "奈飞"
+        },
+        {
+            "code": "FUTU",
+            "name": "富途控股"
+        },
+        {
+            "code": "JD",
+            "name": "京东"
+        },
+        {
+            "code": "RDDT",
+            "name": "RDDT"
+        },
+        {
+            "code": "QQQ",
+            "name": "纳百ETF"
+        },
+        {
+            "code": "CSCO",
+            "name": "思科"
+        },
+        {
+            "code": "PEP",
+            "name": "百事可乐"
+        },
+        {
+            "code": "UNH",
+            "name": "联合健康"
+        },
+        {
+            "code": "LLY",
+            "name": "礼来"
+        },
+        {
+            "code": "AVGO",
+            "name": "博通"
+        },
+        {
+            "code": "MU",
+            "name": "美光"
+        },
+        {
+            "code": "SPY",
+            "name": "SPDR标普500 ETF"
+        },
+        {
+            "code": "COST",
+            "name": "开市客"
+        },
+        {
+            "code": "WMT",
+            "name": "沃尔玛"
+        },
+        {
+            "code": "TSM",
+            "name": "台积电"
+        },
+        {
+            "code": "COP",
+            "name": "康菲石油"
+        },
+        {
+            "code": "XOM",
+            "name": "埃克森美孚"
+        },
+        {
+            "code": "OXY",
+            "name": "西方石油"
+        },
+        {
+            "code": "EWJ",
+            "name": "日本ETF-iShares MSCI"
+        },
+        {
+            "code": "EWY",
+            "name": "韩国ETF-iShares MSCI"
+        },
+        {
+            "code": "EWT",
+            "name": "台湾ETF-iShares MSCI"
+        },
+        {
+            "code": "KWEB",
+            "name": "中概网络股ETF"
+        },
+        {
+            "code": "TQQQ",
+            "name": "纳斯达克指数ETF-ProShares三倍做多"
+        },
+        {
+            "code": "SQQQ",
+            "name": "纳斯达克指数ETF-ProShares三倍做空"
+        },
+        {
+            "code": "RKLB",
+            "name": "RKLB"
+        },
+        {
+            "code": "BA",
+            "name": "波音"
+        },
+        {
+            "code": "SOXL",
+            "name": "半导体ETF-Direxion Daily三倍做多"
+        },
+        {
+            "code": "SOXS",
+            "name": "三倍做空半导体ETF-DirexionDaily"
+        },
+        {
+            "code": "INDA",
+            "name": "印度股指ETF"
+        },
+        {
+            "code": "EWH",
+            "name": "香港ETF-iShares MSCI"
+        },
+        {
+            "code": "FLY",
+            "name": "FLY"
+        },
+        {
+            "code": "SNDK",
+            "name": "闪迪"
+        },
+        {
+            "code": "LITE",
+            "name": "Lumentum Holdings Inc."
+        },
+        {
+            "code": "AMD",
+            "name": "超威半导体"
+        },
+        {
+            "code": "AMAT",
+            "name": "应用材料"
+        },
+        {
+            "code": "STXSTOCK",
+            "name": "STXSTOCK"
+        },
+        {
+            "code": "AAOI",
+            "name": "应用光电"
+        },
+        {
+            "code": "COHR",
+            "name": "COHR"
+        },
+        {
+            "code": "BE",
+            "name": "BE"
+        },
+        {
+            "code": "NBIS",
+            "name": "NBIS"
+        },
+        {
+            "code": "IONQ",
+            "name": "IONQ"
+        },
+        {
+            "code": "OKLO",
+            "name": "OKLO"
+        },
+        {
+            "code": "MP",
+            "name": "MP"
+        },
+        {
+            "code": "CRDO",
+            "name": "CRDO"
+        },
+        {
+            "code": "CRWV",
+            "name": "CRWV"
+        },
+        {
+            "code": "APLD",
+            "name": "APLD"
+        },
+        {
+            "code": "KLAC",
+            "name": "科磊"
+        },
+        {
+            "code": "AXTI",
+            "name": "AXT"
+        },
+        {
+            "code": "LWLG",
+            "name": "LWLG"
+        },
+        {
+            "code": "KOPN",
+            "name": "高平电子"
+        },
+        {
+            "code": "DRAM",
+            "name": "存储ETF"
+        },
+        {
+            "code": "USAR",
+            "name": "USAR"
+        },
+        {
+            "code": "NIO",
+            "name": "蔚来"
+        },
+        {
+            "code": "CBRS",
+            "name": "CBRS"
+        },
+        {
+            "code": "INFQ",
+            "name": "INFQ"
+        },
+        {
+            "code": "VRT",
+            "name": "VRT"
+        },
+        {
+            "code": "ETN",
+            "name": "伊顿"
+        },
+        {
+            "code": "NOKSTOCK",
+            "name": "NOKSTOCK"
+        },
+        {
+            "code": "OUST",
+            "name": "OUST"
+        },
+        {
+            "code": "POET",
+            "name": "POET"
+        },
+        {
+            "code": "ONDS",
+            "name": "ONDS"
+        },
+        {
+            "code": "RDW",
+            "name": "RDW"
+        },
+        {
+            "code": "QCOM",
+            "name": "高通"
+        },
+        {
+            "code": "WDC",
+            "name": "西部数据"
+        },
+        {
+            "code": "SMCI",
+            "name": "超微电脑"
+        },
+        {
+            "code": "ASTS",
+            "name": "ASTS"
+        },
+        {
+            "code": "SPCX",
+            "name": "SpaceX"
+        },
+        {
+            "code": "NDX100",
+            "name": "NDX100"
+        },
+        {
+            "code": "SP500",
+            "name": "SP500"
+        },
+        {
+            "code": "JOBY",
+            "name": "JOBY"
+        },
+        {
+            "code": "ACHR",
+            "name": "ACHR"
+        },
+        {
+            "code": "RGTI",
+            "name": "RGTI"
+        },
+        {
+            "code": "QBTS",
+            "name": "QBTS"
+        },
+        {
+            "code": "QUBT",
+            "name": "QUBT"
+        },
+        {
+            "code": "ARQQ",
+            "name": "ARQQ"
+        },
+        {
+            "code": "BRKB",
+            "name": "BRKB"
+        },
+        {
+            "code": "PANW",
+            "name": "派拓网络"
+        },
+        {
+            "code": "OPENAI",
+            "name": "OPENAI"
+        },
+        {
+            "code": "SNOW",
+            "name": "SNOW"
+        },
+        {
+            "code": "DELL",
+            "name": "戴尔"
+        },
+        {
+            "code": "QNTSTOCK",
+            "name": "QNTSTOCK"
+        },
+        {
+            "code": "EVEX",
+            "name": "EVEX"
+        },
+        {
+            "code": "RCAT",
+            "name": "RCAT"
+        },
+        {
+            "code": "KTOS",
+            "name": "克瑞拓斯安全防卫"
+        },
+        {
+            "code": "DFEN",
+            "name": "3倍做多航空航天与国防ETF-Direxio"
+        },
+        {
+            "code": "AVAV",
+            "name": "AeroVironment公司"
+        },
+        {
+            "code": "AXON",
+            "name": "AXON"
+        },
+        {
+            "code": "LMT",
+            "name": "洛克希德马丁"
+        },
+        {
+            "code": "RTXSTOCK",
+            "name": "RTXSTOCK"
+        },
+        {
+            "code": "NOC",
+            "name": "诺斯洛普"
+        },
+        {
+            "code": "NOW",
+            "name": "现在服务"
+        },
+        {
+            "code": "NTAP",
+            "name": "美国网存"
+        },
+        {
+            "code": "SKHYNIX",
+            "name": "SKHYNIX"
+        },
+        {
+            "code": "SAMSUNG",
+            "name": "SAMSUNG"
+        },
+        {
+            "code": "HYUNDAI",
+            "name": "HYUNDAI"
+        },
+        {
+            "code": "ANTHROPIC",
+            "name": "ANTHROPIC"
+        },
+        {
+            "code": "SITM",
+            "name": "SITM"
+        },
+        {
+            "code": "SMR",
+            "name": "SMR"
+        },
+        {
+            "code": "BBSTOCK",
+            "name": "BBSTOCK"
+        },
+        {
+            "code": "KIOXIA",
+            "name": "KIOXIA"
+        },
+        {
+            "code": "TOKYOEL",
+            "name": "TOKYOEL"
+        },
+        {
+            "code": "SUMIELEC",
+            "name": "SUMIELEC"
+        },
+        {
+            "code": "ADVANTEST",
+            "name": "ADVANTEST"
+        },
+        {
+            "code": "LASERTEC",
+            "name": "LASERTEC"
+        },
+        {
+            "code": "DOOSENER",
+            "name": "DOOSENER"
+        },
+        {
+            "code": "DOOSBOT",
+            "name": "DOOSBOT"
+        },
+        {
+            "code": "PL",
+            "name": "PL"
+        },
+        {
+            "code": "CIEN",
+            "name": "Ciena科技"
+        },
+        {
+            "code": "AMC",
+            "name": "AMC院线"
+        },
+        {
+            "code": "MDB",
+            "name": "MDB"
+        },
+        {
+            "code": "TWLO",
+            "name": "TWLO"
+        },
+        {
+            "code": "DXYZ",
+            "name": "DXYZ"
+        },
+        {
+            "code": "ADBE",
+            "name": "Adobe"
+        },
+        {
+            "code": "IREN",
+            "name": "IREN"
+        },
+        {
+            "code": "SPIR",
+            "name": "SPIR"
+        },
+        {
+            "code": "SATL",
+            "name": "SATL"
+        },
+        {
+            "code": "BX",
+            "name": "黑石"
+        },
+        {
+            "code": "HPE",
+            "name": "慧与"
+        },
+        {
+            "code": "CRWD",
+            "name": "CrowdStrike"
+        },
+        {
+            "code": "IWM",
+            "name": "罗素2000指数ETF-iShares"
+        },
+        {
+            "code": "SIMO",
+            "name": "慧荣科技"
+        },
+        {
+            "code": "GLW",
+            "name": "康宁"
+        },
+        {
+            "code": "TSEM",
+            "name": "Tower Semiconductor Ltd"
+        },
+        {
+            "code": "OSS",
+            "name": "One Stop Systems Inc"
+        },
+        {
+            "code": "AEHR",
+            "name": "Aehr Test Systems"
+        },
+        {
+            "code": "V",
+            "name": "维萨卡"
+        },
+        {
+            "code": "ABNB",
+            "name": "爱彼迎"
+        },
+        {
+            "code": "CMCSA",
+            "name": "康卡斯特"
+        },
+        {
+            "code": "KO",
+            "name": "可口可乐"
+        },
+        {
+            "code": "FOXA",
+            "name": "21世纪福克斯"
+        },
+        {
+            "code": "MAR",
+            "name": "万豪"
+        },
+        {
+            "code": "NKE",
+            "name": "耐克"
+        },
+        {
+            "code": "BUD",
+            "name": "百威英博"
+        },
+        {
+            "code": "CCL",
+            "name": "嘉年华"
+        },
+        {
+            "code": "DKNG",
+            "name": "DKNG"
+        },
+        {
+            "code": "UVXY",
+            "name": "恐慌指数1.5倍做多"
+        },
+        {
+            "code": "BMNR",
+            "name": "BMNR"
+        },
+        {
+            "code": "ISRG",
+            "name": "直觉外科"
+        },
+        {
+            "code": "SGOV",
+            "name": "SGOV"
+        },
+        {
+            "code": "XLU",
+            "name": "SPDR公共事业ETF"
+        },
+        {
+            "code": "XLK",
+            "name": "SPDR科技ETF"
+        },
+        {
+            "code": "ROK",
+            "name": "罗克韦尔"
+        },
+        {
+            "code": "SMH",
+            "name": "半导体指数ETF-HOLDRs"
+        },
+        {
+            "code": "CGNX",
+            "name": "康耐视科技"
+        },
+        {
+            "code": "FLNC",
+            "name": "FLNC"
+        },
+        {
+            "code": "XNDU",
+            "name": "XNDU"
+        },
+        {
+            "code": "LRCX",
+            "name": "泛林集团"
+        },
+        {
+            "code": "ALAB",
+            "name": "ALAB"
+        },
+        {
+            "code": "MUU",
+            "name": "MUU"
+        },
+        {
+            "code": "TER",
+            "name": "泰瑞达"
+        },
+        {
+            "code": "KORU",
+            "name": "韩国每日三倍做多"
+        },
+        {
+            "code": "APD",
+            "name": "空气化工"
+        },
+        {
+            "code": "LIN",
+            "name": "Linde Plc"
+        },
+        {
+            "code": "FLEX",
+            "name": "伟创力国际"
+        },
+        {
+            "code": "ADI",
+            "name": "亚德诺"
+        },
+        {
+            "code": "GS",
+            "name": "高盛"
+        },
+        {
+            "code": "CAT",
+            "name": "卡特彼勒"
+        },
+        {
+            "code": "JPM",
+            "name": "摩根大通"
+        },
+        {
+            "code": "GEV",
+            "name": "GEV"
+        },
+        {
+            "code": "STRC",
+            "name": "STRC"
+        },
+        {
+            "code": "MINIMAX",
+            "name": "MINIMAX"
+        },
+        {
+            "code": "ZHIPU",
+            "name": "ZHIPU"
+        },
+        {
+            "code": "MVLL",
+            "name": "2倍做多MRVL每日ETF"
+        },
+        {
+            "code": "SONY",
+            "name": "索尼"
+        },
+        {
+            "code": "RAM",
+            "name": "2倍做多DRAM"
+        },
+        {
+            "code": "WEN",
+            "name": "温迪"
+        },
+        {
+            "code": "AAL",
+            "name": "美航集团"
+        },
+        {
+            "code": "VOO",
+            "name": "Vanguard标普500指数ETF"
+        },
+        {
+            "code": "SOXX",
+            "name": "半导体板块ETF"
+        },
+        {
+            "code": "TXN",
+            "name": "德州仪器"
+        },
+        {
+            "code": "BAC",
+            "name": "美国银行"
+        },
+        {
+            "code": "CRM",
+            "name": "赛富时"
+        },
+        {
+            "code": "AMKR",
+            "name": "艾马克技术公司"
+        },
+        {
+            "code": "PDD",
+            "name": "拼多多"
+        },
+        {
+            "code": "ASX",
+            "name": "日月光半导体"
+        },
+        {
+            "code": "TENCENT",
+            "name": "TENCENT"
+        },
+        {
+            "code": "GIGADEVICE",
+            "name": "GIGADEVICE"
+        },
+        {
+            "code": "SMIC",
+            "name": "SMIC"
+        },
+        {
+            "code": "POPMART",
+            "name": "POPMART"
+        },
+        {
+            "code": "XIAOMI",
+            "name": "XIAOMI"
+        },
+        {
+            "code": "MEITUAN",
+            "name": "MEITUAN"
+        },
+        {
+            "code": "NETEASE",
+            "name": "NETEASE"
+        },
+        {
+            "code": "SKHY",
+            "name": "SK海力士"
+        },
+        {
+            "code": "DIASTOCK",
+            "name": "DIASTOCK"
+        },
+        {
+            "code": "TTWO",
+            "name": "TTWO"
+        },
+        {
+            "code": "ECHO",
+            "name": "Echo Global Logistics"
+        },
+        {
+            "code": "DISK",
+            "name": "DISK"
+        },
+        {
+            "code": "CONL",
+            "name": "CONL每日2倍做多ETF"
+        },
+        {
+            "code": "KSTR",
+            "name": "KSTR"
+        },
+        {
+            "code": "BSP",
+            "name": "BSP投资组合"
+        },
+        {
+            "code": "EUV",
+            "name": "EUV"
+        },
+        {
+            "code": "FWDI",
+            "name": "Madrona Forward International ET"
+        },
+        {
+            "code": "MSTU",
+            "name": "MSTU"
+        },
+        {
+            "code": "BNC",
+            "name": "BNC"
+        },
+        {
+            "code": "INTW",
+            "name": "INTW"
+        },
+        {
+            "code": "SNXX",
+            "name": "SNXX"
+        },
+        {
+            "code": "BOT",
+            "name": "BOT"
+        },
+        {
+            "code": "XBI",
+            "name": "生物科技股ETF"
+        },
+        {
+            "code": "TM",
+            "name": "丰田汽车"
+        },
+        {
+            "code": "MUFG",
+            "name": "Mitsubishi UFJ Financial Group Inc."
+        },
+        {
+            "code": "PKX",
+            "name": "浦项钢铁"
+        },
+        {
+            "code": "CPNG",
+            "name": "CPNG"
+        },
+        {
+            "code": "NVDL",
+            "name": "英伟达每日2倍做多ETF"
+        },
+        {
+            "code": "TSLL",
+            "name": "特斯拉每日2倍做多股票ETF"
+        },
+        {
+            "code": "GGLL",
+            "name": "2倍做多GOOGL-Direxion"
+        },
+        {
+            "code": "AMZU",
+            "name": "亚马逊每日2倍做多"
+        },
+        {
+            "code": "METU",
+            "name": "METU"
+        },
+        {
+            "code": "AAPU",
+            "name": "AAPL2倍做多ETF-Direxion"
+        },
+        {
+            "code": "MSFU",
+            "name": "微软2倍做多ETF"
+        },
+        {
+            "code": "TZA",
+            "name": "罗素2000指数ETF-Direxion三倍做空"
+        },
+        {
+            "code": "MINIMAXHKD",
+            "name": "MINIMAXHKD"
+        },
+        {
+            "code": "XIAOMIHKD",
+            "name": "XIAOMIHKD"
+        },
+        {
+            "code": "TENCENTHKD",
+            "name": "TENCENTHKD"
+        },
+        {
+            "code": "ZHIPUHKD",
+            "name": "ZHIPUHKD"
+        },
+        {
+            "code": "SHAZ",
+            "name": "SHAZ"
+        },
+        {
+            "code": "SOFI",
+            "name": "SOFI"
+        },
+        {
+            "code": "PENG",
+            "name": "PENG"
+        },
+        {
+            "code": "TMF",
+            "name": "3倍多20年+国债"
+        },
+        {
+            "code": "TBT",
+            "name": "债券20+美国债指数ETF-ProShares两倍做空"
+        },
+        {
+            "code": "BITO",
+            "name": "BITO"
+        },
+        {
+            "code": "XLV",
+            "name": "SPDR医疗保健ETF"
+        },
+        {
+            "code": "IBB",
+            "name": "生物科技指数ETF-iShares Nasdaq"
+        },
+        {
+            "code": "GILD",
+            "name": "吉利德"
+        },
+        {
+            "code": "BOTZ",
+            "name": "Global X Robotics &#38; Artificial Intelligence Thematic ETF"
+        },
+        {
+            "code": "SKDD",
+            "name": "SKDD"
+        },
+        {
+            "code": "SKUU",
+            "name": "SKUU"
+        },
+        {
+            "code": "KR200",
+            "name": "KR200"
+        },
+        {
+            "code": "JMKE",
+            "name": "JMKE"
+        },
+        {
+            "code": "GFS",
+            "name": "格芯"
+        },
+        {
+            "code": "SPCH",
+            "name": "SPCH"
+        },
+        {
+            "code": "SSPC",
+            "name": "SSPC"
+        },
+        {
+            "code": "BKNG",
+            "name": "缤客"
+        },
+        {
+            "code": "ZM",
+            "name": "Zoom视频通讯"
+        },
+        {
+            "code": "AMGN",
+            "name": "安进"
+        },
+        {
+            "code": "PYPL",
+            "name": "贝宝"
+        },
+        {
+            "code": "SHOP",
+            "name": "SHOP"
+        },
+        {
+            "code": "EWZ",
+            "name": "巴西ETF-iShares MSCI"
+        },
+        {
+            "code": "VST",
+            "name": "VISTRA ENERGY CORP COM USD0.01"
+        },
+        {
+            "code": "XLE",
+            "name": "SPDR能源ETF"
+        },
+        {
+            "code": "MOONSHOT",
+            "name": "MOONSHOT"
+        },
+        {
+            "code": "DDOG",
+            "name": "DDOG"
+        },
+        {
+            "code": "UBER",
+            "name": "优步"
+        },
+        {
+            "code": "MELI",
+            "name": "MercadoLibre"
+        },
+        {
+            "code": "CSOPSK2LHKD",
+            "name": "CSOPSK2LHKD"
+        },
+        {
+            "code": "CSOPSS2LHKD",
+            "name": "CSOPSS2LHKD"
+        },
+        {
+            "code": "ANET",
+            "name": "ANET"
+        },
+        {
+            "code": "LENOVOHKD",
+            "name": "LENOVOHKD"
+        },
+        {
+            "code": "NAVER",
+            "name": "NAVER"
+        },
+        {
+            "code": "LGELECTRONICS",
+            "name": "LGELECTRONICS"
+        },
+        {
+            "code": "HANMI",
+            "name": "HANMI"
+        },
+        {
+            "code": "SAMSUNGEM",
+            "name": "SAMSUNGEM"
+        },
+        {
+            "code": "ZHONGJI",
+            "name": "ZHONGJI"
+        },
+        {
+            "code": "CXMT",
+            "name": "CXMT"
+        },
+        {
+            "code": "GDX",
+            "name": "金矿指数ETF-Market Vectors 美交所"
+        },
+        {
+            "code": "LYTE",
+            "name": "LYTE"
+        },
+        {
+            "code": "NET",
+            "name": "NET"
+        },
+        {
+            "code": "UNITREE",
+            "name": "UNITREE"
+        },
+        {
+            "code": "MRNA",
+            "name": "MRNA"
+        },
+        {
+            "code": "TEM",
+            "name": "TEM"
+        },
+        {
+            "code": "MRK",
+            "name": "默沙东"
+        },
+        {
+            "code": "DE",
+            "name": "迪尔股份有限公司"
+        },
+        {
+            "code": "HSI",
+            "name": "HSI"
+        },
+        {
+            "code": "JP225",
+            "name": "JP225"
+        },
+        {
+            "code": "DJT",
+            "name": "特朗普媒体科技集团"
+        },
+        {
+            "code": "MARA",
+            "name": "Marathon Patent Group Inc."
+        },
+        {
+            "code": "PURR",
+            "name": "PURR"
+        },
+        {
+            "code": "SHEIN",
+            "name": "SHEIN"
+        },
+        {
+            "code": "OKTA",
+            "name": "OKTA"
+        },
+        {
+            "code": "VEEV",
+            "name": "Veeva Systems Inc. Class A"
+        },
+        {
+            "code": "SHEINHKD",
+            "name": "SHEINHKD"
+        },
+        {
+            "code": "NVS",
+            "name": "诺华"
+        },
+        {
+            "code": "GTLB",
+            "name": "GTLB"
+        },
+        {
+            "code": "ZS",
+            "name": "ZS"
+        },
+        {
+            "code": "TEAM",
+            "name": "TEAM"
+        },
+        {
+            "code": "GPRO",
+            "name": "GPRO"
+        },
+        {
+            "code": "BYD",
+            "name": "博伊德赌场"
+        },
+        {
+            "code": "SOFTBANK",
+            "name": "SOFTBANK"
+        }
+    ]
+}
