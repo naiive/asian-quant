@@ -12307,6 +12307,12 @@
             "sub_type": "Equity Securities (Main Board) 主板股票"
         },
         {
+            "code": "02920",
+            "name": "BONJOUR HOLD",
+            "type": "股票",
+            "sub_type": "Equity Securities (Main Board) 主板股票"
+        },
+        {
             "code": "02921",
             "name": "CAPITAL IND FIN",
             "type": "股票",
@@ -17198,7 +17204,7 @@
         },
         {
             "code": "08446",
-            "name": "BRIGHTSTAR-NEW",
+            "name": "BRIGHTSTAR TECH",
             "type": "股票",
             "sub_type": "Equity Securities (GEM) 创业板股票"
         },
@@ -17487,12 +17493,6 @@
         {
             "code": "08549",
             "name": "GOLDEN LEAF INT",
-            "type": "股票",
-            "sub_type": "Equity Securities (GEM) 创业板股票"
-        },
-        {
-            "code": "08577",
-            "name": "BRIGHTSTAR-OLD",
             "type": "股票",
             "sub_type": "Equity Securities (GEM) 创业板股票"
         },
@@ -19905,6 +19905,42 @@
         {
             "code": "11240",
             "name": "SG-N225@EP2703B",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "11241",
+            "name": "MS-N225@EP2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "11242",
+            "name": "MS-N225@EC2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "11243",
+            "name": "JPUSYEN@EC2706A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "11244",
+            "name": "JPUSYEN@EP2706A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "11245",
+            "name": "JP-N225@EC2703C",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "11246",
+            "name": "JP-N225@EC2703D",
             "type": "衍生权证(窝轮)",
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
@@ -38869,8 +38905,122 @@
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
         {
+            "code": "17332",
+            "name": "MBXIAMI@EC2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17333",
+            "name": "MBZJINN@EP2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17335",
+            "name": "CILENOV@EC2706A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17336",
+            "name": "BIXIAMI@EC2703C",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17337",
+            "name": "HS-CATL@EC2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17338",
+            "name": "JP-ZAI @EC2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17339",
+            "name": "JP-XYS @EC2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17340",
+            "name": "JPMONTA@EP2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17342",
+            "name": "JPZJSHI@EC2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17343",
+            "name": "SG-SMIC@EC2703B",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17344",
+            "name": "SGBYDEI@EC2710A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17345",
+            "name": "SG-ZAI @EC2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17347",
+            "name": "SGCNOOC@EP2705A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17348",
+            "name": "GJTENCT@EC2703D",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17349",
+            "name": "GJ-ZAI @EC2703B",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17350",
+            "name": "HSASMPT@EC2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17351",
+            "name": "CT-HKEX@EC2701C",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17352",
+            "name": "CTCNOOC@EP2707A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
             "code": "17353",
             "name": "HS-TRIP@EC2612A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17355",
+            "name": "CTBYDEI@EC2705A",
             "type": "衍生权证(窝轮)",
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
@@ -38881,14 +39031,92 @@
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
         {
+            "code": "17357",
+            "name": "SGBOCHK@EC2712A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17359",
+            "name": "SG-CATL@EC2705A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17360",
+            "name": "HUMIDEA@EC2705A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17361",
+            "name": "HUPETCH@EC2706A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17364",
+            "name": "HUWASON@EC2708A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17365",
+            "name": "HSCNOOC@EP2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
             "code": "17366",
             "name": "MSPINAN@EC2806A",
             "type": "衍生权证(窝轮)",
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
         {
+            "code": "17367",
+            "name": "BI-HSI @EC2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
             "code": "17368",
             "name": "JP-TRIP@EC2610A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17369",
+            "name": "BI-HSI @EC2703B",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17370",
+            "name": "BP-ZAI @EC2704A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17372",
+            "name": "BP-SMIC@EC2704A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17373",
+            "name": "JPKINGD@EC2704A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17374",
+            "name": "JPAKESO@EP2703A",
+            "type": "衍生权证(窝轮)",
+            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
+        },
+        {
+            "code": "17375",
+            "name": "JP-SUNY@EC2703A",
             "type": "衍生权证(窝轮)",
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
@@ -44581,12 +44809,6 @@
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
         {
-            "code": "24592",
-            "name": "UBHSTEC@EP2609A",
-            "type": "衍生权证(窝轮)",
-            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
-        },
-        {
             "code": "24593",
             "name": "UBALIBA@EP2609A",
             "type": "衍生权证(窝轮)",
@@ -45987,12 +46209,6 @@
         {
             "code": "25397",
             "name": "UBXIAMI@EC2712B",
-            "type": "衍生权证(窝轮)",
-            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
-        },
-        {
-            "code": "25399",
-            "name": "UBPOMRT@EP2609A",
             "type": "衍生权证(窝轮)",
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
@@ -48607,12 +48823,6 @@
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
         {
-            "code": "26481",
-            "name": "MB-CATL@EP2609A",
-            "type": "衍生权证(窝轮)",
-            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
-        },
-        {
             "code": "26482",
             "name": "HS-GEG @EC2609A",
             "type": "衍生权证(窝轮)",
@@ -49669,12 +49879,6 @@
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
         {
-            "code": "26871",
-            "name": "UB-BOCL@EC2609A",
-            "type": "衍生权证(窝轮)",
-            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
-        },
-        {
             "code": "26873",
             "name": "UBJDCOM@EC2612A",
             "type": "衍生权证(窝轮)",
@@ -49689,12 +49893,6 @@
         {
             "code": "26876",
             "name": "UB-AAC @EC2609A",
-            "type": "衍生权证(窝轮)",
-            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
-        },
-        {
-            "code": "26877",
-            "name": "JP-LENS@EC2609A",
             "type": "衍生权证(窝轮)",
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
@@ -49737,12 +49935,6 @@
         {
             "code": "26890",
             "name": "MBSANDS@EC2610A",
-            "type": "衍生权证(窝轮)",
-            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
-        },
-        {
-            "code": "26891",
-            "name": "HU3SBIO@EC2609A",
             "type": "衍生权证(窝轮)",
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
@@ -52393,12 +52585,6 @@
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
         {
-            "code": "27596",
-            "name": "JPHZROB@EC2609A",
-            "type": "衍生权证(窝轮)",
-            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
-        },
-        {
             "code": "27598",
             "name": "JP-BYD @EP2611A",
             "type": "衍生权证(窝轮)",
@@ -55005,12 +55191,6 @@
         {
             "code": "28168",
             "name": "UBXIAMI@EP2612A",
-            "type": "衍生权证(窝轮)",
-            "sub_type": "Derivative Warrants 衍生权证(窝轮)"
-        },
-        {
-            "code": "28169",
-            "name": "UBGEELY@EP2610B",
             "type": "衍生权证(窝轮)",
             "sub_type": "Derivative Warrants 衍生权证(窝轮)"
         },
@@ -63973,12 +64153,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "50556",
-            "name": "UB#HKEX RC2610C",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "50562",
             "name": "UB#HSI  RC2709E",
             "type": "牛熊证",
@@ -64245,12 +64419,6 @@
         {
             "code": "50957",
             "name": "SG#HSCEIRC2709B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "50988",
-            "name": "UB#HKEX RC2609E",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -64699,12 +64867,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "53058",
-            "name": "UB#SENTMRC2701B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "53062",
             "name": "GJ#HSI  RP2804A",
             "type": "牛熊证",
@@ -64789,12 +64951,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "53113",
-            "name": "HU#MTUANRC2702B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "53123",
             "name": "UB#HSI  RP2811K",
             "type": "牛熊证",
@@ -64827,12 +64983,6 @@
         {
             "code": "53131",
             "name": "JP#HSI  RP29026",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "53132",
-            "name": "SG#HSI  RC2907F",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -64999,12 +65149,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "53198",
-            "name": "SG#MTUANRC2703E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "53200",
             "name": "SG#ALIBARP2811I",
             "type": "牛熊证",
@@ -65019,12 +65163,6 @@
         {
             "code": "53204",
             "name": "JP#HSI  RP28116",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "53205",
-            "name": "JP#HSI  RC2810X",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -65803,12 +65941,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "53631",
-            "name": "UB#HSI  RC2807T",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "53637",
             "name": "UB#HSI  RC2807A",
             "type": "牛熊证",
@@ -66157,12 +66289,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "53859",
-            "name": "JP#HSI  RC2810A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "53861",
             "name": "JP#TENCTRP2812U",
             "type": "牛熊证",
@@ -66313,12 +66439,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "53951",
-            "name": "HU#BYD  RC2703A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "53952",
             "name": "HS#XPENGRP2807A",
             "type": "牛熊证",
@@ -66367,12 +66487,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "53977",
-            "name": "JP#BYD  RC2701C",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "53979",
             "name": "HU#BYD  RP2812D",
             "type": "牛熊证",
@@ -66387,18 +66501,6 @@
         {
             "code": "53981",
             "name": "UB#HSI  RP2811M",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "53991",
-            "name": "HS#HSI  RC2812I",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "53992",
-            "name": "HS#HSI  RC2812L",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -66429,12 +66531,6 @@
         {
             "code": "54015",
             "name": "UB#XPENGRP2812D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54017",
-            "name": "SG#HSI  RC28124",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -66571,32 +66667,8 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54115",
-            "name": "DS#HSI  RC28093",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54117",
-            "name": "DS#HSI  RC28098",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54123",
             "name": "UB#ALIBARP2811D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54135",
-            "name": "BP#HSI  RC2807F",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54141",
-            "name": "BP#HSI  RC2807X",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -66633,12 +66705,6 @@
         {
             "code": "54159",
             "name": "UB#ALIBARP2812E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54163",
-            "name": "BP#BYD  RC2701A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -66687,12 +66753,6 @@
         {
             "code": "54174",
             "name": "UB#TENCTRP2807K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54176",
-            "name": "BI#HSI  RC2809G",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -66835,12 +66895,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54213",
-            "name": "JP#HSI  RC2810H",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54217",
             "name": "SG#ALIBARC2701M",
             "type": "牛熊证",
@@ -66891,12 +66945,6 @@
         {
             "code": "54241",
             "name": "SG#HSI  RP2804C",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54243",
-            "name": "JP#HSI  RC2810Z",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -67081,12 +67129,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54307",
-            "name": "JP#MTUANRC2702H",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54308",
             "name": "JP#HKEX RC2709N",
             "type": "牛熊证",
@@ -67159,12 +67201,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54330",
-            "name": "SG#BYD  RC2701D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54337",
             "name": "HS#XIAMIRP2811K",
             "type": "牛熊证",
@@ -67173,12 +67209,6 @@
         {
             "code": "54340",
             "name": "JP#ZIJINRP2811B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54341",
-            "name": "HS#HSI  RC28107",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -67255,12 +67285,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54372",
-            "name": "HS#KB LHRP2903A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54375",
             "name": "JP#HSI  RP2812T",
             "type": "牛熊证",
@@ -67305,12 +67329,6 @@
         {
             "code": "54391",
             "name": "JP#HSI  RP28126",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54395",
-            "name": "CI#HSI  RC2808A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -67375,12 +67393,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54415",
-            "name": "MS#HSI  RC2812K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54417",
             "name": "BI#HSI  RP28037",
             "type": "牛熊证",
@@ -67431,12 +67443,6 @@
         {
             "code": "54441",
             "name": "UB#HSCEIRP2712A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54443",
-            "name": "UB#ALIBARC2702D",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -67497,18 +67503,6 @@
         {
             "code": "54460",
             "name": "CI#HSI  RP2808K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54461",
-            "name": "UB#HSI  RC2807L",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54462",
-            "name": "UB#HSI  RC2807R",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -67611,12 +67605,6 @@
         {
             "code": "54493",
             "name": "UB#HUAHORC2704B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54494",
-            "name": "UB#MTUANRC2702H",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -67735,12 +67723,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54529",
-            "name": "SG#HSI  RC2811E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54531",
             "name": "SG#CCB  RC2709B",
             "type": "牛熊证",
@@ -67779,12 +67761,6 @@
         {
             "code": "54542",
             "name": "JP#HUAHORC2711A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54543",
-            "name": "SG#HSI  RC28126",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -67855,12 +67831,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54567",
-            "name": "HS#HSI  RC2810M",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54568",
             "name": "HU#TENCTRP2812B",
             "type": "牛熊证",
@@ -67909,12 +67879,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54585",
-            "name": "UB#BYD  RC2612E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54587",
             "name": "UB#XIAMIRC2612L",
             "type": "牛熊证",
@@ -67923,12 +67887,6 @@
         {
             "code": "54588",
             "name": "JP#CCB  RC2809A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54589",
-            "name": "BP#HSI  RC2807I",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -68035,12 +67993,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54628",
-            "name": "DS#HSI  RC2811J",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54635",
             "name": "UB#XIAMIRP2612H",
             "type": "牛熊证",
@@ -68049,12 +68001,6 @@
         {
             "code": "54637",
             "name": "JP#HSI  RP2906K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54638",
-            "name": "JP#ALIBARC2707V",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -68113,12 +68059,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54657",
-            "name": "GJ#HSI  RC2810Y",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54658",
             "name": "JP#HSI  RP2906M",
             "type": "牛熊证",
@@ -68131,20 +68071,8 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54667",
-            "name": "MS#HSI  RC2811P",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54668",
             "name": "BP#POMRTRP2806H",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54674",
-            "name": "UB#HSI  RC2808F",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -68157,12 +68085,6 @@
         {
             "code": "54676",
             "name": "HU#HSI  RP2803U",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54678",
-            "name": "UB#HSI  RC2808G",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -68395,12 +68317,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54746",
-            "name": "JP#HSI  RC28106",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54747",
             "name": "JP#HSI  RP2902M",
             "type": "牛熊证",
@@ -68527,12 +68443,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54786",
-            "name": "BI#XIAMIRC2701E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54790",
             "name": "UB#XIAMIRP2812V",
             "type": "牛熊证",
@@ -68635,20 +68545,8 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54815",
-            "name": "SG#HSI  RC28128",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54816",
             "name": "UB#HSI  RP2901K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54819",
-            "name": "SG#HSI  RC2811C",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -68911,12 +68809,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54893",
-            "name": "BP#HSI  RC2807Y",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54894",
             "name": "BP#HSI  RP2905I",
             "type": "牛熊证",
@@ -68925,12 +68817,6 @@
         {
             "code": "54895",
             "name": "BP#HSI  RP2905J",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54897",
-            "name": "BP#ALIBARC2701G",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -68989,12 +68875,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54922",
-            "name": "HS#MTUANRC2702D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54923",
             "name": "HU#MTUANRC2701A",
             "type": "牛熊证",
@@ -69049,12 +68929,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "54941",
-            "name": "HS#ALIBARC2702N",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "54944",
             "name": "BP#HSI  RP2905C",
             "type": "牛熊证",
@@ -69087,12 +68961,6 @@
         {
             "code": "54950",
             "name": "HS#HSTECRP2612B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "54951",
-            "name": "HS#HSTECRC2612B",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -69241,12 +69109,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55016",
-            "name": "JP#ALIBARC2707W",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55017",
             "name": "JP#HSI  RP2902W",
             "type": "牛熊证",
@@ -69361,12 +69223,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55071",
-            "name": "JP#TENCTRC2701W",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55077",
             "name": "SG#HSBC RC2803G",
             "type": "牛熊证",
@@ -69441,12 +69297,6 @@
         {
             "code": "55100",
             "name": "GJ#HSI  RP2804H",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55101",
-            "name": "HU#HSI  RC2811A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -69529,12 +69379,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55126",
-            "name": "HU#TENCTRC2612A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55129",
             "name": "UB#HSI  RP2802S",
             "type": "牛熊证",
@@ -69603,12 +69447,6 @@
         {
             "code": "55159",
             "name": "SG#HSI  RP2902P",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55160",
-            "name": "SG#ALIBARC2703Q",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -69697,12 +69535,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55193",
-            "name": "BI#HSI  RC28098",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55194",
             "name": "UB#JDCOMRC2805S",
             "type": "牛熊证",
@@ -69729,18 +69561,6 @@
         {
             "code": "55199",
             "name": "HS#HSI  RP2903J",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55200",
-            "name": "BP#HSI  RC28071",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55201",
-            "name": "BP#HSI  RC2807H",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -69817,18 +69637,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55219",
-            "name": "DS#HSI  RC2809T",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55220",
-            "name": "DS#HSI  RC2809S",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55222",
             "name": "DS#HSI  RP2902U",
             "type": "牛熊证",
@@ -69837,12 +69645,6 @@
         {
             "code": "55223",
             "name": "MS#HSI  RP2810P",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55226",
-            "name": "CT#HSI  RC2709S",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -69871,26 +69673,8 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55234",
-            "name": "JP#HSI  RC2810R",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55236",
-            "name": "JP#HSI  RC2810T",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55237",
             "name": "SG#MTUANRP2712X",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55242",
-            "name": "JP#HSI  RC2810U",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -69979,20 +69763,8 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55273",
-            "name": "GJ#HSI  RC2810M",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55274",
             "name": "JP#HSI  RP2811R",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55276",
-            "name": "GJ#HSI  RC2810N",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70033,18 +69805,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55284",
-            "name": "CI#HSI  RC28117",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55285",
-            "name": "CI#HSI  RC2811J",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55287",
             "name": "UB#HSI  RC2812R",
             "type": "牛熊证",
@@ -70069,12 +69829,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55291",
-            "name": "CI#HSI  RC2811R",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55292",
             "name": "HS#HSI  RP28034",
             "type": "牛熊证",
@@ -70093,32 +69847,8 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55296",
-            "name": "SG#HSI  RC2810F",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55297",
-            "name": "SG#HSI  RC2901J",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55298",
             "name": "SG#HSI  RP2902Q",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55301",
-            "name": "SG#HSI  RC2901L",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55303",
-            "name": "SG#HSI  RC2901M",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70225,12 +69955,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55334",
-            "name": "HS#HSI  RC28109",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55336",
             "name": "SG#HSTECRP2812R",
             "type": "牛熊证",
@@ -70239,12 +69963,6 @@
         {
             "code": "55337",
             "name": "UB#HSI  RP2901M",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55338",
-            "name": "HS#HSI  RC2810B",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70275,18 +69993,6 @@
         {
             "code": "55348",
             "name": "HS#HSI  RC2712K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55351",
-            "name": "HS#HSI  RC28105",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55352",
-            "name": "HS#TENCTRC2703E",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70339,26 +70045,8 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55368",
-            "name": "MS#HSI  RC28117",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55369",
             "name": "JP#XPENGRP2805F",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55370",
-            "name": "MS#HSI  RC28118",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55371",
-            "name": "MS#HSI  RC2811W",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70435,12 +70123,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55394",
-            "name": "JP#HSI  RC2811V",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55397",
             "name": "JP#HSI  RP2901L",
             "type": "牛熊证",
@@ -70449,12 +70131,6 @@
         {
             "code": "55399",
             "name": "BP#HSI  RC27071",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55400",
-            "name": "JP#HSI  RC28115",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70501,24 +70177,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55418",
-            "name": "UB#HSI  RC2807B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55419",
-            "name": "UB#HSI  RC2807D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55420",
-            "name": "UB#HSI  RC2811F",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55421",
             "name": "BP#HSI  RC27073",
             "type": "牛熊证",
@@ -70551,18 +70209,6 @@
         {
             "code": "55427",
             "name": "UB#GIGA RC2702E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55429",
-            "name": "UB#HSI  RC2811I",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55431",
-            "name": "UB#HSI  RC2811R",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70621,8 +70267,50 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55445",
+            "name": "CT#HSI  RP2902G",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55447",
+            "name": "CI#HSI  RC2812C",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55450",
             "name": "UB#AIA  RC2610H",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55451",
+            "name": "CI#HSI  RP29011",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55452",
+            "name": "CI#HSI  RP2901Y",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55454",
+            "name": "DS#HSI  RC2811I",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55455",
+            "name": "DS#HSI  RC2811K",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55458",
+            "name": "DS#HSI  RP2901A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70633,8 +70321,26 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55462",
+            "name": "DS#HSI  RP2901B",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55464",
+            "name": "JP#TENCTRC27069",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55466",
             "name": "BI#HSI  RC2809I",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55467",
+            "name": "JP#HSI  RC2809M",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70645,8 +70351,32 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55472",
+            "name": "JP#HSI  RC28095",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55474",
+            "name": "JP#HSI  RP2906A",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55477",
+            "name": "JP#LENOVRC2703A",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55478",
             "name": "UB#HSBC RC2704D",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55480",
+            "name": "JP#CATL RC2705F",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70657,8 +70387,26 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55483",
+            "name": "JP#GEELYRC2703A",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55486",
+            "name": "JP#ZAI  RC2703B",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55488",
             "name": "JP#HSI  RC2808A",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55489",
+            "name": "JP#YOFC RP2811A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70675,6 +70423,30 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55495",
+            "name": "JP#HSI  RC2811O",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55496",
+            "name": "JP#HSI  RP2901H",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55499",
+            "name": "JP#HSI  RP2901K",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55503",
+            "name": "JP#HSI  RC2811Z",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55504",
             "name": "DS#HSI  RP29026",
             "type": "牛熊证",
@@ -70687,14 +70459,74 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55507",
+            "name": "BI#ZAI  RC2702E",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55508",
+            "name": "BI#SMIC RP2812D",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55509",
+            "name": "BI#SMIC RP2812E",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55510",
+            "name": "BI#ZAI  RC2702F",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55511",
             "name": "HS#SMIC RP2801A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55513",
+            "name": "HS#HSI  RC28122",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55514",
+            "name": "HS#HSI  RP2904O",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55516",
             "name": "JP#HSI  RC2808D",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55518",
+            "name": "HS#HSI  RP2904R",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55520",
+            "name": "HS#HSI  RP2904X",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55521",
+            "name": "HS#HSI  RC2812J",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55523",
+            "name": "HS#HSI  RC2812U",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70717,6 +70549,12 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55529",
+            "name": "HS#ZAI  RC2703B",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55531",
             "name": "HU#HSBC RP2701C",
             "type": "牛熊证",
@@ -70729,8 +70567,26 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55534",
+            "name": "HS#SMIC RP2903A",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55536",
+            "name": "BI#XIAMIRP2701A",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55537",
             "name": "HU#HSBC RP2812B",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55541",
+            "name": "GJ#HSI  RC2810I",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70747,8 +70603,38 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55546",
+            "name": "GJ#HSI  RP2903U",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55549",
+            "name": "GJ#HSI  RP2903V",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55550",
             "name": "UB#POMRTRP2808G",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55552",
+            "name": "UB#TENCTRC2706E",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55554",
+            "name": "UB#CATL RC2705E",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55555",
+            "name": "UB#HSI  RC2811S",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70765,8 +70651,98 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55558",
+            "name": "UB#HSI  RC2811T",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55559",
+            "name": "UB#HSI  RP2810Z",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55562",
+            "name": "UB#LENOVRP2703C",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55563",
+            "name": "UB#XIAMIRC2702H",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55564",
+            "name": "UB#ZAI  RC2702E",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55565",
+            "name": "UB#HSI  RC2808H",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55570",
+            "name": "UB#HSI  RC2808I",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55575",
+            "name": "UB#HSI  RP28089",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55576",
             "name": "HU#ALIBARP2809B",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55578",
+            "name": "UB#HSI  RP28085",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55579",
+            "name": "UB#HSI  RP2808H",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55580",
+            "name": "MS#HSI  RC2901X",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55582",
+            "name": "MS#HSI  RC2901Y",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55584",
+            "name": "MS#HSI  RP29027",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55585",
+            "name": "MS#HSI  RP29028",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55586",
+            "name": "MS#HSI  RC2901Z",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70777,8 +70753,32 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55594",
+            "name": "SG#HSI  RC2811F",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55595",
+            "name": "SG#HSI  RP2812E",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55596",
+            "name": "SG#HSI  RP29025",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55597",
             "name": "HS#HSI  RC2809E",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55598",
+            "name": "SG#HSI  RC28129",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70831,8 +70831,8 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55613",
-            "name": "HS#TENCTRC2701H",
+            "code": "55614",
+            "name": "SG#HSI  RC2901N",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70849,8 +70849,38 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55622",
+            "name": "SG#HSI  RP29028",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55624",
             "name": "UB#HKEX RP2812C",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55625",
+            "name": "SG#SMIC RP2810A",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55627",
+            "name": "SG#XIAMIRP2810A",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55628",
+            "name": "SG#ZAI  RC2703F",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55634",
+            "name": "HU#HSI  RP2812E",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70869,6 +70899,12 @@
         {
             "code": "55638",
             "name": "HS#YOFC RP2712F",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55647",
+            "name": "BP#HSI  RP2905L",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70897,8 +70933,26 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55656",
+            "name": "BP#HSI  RP2905O",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55657",
             "name": "HS#KUASORP2712D",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55659",
+            "name": "BP#HSI  RP2905P",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55660",
+            "name": "BP#HSI  RC28079",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -70939,8 +70993,32 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
+            "code": "55672",
+            "name": "BP#ZAI  RC2701E",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55673",
+            "name": "BP#LENOVRC2701D",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
             "code": "55677",
             "name": "JP#YOFC RC2702B",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55679",
+            "name": "BP#HSI  RC2612G",
+            "type": "牛熊证",
+            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
+        },
+        {
+            "code": "55681",
+            "name": "BP#HSI  RC2807D",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -71179,12 +71257,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "55798",
-            "name": "SG#TENCTRC2702C",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "55807",
             "name": "BP#HSI  RC2610E",
             "type": "牛熊证",
@@ -71259,12 +71331,6 @@
         {
             "code": "55848",
             "name": "SG#POMRTRP2812P",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "55849",
-            "name": "MS#TENCTRC2702A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -71695,12 +71761,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "56110",
-            "name": "BI#TENCTRC26126",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "56115",
             "name": "MS#HSI  RC2811K",
             "type": "牛熊证",
@@ -71763,12 +71823,6 @@
         {
             "code": "56153",
             "name": "UB#HSI  RC2809O",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "56155",
-            "name": "JP#HSI  RC28109",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -72331,12 +72385,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "56490",
-            "name": "BI#SMIC RC26121",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "56492",
             "name": "HS#ALIBARP2808F",
             "type": "牛熊证",
@@ -72369,12 +72417,6 @@
         {
             "code": "56510",
             "name": "SG#MTUANRC2702D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "56530",
-            "name": "BP#HSI  RC2807Z",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -72543,12 +72585,6 @@
         {
             "code": "56628",
             "name": "GJ#HSI  RP2811D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "56629",
-            "name": "GJ#HSI  RC2810X",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -73813,12 +73849,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "57360",
-            "name": "UB#ALIBARC2612S",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "57361",
             "name": "HS#HSI  RP28045",
             "type": "牛熊证",
@@ -74377,12 +74407,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "57683",
-            "name": "HS#BYD  RC2701E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "57687",
             "name": "HS#HSI  RP2903U",
             "type": "牛熊证",
@@ -74409,12 +74433,6 @@
         {
             "code": "57694",
             "name": "DS#HSI  RC2811N",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "57697",
-            "name": "HS#ALIBARC2701G",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -74643,12 +74661,6 @@
         {
             "code": "57804",
             "name": "BP#HSI  RP2803G",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "57806",
-            "name": "UB#LIAUTRP2609B",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -75193,12 +75205,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "58157",
-            "name": "UB#HSI  RC28081",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "58158",
             "name": "MS#HSI  RP2810T",
             "type": "牛熊证",
@@ -75231,12 +75237,6 @@
         {
             "code": "58175",
             "name": "SG#XIAMIRP28125",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "58181",
-            "name": "CI#HSI  RC2901M",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -75793,12 +75793,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "58576",
-            "name": "UB#HSI  RC2807Q",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "58593",
             "name": "GJ#HSI  RP2811E",
             "type": "牛熊证",
@@ -75979,12 +75973,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "58678",
-            "name": "JP#HSI  RC2812B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "58685",
             "name": "HU#XIAMIRP2810B",
             "type": "牛熊证",
@@ -76069,12 +76057,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "58773",
-            "name": "SG#HSI  RC2901W",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "58777",
             "name": "UB#ALIBARC2612U",
             "type": "牛熊证",
@@ -76143,12 +76125,6 @@
         {
             "code": "58809",
             "name": "UB#HSI  RC2810K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "58811",
-            "name": "DS#HSI  RC2809F",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -76263,12 +76239,6 @@
         {
             "code": "58897",
             "name": "BP#HSI  RP2810H",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "58901",
-            "name": "HS#HSI  RC2810S",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -76437,12 +76407,6 @@
         {
             "code": "59010",
             "name": "JP#TENCTRP2812I",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "59011",
-            "name": "UB#HSI  RC2810S",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -76795,12 +76759,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "59186",
-            "name": "JP#HSI  RC28101",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "59188",
             "name": "JP#SENTMRP2812A",
             "type": "牛熊证",
@@ -76993,12 +76951,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "59276",
-            "name": "CI#HSI  RC28078",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "59277",
             "name": "SG#BAIDURP2812I",
             "type": "牛熊证",
@@ -77113,12 +77065,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "59337",
-            "name": "SG#HSI  RC2901Y",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "59338",
             "name": "SG#HSI  RC28121",
             "type": "牛熊证",
@@ -77133,12 +77079,6 @@
         {
             "code": "59344",
             "name": "SG#KUASORP2812Y",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "59354",
-            "name": "SG#TENCTRC2706A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -77899,12 +77839,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "59696",
-            "name": "UB#KB LHRP2702A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "59701",
             "name": "UB#ZAI  RP2703A",
             "type": "牛熊证",
@@ -77925,12 +77859,6 @@
         {
             "code": "59707",
             "name": "UB#GIGA RP2702A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "59713",
-            "name": "SG#HSI  RC28113",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -78021,12 +77949,6 @@
         {
             "code": "59767",
             "name": "JP#HSBC RC2809D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "59780",
-            "name": "HS#HSI  RC2810P",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -78211,12 +78133,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "59889",
-            "name": "JP#HSI  RC2810N",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "59891",
             "name": "HS#HSI  RP2803R",
             "type": "牛熊证",
@@ -78375,12 +78291,6 @@
         {
             "code": "59971",
             "name": "MS#HSI  RC2810A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "59972",
-            "name": "JP#ZAI  RC2702B",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -79033,12 +78943,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "60328",
-            "name": "UB#TENCTRC2706D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "60333",
             "name": "UB#HZROBRP2709A",
             "type": "牛熊证",
@@ -79377,12 +79281,6 @@
         {
             "code": "60478",
             "name": "UB#HSI  RP2812E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "60479",
-            "name": "HS#ZAI  RC2703A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -79975,12 +79873,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "60769",
-            "name": "JP#XIAMIRC2702K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "60772",
             "name": "UB#HSI  RP2810N",
             "type": "牛熊证",
@@ -80217,12 +80109,6 @@
         {
             "code": "60866",
             "name": "SG#HSI  RP2804D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "60873",
-            "name": "HU#ZAI  RC2703A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -80605,12 +80491,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "61062",
-            "name": "UB#XIAMIRC2702F",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "61064",
             "name": "HS#HSI  RC2808L",
             "type": "牛熊证",
@@ -80839,12 +80719,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "61197",
-            "name": "HS#XIAMIRC2702D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "61200",
             "name": "UB#HSI  RP28033",
             "type": "牛熊证",
@@ -81007,12 +80881,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "61291",
-            "name": "SG#ZAI  RC2703D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "61296",
             "name": "CI#HSI  RP2811X",
             "type": "牛熊证",
@@ -81093,18 +80961,6 @@
         {
             "code": "61323",
             "name": "UB#HSI  RP2808K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "61324",
-            "name": "SG#HSI  RC29011",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "61326",
-            "name": "SG#XIAMIRC2703E",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -81661,12 +81517,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "61647",
-            "name": "BI#ZAI  RC2702B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "61648",
             "name": "BI#HUAHORC2612G",
             "type": "牛熊证",
@@ -81963,12 +81813,6 @@
         {
             "code": "61780",
             "name": "HS#HSI  RP28037",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "61781",
-            "name": "UB#ZAI  RC2702C",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -83719,12 +83563,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "62676",
-            "name": "UB#CATL RC2609A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "62677",
             "name": "UB#ZIJINRP2812G",
             "type": "牛熊证",
@@ -84367,12 +84205,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "62945",
-            "name": "GJ#HSI  RC28102",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "62948",
             "name": "JP#ALIBARP2810F",
             "type": "牛熊证",
@@ -84717,12 +84549,6 @@
         {
             "code": "63059",
             "name": "HU#HSI  RP2803K",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "63060",
-            "name": "UB#ANTASRP2609A",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -85293,12 +85119,6 @@
         {
             "code": "63334",
             "name": "BP#HSI  RC29016",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "63342",
-            "name": "JP#HSI  RC2810S",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -87397,12 +87217,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "64581",
-            "name": "BP#TENCTRC2701C",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "64586",
             "name": "GJ#HSI  RC2711H",
             "type": "牛熊证",
@@ -87453,12 +87267,6 @@
         {
             "code": "64606",
             "name": "SG#HSTECRP28123",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "64608",
-            "name": "BP#XIAMIRC2701C",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -87627,12 +87435,6 @@
         {
             "code": "64698",
             "name": "BP#HSTECRP2901N",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "64704",
-            "name": "UB#AIA  RC2609B",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -88017,12 +87819,6 @@
         {
             "code": "64935",
             "name": "BP#HSI  RP2803M",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "64937",
-            "name": "MS#HSI  RC28129",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -90319,12 +90115,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "66137",
-            "name": "DS#HSI  RC2811H",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "66139",
             "name": "DS#HSI  RP2803D",
             "type": "牛熊证",
@@ -90447,12 +90237,6 @@
         {
             "code": "66228",
             "name": "HS#HSI  RC2803L",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "66232",
-            "name": "BP#HSI  RC28126",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -90727,12 +90511,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "66352",
-            "name": "MS#HSI  RC28116",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "66359",
             "name": "UB#HSI  RC27091",
             "type": "牛熊证",
@@ -90769,12 +90547,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "66390",
-            "name": "CT#HSI  RC28077",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "66391",
             "name": "UB#HSI  RC2711W",
             "type": "牛熊证",
@@ -90807,12 +90579,6 @@
         {
             "code": "66405",
             "name": "HS#HSI  RC26098",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "66419",
-            "name": "CI#HSI  RC28049",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -90873,12 +90639,6 @@
         {
             "code": "66449",
             "name": "BP#PINANRC2709G",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "66452",
-            "name": "GJ#HSI  RC2809G",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -90985,12 +90745,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "66532",
-            "name": "JP#HSI  RC2807V",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "66534",
             "name": "JP#HSI  RC2807W",
             "type": "牛熊证",
@@ -91051,12 +90805,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "66571",
-            "name": "BI#HSI  RC2809X",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "66573",
             "name": "BI#HSI  RC2712X",
             "type": "牛熊证",
@@ -91089,12 +90837,6 @@
         {
             "code": "66582",
             "name": "UB#XIAMIRP2812M",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "66583",
-            "name": "HU#HSI  RC2809B",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -91239,18 +90981,6 @@
         {
             "code": "66666",
             "name": "HS#HSI  RC2609E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "66667",
-            "name": "UB#TENCTRC2609L",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "66671",
-            "name": "UB#HSI  RC2809T",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -91417,12 +91147,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "66746",
-            "name": "UB#HSI  RC2609Z",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "66748",
             "name": "CI#HSI  RP28114",
             "type": "牛熊证",
@@ -91503,12 +91227,6 @@
         {
             "code": "66809",
             "name": "UB#HSI  RC2711D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "66811",
-            "name": "SG#HSI  RC2811T",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -91711,12 +91429,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "66930",
-            "name": "HS#HSI  RC2812B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "66934",
             "name": "BP#HSI  RC28113",
             "type": "牛熊证",
@@ -91833,12 +91545,6 @@
         {
             "code": "67011",
             "name": "HS#HSI  RC2611Y",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67017",
-            "name": "CI#HSI  RC28128",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -91965,12 +91671,6 @@
         {
             "code": "67091",
             "name": "JP#POMRTRP2905A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67093",
-            "name": "BP#HSI  RC2812R",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -92191,20 +91891,8 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "67181",
-            "name": "BP#TENCTRC2612E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "67187",
             "name": "HU#HSI  RC2710F",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67188",
-            "name": "DS#HSI  RC2809E",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -92239,12 +91927,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "67202",
-            "name": "JP#HSI  RC2810F",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "67204",
             "name": "JP#HSI  RC2810J",
             "type": "牛熊证",
@@ -92259,12 +91941,6 @@
         {
             "code": "67212",
             "name": "JP#HSI  RC2809P",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67214",
-            "name": "JP#HSI  RC2810M",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -92445,12 +92121,6 @@
         {
             "code": "67311",
             "name": "UB#HSI  RC2612S",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67314",
-            "name": "SG#HSI  RC2812P",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -92779,12 +92449,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "67426",
-            "name": "UB#HSI  RC2810Q",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "67427",
             "name": "SG#HSI  RP28025",
             "type": "牛熊证",
@@ -92827,12 +92491,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "67444",
-            "name": "UB#HSI  RC2807Z",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "67446",
             "name": "HU#ALIBARC2701B",
             "type": "牛熊证",
@@ -92847,12 +92505,6 @@
         {
             "code": "67449",
             "name": "UB#HSI  RC2807O",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67450",
-            "name": "SG#HSI  RC2907E",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -92943,12 +92595,6 @@
         {
             "code": "67485",
             "name": "UB#HSI  RC26112",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67488",
-            "name": "UB#HSI  RC26099",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -93223,12 +92869,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "67633",
-            "name": "MS#HSI  RC2904A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "67639",
             "name": "BP#HSI  RC2809G",
             "type": "牛熊证",
@@ -93261,12 +92901,6 @@
         {
             "code": "67655",
             "name": "MS#ALIBARC2611H",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67656",
-            "name": "CT#HSI  RC2807V",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -93315,12 +92949,6 @@
         {
             "code": "67676",
             "name": "HS#POMRTRP2811B",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67679",
-            "name": "CI#HSI  RC2808E",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -93607,12 +93235,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "67795",
-            "name": "UB#HSI  RC28074",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "67796",
             "name": "SG#HSBC RP2702A",
             "type": "牛熊证",
@@ -93877,12 +93499,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "67887",
-            "name": "BP#HSI  RC2612X",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "67890",
             "name": "BP#HSI  RC2812C",
             "type": "牛熊证",
@@ -93993,12 +93609,6 @@
         {
             "code": "67938",
             "name": "HU#HSI  RP2803I",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "67939",
-            "name": "JP#TENCTRC2706O",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -94387,12 +93997,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "68077",
-            "name": "HS#HSI  RC2812G",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "68079",
             "name": "HS#YOFC RC2701D",
             "type": "牛熊证",
@@ -94483,12 +94087,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "68119",
-            "name": "SG#HSI  RC2810I",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "68120",
             "name": "JP#HSI  RC2710C",
             "type": "牛熊证",
@@ -94575,12 +94173,6 @@
         {
             "code": "68165",
             "name": "JP#TENCTRP2807W",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "68166",
-            "name": "BP#HSI  RC2812J",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -95065,12 +94657,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "68347",
-            "name": "JP#HSI  RC2807H",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "68350",
             "name": "MS#HSI  RC2810Q",
             "type": "牛熊证",
@@ -95193,12 +94779,6 @@
         {
             "code": "68399",
             "name": "UB#POMRTRP2807E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "68401",
-            "name": "HU#HSI  RC2810Z",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -95425,12 +95005,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "68474",
-            "name": "UB#HSI  RC2807H",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "68479",
             "name": "CT#HSI  RC2807B",
             "type": "牛熊证",
@@ -95637,12 +95211,6 @@
         {
             "code": "68545",
             "name": "SG#ZIJINRP2812E",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "68548",
-            "name": "GJ#HSI  RC2810J",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -95895,12 +95463,6 @@
         {
             "code": "68629",
             "name": "UB#HSBC RC2804D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "68634",
-            "name": "HS#HSI  RC2810O",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -96505,12 +96067,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "68864",
-            "name": "MS#HSI  RC2810D",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "68868",
             "name": "GJ#HSI  RC2809T",
             "type": "牛熊证",
@@ -96843,12 +96399,6 @@
         {
             "code": "69017",
             "name": "BI#HSI  RC2712F",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "69018",
-            "name": "JP#SENTMRC2701C",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -97273,12 +96823,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "69209",
-            "name": "BP#HKEX RC2803X",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "69210",
             "name": "UB#HSI  RC2809I",
             "type": "牛熊证",
@@ -97293,12 +96837,6 @@
         {
             "code": "69216",
             "name": "UB#TENCTRC2612J",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "69221",
-            "name": "BP#HSI  RC2812T",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -97395,12 +96933,6 @@
         {
             "code": "69267",
             "name": "UB#HSI  RP28113",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "69272",
-            "name": "UB#HKEX RC2609C",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -97683,12 +97215,6 @@
         {
             "code": "69386",
             "name": "HU#HSI  RC2609I",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "69387",
-            "name": "HS#TENCTRC2612L",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -98125,12 +97651,6 @@
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
         {
-            "code": "69602",
-            "name": "UB#TENCTRC2612L",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
             "code": "69603",
             "name": "UB#HSI  RC2707J",
             "type": "牛熊证",
@@ -98463,12 +97983,6 @@
         {
             "code": "69732",
             "name": "UB#XIAMIRP2812A",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "69733",
-            "name": "UB#HSI  RC2810G",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
@@ -98991,12 +98505,6 @@
         {
             "code": "69963",
             "name": "UB#HSI  RC26111",
-            "type": "牛熊证",
-            "sub_type": "Callable Bull/Bear Contracts 牛熊证"
-        },
-        {
-            "code": "69967",
-            "name": "BP#MTUANRC2701C",
             "type": "牛熊证",
             "sub_type": "Callable Bull/Bear Contracts 牛熊证"
         },
