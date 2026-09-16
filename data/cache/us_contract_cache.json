@@ -1195,6 +1195,10 @@
         {
             "code": "SOFTBANK",
             "name": "SOFTBANK"
+        },
+        {
+            "code": "CVXSTOCK",
+            "name": "CVXSTOCK"
         }
     ]
 }
