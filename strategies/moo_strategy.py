@@ -286,14 +286,25 @@ def _run_single_mfa(df, symbol, p):
 
         pct = (cur_row['close'] / pre_row['close'] - 1) if pre_row['close'] != 0 else 0.0
 
-        cur_mfa_color = cur_row['mfa_color'] == 'green'
-        pre_mfa_color = pre_row['mfa_color'] == 'red'
-        pre_mfa_streak = pre_row['mfa_streak'] >= 2
+        if tf == 'd':
+            cur_mfa_color = cur_row['mfa_color'] == 'green'
+            cur_mfa_value = cur_row['mfa_value'] < 1
+            pre_mfa_value = pre_row['mfa_value'] >= 1
+            cur_mfa_all = pre_row['mfa_all'] >= 5
 
-        if not (cur_mfa_color and pre_mfa_color and pre_mfa_streak):
-            return None
+            if not (cur_mfa_color and cur_mfa_value and pre_mfa_value and cur_mfa_all):
+                return None
 
-        signal = "Long"
+            signal = "Long"
+        else:
+            cur_mfa_color = cur_row['mfa_color'] == 'green'
+            pre_mfa_color = pre_row['mfa_color'] == 'red'
+            pre_mfa_streak = pre_row['mfa_streak'] >= 2
+
+            if not (cur_mfa_color and pre_mfa_color and pre_mfa_streak):
+                return None
+
+            signal = "Long"
 
         parameters = {
             "mfa": {"mfa_all": int(cur_row['mfa_all'])}
