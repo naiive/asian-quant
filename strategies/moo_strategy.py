@@ -5,6 +5,7 @@ import json
 
 from conf.config import STRATEGY_CONFIG
 from indicators.atd_indicator import atd_indicator
+from indicators.stc_indicator import stc_indicator
 from indicators.mfa_indicator import mfa_indicator
 from indicators.rgf_indicator import rgf_indicator
 from indicators.squeeze_momentum_indicator import squeeze_momentum_indicator
@@ -44,6 +45,11 @@ PARAM_SETS = [
         "key_value": 2,
         "atr_period": 14,
         "use_ha": False,
+        # stc_indicator
+        "stc_length": 80,
+        "stc_fast_length": 27,
+        "stc_slow_length": 50,
+        "stc_factor": 0.5,
         # rgf_indicator
         "rgf_per": 14,
         "rgf_qty": 2.5,
@@ -71,6 +77,10 @@ PARAM_SETS = [
         "key_value": 3,
         "atr_period": 14,
         "use_ha": False,
+        "stc_length": 80,
+        "stc_fast_length": 27,
+        "stc_slow_length": 50,
+        "stc_factor": 0.5,
         "rgf_per": 14,
         "rgf_qty": 3.0,
         "coeff": 1,
@@ -91,6 +101,7 @@ PARAM_SETS = [
 
 def compute_indicators(df, p):
     df = utb_indicator(df, key_value=p["key_value"], atr_period=p["atr_period"], use_ha=p["use_ha"])
+    df = stc_indicator(df, stc_length=p["stc_length"], stc_fast_length=p["stc_fast_length"], stc_slow_length=p["stc_slow_length"], stc_factor=p["stc_factor"])
     df = rgf_indicator(df, rgf_per=p["rgf_per"], rgf_qty=p["rgf_qty"])
     df = atd_indicator(df, coeff=p["coeff"], ap=p["ap"])
     df = support_resistance_indicator(df, left_bars=p["srb_left"], right_bars=p["srb_right"])
@@ -123,17 +134,23 @@ def _run_single_utb(df, symbol, p):
         pct = (cur_row['close'] / pre_row['close'] - 1) if pre_row['close'] != 0 else 0.0
 
         cond_buy = cur_row['utb_signal'] == 'buy'
+        stc_buy = cur_row['stc'] < 25 and cur_row['stc_trend'] == 'bull'
         cond_sell = cur_row['utb_signal'] == 'sell'
+        stc_sell = cur_row['stc'] > 75 and cur_row['stc_trend'] == 'bear'
 
-        if not cond_buy and not cond_sell:
+        if cond_buy and stc_buy:
+            signal = "Long"
+
+        elif cond_sell and stc_sell:
+            signal = "Short"
+
+        else:
             return None
-
-        signal = "Long" if cond_buy else "Short"
 
         parameters = {
             "utb": {"key_value": p["key_value"], "atr_period": p["atr_period"], "use_ha": p["use_ha"]},
             "r&s": {"srb_left": p["srb_left"], "srb_right": p["srb_right"]},
-            "atr": {"atr_length": p["atr_length"], "atr_mult": p["atr_mult"]},
+            "atr": {"atr_length": p["atr_length"], "atr_mult": p["atr_mult"]}
         }
 
         return _make_result(cur_row, pct, signal, symbol, "utb", p["label"], parameters)
@@ -270,12 +287,10 @@ def _run_single_mfa(df, symbol, p):
         pct = (cur_row['close'] / pre_row['close'] - 1) if pre_row['close'] != 0 else 0.0
 
         cur_mfa_color = cur_row['mfa_color'] == 'green'
-        pre_mfa_value = pre_row['mfa_value'] > 1
-        cur_mfa_value = cur_row['mfa_value'] <= 1
-        cur_mfa_streak = cur_row['mfa_streak'] >= 4
-        cur_mfa_all = cur_row['mfa_all'] >= 8
+        pre_mfa_color = pre_row['mfa_color'] == 'red'
+        pre_mfa_streak = pre_row['mfa_streak'] >= 2
 
-        if not (cur_mfa_color and pre_mfa_value and cur_mfa_value and cur_mfa_streak and cur_mfa_all):
+        if not (cur_mfa_color and pre_mfa_color and pre_mfa_streak):
             return None
 
         signal = "Long"
