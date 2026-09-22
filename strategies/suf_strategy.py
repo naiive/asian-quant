@@ -36,6 +36,16 @@ def run_strategy(df, symbol):
 
     return results
 
+
+def _get_sma_period(timeframe):
+    if timeframe in ("d", "w"):
+        return 200
+    elif timeframe == "m":
+        return 46
+    else:
+        return 200
+
+
 def _run_single(df, symbol, p):
     try:
         timeframe = p["timeframe"]
@@ -51,6 +61,15 @@ def _run_single(df, symbol, p):
 
         final_row = df.iloc[-1]
 
+        sma_period = _get_sma_period(timeframe)
+        sma_series = df['close'].rolling(window=sma_period).mean()
+        sma_value = sma_series.iloc[-1]
+
+        if sma_value and sma_value != 0:
+            sma_diff_pct = round((final_row['close'] - sma_value) / sma_value * 100, 2)
+        else:
+            sma_diff_pct = None
+
         parameters = {
             "suf": {"timeframe": timeframe}
         }
@@ -61,6 +80,7 @@ def _run_single(df, symbol, p):
             "现价": round(final_row['close'], 2),
             "涨幅(%)": round(final_row['pct_chg'], 2),
             "成交量": round(final_row['volume'], 0),
+            f"离SMA{sma_period}(%)": sma_diff_pct,
             "条件": STRATEGY_CONFIG.get("CN_LAST_DAY_CONDITION_CODES"),
             "参组": p["label"],
             "参数": json.dumps(parameters)

@@ -337,11 +337,35 @@ def _run_single_suf(df, symbol, p):
         else:
             return None
 
+        timeframe = p["timeframe"]
+        if timeframe in ("d", "w"):
+            sma_period = 200
+        elif timeframe == "m":
+            sma_period = 46
+        else:
+            sma_period = 200
+
+        sma_diff_pct = None
+        if len(df) >= sma_period:
+            sma_value = df['close'].rolling(window=sma_period).mean().iloc[-1]
+            if sma_value and sma_value != 0:
+                sma_diff_pct = round((cur_row['close'] - sma_value) / sma_value * 100, 2)
+
         parameters = {
-            "suf": {"timeframe": p["timeframe"]}
+            "suf": {"timeframe": timeframe}
         }
 
-        return _make_result(cur_row, pct, signal, symbol, "suf", p["label"], parameters)
+        return _make_result(
+            cur_row,
+            pct,
+            signal,
+            symbol,
+            "suf",
+            p["label"],
+            parameters,
+            SMA=sma_period,
+            相距SMA=sma_diff_pct
+        )
 
     except Exception as e:
         print(f"[suf:{p.get('label')}] {e}")
