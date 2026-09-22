@@ -758,7 +758,7 @@
         },
         {
             "code": "AAL",
-            "name": "美航集团"
+            "name": "美国航空"
         },
         {
             "code": "VOO",
@@ -782,7 +782,7 @@
         },
         {
             "code": "AMKR",
-            "name": "艾马克技术公司"
+            "name": "艾马克技术"
         },
         {
             "code": "PDD",
@@ -1199,6 +1199,42 @@
         {
             "code": "CVXSTOCK",
             "name": "CVXSTOCK"
+        },
+        {
+            "code": "QLD",
+            "name": "纳斯达克100指数ETF-ProShares两倍做多"
+        },
+        {
+            "code": "IBIT",
+            "name": "IBIT"
+        },
+        {
+            "code": "CLSK",
+            "name": "CLSK"
+        },
+        {
+            "code": "SDGR",
+            "name": "SDGR"
+        },
+        {
+            "code": "GNRC",
+            "name": "Generac控股"
+        },
+        {
+            "code": "PATH",
+            "name": "UiPath"
+        },
+        {
+            "code": "CYPH",
+            "name": "CYPH"
+        },
+        {
+            "code": "HUT",
+            "name": "HUT"
+        },
+        {
+            "code": "AGPU",
+            "name": "AGPU"
         }
     ]
 }
