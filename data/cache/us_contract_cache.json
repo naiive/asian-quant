@@ -421,10 +421,6 @@
             "name": "EVEX"
         },
         {
-            "code": "RCAT",
-            "name": "RCAT"
-        },
-        {
             "code": "KTOS",
             "name": "克瑞拓斯安全防卫"
         },
@@ -1235,6 +1231,10 @@
         {
             "code": "AGPU",
             "name": "AGPU"
+        },
+        {
+            "code": "OURA",
+            "name": "OURA"
         }
     ]
 }
