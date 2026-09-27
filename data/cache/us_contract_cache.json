@@ -1255,6 +1255,18 @@
         {
             "code": "OURA",
             "name": "OURA"
+        },
+        {
+            "code": "WBD",
+            "name": "WBD"
+        },
+        {
+            "code": "URNM",
+            "name": "NORTHSHORE GLOBAL URANIUM MINING ETF"
+        },
+        {
+            "code": "POLYMARKET",
+            "name": "POLYMARKET"
         }
     ]
 }
