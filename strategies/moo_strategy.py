@@ -286,7 +286,9 @@ def _run_single_mfa(df, symbol, p):
 
         pct = (cur_row['close'] / pre_row['close'] - 1) if pre_row['close'] != 0 else 0.0
 
-        if tf == 'd':
+        timeframe = p["timeframe"]
+
+        if timeframe == 'd':
             cur_mfa_color = cur_row['mfa_color'] == 'green'
             cur_mfa_value = cur_row['mfa_value'] < 1
             pre_mfa_value = pre_row['mfa_value'] >= 1
@@ -306,11 +308,34 @@ def _run_single_mfa(df, symbol, p):
 
             signal = "Long"
 
+        if timeframe in ("d", "w"):
+            sma_period = 200
+        elif timeframe == "m":
+            sma_period = 46
+        else:
+            sma_period = 200
+
+        sma_diff_pct = None
+        if len(df) >= sma_period:
+            sma_value = df['close'].rolling(window=sma_period).mean().iloc[-1]
+            if sma_value and sma_value != 0:
+                sma_diff_pct = round((cur_row['close'] - sma_value) / sma_value * 100, 2)
+
         parameters = {
             "mfa": {"mfa_all": int(cur_row['mfa_all'])}
         }
 
-        return _make_result(cur_row, pct, signal, symbol, "mfa", p["label"], parameters)
+        return _make_result(
+            cur_row,
+            pct,
+            signal,
+            symbol,
+           "mfa",
+            p["label"],
+            parameters,
+            SMA=sma_period,
+            相距SMA=sma_diff_pct
+        )
 
     except Exception as e:
         print(f"[mfa:{p['label']}] {e}")
