@@ -356,9 +356,6 @@ def _run_single_suf(df, symbol, p):
         if pre_zone == "accum" and cur_zone == 'no':
             signal = "Long"
 
-        # elif pre_zone == "distribution" and cur_zone == 'no':
-        #     signal = "Short"
-
         else:
             return None
 
