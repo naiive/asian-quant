@@ -42,7 +42,7 @@ PARAM_SETS = [
     {
         "label": "参数一",
         # utb_indicator
-        "key_value": 2,
+        "key_value": 2.5,
         "atr_period": 14,
         "use_ha": False,
         # stc_indicator
