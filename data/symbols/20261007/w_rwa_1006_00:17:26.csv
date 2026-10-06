@@ -1,0 +1,67 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,SMA,相距SMA,名称,周期,释放类型,支撑压力价格,支撑压力趋势,支撑压力涨幅,区间K线数量,区间K线振幅
+2026-10-05 00:00:00,Long,DNN,2.8,8.75%,2.18,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",200.0,32.85,Denison Mines,1WK,,,,,,
+2026-10-05 00:00:00,Long,DNN,2.8,8.75%,2.18,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",200.0,32.85,Denison Mines,1WK,,,,,,
+2026-10-05 00:00:00,Long,OPEN,2.31,-5.33%,1.7,mfa,参数一,"{""mfa"": {""mfa_all"": 18}}",200.0,-26.01,Opendoor Technologies,1WK,,,,,,
+2026-10-05 00:00:00,Long,OPEN,2.31,-5.33%,1.7,mfa,参数二,"{""mfa"": {""mfa_all"": 18}}",200.0,-26.01,Opendoor Technologies,1WK,,,,,,
+2026-10-05 00:00:00,Long,HII,263.26,-1.97%,237.63,mfa,参数一,"{""mfa"": {""mfa_all"": 17}}",200.0,4.5,Huntington Ingalls Industries,1WK,,,,,,
+2026-10-05 00:00:00,Long,HII,263.26,-1.97%,237.63,mfa,参数二,"{""mfa"": {""mfa_all"": 17}}",200.0,4.5,Huntington Ingalls Industries,1WK,,,,,,
+2026-10-05 00:00:00,Long,HTZ,1.91,8.81%,1.13,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-75.13,Hertz Global Holdings,1WK,,,,,,
+2026-10-05 00:00:00,Long,HTZ,1.91,8.81%,1.13,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-75.13,Hertz Global Holdings,1WK,,,,,,
+2026-10-05 00:00:00,Long,RXRX,4.6,11.65%,3.49,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Recursion Pharmaceuticals,1WK,压力释放,12.36-7.15-7.18-5.24-4.09,低-高-低-低,42.15%-0.42%-27.02%-21.95%,13.0,44.01
+2026-10-05 00:00:00,Long,IEF,89.14,0.10%,87.78,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",200.0,0.78,iShares 7-10 Year Treasury Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,IEF,89.14,0.10%,87.78,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",200.0,0.78,iShares 7-10 Year Treasury Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,SYSB,84.05,0.20%,82.86,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",200.0,6.04,iShares Systematic Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,SYSB,84.05,0.20%,82.86,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",200.0,6.04,iShares Systematic Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Short,SQQQ,31.63,-4.51%,38.17,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,ProShares UltraPro Short QQQ,1WK,支撑释放,153.68-118.21-59.67-59.42-35.08,低-低-低-低,23.08%-49.52%-0.42%-40.95%,16.0,39.2
+2026-10-05 00:00:00,Long,BRTR,47.75,0.14%,47.16,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",200.0,,iShares Total Return Active ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,BRTR,47.75,0.14%,47.16,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",200.0,,iShares Total Return Active ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,IGEB,42.76,0.29%,42.11,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",200.0,5.26,iShares Investment Grade Systematic Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,IGEB,42.76,0.29%,42.11,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",200.0,5.26,iShares Investment Grade Systematic Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,NKE,34.47,1.77%,29.79,mfa,参数一,"{""mfa"": {""mfa_all"": 42}}",200.0,-55.12,Nike,1WK,,,,,,
+2026-10-05 00:00:00,Long,NKE,34.47,1.77%,29.79,mfa,参数二,"{""mfa"": {""mfa_all"": 42}}",200.0,-55.12,Nike,1WK,,,,,,
+2026-10-05 00:00:00,Long,VDE,178.78,1.62%,166.55,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Vanguard Energy ETF,1WK,一直亮绿,nan-119.22-128.07-129.69-177.07,低-高-高-高,nan%-7.43%-1.26%-36.54%,27.0,19.66
+2026-10-05 00:00:00,Short,PEP,127.05,0.92%,133.14,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,PepsiCo,1WK,支撑释放,147.43-145.12-132.05-120.27-131.99,低-低-低-高,1.57%-9.00%-8.93%-9.75%,39.0,26.08
+2026-10-05 00:00:00,Long,TIP,104.2,0.09%,103.02,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",200.0,3.03,iShares TIPS Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,TIP,104.2,0.09%,103.02,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",200.0,3.03,iShares TIPS Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,AGG,94.31,0.07%,93.11,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",200.0,3.35,iShares Core US Aggregate Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,AGG,94.31,0.07%,93.11,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",200.0,3.35,iShares Core US Aggregate Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,CIBR,107.73,2.89%,98.71,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,First Trust NASDAQ Cybersecurity ETF,1WK,一直释放,nan-58.76-77.92,低-高,nan%-32.62%,49.0,29.83
+2026-10-05 00:00:00,Long,KWEB,24.47,2.56%,22.74,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-13.78,KraneShares CSI China Internet ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,KWEB,24.47,2.56%,22.74,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-13.78,KraneShares CSI China Internet ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,EWZ,42.87,12.24%,40.52,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,iShares MSCI Brazil ETF,1WK,一直亮绿,nan-28.7-31.07-27.96-41.62,低-高-低-高,nan%-8.27%-10.00%-48.85%,25.0,25.32
+2026-10-05 00:00:00,Long,IYW,273.44,1.39%,259.5,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,iShares US Technology ETF,1WK,压力释放,113.17-158.4-166.88-211.74-260.88,高-高-高-高,39.96%-5.36%-26.88%-23.21%,18.0,14.88
+2026-10-05 00:00:00,Long,NFLX,68.24,1.75%,61.17,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-7.24,Netflix,1WK,,,,,,
+2026-10-05 00:00:00,Long,NFLX,68.24,1.75%,61.17,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-7.24,Netflix,1WK,,,,,,
+2026-10-05 00:00:00,Long,TMUS,163.82,0.11%,151.04,mfa,参数一,"{""mfa"": {""mfa_all"": 19}}",200.0,-10.39,T-Mobile US,1WK,,,,,,
+2026-10-05 00:00:00,Long,TMUS,163.82,0.11%,151.04,mfa,参数二,"{""mfa"": {""mfa_all"": 19}}",200.0,-10.39,T-Mobile US,1WK,,,,,,
+2026-10-05 00:00:00,Long,PCG,12.4,0.69%,10.99,mfa,参数一,"{""mfa"": {""mfa_all"": 6}}",200.0,-25.28,PG&E,1WK,,,,,,
+2026-10-05 00:00:00,Long,PCG,12.4,0.69%,10.99,mfa,参数二,"{""mfa"": {""mfa_all"": 6}}",200.0,-25.28,PG&E,1WK,,,,,,
+2026-10-05 00:00:00,Long,SO,84.75,1.23%,79.85,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",200.0,9.33,Southern,1WK,,,,,,
+2026-10-05 00:00:00,Long,SO,84.75,1.23%,79.85,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",200.0,9.33,Southern,1WK,,,,,,
+2026-10-05 00:00:00,Long,NEE,77.24,0.53%,72.46,mfa,参数一,"{""mfa"": {""mfa_all"": 6}}",200.0,8.31,NextEra Energy,1WK,,,,,,
+2026-10-05 00:00:00,Long,NEE,77.24,0.53%,72.46,mfa,参数二,"{""mfa"": {""mfa_all"": 6}}",200.0,8.31,NextEra Energy,1WK,,,,,,
+2026-10-05 00:00:00,Long,KEYS,384.97,0.09%,357.19,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Keysight Technologies,1WK,压力释放,162.51-161.08-186.2-174.98-374.96,低-高-低-高,0.88%-15.59%-6.03%-114.29%,15.0,27.73
+2026-10-05 00:00:00,Long,WM,208.44,1.95%,193.44,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",200.0,5.89,Waste Management,1WK,,,,,,
+2026-10-05 00:00:00,Long,WM,208.44,1.95%,193.44,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",200.0,5.89,Waste Management,1WK,,,,,,
+2026-10-05 00:00:00,Long,QQQ,761.18,1.55%,723.53,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Invesco QQQ,1WK,压力释放,497.78-536.25-634.03-634.44-747.05,高-高-高-高,7.73%-18.23%-0.06%-17.75%,18.0,13.11
+2026-10-05 00:00:00,Long,FLNC,7.97,4.73%,4.33,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-53.24,Fluence Energy,1WK,,,,,,
+2026-10-05 00:00:00,Long,FLNC,7.97,4.73%,4.33,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-53.24,Fluence Energy,1WK,,,,,,
+2026-10-05 00:00:00,Long,AMD,655.4,3.39%,561.51,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,AMD,1WK,压力释放,187.28-174.05-267.08-266.96-584.73,低-高-低-高,7.06%-53.45%-0.04%-119.03%,14.0,37.9
+2026-10-05 00:00:00,Long,ETHA,61.21,204.38%,15.73,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,iShares Ethereum Trust ETF,1WK,一直亮绿,nan-31.18-36.8,低-高,nan%-18.02%,59.0,219.31
+2026-10-05 00:00:00,Long,CPNG,14.31,3.85%,12.42,mfa,参数一,"{""mfa"": {""mfa_all"": 23}}",200.0,-30.82,Coupang,1WK,,,,,,
+2026-10-05 00:00:00,Long,CPNG,14.31,3.85%,12.42,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-30.82,Coupang,1WK,,,,,,
+2026-10-05 00:00:00,Long,CPNG,14.31,3.85%,12.42,mfa,参数二,"{""mfa"": {""mfa_all"": 23}}",200.0,-30.82,Coupang,1WK,,,,,,
+2026-10-05 00:00:00,Long,CPNG,14.31,3.85%,12.42,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-30.82,Coupang,1WK,,,,,,
+2026-10-05 00:00:00,Long,IEI,113.35,0.16%,112.27,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",200.0,3.53,iShares 3-7 Year Treasury Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,IEI,113.35,0.16%,112.27,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",200.0,3.53,iShares 3-7 Year Treasury Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,WLK,64.24,1.17%,55.69,mfa,参数一,"{""mfa"": {""mfa_all"": 11}}",200.0,-39.25,Westlake,1WK,,,,,,
+2026-10-05 00:00:00,Long,WLK,64.24,1.17%,55.69,mfa,参数二,"{""mfa"": {""mfa_all"": 11}}",200.0,-39.25,Westlake,1WK,,,,,,
+2026-10-05 00:00:00,Long,QLTA,44.99,0.30%,44.27,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",200.0,3.29,iShares Aaa - A Rated Corporate Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,QLTA,44.99,0.30%,44.27,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",200.0,3.29,iShares Aaa - A Rated Corporate Bond ETF,1WK,,,,,,
+2026-10-05 00:00:00,Long,BIDU,86.92,3.08%,75.76,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",200.0,-21.75,Baidu,1WK,,,,,,
+2026-10-05 00:00:00,Long,BIDU,86.92,3.08%,75.76,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-21.75,Baidu,1WK,,,,,,
+2026-10-05 00:00:00,Long,BIDU,86.92,3.08%,75.76,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",200.0,-21.75,Baidu,1WK,,,,,,
+2026-10-05 00:00:00,Long,BIDU,86.92,3.08%,75.76,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-21.75,Baidu,1WK,,,,,,
+2026-10-05 00:00:00,Long,LI,10.9,1.96%,9.64,mfa,参数一,"{""mfa"": {""mfa_all"": 21}}",200.0,-55.71,Li Auto,1WK,,,,,,
+2026-10-05 00:00:00,Long,LI,10.9,1.96%,9.64,mfa,参数二,"{""mfa"": {""mfa_all"": 21}}",200.0,-55.71,Li Auto,1WK,,,,,,
+2026-10-05 00:00:00,Long,NVDA,241.27,3.13%,219.85,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,NVIDIA,1WK,压力释放,97.12-140.37-152.73-211.68-236.0,高-高-高-高,44.53%-8.80%-38.60%-11.49%,21.0,24.48

@@ -1,0 +1,98 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,释放类型,支撑压力价格,支撑压力趋势,支撑压力涨幅,区间K线数量,区间K线振幅,名称,周期,SMA,相距SMA
+2026-10-06 00:00:00,Short,OPEN,2.32,0.22%,2.49,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,4.26-4.12-4.15-4.08-3.21,低-高-低-低,3.29%-0.73%-1.69%-21.32%,37.0,16.82,Opendoor Technologies,1D,,
+2026-10-06 00:00:00,Long,HYDB,44.96,0.39%,44.68,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares High Yield Systematic Bond ETF,1D,200.0,-0.98
+2026-10-06 00:00:00,Long,HYDB,44.96,0.39%,44.68,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares High Yield Systematic Bond ETF,1D,200.0,-0.98
+2026-10-06 00:00:00,Long,REMX,63.81,0.42%,61.63,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,VanEck Rare Earth and Strategic Metals ETF,1D,200.0,-25.64
+2026-10-06 00:00:00,Long,REMX,63.81,0.42%,61.63,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,VanEck Rare Earth and Strategic Metals ETF,1D,200.0,-25.64
+2026-10-06 00:00:00,Long,FXI,33.65,-0.58%,33.09,mfa,参数一,"{""mfa"": {""mfa_all"": 19}}",,,,,,,iShares China Large-Cap ETF,1D,200.0,-6.59
+2026-10-06 00:00:00,Long,FXI,33.65,-0.58%,33.09,mfa,参数二,"{""mfa"": {""mfa_all"": 19}}",,,,,,,iShares China Large-Cap ETF,1D,200.0,-6.59
+2026-10-06 00:00:00,Long,INDA,46.79,0.47%,46.27,mfa,参数一,"{""mfa"": {""mfa_all"": 19}}",,,,,,,iShares MSCI India ETF,1D,200.0,-6.03
+2026-10-06 00:00:00,Long,INDA,46.79,0.47%,46.27,mfa,参数二,"{""mfa"": {""mfa_all"": 19}}",,,,,,,iShares MSCI India ETF,1D,200.0,-6.03
+2026-10-06 00:00:00,Long,USHY,35.71,0.48%,35.48,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Broad USD High Yield Corporate Bond ETF,1D,200.0,-0.54
+2026-10-06 00:00:00,Long,USHY,35.71,0.48%,35.48,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Broad USD High Yield Corporate Bond ETF,1D,200.0,-0.54
+2026-10-06 00:00:00,Long,SHY,81.14,0.08%,80.99,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,iShares 1-3 Year Treasury Bond ETF,1D,,
+2026-10-06 00:00:00,Long,IJH,74.14,0.62%,73.06,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,iShares Core S&P MidCap ETF,1D,,
+2026-10-06 00:00:00,Long,URA,41.99,4.48%,39.38,mfa,参数一,"{""mfa"": {""mfa_all"": 9}}",,,,,,,Global X Uranium ETF,1D,200.0,-12.63
+2026-10-06 00:00:00,Long,URA,41.99,4.48%,39.38,mfa,参数二,"{""mfa"": {""mfa_all"": 9}}",,,,,,,Global X Uranium ETF,1D,200.0,-12.63
+2026-10-06 00:00:00,Long,IEF,89.24,0.36%,88.51,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares 7-10 Year Treasury Bond ETF,1D,200.0,-3.83
+2026-10-06 00:00:00,Long,IEF,89.24,0.36%,88.51,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares 7-10 Year Treasury Bond ETF,1D,200.0,-3.83
+2026-10-06 00:00:00,Long,SYSB,84.06,0.30%,83.5,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Systematic Bond ETF,1D,200.0,-3.02
+2026-10-06 00:00:00,Long,SYSB,84.06,0.30%,83.5,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Systematic Bond ETF,1D,200.0,-3.02
+2026-10-06 00:00:00,Long,CAT,863.85,1.85%,827.24,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,Caterpillar,1D,,
+2026-10-06 00:00:00,Long,NIKL,13.44,0.61%,13.09,mfa,参数一,"{""mfa"": {""mfa_all"": 7}}",,,,,,,Sprott Nickel Miners ETF,1D,200.0,-14.6
+2026-10-06 00:00:00,Long,NIKL,13.44,0.61%,13.09,mfa,参数二,"{""mfa"": {""mfa_all"": 7}}",,,,,,,Sprott Nickel Miners ETF,1D,200.0,-14.6
+2026-10-06 00:00:00,Long,HYG,77.31,0.42%,76.83,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iBoxx $ High Yield Corporate Bond ETF,1D,200.0,-0.76
+2026-10-06 00:00:00,Long,HYG,77.31,0.42%,76.83,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iBoxx $ High Yield Corporate Bond ETF,1D,200.0,-0.76
+2026-10-06 00:00:00,Long,BRTR,47.76,0.27%,47.47,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Total Return Active ETF,1D,200.0,-2.81
+2026-10-06 00:00:00,Long,BRTR,47.76,0.27%,47.47,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Total Return Active ETF,1D,200.0,-2.81
+2026-10-06 00:00:00,Long,IGEB,42.8,0.39%,42.48,mfa,参数一,"{""mfa"": {""mfa_all"": 20}}",,,,,,,iShares Investment Grade Systematic Bond ETF,1D,200.0,-2.57
+2026-10-06 00:00:00,Long,IGEB,42.8,0.39%,42.48,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Investment Grade Systematic Bond ETF,1D,200.0,-2.57
+2026-10-06 00:00:00,Long,IGEB,42.8,0.39%,42.48,mfa,参数二,"{""mfa"": {""mfa_all"": 20}}",,,,,,,iShares Investment Grade Systematic Bond ETF,1D,200.0,-2.57
+2026-10-06 00:00:00,Long,IGEB,42.8,0.39%,42.48,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Investment Grade Systematic Bond ETF,1D,200.0,-2.57
+2026-10-06 00:00:00,Long,PRIM,86.73,7.65%,77.39,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,174.0-205.11-135.41-92.15-79.85,高-低-低-低,17.88%-33.98%-31.95%-13.34%,13.0,14.04,Primoris Services,1D,,
+2026-10-06 00:00:00,Long,NKE,34.46,1.47%,32.36,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Nike,1D,200.0,-27.56
+2026-10-06 00:00:00,Long,NKE,34.46,1.47%,32.36,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Nike,1D,200.0,-27.56
+2026-10-06 00:00:00,Long,PEP,127.08,1.14%,123.56,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,PepsiCo,1D,200.0,-11.97
+2026-10-06 00:00:00,Long,PEP,127.08,1.14%,123.56,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,PepsiCo,1D,200.0,-11.97
+2026-10-06 00:00:00,Long,TEL,222.04,1.42%,215.14,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,243.11-250.61-215.81-222.89-221.12,高-低-高-低,3.09%-13.89%-3.28%-0.80%,39.0,11.3,TE Connectivity,1D,,
+2026-10-06 00:00:00,Long,TEL,222.04,1.42%,215.14,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,240.42-243.11-250.61-222.89-221.12,高-高-低-低,1.12%-3.09%-11.06%-0.80%,39.0,11.3,TE Connectivity,1D,,
+2026-10-06 00:00:00,Long,BRHY,49.34,0.35%,49.14,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares High Yield Active ETF,1D,200.0,-0.79
+2026-10-06 00:00:00,Long,BRHY,49.34,0.35%,49.14,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares High Yield Active ETF,1D,200.0,-0.79
+2026-10-06 00:00:00,Long,IBM,223.09,0.68%,216.0,mfa,参数一,"{""mfa"": {""mfa_all"": 9}}",,,,,,,IBM,1D,200.0,-11.47
+2026-10-06 00:00:00,Long,IBM,223.09,0.68%,216.0,mfa,参数二,"{""mfa"": {""mfa_all"": 9}}",,,,,,,IBM,1D,200.0,-11.47
+2026-10-06 00:00:00,Long,EUHY,52.22,0.76%,51.97,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,iShares Euro High Yield Corporate Bond USD Hedged ETF,1D,,
+2026-10-06 00:00:00,Long,FLHY,23.42,0.41%,23.27,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Franklin High Yield Corporate ETF,1D,200.0,-0.59
+2026-10-06 00:00:00,Long,FLHY,23.42,0.41%,23.27,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Franklin High Yield Corporate ETF,1D,200.0,-0.59
+2026-10-06 00:00:00,Long,TIP,104.25,0.26%,103.57,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares TIPS Bond ETF,1D,200.0,-2.58
+2026-10-06 00:00:00,Long,TIP,104.25,0.26%,103.57,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares TIPS Bond ETF,1D,200.0,-2.58
+2026-10-06 00:00:00,Long,AGG,94.4,0.29%,93.76,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Core US Aggregate Bond ETF,1D,200.0,-2.65
+2026-10-06 00:00:00,Long,AGG,94.4,0.29%,93.76,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Core US Aggregate Bond ETF,1D,200.0,-2.65
+2026-10-06 00:00:00,Long,CSCO,114.52,1.51%,110.75,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,Cisco Systems,1D,,
+2026-10-06 00:00:00,Long,CSCO,114.52,1.51%,110.75,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,Cisco Systems,1D,,
+2026-10-06 00:00:00,Long,HD,285.63,1.59%,275.78,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Home Depot,1D,200.0,-14.48
+2026-10-06 00:00:00,Long,HD,285.63,1.59%,275.78,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Home Depot,1D,200.0,-14.48
+2026-10-06 00:00:00,Long,LEMB,42.41,0.47%,42.13,mfa,参数一,"{""mfa"": {""mfa_all"": 10}}",,,,,,,iShares J.P. Morgan EM Local Currency Bond ETF,1D,200.0,0.51
+2026-10-06 00:00:00,Long,LEMB,42.41,0.47%,42.13,mfa,参数二,"{""mfa"": {""mfa_all"": 10}}",,,,,,,iShares J.P. Morgan EM Local Currency Bond ETF,1D,200.0,0.51
+2026-10-06 00:00:00,Long,NBIS,252.76,8.68%,220.75,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,Nebius Group,1D,,
+2026-10-06 00:00:00,Long,WCC,386.92,2.61%,364.63,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,nan-318.13-376.8-370.53-384.81,低-高-低-高,nan%-18.44%-1.66%-3.85%,42.0,17.55,WESCO International,1D,,
+2026-10-06 00:00:00,Long,WCC,386.92,2.61%,364.63,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,nan-318.13-376.8-384.81,低-高-高,nan%-18.44%-2.13%,42.0,17.55,WESCO International,1D,,
+2026-10-06 00:00:00,Long,EXTR,24.06,3.13%,22.54,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,Extreme Networks,1D,,
+2026-10-06 00:00:00,Long,EFV,79.13,0.73%,77.99,mfa,参数一,"{""mfa"": {""mfa_all"": 13}}",,,,,,,iShares MSCI EAFE Value ETF,1D,200.0,3.7
+2026-10-06 00:00:00,Long,EFV,79.13,0.73%,77.99,mfa,参数二,"{""mfa"": {""mfa_all"": 13}}",,,,,,,iShares MSCI EAFE Value ETF,1D,200.0,3.7
+2026-10-06 00:00:00,Long,WEN,6.29,3.05%,5.81,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Wendy's,1D,200.0,-14.63
+2026-10-06 00:00:00,Long,WEN,6.29,3.05%,5.81,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Wendy's,1D,200.0,-14.63
+2026-10-06 00:00:00,Long,VST,158.76,9.57%,145.6,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,167.98-166.89-171.07-169.48-154.65,低-高-低-低,0.65%-2.50%-0.93%-8.75%,20.0,15.89,Vistra,1D,,
+2026-10-06 00:00:00,Long,DGRW,99.38,0.59%,98.39,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,WisdomTree US Quality Dividend Growth Fund,1D,,
+2026-10-06 00:00:00,Long,LOW,182.43,1.64%,175.45,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Lowe's,1D,200.0,-20.42
+2026-10-06 00:00:00,Long,LOW,182.43,1.64%,175.45,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Lowe's,1D,200.0,-20.42
+2026-10-06 00:00:00,Long,BWET,947.04,6.41%,862.69,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-179.9-216.5-275.0,低-高-高,nan%-20.34%-27.02%,59.0,23.86,Breakwave Tanker Shipping ETF,1D,,
+2026-10-06 00:00:00,Long,IEFA,97.56,0.45%,96.22,mfa,参数一,"{""mfa"": {""mfa_all"": 9}}",,,,,,,iShares Core MSCI EAFE ETF,1D,200.0,2.83
+2026-10-06 00:00:00,Long,IEFA,97.56,0.45%,96.22,mfa,参数二,"{""mfa"": {""mfa_all"": 9}}",,,,,,,iShares Core MSCI EAFE ETF,1D,200.0,2.83
+2026-10-06 00:00:00,Long,MTSI,347.32,5.79%,317.93,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,nan-258.98-418.9-401.69-330.99,低-高-低-低,nan%-61.75%-4.11%-17.60%,35.0,40.47,MACOM Technology Solutions Holdings,1D,,
+2026-10-06 00:00:00,Long,IGV,111.53,1.65%,108.24,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-88.56-108.04-96.2-110.57,低-高-低-高,nan%-21.99%-10.96%-14.94%,25.0,9.92,iShares Expanded Tech-Software ETF,1D,,
+2026-10-06 00:00:00,Long,IGV,111.53,1.65%,108.24,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,nan-88.56-108.04-96.2-110.57,低-高-低-高,nan%-21.99%-10.96%-14.94%,25.0,9.92,iShares Expanded Tech-Software ETF,1D,,
+2026-10-06 00:00:00,Long,EFA,104.6,0.55%,103.12,mfa,参数一,"{""mfa"": {""mfa_all"": 15}}",,,,,,,iShares MSCI EAFE ETF,1D,200.0,2.81
+2026-10-06 00:00:00,Long,EFA,104.6,0.55%,103.12,mfa,参数二,"{""mfa"": {""mfa_all"": 15}}",,,,,,,iShares MSCI EAFE ETF,1D,200.0,2.81
+2026-10-06 00:00:00,Long,AMD,657.28,4.04%,604.05,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-266.96-584.73,低-高,nan%-119.03%,68.0,37.9,AMD,1D,,
+2026-10-06 00:00:00,Long,BINC,50.7,0.21%,50.52,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Flexible Income Active ETF,1D,200.0,-0.75
+2026-10-06 00:00:00,Long,BINC,50.7,0.21%,50.52,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,iShares Flexible Income Active ETF,1D,200.0,-0.75
+2026-10-06 00:00:00,Long,PAVE,54.73,1.15%,53.46,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,Global X US Infrastructure Development ETF,1D,,
+2026-10-06 00:00:00,Long,CLOI,52.81,0.03%,52.74,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-51.29,低,nan%,156.0,0.8,VanEck CLO ETF,1D,,
+2026-10-06 00:00:00,Long,ENPH,33.36,-0.27%,31.32,mfa,参数一,"{""mfa"": {""mfa_all"": 24}}",,,,,,,Enphase Energy,1D,200.0,-19.12
+2026-10-06 00:00:00,Long,ENPH,33.36,-0.27%,31.32,mfa,参数二,"{""mfa"": {""mfa_all"": 24}}",,,,,,,Enphase Energy,1D,200.0,-19.12
+2026-10-06 00:00:00,Long,DYNF,70.83,0.65%,69.95,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-62.0-70.37,低-高,nan%-13.49%,37.0,3.48,iShares US Equity Factor Rotation Active ETF,1D,,
+2026-10-06 00:00:00,Long,AVGO,377.48,4.13%,352.97,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,Broadcom,1D,,
+2026-10-06 00:00:00,Long,AVGO,377.48,4.13%,352.97,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,Broadcom,1D,,
+2026-10-06 00:00:00,Long,APH,89.87,2.98%,85.68,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,76.64-71.76-77.49-89.12-88.03,低-高-高-低,6.36%-7.98%-15.01%-1.23%,42.0,16.39,Amphenol,1D,,
+2026-10-06 00:00:00,Long,APH,89.87,2.98%,85.68,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,83.1-76.64-77.49-89.12-88.03,低-高-高-低,7.78%-1.11%-15.01%-1.23%,42.0,16.39,Amphenol,1D,,
+2026-10-06 00:00:00,Long,CEG,302.5,13.03%,278.08,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",,,,,,,Constellation Energy,1D,200.0,5.62
+2026-10-06 00:00:00,Long,CEG,302.5,13.03%,278.08,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",,,,,,,Constellation Energy,1D,200.0,5.62
+2026-10-06 00:00:00,Long,CRWD,282.53,3.62%,264.72,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,121.64-121.8-113.0-196.41-217.5,高-低-高-高,0.13%-7.22%-73.82%-10.73%,58.0,24.9,CrowdStrike,1D,,
+2026-10-06 00:00:00,Long,AUR,5.72,-0.61%,5.29,mfa,参数一,"{""mfa"": {""mfa_all"": 7}}",,,,,,,Aurora Innovation,1D,200.0,2.92
+2026-10-06 00:00:00,Long,AUR,5.72,-0.61%,5.29,mfa,参数二,"{""mfa"": {""mfa_all"": 7}}",,,,,,,Aurora Innovation,1D,200.0,2.92
+2026-10-06 00:00:00,Long,LI,10.81,-0.38%,10.38,mfa,参数一,"{""mfa"": {""mfa_all"": 25}}",,,,,,,Li Auto,1D,200.0,-29.47
+2026-10-06 00:00:00,Long,LI,10.81,-0.38%,10.38,mfa,参数二,"{""mfa"": {""mfa_all"": 25}}",,,,,,,Li Auto,1D,200.0,-29.47
+2026-10-06 00:00:00,Long,VNQ,90.11,1.08%,88.07,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Vanguard Real Estate ETF,1D,200.0,-2.87
+2026-10-06 00:00:00,Long,VNQ,90.11,1.08%,88.07,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",,,,,,,Vanguard Real Estate ETF,1D,200.0,-2.87
+2026-10-06 00:00:00,Long,MYRG,325.95,7.70%,301.74,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,MYR Group,1D,,
+2026-10-06 00:00:00,Long,MYRG,325.95,7.70%,301.74,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,MYR Group,1D,,
