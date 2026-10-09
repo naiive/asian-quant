@@ -121,6 +121,10 @@
             "name": "百事可乐"
         },
         {
+            "code": "ACNSTOCK",
+            "name": "ACNSTOCK"
+        },
+        {
             "code": "UNH",
             "name": "联合健康"
         },
@@ -1257,16 +1261,56 @@
             "name": "OURA"
         },
         {
-            "code": "WBD",
-            "name": "WBD"
-        },
-        {
             "code": "URNM",
             "name": "NORTHSHORE GLOBAL URANIUM MINING ETF"
         },
         {
             "code": "POLYMARKET",
             "name": "POLYMARKET"
+        },
+        {
+            "code": "TWST",
+            "name": "TWST"
+        },
+        {
+            "code": "CVNA",
+            "name": "Carvana Co."
+        },
+        {
+            "code": "CRML",
+            "name": "CRML"
+        },
+        {
+            "code": "BWET",
+            "name": "BWET"
+        },
+        {
+            "code": "KOD",
+            "name": "KOD"
+        },
+        {
+            "code": "RUM",
+            "name": "RUM"
+        },
+        {
+            "code": "AKAM",
+            "name": "阿克迈"
+        },
+        {
+            "code": "USDESTOCK",
+            "name": "USDESTOCK"
+        },
+        {
+            "code": "VKTX",
+            "name": "VKTX"
+        },
+        {
+            "code": "PCVX",
+            "name": "PCVX"
+        },
+        {
+            "code": "XP",
+            "name": "XP"
         }
     ]
 }
