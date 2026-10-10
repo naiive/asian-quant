@@ -1,0 +1,75 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,SMA,相距SMA,名称,周期,释放类型,支撑压力价格,支撑压力趋势,支撑压力涨幅,区间K线数量,区间K线振幅
+2026-10-09 00:00:00,Long,GS,895.32,1.44%,856.72,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-6.02,Goldman Sachs,1D,,,,,,
+2026-10-09 00:00:00,Long,GS,895.32,1.44%,856.72,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-6.02,Goldman Sachs,1D,,,,,,
+2026-10-09 00:00:00,Long,UNH,379.3,2.25%,363.66,mfa,参数一,"{""mfa"": {""mfa_all"": 23}}",200.0,7.18,UnitedHealth,1D,,,,,,
+2026-10-09 00:00:00,Long,UNH,379.3,2.25%,363.66,mfa,参数二,"{""mfa"": {""mfa_all"": 23}}",200.0,7.18,UnitedHealth,1D,,,,,,
+2026-10-09 00:00:00,Short,SKHY,169.03,-0.86%,181.82,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,SK Hynix,1D,,,,,,
+2026-10-09 00:00:00,Long,PG,151.23,0.42%,147.5,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Procter & Gamble,1D,压力释放,nan-164.77-151.29-153.68-148.36,低-低-高-低,nan%-8.18%-1.58%-3.46%,27.0,4.58
+2026-10-09 00:00:00,Long,MRNA,225.0,14.21%,181.98,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Moderna,1D,一直释放,59.55-56.2-59.48-85.6-176.66,低-高-高-高,5.63%-5.84%-43.91%-106.38%,36.0,54.34
+2026-10-09 00:00:00,Long,GME,26.56,5.06%,23.92,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,GameStop,1D,一直释放,25.93-25.0-26.88-23.68-23.11,低-高-低-低,3.59%-7.52%-11.90%-2.41%,69.0,29.9
+2026-10-09 00:00:00,Long,GD,331.27,0.90%,320.69,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-5.78,General Dynamics,1D,,,,,,
+2026-10-09 00:00:00,Long,GD,331.27,0.90%,320.69,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-5.78,General Dynamics,1D,,,,,,
+2026-10-09 00:00:00,Short,SMR,7.2,-1.64%,7.97,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,NuScale Power,1D,一直释放,8.85-9.66-9.12-7.21-8.53,高-低-低-高,9.21%-5.64%-20.94%-18.31%,36.0,33.29
+2026-10-09 00:00:00,Long,SHLD,59.87,1.15%,58.23,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-11.64,Global X Defense Tech ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,SHLD,59.87,1.15%,58.23,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-11.64,Global X Defense Tech ETF,1D,,,,,,
+2026-10-09 00:00:00,Short,PURR,11.11,-1.68%,12.52,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Hyperliquid Strategies,1D,,,,,,
+2026-10-09 00:00:00,Short,TMUS,148.58,-13.27%,162.43,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,T-Mobile US,1D,一直释放,178.49-179.99-173.02-164.71-168.71,高-低-低-高,0.84%-3.87%-4.80%-2.43%,49.0,12.54
+2026-10-09 00:00:00,Long,WFC,83.55,1.85%,79.7,mfa,参数一,"{""mfa"": {""mfa_all"": 14}}",200.0,-0.31,Wells Fargo,1D,,,,,,
+2026-10-09 00:00:00,Long,WFC,83.55,1.85%,79.7,mfa,参数二,"{""mfa"": {""mfa_all"": 14}}",200.0,-0.31,Wells Fargo,1D,,,,,,
+2026-10-09 00:00:00,Long,CPNG,15.82,2.66%,14.98,mfa,参数一,"{""mfa"": {""mfa_all"": 24}}",200.0,-11.69,Coupang,1D,,,,,,
+2026-10-09 00:00:00,Long,CPNG,15.82,2.66%,14.98,mfa,参数二,"{""mfa"": {""mfa_all"": 24}}",200.0,-11.69,Coupang,1D,,,,,,
+2026-10-09 00:00:00,Short,RGTI,14.03,-0.78%,15.22,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Rigetti Computing,1D,支撑释放,nan-14.78-12.53-13.13-14.41,低-低-高-高,nan%-15.25%-4.79%-9.75%,17.0,22.55
+2026-10-09 00:00:00,Short,RDW,9.58,-1.84%,10.62,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Redwire,1D,支撑释放,7.53-7.43-8.3-7.76-10.14,低-高-低-高,1.26%-11.71%-6.51%-30.67%,26.0,19.03
+2026-10-09 00:00:00,Long,CLF,12.98,6.48%,11.58,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Cleveland-Cliffs,1D,,,,,,
+2026-10-09 00:00:00,Long,CLF,12.98,6.48%,11.58,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Cleveland-Cliffs,1D,,,,,,
+2026-10-09 00:00:00,Long,ARGT,88.56,0.40%,86.23,mfa,参数一,"{""mfa"": {""mfa_all"": 11}}",200.0,-4.06,Global X MSCI Argentina ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,ARGT,88.56,0.40%,86.23,mfa,参数二,"{""mfa"": {""mfa_all"": 11}}",200.0,-4.06,Global X MSCI Argentina ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,HTZ,1.92,-2.04%,1.7,mfa,参数一,"{""mfa"": {""mfa_all"": 13}}",200.0,-52.35,Hertz Global Holdings,1D,,,,,,
+2026-10-09 00:00:00,Long,HTZ,1.92,-2.04%,1.7,mfa,参数二,"{""mfa"": {""mfa_all"": 13}}",200.0,-52.35,Hertz Global Holdings,1D,,,,,,
+2026-10-09 00:00:00,Long,BZ,15.73,3.62%,14.86,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Kanzhun,1D,,,,,,
+2026-10-09 00:00:00,Long,SNAP,6.23,6.31%,5.67,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Snap,1D,压力释放,5.52-6.36-6.19-5.82-6.07,高-低-低-高,15.13%-2.60%-5.98%-4.30%,18.0,17.29
+2026-10-09 00:00:00,Long,SNAP,6.23,6.31%,5.67,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Snap,1D,压力释放,9.07-5.52-6.36-6.19-6.07,低-高-低-低,39.14%-15.13%-2.60%-1.94%,18.0,17.29
+2026-10-09 00:00:00,Short,SBET,8.59,-2.50%,9.54,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,"SharpLink Gaming, Inc",1D,,,,,,
+2026-10-09 00:00:00,Long,APO,118.65,2.91%,111.23,mfa,参数一,"{""mfa"": {""mfa_all"": 12}}",200.0,-5.13,Apollo Global Management,1D,,,,,,
+2026-10-09 00:00:00,Long,APO,118.65,2.91%,111.23,mfa,参数二,"{""mfa"": {""mfa_all"": 12}}",200.0,-5.13,Apollo Global Management,1D,,,,,,
+2026-10-09 00:00:00,Long,NTES,124.24,3.88%,119.87,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,NetEase,1D,,,,,,
+2026-10-09 00:00:00,Long,NTES,124.24,3.88%,119.87,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,NetEase,1D,,,,,,
+2026-10-09 00:00:00,Long,JD,27.09,0.67%,26.33,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,JD.com,1D,,,,,,
+2026-10-09 00:00:00,Short,HIVE,2.5,-2.34%,2.81,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,HIVE Digital Technologies,1D,一直亮红,nan-1.73-2.53,低-高,nan%-46.24%,51.0,42.29
+2026-10-09 00:00:00,Long,PALL,20.77,1.37%,20.12,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-21.96,abrdn Physical Palladium Shares ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,PALL,20.77,1.37%,20.12,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-21.96,abrdn Physical Palladium Shares ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,MA,589.14,2.66%,563.88,mfa,参数一,"{""mfa"": {""mfa_all"": 14}}",200.0,11.05,Mastercard,1D,,,,,,
+2026-10-09 00:00:00,Long,MA,589.14,2.66%,563.88,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Mastercard,1D,,,,,,
+2026-10-09 00:00:00,Long,MA,589.14,2.66%,563.88,mfa,参数二,"{""mfa"": {""mfa_all"": 14}}",200.0,11.05,Mastercard,1D,,,,,,
+2026-10-09 00:00:00,Long,CVNA,63.73,0.84%,59.93,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",200.0,-10.6,Carvana,1D,,,,,,
+2026-10-09 00:00:00,Long,CVNA,63.73,0.84%,59.93,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",200.0,-10.6,Carvana,1D,,,,,,
+2026-10-09 00:00:00,Long,PLTR,209.05,5.17%,191.63,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Palantir Technologies,1D,一直释放,161.45-162.4-163.7-138.9-188.37,高-高-低-高,0.59%-0.80%-15.15%-35.62%,29.0,14.48
+2026-10-09 00:00:00,Short,SWKS,76.35,-5.45%,84.33,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Skyworks Solutions,1D,,,,,,
+2026-10-09 00:00:00,Short,SWKS,76.35,-5.45%,84.33,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Skyworks Solutions,1D,,,,,,
+2026-10-09 00:00:00,Long,VTV,220.59,0.44%,217.77,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Vanguard Value ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,OII,44.81,0.52%,42.98,mfa,参数一,"{""mfa"": {""mfa_all"": 20}}",200.0,14.69,Oceaneering International,1D,,,,,,
+2026-10-09 00:00:00,Long,OII,44.81,0.52%,42.98,mfa,参数二,"{""mfa"": {""mfa_all"": 20}}",200.0,14.69,Oceaneering International,1D,,,,,,
+2026-10-09 00:00:00,Long,HII,264.8,-0.08%,255.99,mfa,参数一,"{""mfa"": {""mfa_all"": 20}}",200.0,-22.08,Huntington Ingalls Industries,1D,,,,,,
+2026-10-09 00:00:00,Long,HII,264.8,-0.08%,255.99,mfa,参数二,"{""mfa"": {""mfa_all"": 20}}",200.0,-22.08,Huntington Ingalls Industries,1D,,,,,,
+2026-10-09 00:00:00,Long,BNO,63.99,0.55%,61.22,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,US Brent Oil Fund,1D,压力释放,nan-55.66-60.81-54.41-63.98,低-高-低-高,nan%-9.25%-10.52%-17.59%,18.0,11.5
+2026-10-09 00:00:00,Short,T,22.18,-9.81%,23.74,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,AT&T,1D,一直释放,24.34-23.27-19.41-22.3-24.52,低-低-高-高,4.37%-16.60%-14.89%-9.98%,22.0,8.59
+2026-10-09 00:00:00,Long,PINS,21.4,4.24%,19.76,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Pinterest,1D,,,,,,
+2026-10-09 00:00:00,Long,INDA,46.03,1.03%,45.42,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-7.33,iShares MSCI India ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,INDA,46.03,1.03%,45.42,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-7.33,iShares MSCI India ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,KWEB,24.93,3.79%,24.04,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,KraneShares CSI China Internet ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,DNN,2.43,2.97%,2.23,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-28.19,Denison Mines,1D,,,,,,
+2026-10-09 00:00:00,Long,DNN,2.43,2.97%,2.23,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-28.19,Denison Mines,1D,,,,,,
+2026-10-09 00:00:00,Long,ITA,206.65,0.86%,200.2,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-10.14,iShares US Aerospace and Defense ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,ITA,206.65,0.86%,200.2,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-10.14,iShares US Aerospace and Defense ETF,1D,,,,,,
+2026-10-09 00:00:00,Long,DIS,108.05,0.96%,105.02,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Disney,1D,,,,,,
+2026-10-09 00:00:00,Long,SPGI,407.82,1.26%,394.0,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",200.0,-3.0,S&P Global,1D,,,,,,
+2026-10-09 00:00:00,Long,SPGI,407.82,1.26%,394.0,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",200.0,-3.0,S&P Global,1D,,,,,,
+2026-10-09 00:00:00,Long,BAC,54.32,1.32%,52.32,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-0.89,Bank of America,1D,,,,,,
+2026-10-09 00:00:00,Long,BAC,54.32,1.32%,52.32,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-0.89,Bank of America,1D,,,,,,
+2026-10-09 00:00:00,Long,APP,277.04,-1.10%,261.21,mfa,参数一,"{""mfa"": {""mfa_all"": 8}}",200.0,-37.85,AppLovin,1D,,,,,,
+2026-10-09 00:00:00,Long,APP,277.04,-1.10%,261.21,mfa,参数二,"{""mfa"": {""mfa_all"": 8}}",200.0,-37.85,AppLovin,1D,,,,,,
+2026-10-09 00:00:00,Long,V,385.45,2.76%,368.95,mfa,参数一,"{""mfa"": {""mfa_all"": 7}}",200.0,14.29,Visa,1D,,,,,,
+2026-10-09 00:00:00,Long,V,385.45,2.76%,368.95,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Visa,1D,,,,,,
+2026-10-09 00:00:00,Long,V,385.45,2.76%,368.95,mfa,参数二,"{""mfa"": {""mfa_all"": 7}}",200.0,14.29,Visa,1D,,,,,,
+2026-10-09 00:00:00,Long,NFLX,70.3,-1.77%,68.34,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",200.0,-15.76,Netflix,1D,,,,,,
+2026-10-09 00:00:00,Long,NFLX,70.3,-1.77%,68.34,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",200.0,-15.76,Netflix,1D,,,,,,
