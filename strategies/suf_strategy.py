@@ -8,7 +8,6 @@ from conf.config import STRATEGY_CONFIG
 from indicators.surf_indicator import surf_indicator
 
 def run_strategy(df, symbol):
-    tf = None
     if STRATEGY_CONFIG.get("CN_INTERVAL") == "daily":
         tf = "d"
     elif STRATEGY_CONFIG.get("CN_INTERVAL") == "weekly":
