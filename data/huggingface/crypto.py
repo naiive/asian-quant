@@ -49,14 +49,14 @@ CONFIG = {
                 "enabled": True,
                 "desc": "sqz策略",
                 "icon": "🎯",
-                "intervals": ["15M", "1H", "4H", "1D"]
+                "intervals": ["1H", "4H", "1D"]
             },
             "utb": {
                 "handler": "_run_utb_strategy",
                 "enabled": True,
                 "desc": "utb策略",
                 "icon": "🐮",
-                "intervals": ["4H", "1D"]
+                "intervals": ["1H", "4H", "1D"]
             },
             "rsi": {
                 "handler": "_run_rsi_strategy",
