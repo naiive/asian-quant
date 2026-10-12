@@ -149,7 +149,7 @@ def _run_single_utb(df, symbol, p):
 
         parameters = {
             "utb": {"key_value": p["key_value"], "atr_period": p["atr_period"], "use_ha": p["use_ha"]},
-            "r&s": {"srb_left": p["srb_left"], "srb_right": p["srb_right"]},
+            "stc": {"stc_length": p["stc_length"], "stc_fast_length": p["stc_fast_length"], "stc_slow_length": p["stc_slow_length"], "stc_factor": p["stc_factor"]},
             "atr": {"atr_length": p["atr_length"], "atr_mult": p["atr_mult"]}
         }
 

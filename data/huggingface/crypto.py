@@ -1577,12 +1577,15 @@ class StrategyEngine:
 
         cur_row = df.iloc[-1]
 
-        utb_signal = cur_row['utb_signal']
+        cond_buy = cur_row['utb_signal'] == 'buy'
+        stc_buy = cur_row['stc'] < 25 and cur_row['stc_trend'] == 'bull'
+        cond_sell = cur_row['utb_signal'] == 'sell'
+        stc_sell = cur_row['stc'] > 75 and cur_row['stc_trend'] == 'bear'
 
         signal = "no"
-        if utb_signal == 'buy':
+        if cond_buy and stc_buy:
             signal = "long"
-        elif utb_signal == 'sell':
+        elif cond_sell and stc_sell:
             signal = "short"
 
         return {
