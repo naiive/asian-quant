@@ -9,8 +9,8 @@ from indicators.stc_indicator import stc_indicator
 def run_strategy(df, symbol):
     param_sets = [
         {
-            "label": "utb",
-            "key_value": 3,
+            "label": "utb_stc",
+            "key_value": 2.4,
             "atr_period": 14,
             "use_ha": False,
             # stc_indicator
