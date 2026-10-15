@@ -1311,6 +1311,54 @@
         {
             "code": "XP",
             "name": "XP"
+        },
+        {
+            "code": "CEG",
+            "name": "CEG"
+        },
+        {
+            "code": "SBUX",
+            "name": "星巴克"
+        },
+        {
+            "code": "LEN",
+            "name": "莱纳建筑公司"
+        },
+        {
+            "code": "HD",
+            "name": "家得宝"
+        },
+        {
+            "code": "KAKAO",
+            "name": "KAKAO"
+        },
+        {
+            "code": "KBFG",
+            "name": "KBFG"
+        },
+        {
+            "code": "SSBIOLOGICS",
+            "name": "SSBIOLOGICS"
+        },
+        {
+            "code": "LGENERGY",
+            "name": "LGENERGY"
+        },
+        {
+            "code": "KIA",
+            "name": "KIA"
+        },
+        {
+            "code": "SNPS",
+            "name": "新思科技"
+        },
+        {
+            "code": "ZCSH",
+            "name": "ZCSH"
+        },
+        {
+            "code": "JIO",
+            "name": "JIO"
         }
     ]
 }

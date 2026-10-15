@@ -1,0 +1,47 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,SMA,相距SMA,名称,周期,释放类型,支撑压力价格,支撑压力趋势,支撑压力涨幅,区间K线数量,区间K线振幅
+2026-10-12 00:00:00,Long,MCD,235.81,0.25%,221.95,mfa,参数一,"{""mfa"": {""mfa_all"": 25}}",200.0,-14.3,McDonald's,1WK,,,,,,
+2026-10-12 00:00:00,Long,MCD,235.81,0.25%,221.95,mfa,参数二,"{""mfa"": {""mfa_all"": 25}}",200.0,-14.3,McDonald's,1WK,,,,,,
+2026-10-12 00:00:00,Long,TLT,78.37,0.50%,76.23,mfa,参数一,"{""mfa"": {""mfa_all"": 24}}",200.0,-7.16,iShares 20+ Year Treasury Bond ETF,1WK,,,,,,
+2026-10-12 00:00:00,Long,TLT,78.37,0.50%,76.23,mfa,参数二,"{""mfa"": {""mfa_all"": 24}}",200.0,-7.16,iShares 20+ Year Treasury Bond ETF,1WK,,,,,,
+2026-10-12 00:00:00,Long,IYW,267.31,-0.63%,254.15,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,iShares US Technology ETF,1WK,压力释放,113.17-158.4-166.88-211.74-260.88,高-高-高-高,39.96%-5.36%-26.88%-23.21%,19.0,14.88
+2026-10-12 00:00:00,Long,TCOM,38.75,-0.39%,35.49,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",200.0,-23.05,Trip.com Group,1WK,,,,,,
+2026-10-12 00:00:00,Long,TCOM,38.75,-0.39%,35.49,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",200.0,-23.05,Trip.com Group,1WK,,,,,,
+2026-10-12 00:00:00,Long,META,762.5,6.10%,673.03,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Meta Platforms,1WK,一直亮绿,323.11-527.01-736.68-793.02-742.09,高-高-高-低,63.11%-39.79%-7.65%-6.42%,37.0,42.88
+2026-10-12 00:00:00,Long,PEP,127.3,1.06%,119.94,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",200.0,-14.29,PepsiCo,1WK,,,,,,
+2026-10-12 00:00:00,Long,PEP,127.3,1.06%,119.94,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",200.0,-14.29,PepsiCo,1WK,,,,,,
+2026-10-12 00:00:00,Long,NIO,3.56,-0.56%,2.96,mfa,参数一,"{""mfa"": {""mfa_all"": 8}}",200.0,-42.39,NIO,1WK,,,,,,
+2026-10-12 00:00:00,Long,NIO,3.56,-0.56%,2.96,mfa,参数二,"{""mfa"": {""mfa_all"": 8}}",200.0,-42.39,NIO,1WK,,,,,,
+2026-10-12 00:00:00,Short,PALL,20.38,-1.88%,22.73,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,abrdn Physical Palladium Shares ETF,1WK,支撑释放,15.7-15.5-16.48-20.9,低-高-高,1.25%-6.28%-26.84%,16.0,27.51
+2026-10-12 00:00:00,Short,TMUS,153.73,3.47%,166.97,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,T-Mobile US,1WK,支撑释放,118.77-201.94-214.69-178.49-164.71,高-高-低-低,70.02%-6.32%-16.86%-7.72%,15.0,20.04
+2026-10-12 00:00:00,Long,TMUS,153.73,3.47%,137.36,mfa,参数一,"{""mfa"": {""mfa_all"": 20}}",200.0,-15.92,T-Mobile US,1WK,,,,,,
+2026-10-12 00:00:00,Long,TMUS,153.73,3.47%,137.36,mfa,参数二,"{""mfa"": {""mfa_all"": 20}}",200.0,-15.92,T-Mobile US,1WK,,,,,,
+2026-10-12 00:00:00,Long,ENB,47.46,1.85%,44.64,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",200.0,21.51,Enbridge,1WK,,,,,,
+2026-10-12 00:00:00,Long,ENB,47.46,1.85%,44.64,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",200.0,21.51,Enbridge,1WK,,,,,,
+2026-10-12 00:00:00,Short,IDEF,30.6,-1.85%,32.55,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,iShares Defense Industrials Active ETF,1WK,一直亮红,nan-28.44-30.76,低-高,nan%-8.14%,12.0,16.79
+2026-10-12 00:00:00,Long,PSQ,24.74,1.02%,23.6,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",200.0,-33.48,ProShares Short QQQ,1WK,,,,,,
+2026-10-12 00:00:00,Long,PSQ,24.74,1.02%,23.6,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",200.0,-33.48,ProShares Short QQQ,1WK,,,,,,
+2026-10-12 00:00:00,Long,KO,90.11,2.34%,85.3,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Coca-Cola,1WK,一直释放,nan-58.7-69.06-71.39,低-高-高,nan%-17.65%-3.38%,77.0,12.15
+2026-10-12 00:00:00,Long,DGRW,99.43,0.58%,97.2,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,WisdomTree US Quality Dividend Growth Fund,1WK,一直释放,nan-65.44-83.57,低-高,nan%-27.71%,101.0,22.14
+2026-10-12 00:00:00,Long,INDA,47.24,2.63%,44.92,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-4.65,iShares MSCI India ETF,1WK,,,,,,
+2026-10-12 00:00:00,Long,INDA,47.24,2.63%,44.92,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-4.65,iShares MSCI India ETF,1WK,,,,,,
+2026-10-12 00:00:00,Long,IBIT,47.13,1.25%,43.46,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,iShares Bitcoin Trust ETF,1WK,一直亮绿,nan-61.75-71.82-46.56,低-高-低,nan%-16.31%-35.17%,22.0,41.78
+2026-10-12 00:00:00,Long,ITA,204.0,-1.28%,192.48,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",200.0,27.16,iShares US Aerospace and Defense ETF,1WK,,,,,,
+2026-10-12 00:00:00,Long,ITA,204.0,-1.28%,192.48,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",200.0,27.16,iShares US Aerospace and Defense ETF,1WK,,,,,,
+2026-10-12 00:00:00,Long,SYSB,84.37,0.11%,83.43,mfa,参数一,"{""mfa"": {""mfa_all"": 6}}",200.0,6.35,iShares Systematic Bond ETF,1WK,,,,,,
+2026-10-12 00:00:00,Long,SYSB,84.37,0.11%,83.43,mfa,参数二,"{""mfa"": {""mfa_all"": 6}}",200.0,6.35,iShares Systematic Bond ETF,1WK,,,,,,
+2026-10-12 00:00:00,Short,CIFR,11.34,-16.12%,17.78,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Cipher Mining,1WK,支撑释放,2.25-2.15-2.65-1.86-11.72,低-高-低-高,4.22%-23.20%-29.94%-530.11%,28.0,157.17
+2026-10-12 00:00:00,Short,GRAB,2.98,-6.58%,3.52,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Grab Holdings,1WK,一直亮红,2.65-2.9-2.98-3.36-3.18,高-高-高-低,9.43%-2.76%-12.75%-5.36%,18.0,27.67
+2026-10-12 00:00:00,Short,SQQQ,33.99,3.14%,39.41,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,ProShares UltraPro Short QQQ,1WK,支撑释放,153.68-118.21-59.67-59.42-35.08,低-低-低-低,23.08%-49.52%-0.42%-40.95%,17.0,39.2
+2026-10-12 00:00:00,Long,SQQQ,33.99,3.14%,28.39,mfa,参数一,"{""mfa"": {""mfa_all"": 153}}",200.0,-85.17,ProShares UltraPro Short QQQ,1WK,,,,,,
+2026-10-12 00:00:00,Long,SQQQ,33.99,3.14%,28.39,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-85.17,ProShares UltraPro Short QQQ,1WK,,,,,,
+2026-10-12 00:00:00,Long,SQQQ,33.99,3.14%,28.39,mfa,参数二,"{""mfa"": {""mfa_all"": 153}}",200.0,-85.17,ProShares UltraPro Short QQQ,1WK,,,,,,
+2026-10-12 00:00:00,Long,SQQQ,33.99,3.14%,28.39,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-85.17,ProShares UltraPro Short QQQ,1WK,,,,,,
+2026-10-12 00:00:00,Long,LOW,188.74,1.47%,172.21,mfa,参数一,"{""mfa"": {""mfa_all"": 22}}",200.0,-14.9,Lowe's,1WK,,,,,,
+2026-10-12 00:00:00,Long,LOW,188.74,1.47%,172.21,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-14.9,Lowe's,1WK,,,,,,
+2026-10-12 00:00:00,Long,LOW,188.74,1.47%,172.21,mfa,参数二,"{""mfa"": {""mfa_all"": 22}}",200.0,-14.9,Lowe's,1WK,,,,,,
+2026-10-12 00:00:00,Long,LOW,188.74,1.47%,172.21,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-14.9,Lowe's,1WK,,,,,,
+2026-10-12 00:00:00,Long,PCG,13.33,1.52%,11.73,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",200.0,-19.67,PG&E,1WK,,,,,,
+2026-10-12 00:00:00,Long,PCG,13.33,1.52%,11.73,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",200.0,-19.67,PG&E,1WK,,,,,,
+2026-10-12 00:00:00,Short,URNM,44.51,-4.28%,51.18,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,Sprott Uranium Miners ETF,1WK,支撑释放,25.58-42.24-34.72-26.7-47.84,高-低-低-高,65.13%-17.81%-23.11%-79.20%,47.0,77.57
+2026-10-12 00:00:00,Long,BRTR,47.93,0.24%,47.42,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",200.0,,iShares Total Return Active ETF,1WK,,,,,,
+2026-10-12 00:00:00,Long,BRTR,47.93,0.24%,47.42,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",200.0,,iShares Total Return Active ETF,1WK,,,,,,
