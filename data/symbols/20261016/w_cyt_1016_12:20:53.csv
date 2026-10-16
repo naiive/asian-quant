@@ -1,0 +1,6 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,释放类型,支撑压力价格,支撑压力趋势,支撑压力涨幅,区间K线数量,区间K线振幅,名称,周期,交易所,SMA,相距SMA
+2026-10-12 08:00:00,Long,TIA-USDT,0.61,4.46%,0.39,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-9.29-0.52,低-低,nan%-94.39%,22.0,88.37,TIA,1W,Binance,,
+2026-10-12 08:00:00,Short,1000RATS-USDT,0.02,-54.83%,0.05,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,1000RATS,1W,Binance,,
+2026-10-12 08:00:00,Short,1000RATS-USDT,0.02,-54.83%,0.05,utb,参数二,"{""utb"": {""key_value"": 3, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,1000RATS,1W,Binance,,
+2026-10-12 08:00:00,Long,NVO-USDT,39.39,1.05%,33.97,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,NVO,1W,Binance,200.0,
+2026-10-12 08:00:00,Long,NVO-USDT,39.39,1.05%,33.97,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,NVO,1W,Binance,200.0,
