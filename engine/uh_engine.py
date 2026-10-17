@@ -24,6 +24,8 @@ def calculate_start_date(interval: str, end_day: str) -> tuple[datetime, datetim
         start = end - timedelta(days=100)
     elif interval == "1wk":
         start = end - timedelta(days=200 * 7)
+    elif interval == "1mo":
+        start = end - timedelta(days=200 * 7)
     else:
         start = end - timedelta(days=300)
 
@@ -141,7 +143,7 @@ def build_stock_pool(cfg: dict) -> list[dict]:
     if test_list:  # 优先：指定标的列表
         test_set = {s.upper() for s in test_list}
         pool = [it for it in pool if it["code"].upper() in test_set]
-        print(f"🧪 测试模式 [LIST]：命中 {len(pool)} 只标的  {test_list}\n")
+        print(f"🧪 测试模式 [LIST]：加载 {len(pool)} 只标的  {test_list}\n")
     elif test_n is not None:  # 次优：随机抽取 N 只
         pool = pool[:test_n]  # 保持顺序，也可换 random.sample
         print(f"🧪 测试模式 [N={test_n}]：截取前 {len(pool)} 只标的\n")

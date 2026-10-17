@@ -298,12 +298,27 @@ def _run_single_mfa(df, symbol, p):
                 return None
 
             signal = "Long"
-        else:
+
+        elif timeframe == 'w':
             cur_mfa_color = cur_row['mfa_color'] == 'green'
             pre_mfa_color = pre_row['mfa_color'] == 'red'
             pre_mfa_streak = pre_row['mfa_streak'] >= 2
 
             if not (cur_mfa_color and pre_mfa_color and pre_mfa_streak):
+                return None
+
+            signal = "Long"
+
+        else:
+            cur_mfa_color = cur_row['mfa_color'] == 'green'
+            pre_mfa_color = pre_row['mfa_color'] == 'red'
+            cur_mfa_all = cur_row['mfa_all'] >= 2
+
+            print(cur_mfa_color)
+            print(pre_mfa_color)
+            print(cur_mfa_all)
+
+            if not (cur_mfa_color and pre_mfa_color and cur_mfa_all):
                 return None
 
             signal = "Long"
