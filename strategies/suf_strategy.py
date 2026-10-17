@@ -49,7 +49,11 @@ def _run_single(df, symbol, p):
     try:
         timeframe = p["timeframe"]
 
+        if df is None or len(df) < 2:
+            return None
+
         df = surf_indicator(df, timeframe=timeframe)
+
         pre_suf = df.iloc[-2]
         cur_suf = df.iloc[-1]
         pre_zone = pre_suf.get('zone')

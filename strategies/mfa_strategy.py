@@ -48,7 +48,11 @@ def _run_single(df, symbol, p):
     try:
         timeframe = p["timeframe"]
 
+        if df is None or len(df) < 2:
+            return None
+
         df = mfa_indicator(df)
+
         pre_row = df.iloc[-2]
         cur_row = df.iloc[-1]
 
@@ -60,12 +64,21 @@ def _run_single(df, symbol, p):
 
             if not (cur_mfa_color and cur_mfa_value and pre_mfa_value and cur_mfa_all):
                 return None
-        else:
+
+        elif timeframe == 'w':
             cur_mfa_color = cur_row['mfa_color'] == 'green'
             pre_mfa_color = pre_row['mfa_color'] == 'red'
             pre_mfa_streak = pre_row['mfa_streak'] >= 2
 
             if not (cur_mfa_color and pre_mfa_color and pre_mfa_streak):
+                return None
+
+        else:
+            cur_mfa_color = cur_row['mfa_color'] == 'green'
+            pre_mfa_color = pre_row['mfa_color'] == 'red'
+            cur_mfa_all = cur_row['mfa_all'] >= 2
+
+            if not (cur_mfa_color and pre_mfa_color and cur_mfa_all):
                 return None
 
         if timeframe in ("d", "w"):
