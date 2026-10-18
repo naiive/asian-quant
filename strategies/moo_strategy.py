@@ -289,12 +289,11 @@ def _run_single_mfa(df, symbol, p):
         timeframe = p["timeframe"]
 
         if timeframe == 'd':
+            utb_buy = cur_row['utb_signal'] == 'buy'
             cur_mfa_color = cur_row['mfa_color'] == 'green'
-            cur_mfa_value = cur_row['mfa_value'] < 1
-            pre_mfa_value = pre_row['mfa_value'] >= 1
-            cur_mfa_all = pre_row['mfa_all'] >= 5
+            cur_mfa_all = pre_row['mfa_all'] >= 3
 
-            if not (cur_mfa_color and cur_mfa_value and pre_mfa_value and cur_mfa_all):
+            if not (utb_buy and cur_mfa_color and cur_mfa_all):
                 return None
 
             signal = "Long"
