@@ -3,6 +3,7 @@
 data/logs/
 conf/config.py
 core/util/vid/
+data/cache/*.csv
 /.idea/
 __pycache__/
 *.egg-info/

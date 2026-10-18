@@ -72,6 +72,33 @@ def resolve_dates(cfg: dict) -> tuple[str, str]:
     end = datetime.strptime(cfg["end"], "%Y-%m-%d") + timedelta(days=1)
     return start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
 
+def load_codes_from_csv(filenames: str | list[str]) -> list[str]:
+    if isinstance(filenames, str):
+        filenames = [filenames]
+
+    all_codes: list[str] = []
+    for filename in filenames:
+        name = filename if filename.lower().endswith(".csv") else f"{filename}.csv"
+        p = Path(name)
+        if not p.is_absolute():
+            p = BASE_DIR / "data/cache" / p
+        if not p.exists():
+            raise FileNotFoundError(f"测试标的文件不存在: {p}")
+
+        try:
+            df = pd.read_csv(p, dtype=str, encoding="utf-8-sig")
+        except UnicodeDecodeError:
+            df = pd.read_csv(p, dtype=str, encoding="gbk")
+
+        df.columns = [str(c).strip() for c in df.columns]
+        if "代码" not in df.columns:
+            raise KeyError(f"{p.name} 中未找到“代码”列，现有列: {list(df.columns)}")
+
+        codes = df["代码"].dropna().astype(str).str.strip()
+        all_codes.extend(c for c in codes if c)
+
+    return list(dict.fromkeys(all_codes))
+
 def build_stock_pool(cfg: dict) -> list[dict]:
     if cfg["use_file"]:
         p = Path(cfg["file_path"])
@@ -137,15 +164,25 @@ def build_stock_pool(cfg: dict) -> list[dict]:
 
     print(f"📋 静态清洗完成！[{_cache_path}] 池共加载 {len(pool)} 只标的 (自适应拦截 {ignored_count} 只非目标股)\n")
 
+    # 优先级：LIST > FILE > N
     test_list = STRATEGY_CONFIG.get("UH_TEST_STOCKS_LIST", [])
+    test_file = STRATEGY_CONFIG.get("UH_TEST_STOCKS_FILE", None)
     test_n = STRATEGY_CONFIG.get("UH_TEST_STOCKS", None)
 
     if test_list:  # 优先：指定标的列表
         test_set = {s.upper() for s in test_list}
         pool = [it for it in pool if it["code"].upper() in test_set]
         print(f"🧪 测试模式 [LIST]：加载 {len(pool)} 只标的  {test_list}\n")
-    elif test_n is not None:  # 次优：随机抽取 N 只
-        pool = pool[:test_n]  # 保持顺序，也可换 random.sample
+    elif test_file:  # 次优：从 csv 文件导入
+        file_codes = load_codes_from_csv(test_file)
+        test_set = {s.upper() for s in file_codes}
+        pool = [it for it in pool if it["code"].upper() in test_set]
+        missing = test_set - {it["code"].upper() for it in pool}
+        print(f"🧪 测试模式 [FILE={test_file}]：文件 {len(file_codes)} 个代码，命中 {len(pool)} 只")
+        if missing:
+            print(f"⚠️ 未在股票池中找到: {sorted(missing)}\n")
+    elif test_n is not None:  # 再次：截取前 N 只
+        pool = pool[:test_n]
         print(f"🧪 测试模式 [N={test_n}]：截取前 {len(pool)} 只标的\n")
 
     return pool
