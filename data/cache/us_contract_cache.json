@@ -1333,10 +1333,6 @@
             "name": "KAKAO"
         },
         {
-            "code": "KBFG",
-            "name": "KBFG"
-        },
-        {
             "code": "SSBIOLOGICS",
             "name": "SSBIOLOGICS"
         },
@@ -1357,8 +1353,84 @@
             "name": "ZCSH"
         },
         {
+            "code": "MURATA",
+            "name": "MURATA"
+        },
+        {
+            "code": "JPMUFG",
+            "name": "JPMUFG"
+        },
+        {
+            "code": "TOYOTA",
+            "name": "TOYOTA"
+        },
+        {
+            "code": "TAIYOYUDEN",
+            "name": "TAIYOYUDEN"
+        },
+        {
+            "code": "JPSONY",
+            "name": "JPSONY"
+        },
+        {
+            "code": "FASTRETAILING",
+            "name": "FASTRETAILING"
+        },
+        {
             "code": "JIO",
             "name": "JIO"
+        },
+        {
+            "code": "TWTSM",
+            "name": "TWTSM"
+        },
+        {
+            "code": "TWDELTA",
+            "name": "TWDELTA"
+        },
+        {
+            "code": "TWASX",
+            "name": "TWASX"
+        },
+        {
+            "code": "TWUMC",
+            "name": "TWUMC"
+        },
+        {
+            "code": "NANYA",
+            "name": "NANYA"
+        },
+        {
+            "code": "WINBOND",
+            "name": "WINBOND"
+        },
+        {
+            "code": "YAGEO",
+            "name": "YAGEO"
+        },
+        {
+            "code": "WALSIN",
+            "name": "WALSIN"
+        },
+        {
+            "code": "EBAY",
+            "name": "eBay"
+        },
+        {
+            "code": "IBKR",
+            "name": "盈透证券"
+        },
+        {
+            "code": "HLT",
+            "name": "希尔顿酒店"
+        },
+        {
+            "code": "MSCI",
+            "name": "明晟"
+        },
+        {
+            "code": "ABBV",
+            "name": "艾伯维"
         }
     ]
 }
