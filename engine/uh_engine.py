@@ -277,7 +277,7 @@ def attach_symbol_info(signals: pd.DataFrame) -> pd.DataFrame:
         info = pd.read_csv(p, dtype=str, encoding="gbk")
     info.columns = [str(c).strip() for c in info.columns]
 
-    need = ["代码", "市值", "所属行业"]
+    need = ["代码", "市值", "所属行业", "市盈率(静)"]
     miss = [c for c in need if c not in info.columns]
     if miss:
         print(f"⚠️ {p.name} 缺少列 {miss}，现有列: {list(info.columns)}")
@@ -297,6 +297,7 @@ def attach_symbol_info(signals: pd.DataFrame) -> pd.DataFrame:
         "_key": info["代码"].map(norm),
         cap_col: (cap / 1e8).round(2),
         "所属行业": info["所属行业"],
+        "市盈率(静)": info["市盈率(静)"],
     }).drop_duplicates(subset="_key")
 
     out = signals.copy()
