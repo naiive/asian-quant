@@ -214,6 +214,7 @@ def run_single(item: dict, start: str, end: str, interval: str) -> list[dict]:
         df.columns = pd.Index([c.lower() for c in df.columns])
 
         for result in run_strategy(df, code):
+            result.setdefault("代码", code)
             result["名称"] = name
             result["周期"] = interval.upper()
             hits.append(result)
@@ -260,11 +261,60 @@ def scan_signals(pool: list[dict], cfg: dict) -> pd.DataFrame:
 
     return pd.DataFrame(results)
 
+def attach_symbol_info(signals: pd.DataFrame) -> pd.DataFrame:
+    market = "hk" if _is_hk else "us"
+    cap_col = "市值(亿)"
+    p = BASE_DIR / f"data/cache/{market}_all.csv"
+    if signals.empty or "代码" not in signals.columns:
+        return signals
+    if not p.exists():
+        print(f"⚠️ 标的信息文件不存在，跳过附加列: {p}")
+        return signals
+
+    try:
+        info = pd.read_csv(p, dtype=str, encoding="utf-8-sig")
+    except UnicodeDecodeError:
+        info = pd.read_csv(p, dtype=str, encoding="gbk")
+    info.columns = [str(c).strip() for c in info.columns]
+
+    need = ["代码", "市值", "所属行业"]
+    miss = [c for c in need if c not in info.columns]
+    if miss:
+        print(f"⚠️ {p.name} 缺少列 {miss}，现有列: {list(info.columns)}")
+        return signals
+
+    def norm(code) -> str:
+        s = str(code).strip()
+        if _is_hk:
+            try:
+                return str(int(s.upper().replace(".HK", "")))
+            except ValueError:
+                return s.upper()
+        return s.upper()
+
+    cap = pd.to_numeric(info["市值"].str.replace(",", "", regex=False), errors="coerce")
+    info = pd.DataFrame({
+        "_key": info["代码"].map(norm),
+        cap_col: (cap / 1e8).round(2),
+        "所属行业": info["所属行业"],
+    }).drop_duplicates(subset="_key")
+
+    out = signals.copy()
+    out["_key"] = out["代码"].map(norm)
+    out = out.merge(info, on="_key", how="left").drop(columns="_key")
+
+    new_cols = [cap_col, "所属行业"]
+    cols = [c for c in out.columns if c not in new_cols]
+    pos = cols.index("名称") + 1 if "名称" in cols else len(cols)
+    cols[pos:pos] = new_cols
+    return out[cols]
+
 def main():
     pool = build_stock_pool(CONFIG)
     signals = scan_signals(pool, CONFIG)
 
     if not signals.empty:
+        signals = attach_symbol_info(signals)
         print(f"\n🎯 共发现 {len(signals)} 个信号:\n")
         print(signals.to_string(index=False))
 
