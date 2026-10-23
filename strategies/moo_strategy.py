@@ -13,6 +13,7 @@ from indicators.support_resistance_indicator import support_resistance_indicator
 from indicators.utb_indicator import utb_indicator
 from indicators.atr_indicator import atr_indicator
 from indicators.surf_indicator import surf_indicator
+from indicators.stochastic_rsi_indicator import stochastic_rsi_indicator
 
 from core.util.func import get_sequence_values, get_anchor_stats
 
@@ -109,6 +110,7 @@ def compute_indicators(df, p):
     df = atr_indicator(df, atr_length=p["atr_length"], atr_mult=p["atr_mult"])
     df = mfa_indicator(df)
     df = surf_indicator(df, timeframe=p["timeframe"])
+    df = stochastic_rsi_indicator(df)
     return df
 
 def _make_result(final_row, pct, signal, symbol, strategy, label, parameters, **extra):
@@ -403,9 +405,67 @@ def _run_single_suf(df, symbol, p):
         print(f"[suf:{p.get('label')}] {e}")
         return None
 
+def _run_single_mix(df, symbol, p):
+    try:
+        if len(df) < 2:
+            return None
+
+        pre_row = df.iloc[-2]
+        cur_row = df.iloc[-1]
+
+        pct = (cur_row['close'] / pre_row['close'] - 1) if pre_row['close'] != 0 else 0.0
+
+        cur_stc_signal = pre_row['stc_signal'] == 'buy'
+        cur_stc = cur_row['stc']
+        pre_stc = pre_row['stc']
+
+        stc_flag = (0 < pre_stc <= 1) and (cur_stc / pre_stc if pre_stc != 0 else 0.0 >= 2.8)
+
+        cur_stochrsi_k_b = cur_row['stochrsi_k'] >= 85
+
+        if cur_stc_signal and stc_flag and cur_stochrsi_k_b:
+            signal = "Long"
+
+        else:
+            return None
+
+        timeframe = p["timeframe"]
+        if timeframe in ("d", "w"):
+            sma_period = 200
+        elif timeframe == "m":
+            sma_period = 46
+        else:
+            sma_period = 200
+
+        sma_diff_pct = None
+        if len(df) >= sma_period:
+            sma_value = df['close'].rolling(window=sma_period).mean().iloc[-1]
+            if sma_value and sma_value != 0:
+                sma_diff_pct = round((cur_row['close'] - sma_value) / sma_value * 100, 2)
+
+        parameters = {
+            "mix": {"timeframe": timeframe}
+        }
+
+        return _make_result(
+            cur_row,
+            pct,
+            signal,
+            symbol,
+            "mix",
+            p["label"],
+            parameters,
+            SMA=sma_period,
+            相距SMA=sma_diff_pct
+        )
+
+    except Exception as e:
+        print(f"[suf:{p.get('label')}] {e}")
+        return None
+
 def _run_single(df, symbol, p):
     df = compute_indicators(df, p)
-    runners = [_run_single_utb, _run_single_sqz, _run_single_mfa, _run_single_suf]
+    runners = [_run_single_utb, _run_single_sqz, _run_single_mfa, _run_single_suf, _run_single_mix]
     results = [fn(df, symbol, p) for fn in runners]
     return [r for r in results if r is not None]
 
