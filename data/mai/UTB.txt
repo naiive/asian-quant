@@ -1,0 +1,82 @@
+# 定义指标基础信息(缩写、全名、展示位置、指标介绍)
+indicator("UTB", "UTB", True, """UT Bot 基于 ATR 追踪止损线产生买卖信号。收盘价上穿追踪止损线时在K线下方标注买入标签，下穿时在K线上方标注卖出标签。默认参数为 ATR 周期 10、敏感度 3.0。倍数越大信号越少，越小越灵敏。震荡行情中易产生频繁的无效信号，建议结合其他指标判断。""")
+
+import math
+
+
+def ut_bot_signal(key_value=3.0, atr_length=14):
+    """返回买入/卖出信号序列(1表示出现信号)"""
+    h = high()
+    l = low()
+    c = close()
+    n = len(c)
+
+    buy_seq = close()
+    sell_seq = close()
+    for i in range(n):
+        buy_seq[i] = 0
+        sell_seq[i] = 0
+
+    if n < atr_length:
+        return buy_seq, sell_seq
+
+    # 1. 真实波幅 TR
+    tr_list = [0.0] * n
+    tr_list[0] = h[0] - l[0]
+    for i in range(1, n):
+        tr_list[i] = max(h[i] - l[i], abs(h[i] - c[i - 1]), abs(l[i] - c[i - 1]))
+
+    # 2. ATR (RMA平滑，与TradingView一致)
+    atr_list = [math.nan] * n
+    atr_list[atr_length - 1] = sum(tr_list[:atr_length]) / atr_length
+    for i in range(atr_length, n):
+        atr_list[i] = (atr_list[i - 1] * (atr_length - 1) + tr_list[i]) / atr_length
+
+    # 3. 追踪止损线(仅内部使用，不绘制)
+    start = atr_length - 1
+    stop = [math.nan] * n
+    stop[start] = c[start] - key_value * atr_list[start]
+
+    for i in range(start + 1, n):
+        n_loss = key_value * atr_list[i]
+        prev_stop = stop[i - 1]
+        src = c[i]
+        prev_src = c[i - 1]
+
+        if src > prev_stop and prev_src > prev_stop:
+            stop[i] = max(prev_stop, src - n_loss)
+        elif src < prev_stop and prev_src < prev_stop:
+            stop[i] = min(prev_stop, src + n_loss)
+        elif src > prev_stop:
+            stop[i] = src - n_loss
+        else:
+            stop[i] = src + n_loss
+
+        # crossover / crossunder
+        if src > stop[i] and prev_src <= prev_stop:
+            buy_seq[i] = 1
+        if src < stop[i] and prev_src >= prev_stop:
+            sell_seq[i] = 1
+
+    return buy_seq, sell_seq
+
+
+if __name__ == "__main__":
+    key_value = input_parameter("敏感度(Key Value)", 3.0)
+    atr_length = input_parameter("ATR周期", 14)
+
+    buy_seq, sell_seq = ut_bot_signal(key_value, atr_length)
+
+    # 买入标签：K线最低价位置，向下偏移(offsetv 为正是向下还是向上，需实测)
+    plot_icon("Buy", buy_seq == 1, low(), Shape.labelup,
+              color=Color.green, size=2, offseth=0, offsetv=5)
+
+    # 卖出标签：K线最高价位置，向上偏移
+    plot_icon("Sell", sell_seq == 1, high(), Shape.labeldown,
+              color=Color.red, size=2, offseth=0, offsetv=-5)
+
+    # 输出信号，用于回测/条件选股
+    output_parameter(
+        UT_BUY=buy_seq,
+        UT_SELL=sell_seq
+    )

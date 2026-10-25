@@ -1,0 +1,118 @@
+# 定义指标基础信息(缩写、全名、展示位置、指标介绍)
+indicator("SUF", "SUF", True, """SUF（Surf）指标结合 RSI 与 SMA 判断底部（抄底区）。底部区：最低价不高于 SMA 且 RSI 低于底部阈值时，在该K线位置绘制整列背景色。日线、周线、月线使用不同的 RSI 阈值与 SMA 周期，请通过参数选择当前图表周期。仅建议在日K、周K、月K使用。""")
+
+import math
+
+
+def calc_sma(c, length):
+    """简单移动平均，数据不足处为NaN"""
+    n = len(c)
+    out = [math.nan] * n
+    if n < length:
+        return out
+    s = 0.0
+    for i in range(length):
+        s += c[i]
+    out[length - 1] = s / length
+    for i in range(length, n):
+        s += c[i] - c[i - length]
+        out[i] = s / length
+    return out
+
+
+def calc_rsi(c, length):
+    """RSI，RMA(Wilder)平滑，与TradingView的ta.rsi一致"""
+    n = len(c)
+    out = [math.nan] * n
+    if n <= length:
+        return out
+    gain = [0.0] * n
+    loss = [0.0] * n
+    for i in range(1, n):
+        d = c[i] - c[i - 1]
+        gain[i] = max(d, 0.0)
+        loss[i] = max(-d, 0.0)
+
+    avg_gain = 0.0
+    avg_loss = 0.0
+    for i in range(1, length + 1):
+        avg_gain += gain[i]
+        avg_loss += loss[i]
+    avg_gain /= length
+    avg_loss /= length
+
+    out[length] = 100.0 if avg_loss == 0 else 100.0 - 100.0 / (1.0 + avg_gain / avg_loss)
+    for i in range(length + 1, n):
+        avg_gain = (avg_gain * (length - 1) + gain[i]) / length
+        avg_loss = (avg_loss * (length - 1) + loss[i]) / length
+        out[i] = 100.0 if avg_loss == 0 else 100.0 - 100.0 / (1.0 + avg_gain / avg_loss)
+    return out
+
+
+if __name__ == "__main__":
+    # 图表周期：1=日K，2=周K，3=月K（需与当前图表周期一致）
+    period_type = input_parameter("图表周期(1日2周3月)", 1)
+    rsi_length = input_parameter("RSI周期", 14)
+
+    # 底部(抄底)阈值
+    daily_bot = input_parameter("日线RSI底部阈值", 30)
+    weekly_bot = input_parameter("周线RSI底部阈值", 35)
+    monthly_bot = input_parameter("月线RSI底部阈值", 45)
+    # SMA周期
+    daily_sma = input_parameter("日线SMA周期", 200)
+    weekly_sma = input_parameter("周线SMA周期", 200)
+    monthly_sma = input_parameter("月线SMA周期", 46)
+
+    # 按图表周期选择参数
+    if period_type == 1:
+        sma_len, bot_thr = daily_sma, daily_bot
+    elif period_type == 2:
+        sma_len, bot_thr = weekly_sma, weekly_bot
+    else:
+        sma_len, bot_thr = monthly_sma, monthly_bot
+
+    h_seq = high()
+    l_seq = low()
+    c_seq = close()
+    n = len(c_seq)
+
+    # 转成普通列表，避免 Sequence 不支持切片等操作
+    h = [h_seq[i] for i in range(n)]
+    l = [l_seq[i] for i in range(n)]
+    c = [c_seq[i] for i in range(n)]
+
+    sma_list = calc_sma(c, int(sma_len))
+    rsi_list = calc_rsi(c, int(rsi_length))
+
+    # 底部区判断：NaN参与比较结果为False，数据不足处自动不触发
+    accum_seq = close()
+    sma_seq = close()
+    for i in range(n):
+        sma_seq[i] = sma_list[i]
+        accum_seq[i] = 1 if (l[i] <= sma_list[i] and rsi_list[i] < bot_thr) else 0
+
+    # SMA线(海底线)
+    plot("SMA", sma_seq, color=Color.blue, linewidth=2)
+
+    # 底部区背景：整列铺满，从全图最低价到最高价(避免撑大纵轴)
+    # 检查环境下可能没有行情数据(n=0)，需要保护
+    if n > 0:
+        lo = min(l)
+        hi = max(h)
+    else:
+        lo = 0.0
+        hi = 0.0
+    bg_bottom = close()
+    bg_top = close()
+    for i in range(n):
+        bg_bottom[i] = lo
+        bg_top[i] = hi
+
+    plot_stickline("底部", accum_seq == 1, bg_bottom, bg_top,
+                   width=1, empty=False, dashed=False, color=Color.blue)
+
+    # 输出信号，用于回测/条件选股
+    output_parameter(
+        SUF_BOTTOM=accum_seq,
+        SUF_SMA=sma_seq
+    )
