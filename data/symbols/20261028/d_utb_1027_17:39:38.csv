@@ -1,0 +1,4 @@
+﻿日期,代码,名称,现价,涨幅(%),成交量,换手(%),条件,参组,参数,行业,总市值(亿),流通市值(亿)
+2026-10-27,000951,中国重汽,20.84,2.26,94556.0,0.81,,utb_stc,"{""utb"": {""key_value"": 2.4, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}}",商用车,263.17,263.17
+2026-10-27,001331,胜通能源,38.52,9.99,191225.0,6.69,,utb_stc,"{""utb"": {""key_value"": 2.4, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}}",燃气Ⅱ,159.07,94.61
+2026-10-27,301682,C宏明,102.1,20.0,71890.0,23.66,,utb_stc,"{""utb"": {""key_value"": 2.4, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}}",军工电子Ⅱ,149.27,31.55
