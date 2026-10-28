@@ -1431,6 +1431,18 @@
         {
             "code": "ABBV",
             "name": "艾伯维"
+        },
+        {
+            "code": "SPOT",
+            "name": "Spotify Technology S.A."
+        },
+        {
+            "code": "PG",
+            "name": "宝洁"
+        },
+        {
+            "code": "CSX",
+            "name": "CSX运输"
         }
     ]
 }

@@ -1,0 +1,7 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,释放类型,支撑压力价格,支撑压力趋势,支撑压力涨幅,区间K线数量,区间K线振幅,名称,周期,交易所,SMA,相距SMA
+2026-10-26 08:00:00,Short,EIGEN-USDT,0.2,-0.95%,0.22,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,0.15-0.19-0.16-0.19-0.21,高-低-高-高,27.93%-15.60%-13.30%-13.84%,18.0,34.91,EIGEN,1D,Binance,,
+2026-10-26 08:00:00,Short,MORPHO-USDT,2.03,-1.56%,2.22,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,1.58-1.58-1.78-1.83-2.04,高-高-高-高,0.15%-12.72%-2.73%-11.31%,40.0,45.9,MORPHO,1D,Binance,,
+2026-10-26 08:00:00,Short,S-USDT,0.05,-0.55%,0.05,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,S,1D,Binance,,
+2026-10-26 08:00:00,Long,M-USDT,0.94,1.68%,0.82,mfa,参数一,"{""mfa"": {""mfa_all"": 27}}",,,,,,,M,1D,Binance,200.0,-50.74
+2026-10-26 08:00:00,Long,GIGADEV-USDT,41.79,-5.73%,38.87,mix,参数一,"{""mix"": {""timeframe"": ""d""}}",,,,,,,GIGADEV,1D,Binance,200.0,
+2026-10-26 08:00:00,Long,GIGADEV-USDT,41.79,-5.73%,38.87,mix,参数二,"{""mix"": {""timeframe"": ""d""}}",,,,,,,GIGADEV,1D,Binance,200.0,
