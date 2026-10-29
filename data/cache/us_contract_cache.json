@@ -1377,10 +1377,6 @@
             "name": "FASTRETAILING"
         },
         {
-            "code": "JIO",
-            "name": "JIO"
-        },
-        {
             "code": "TWTSM",
             "name": "TWTSM"
         },
@@ -1431,6 +1427,14 @@
         {
             "code": "ABBV",
             "name": "艾伯维"
+        },
+        {
+            "code": "HONHAI",
+            "name": "HONHAI"
+        },
+        {
+            "code": "MEDIATEK",
+            "name": "MEDIATEK"
         },
         {
             "code": "SPOT",
