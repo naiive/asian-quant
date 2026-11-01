@@ -5,10 +5,11 @@ import concurrent.futures
 from datetime import datetime
 from pathlib import Path
 import pandas as pd
+import time
+import random
 
 from conf.config import STRATEGY_CONFIG
 from core.client.api import APIClient
-from core.util.decorator import retry
 from core.util.func import get_unified_interval
 from strategies.moo_strategy import run_strategy
 
@@ -60,33 +61,44 @@ def build_crypto_pool(cfg: dict) -> list[dict]:
 
     return pool
 
-@retry(max_retries=2, delay=1)
 def run_single(
-    item: dict, exchange: str, interval: str, limit: int, end_time: str | None
+    item: dict, exchange: str, interval: str, limit: int, end_time: str | None,
+    max_attempts: int = 4,
 ) -> list[dict]:
     code, name = item["code"], item["name"]
     hits: list[dict] = []
 
+    df = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            df = _api.fetch_crypto_klines(
+                exchange=exchange,
+                symbol=code,
+                interval=interval,
+                limit=limit,
+                end_time=end_time,
+            )
+            if df is not None and not df.empty:
+                break
+        except Exception as e:
+            print(f"  ⚠️  {code} 请求异常: {e}")
+
+        if attempt < max_attempts:
+            wait = 2 ** attempt + random.uniform(0, 1)
+            print(f"  🔁 {code} 第 {attempt}/{max_attempts} 次失败，{wait:.1f}s 后重试")
+            time.sleep(wait)
+
+    if df is None or df.empty or len(df) < 20:
+        return hits
+
     try:
-        df = _api.fetch_crypto_klines(
-            exchange=exchange,
-            symbol=code,
-            interval=interval,
-            limit=limit,
-            end_time=end_time,
-        )
-
-        if df.empty or len(df) < 20:
-            return hits
-
         for result in run_strategy(df, code):
             result["名称"] = name
             result["周期"] = interval.upper()
             result["交易所"] = EXCHANGE_META[exchange]
             hits.append(result)
-
     except Exception as e:
-        print(f"  ⚠️  {code}: {e}")
+        print(f"  ⚠️  {code} 策略异常: {e}")
 
     return hits
 
@@ -155,7 +167,7 @@ def main():
             date_dir.mkdir(parents=True, exist_ok=True)
             end_str = datetime.strptime(CONFIG["end_time"].lower(), '%Y-%m-%d').strftime('%m%d')
             interval_str = get_unified_interval(str(STRATEGY_CONFIG.get("CO_INTERVAL")).lower().strip())
-            filename = date_dir / f"{interval_str}_cyt_{end_str}_{datetime.today().strftime('%H:%M:%S')}.csv"
+            filename = date_dir / f"{interval_str}_cyt_{end_str}_{datetime.today().strftime('%H%M%S')}.csv"
             signals.to_csv(filename, index=False, encoding="utf-8-sig")
             print(f"\n💾 信号文件已成功归档: {filename}")
 

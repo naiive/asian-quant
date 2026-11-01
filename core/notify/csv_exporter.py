@@ -22,7 +22,7 @@ def csv_exporter(df: Optional[pd.DataFrame], strategy_name: str = None) -> Optio
 
         trade_date = df.loc[0, '日期'].replace('-', '')[-4:]
 
-        file_path = os.path.join(save_dir, f"{interval_str}_{strategy_name}_{trade_date}_{time.strftime('%H:%M:%S')}.csv")
+        file_path = os.path.join(save_dir, f"{interval_str}_{strategy_name}_{trade_date}_{time.strftime('%H%M%S')}.csv")
 
         df.to_csv(file_path, index=False, encoding="utf-8-sig")
 

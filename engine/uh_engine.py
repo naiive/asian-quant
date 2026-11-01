@@ -326,7 +326,7 @@ def main():
             end_str = datetime.strptime(CONFIG['end'], '%Y-%m-%d').strftime('%m%d')
             label = cache_label.get(_cache_path)
             interval_str = get_unified_interval(str(STRATEGY_CONFIG.get("UH_INTERVAL")).lower().strip())
-            filename = date_dir / f"{interval_str}_{label}_{end_str}_{datetime.today().strftime('%H:%M:%S')}.csv"
+            filename = date_dir / f"{interval_str}_{label}_{end_str}_{datetime.today().strftime('%H%M%S')}.csv"
             signals.to_csv(filename, index=False, encoding="utf-8-sig")
             print(f"\n💾 已保存: {filename}")
 
