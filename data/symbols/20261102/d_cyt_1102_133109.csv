@@ -1,0 +1,26 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,SMA,相距SMA,名称,周期,交易所,释放类型,支撑压力价格,支撑压力趋势,支撑压力涨幅,区间K线数量,区间K线振幅
+2026-11-02 08:00:00,Long,POWR-USDT,0.05,-6.99%,0.05,mix,参数一,"{""mix"": {""timeframe"": ""d""}}",200.0,2.59,POWR,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,POWR-USDT,0.05,-6.99%,0.05,mix,参数二,"{""mix"": {""timeframe"": ""d""}}",200.0,2.59,POWR,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,PAXG-USDT,3919.29,0.24%,3855.82,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-9.03,PAXG,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,PAXG-USDT,3919.29,0.24%,3855.82,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-9.03,PAXG,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,HOT-USDT,0.0,3.11%,0.0,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,HOT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,HOT-USDT,0.0,3.11%,0.0,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",200.0,2.19,HOT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,HOT-USDT,0.0,3.11%,0.0,mix,参数一,"{""mix"": {""timeframe"": ""d""}}",200.0,2.19,HOT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,HOT-USDT,0.0,3.11%,0.0,mix,参数二,"{""mix"": {""timeframe"": ""d""}}",200.0,2.19,HOT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,XAUT-USDT,3901.84,0.26%,3835.69,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-9.32,XAUT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,XAUT-USDT,3901.84,0.26%,3835.69,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-9.32,XAUT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,HK0700-USDT,395.32,2.21%,375.64,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,HK0700,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,HK0700-USDT,395.32,2.21%,375.64,mfa,参数一,"{""mfa"": {""mfa_all"": 14}}",200.0,,HK0700,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,SWARMS-USDT,0.01,-1.35%,0.01,mix,参数一,"{""mix"": {""timeframe"": ""d""}}",200.0,-30.7,SWARMS,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,SWARMS-USDT,0.01,-1.35%,0.01,mix,参数二,"{""mix"": {""timeframe"": ""d""}}",200.0,-30.7,SWARMS,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,TENCENT-USDT,50.49,2.17%,47.91,utb,参数一,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,TENCENT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,TENCENT-USDT,50.49,2.17%,47.91,mfa,参数一,"{""mfa"": {""mfa_all"": 33}}",200.0,,TENCENT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,TENCENT-USDT,50.49,2.17%,47.91,mix,参数一,"{""mix"": {""timeframe"": ""d""}}",200.0,,TENCENT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,TENCENT-USDT,50.49,2.17%,47.91,mix,参数二,"{""mix"": {""timeframe"": ""d""}}",200.0,,TENCENT,1D,Binance,,,,,,
+2026-11-02 08:00:00,Short,PHAROS-USDT,0.49,-2.94%,0.57,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,PHAROS,1D,Binance,支撑释放,0.53-0.32-0.37-0.4-0.57,低-高-高-高,40.57%-15.82%-9.45%-41.94%,18.0,28.17
+2026-11-02 08:00:00,Long,COAI-USDT,0.25,-2.06%,0.23,mix,参数一,"{""mix"": {""timeframe"": ""d""}}",200.0,-19.92,COAI,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,COAI-USDT,0.25,-2.06%,0.23,mix,参数二,"{""mix"": {""timeframe"": ""d""}}",200.0,-19.92,COAI,1D,Binance,,,,,,
+2026-11-02 08:00:00,Short,DYM-USDT,0.02,-0.71%,0.02,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,DYM,1D,Binance,支撑释放,0.01-0.01-0.01-0.01-0.02,低-低-高-高,11.17%-2.37%-3.81%-21.68%,26.0,46.15
+2026-11-02 08:00:00,Long,JELLYJELLY-USDT,0.04,1.76%,0.04,suf,参数一,"{""suf"": {""timeframe"": ""d""}}",200.0,-22.17,JELLYJELLY,1D,Binance,,,,,,
+2026-11-02 08:00:00,Long,JELLYJELLY-USDT,0.04,1.76%,0.04,suf,参数二,"{""suf"": {""timeframe"": ""d""}}",200.0,-22.17,JELLYJELLY,1D,Binance,,,,,,
+2026-11-02 08:00:00,Short,CGPT-USDT,0.02,-0.82%,0.02,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,CGPT,1D,Binance,一直释放,0.02-0.02-0.02-0.02-0.02,高-高-低-高,1.53%-8.86%-5.16%-14.53%,25.0,25.07

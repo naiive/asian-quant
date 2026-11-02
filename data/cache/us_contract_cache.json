@@ -1447,6 +1447,18 @@
         {
             "code": "CSX",
             "name": "CSX运输"
+        },
+        {
+            "code": "FTNT",
+            "name": "飞塔信息"
+        },
+        {
+            "code": "EWZS",
+            "name": "巴西小型股ETF"
+        },
+        {
+            "code": "PFE",
+            "name": "辉瑞"
         }
     ]
 }
