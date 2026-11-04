@@ -53,7 +53,7 @@ CONFIG = {
     "PERIOD": "daily",
 
     # 【优先级最高】相对天数模式：0-今天, 1-昨天, 2-前天
-    "LOOKBACK_DAYS": None,
+    "LOOKBACK_DAYS": 0,
 
     # 固定日期模式
     # ***********************
