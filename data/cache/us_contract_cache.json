@@ -1459,6 +1459,14 @@
         {
             "code": "PFE",
             "name": "辉瑞"
+        },
+        {
+            "code": "MO",
+            "name": "奥驰亚"
+        },
+        {
+            "code": "LNG",
+            "name": "Cheniere Energy Inc"
         }
     ]
 }
