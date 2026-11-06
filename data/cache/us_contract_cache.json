@@ -82,7 +82,7 @@
         },
         {
             "code": "GME",
-            "name": "游戏驿站"
+            "name": "GME"
         },
         {
             "code": "MRVL",
@@ -210,7 +210,7 @@
         },
         {
             "code": "INDA",
-            "name": "印度股指ETF"
+            "name": "INDA"
         },
         {
             "code": "EWH",
@@ -1467,6 +1467,10 @@
         {
             "code": "LNG",
             "name": "Cheniere Energy Inc"
+        },
+        {
+            "code": "FISV",
+            "name": "费哲"
         }
     ]
 }
