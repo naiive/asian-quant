@@ -27,7 +27,7 @@ def calculate_start_date(interval: str, end_day: str) -> tuple[datetime, datetim
     elif interval == "1mo":
         start = end - timedelta(days=200 * 7)
     else:
-        start = end - timedelta(days=300)
+        start = end - timedelta(days=500)
 
     return start, end
 

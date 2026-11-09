@@ -14,6 +14,8 @@ from indicators.utb_indicator import utb_indicator
 from indicators.atr_indicator import atr_indicator
 from indicators.surf_indicator import surf_indicator
 from indicators.stochastic_rsi_indicator import stochastic_rsi_indicator
+from indicators.sma_indicator import sma_indicator
+from indicators.tma_indicator import tma_indicator
 
 from core.util.func import get_sequence_values, get_anchor_stats
 
@@ -70,6 +72,16 @@ PARAM_SETS = [
         # atr_indicator
         "atr_length": 14,
         "atr_mult": 1.0,
+        # sma_indicator
+        "n": 20,
+        "cc": 1,
+        "mix_stc_low": 30,
+        "mix_recent": 30,
+        "mix_mfa_value": 70,
+        # tma_indicator
+        "tma_fast_length": 5,
+        "tma_slow_length": 8,
+        "tma_vfactor": 0.618,
         # surf_indicator
         "timeframe": tf
     },
@@ -96,6 +108,14 @@ PARAM_SETS = [
         "min_sqz_bars": 4,
         "atr_length": 14,
         "atr_mult": 1.0,
+        "n": 20,
+        "cc": 1,
+        "mix_stc_low": 30,
+        "mix_recent": 30,
+        "mix_mfa_value": 70,
+        "tma_fast_length": 5,
+        "tma_slow_length": 8,
+        "tma_vfactor": 0.618,
         "timeframe": tf
     }
 ]
@@ -111,6 +131,8 @@ def compute_indicators(df, p):
     df = mfa_indicator(df)
     df = surf_indicator(df, timeframe=p["timeframe"])
     df = stochastic_rsi_indicator(df)
+    df = sma_indicator(df, n=p["n"], cc=p["cc"])
+    df = tma_indicator(df, tma_fast_length=p["tma_fast_length"], tma_slow_length=p["tma_slow_length"], tma_vfactor=p["tma_vfactor"])
     return df
 
 def _make_result(final_row, pct, signal, symbol, strategy, label, parameters, **extra):
@@ -181,7 +203,6 @@ def _run_single_sqz(df, symbol, p):
         pre_sqz_id = pre_row['sqz_id']
         pre_sqz_hcolor_id = pre_row['sqz_hcolor_id']
 
-        # 买入条件
         buy_cond_1 = (
             cur_sqz_hcolor == 'lime'
             and cur_sqz_status == 'off'
@@ -215,7 +236,6 @@ def _run_single_sqz(df, symbol, p):
         else:
             buy_release = None
 
-        # 卖出条件
         sell_cond_1 = (
             cur_sqz_hcolor == 'red'
             and cur_sqz_status == 'off'
@@ -415,15 +435,15 @@ def _run_single_mix(df, symbol, p):
 
         pct = (cur_row['close'] / pre_row['close'] - 1) if pre_row['close'] != 0 else 0.0
 
-        cur_stc_signal = pre_row['stc_signal'] == 'buy'
-        cur_stc = cur_row['stc']
-        pre_stc = pre_row['stc']
+        cur_sma_node = cur_row['sma_node'] == 'bull'
+        cur_stc_low = cur_row['stc'] <= p['mix_stc_low']
+        cur_t3_trend = cur_row['t3_trend'] == 'bull'
 
-        stc_flag = (0 < pre_stc <= 1) and (cur_stc / pre_stc if pre_stc != 0 else 0.0 >= 2.8)
+        recent = df.tail(p['mix_recent'])
+        has_accum = (recent['zone'] == 'accum').any()
+        has_mfa_high = (recent['mfa_value'] >= p['mix_mfa_value']).any()
 
-        cur_stochrsi_k_b = cur_row['stochrsi_k'] >= 85
-
-        if cur_stc_signal and stc_flag and cur_stochrsi_k_b:
+        if cur_sma_node and cur_stc_low and cur_t3_trend and has_accum and has_mfa_high:
             signal = "Long"
 
         else:
@@ -444,9 +464,8 @@ def _run_single_mix(df, symbol, p):
                 sma_diff_pct = round((cur_row['close'] - sma_value) / sma_value * 100, 2)
 
         parameters = {
-            "mix": {"timeframe": timeframe}
+            "mix": {"timeframe": timeframe, "mix_stc_low": p["mix_stc_low"], "mix_recent": p["mix_recent"], "mix_mfa_value": p["mix_mfa_value"]}
         }
-
         return _make_result(
             cur_row,
             pct,
