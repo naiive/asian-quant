@@ -77,7 +77,7 @@ PARAM_SETS = [
         "cc": 1,
         "mix_stc_low": 30,
         "mix_recent": 30,
-        "mix_mfa_value": 30,
+        "mix_mfa_value": 15,
         # tma_indicator
         "tma_fast_length": 5,
         "tma_slow_length": 8,
@@ -112,7 +112,7 @@ PARAM_SETS = [
         "cc": 1,
         "mix_stc_low": 30,
         "mix_recent": 30,
-        "mix_mfa_value": 70,
+        "mix_mfa_value": 30,
         "tma_fast_length": 5,
         "tma_slow_length": 8,
         "tma_vfactor": 0.618,
