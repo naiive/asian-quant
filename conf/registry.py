@@ -7,6 +7,7 @@ from strategies import (
     utb_strategy,
     low_strategy,
     suf_strategy,
+    mix_strategy
 )
 
 STRATEGY_REGISTRY = {
@@ -15,6 +16,7 @@ STRATEGY_REGISTRY = {
     "utb": utb_strategy.run_strategy,
     "low": low_strategy.run_strategy,
     "suf": suf_strategy.run_strategy,
+    "mix": mix_strategy.run_strategy
 }
 
 from core.query.conditions import (
