@@ -2,21 +2,23 @@
 # -*- coding: utf-8 -*-
 
 from strategies import (
-    mfa_strategy,
-    sqz_strategy,
-    utb_strategy,
-    low_strategy,
+    mix_strategy,
+    tma_strategy,
     suf_strategy,
-    mix_strategy
+    mfa_strategy,
+    utb_strategy,
+    sqz_strategy,
+    low_strategy
 )
 
 STRATEGY_REGISTRY = {
-    "mfa": mfa_strategy.run_strategy,
-    "sqz": sqz_strategy.run_strategy,
-    "utb": utb_strategy.run_strategy,
-    "low": low_strategy.run_strategy,
+    "mix": mix_strategy.run_strategy,
+    "tma": tma_strategy.run_strategy,
     "suf": suf_strategy.run_strategy,
-    "mix": mix_strategy.run_strategy
+    "mfa": mfa_strategy.run_strategy,
+    "utb": utb_strategy.run_strategy,
+    "sqz": sqz_strategy.run_strategy,
+    "low": low_strategy.run_strategy
 }
 
 from core.query.conditions import (

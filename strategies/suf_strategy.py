@@ -35,16 +35,6 @@ def run_strategy(df, symbol):
 
     return results
 
-
-def _get_sma_period(timeframe):
-    if timeframe in ("d", "w"):
-        return 200
-    elif timeframe == "m":
-        return 46
-    else:
-        return 200
-
-
 def _run_single(df, symbol, p):
     try:
         timeframe = p["timeframe"]
@@ -64,7 +54,12 @@ def _run_single(df, symbol, p):
 
         final_row = df.iloc[-1]
 
-        sma_period = _get_sma_period(timeframe)
+        if timeframe in ("d", "w"):
+            sma_period = 200
+        elif timeframe == "m":
+            sma_period = 46
+        else:
+            sma_period = 200
         sma_series = df['close'].rolling(window=sma_period).mean()
         sma_value = sma_series.iloc[-1]
 

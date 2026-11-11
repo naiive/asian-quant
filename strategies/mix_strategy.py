@@ -54,16 +54,6 @@ def run_strategy(df, symbol):
 
     return results
 
-
-def _get_sma_period(timeframe):
-    if timeframe in ("d", "w"):
-        return 200
-    elif timeframe == "m":
-        return 46
-    else:
-        return 200
-
-
 def _run_single(df, symbol, p):
     try:
         timeframe = p["timeframe"]
@@ -108,7 +98,7 @@ def _run_single(df, symbol, p):
                 sma_diff_pct = round((cur_row['close'] - sma_value) / sma_value * 100, 2)
 
         parameters = {
-            "mfa": {"timeframe": timeframe}
+            "mix": {"timeframe": timeframe}
         }
 
         final_row = df.iloc[-1]

@@ -34,16 +34,6 @@ def run_strategy(df, symbol):
 
     return results
 
-
-def _get_sma_period(timeframe):
-    if timeframe in ("d", "w"):
-        return 200
-    elif timeframe == "m":
-        return 46
-    else:
-        return 200
-
-
 def _run_single(df, symbol, p):
     try:
         timeframe = p["timeframe"]

@@ -482,9 +482,71 @@ def _run_single_mix(df, symbol, p):
         print(f"[suf:{p.get('label')}] {e}")
         return None
 
+def _run_single_tma(df, symbol, p):
+    try:
+        if len(df) < 2:
+            return None
+
+        pre_row = df.iloc[-2]
+        cur_row = df.iloc[-1]
+
+        pct = (cur_row['close'] / pre_row['close'] - 1) if pre_row['close'] != 0 else 0.0
+
+        pre_t3_trend_bear = pre_row['t3_trend'] == 'bear'
+        cur_t3_trend_bull = cur_row['t3_trend'] == 'bull'
+        cur_stc_low = cur_row['stc'] <= 30
+        cur_stc_trend_bull = cur_row['stc_trend'] == 'bull'
+
+        pre_t3_trend_bull = pre_row['t3_trend'] == 'bull'
+        cur_t3_trend_bear = cur_row['t3_trend'] == 'bear'
+        cur_stc_high = cur_row['stc'] >= 70
+        cur_stc_trend_bear = cur_row['stc_trend'] == 'bear'
+
+        if pre_t3_trend_bear and cur_t3_trend_bull and cur_stc_low and cur_stc_trend_bull:
+            signal = "Long"
+
+        elif pre_t3_trend_bull and cur_t3_trend_bear and cur_stc_high and cur_stc_trend_bear:
+            signal = "Short"
+
+        else:
+            return None
+
+        timeframe = p["timeframe"]
+        if timeframe in ("d", "w"):
+            sma_period = 200
+        elif timeframe == "m":
+            sma_period = 46
+        else:
+            sma_period = 200
+
+        sma_diff_pct = None
+        if len(df) >= sma_period:
+            sma_value = df['close'].rolling(window=sma_period).mean().iloc[-1]
+            if sma_value and sma_value != 0:
+                sma_diff_pct = round((cur_row['close'] - sma_value) / sma_value * 100, 2)
+
+        parameters = {
+            "tma": {"timeframe": timeframe}
+        }
+        return _make_result(
+            cur_row,
+            pct,
+            signal,
+            symbol,
+            "tma",
+            p["label"],
+            parameters,
+            SMA=sma_period,
+            相距SMA=sma_diff_pct
+        )
+
+    except Exception as e:
+        print(f"[suf:{p.get('label')}] {e}")
+        return None
+
 def _run_single(df, symbol, p):
     df = compute_indicators(df, p)
-    runners = [_run_single_utb, _run_single_sqz, _run_single_mfa, _run_single_suf, _run_single_mix]
+    runners = [_run_single_utb, _run_single_sqz, _run_single_mfa, _run_single_suf, _run_single_mix, _run_single_tma]
     results = [fn(df, symbol, p) for fn in runners]
     return [r for r in results if r is not None]
 
