@@ -47,8 +47,6 @@ def run_strategy(df, symbol):
 
 def _run_single(df, symbol, p):
     try:
-        timeframe = p["timeframe"]
-
         if df is None or len(df) < 2:
             return None
 
