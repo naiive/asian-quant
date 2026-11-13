@@ -1,0 +1,621 @@
+﻿日期,信号,代码,现价,涨幅,止损,策略,参组,参数,释放类型,支撑压力价格,支撑压力趋势,支撑压力涨幅,区间K线数量,区间K线振幅,名称,市值(亿),所属行业,周期,SMA,相距SMA,市盈率(静)
+2026-11-09 00:00:00,Long,GRFS,8.84,4.86%,7.96,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,9.67-8.55-10.81-9.64-8.38,低-高-低-低,11.55%-26.45%-10.84%-13.07%,12.0,17.2,GRIFOLS SA-ADR,58.6,一般药品制造商,1WK,,,13.01
+2026-11-09 00:00:00,Long,GRFS,8.84,4.86%,7.96,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,GRIFOLS SA-ADR,58.6,一般药品制造商,1WK,,,13.01
+2026-11-09 00:00:00,Long,LIF,44.66,-5.72%,34.73,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LIFE360 INC,39.15,应用软件,1WK,200.0,,27.15
+2026-11-09 00:00:00,Long,LIF,44.66,-5.72%,34.73,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LIFE360 INC,39.15,应用软件,1WK,200.0,,27.15
+2026-11-09 00:00:00,Long,HIMX,9.09,7.07%,6.21,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,HIMAX TECHNOLOGIES INC-ADR,18.21,半导体,1WK,200.0,14.86,40.15
+2026-11-09 00:00:00,Long,HIMX,9.09,7.07%,6.21,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,HIMAX TECHNOLOGIES INC-ADR,18.21,半导体,1WK,200.0,14.86,40.15
+2026-11-09 00:00:00,Long,LPL,2.66,4.72%,2.17,mfa,参数一,"{""mfa"": {""mfa_all"": 20}}",,,,,,,LG DISPLAY CO LTD-ADR,26.5,消费电子产品,1WK,200.0,-37.69,15.68
+2026-11-09 00:00:00,Long,LPL,2.66,4.72%,2.17,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LG DISPLAY CO LTD-ADR,26.5,消费电子产品,1WK,200.0,-37.69,15.68
+2026-11-09 00:00:00,Long,LPL,2.66,4.72%,2.17,mfa,参数二,"{""mfa"": {""mfa_all"": 20}}",,,,,,,LG DISPLAY CO LTD-ADR,26.5,消费电子产品,1WK,200.0,-37.69,15.68
+2026-11-09 00:00:00,Long,LPL,2.66,4.72%,2.17,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LG DISPLAY CO LTD-ADR,26.5,消费电子产品,1WK,200.0,-37.69,15.68
+2026-11-09 00:00:00,Short,ICFI,82.77,3.88%,93.27,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ICF INTERNATIONAL INC,17.38,咨询服务,1WK,200.0,-24.29,19.58
+2026-11-09 00:00:00,Short,ICFI,82.77,3.88%,93.27,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ICF INTERNATIONAL INC,17.38,咨询服务,1WK,200.0,-24.29,19.58
+2026-11-09 00:00:00,Long,NDSN,329.23,6.25%,297.47,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-243.24-270.39-259.71-302.58,低-高-低-高,nan%-11.16%-3.95%-16.51%,38.0,19.89,NORDSON CORP,184.2,专用工业机械,1WK,,,38.86
+2026-11-09 00:00:00,Long,IPGP,70.81,8.42%,55.15,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,IPG PHOTONICS CORP,29.8,半导体设备与材料,1WK,200.0,-22.12,96.04
+2026-11-09 00:00:00,Long,IPGP,70.81,8.42%,55.15,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,IPG PHOTONICS CORP,29.8,半导体设备与材料,1WK,200.0,-22.12,96.04
+2026-11-09 00:00:00,Long,CRH,96.26,1.53%,89.33,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CRH PLC,657.25,建筑材料,1WK,200.0,13.55,17.93
+2026-11-09 00:00:00,Long,CRH,96.26,1.53%,89.33,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CRH PLC,657.25,建筑材料,1WK,200.0,13.55,17.93
+2026-11-09 00:00:00,Long,SEB,3749.49,6.27%,3211.36,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,SEABOARD CORP,32.97,综合企业,1WK,200.0,3.16,6.69
+2026-11-09 00:00:00,Long,SEB,3749.49,6.27%,3211.36,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,SEABOARD CORP,32.97,综合企业,1WK,200.0,3.16,6.69
+2026-11-09 00:00:00,Long,XHR,22.11,3.37%,20.6,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,12.02-14.34-15.31-14.32-21.89,高-高-低-高,19.26%-6.80%-6.49%-52.87%,15.0,28.78,XENIA HOTELS & RESORTS INC,20.2,酒店与旅馆REITs,1WK,,,34.22
+2026-11-09 00:00:00,Long,TV,2.25,-4.26%,2.01,mfa,参数一,"{""mfa"": {""mfa_all"": 10}}",,,,,,,GRUPO TELEVISA SA-SPON ADR,24.35,电信服务,1WK,200.0,-17.23,亏损
+2026-11-09 00:00:00,Long,TV,2.25,-4.26%,2.01,mfa,参数二,"{""mfa"": {""mfa_all"": 10}}",,,,,,,GRUPO TELEVISA SA-SPON ADR,24.35,电信服务,1WK,200.0,-17.23,亏损
+2026-11-09 00:00:00,Long,ROAD,84.03,8.88%,67.34,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CONSTRUCTION PARTNERS INC-A,56.32,建筑工程,1WK,200.0,10.72,53.93
+2026-11-09 00:00:00,Long,ROAD,84.03,8.88%,67.34,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CONSTRUCTION PARTNERS INC-A,56.32,建筑工程,1WK,200.0,10.72,53.93
+2026-11-09 00:00:00,Long,LFTO,18.55,2.32%,14.82,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LIFTOFF MOBILE INC,26.57,广告代理,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,LFTO,18.55,2.32%,14.82,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LIFTOFF MOBILE INC,26.57,广告代理,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,IESC,177.32,11.91%,114.16,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,IES HOLDINGS INC,71.69,建筑工程,1WK,200.0,33.5,22.51
+2026-11-09 00:00:00,Long,IESC,177.32,11.91%,114.16,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,IES HOLDINGS INC,71.69,建筑工程,1WK,200.0,33.5,22.51
+2026-11-09 00:00:00,Long,NTES,122.13,-5.65%,113.06,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NETEASE INC-ADR,773.79,电子游戏与多媒体,1WK,200.0,17.41,15.46
+2026-11-09 00:00:00,Long,NTES,122.13,-5.65%,113.06,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NETEASE INC-ADR,773.79,电子游戏与多媒体,1WK,200.0,17.41,15.46
+2026-11-09 00:00:00,Long,TU,8.66,-4.94%,8.07,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TELUS CORP,145.22,电信服务,1WK,200.0,-36.82,17.90
+2026-11-09 00:00:00,Long,TU,8.66,-4.94%,8.07,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TELUS CORP,145.22,电信服务,1WK,200.0,-36.82,17.90
+2026-11-09 00:00:00,Long,ESQ,132.3,2.44%,120.82,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,ESQUIRE FINANCIAL HOLDINGS I,15.49,地区银行,1WK,,,21.70
+2026-11-09 00:00:00,Short,NAT,6.72,0.75%,7.51,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NORDIC AMERICAN TANKERS LTD,14.86,油气中游,1WK,200.0,93.57,117.00
+2026-11-09 00:00:00,Short,NAT,6.72,0.75%,7.51,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NORDIC AMERICAN TANKERS LTD,14.86,油气中游,1WK,200.0,93.57,117.00
+2026-11-09 00:00:00,Long,BWA,51.26,5.02%,44.76,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,BORGWARNER INC,101.21,汽车零件,1WK,200.0,24.99,39.38
+2026-11-09 00:00:00,Long,BWA,51.26,5.02%,44.76,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,BORGWARNER INC,101.21,汽车零件,1WK,200.0,24.99,39.38
+2026-11-09 00:00:00,Short,ACAD,18.37,-13.47%,23.94,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,14.55-14.15-13.4-19.69-19.89,低-低-高-高,2.75%-5.30%-46.94%-1.02%,34.0,55.66,ACADIA PHARMACEUTICALS INC,36.99,生物技术,1WK,,,9.33
+2026-11-09 00:00:00,Short,ACAD,18.37,-13.47%,23.94,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,14.55-14.15-13.4-19.69-19.89,低-低-高-高,2.75%-5.30%-46.94%-1.02%,34.0,55.66,ACADIA PHARMACEUTICALS INC,36.99,生物技术,1WK,,,9.33
+2026-11-09 00:00:00,Long,MDGL,433.03,8.36%,355.62,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,MADRIGAL PHARMACEUTICALS INC,93.02,生物技术,1WK,200.0,29.38,亏损
+2026-11-09 00:00:00,Long,MDGL,433.03,8.36%,355.62,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,MADRIGAL PHARMACEUTICALS INC,93.02,生物技术,1WK,200.0,29.38,亏损
+2026-11-09 00:00:00,Long,HIG,137.18,2.38%,127.44,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,HARTFORD INSURANCE GROUP INC,369.32,多元化保险,1WK,200.0,29.44,10.37
+2026-11-09 00:00:00,Long,HIG,137.18,2.38%,127.44,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,HARTFORD INSURANCE GROUP INC,369.32,多元化保险,1WK,200.0,29.44,10.37
+2026-11-09 00:00:00,Long,FHI,64.67,1.06%,59.82,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FEDERATED HERMES INC,48.59,资产管理,1WK,200.0,58.1,12.81
+2026-11-09 00:00:00,Long,FHI,64.67,1.06%,59.82,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FEDERATED HERMES INC,48.59,资产管理,1WK,200.0,58.1,12.81
+2026-11-09 00:00:00,Short,BG,100.28,1.19%,111.51,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,90.84-79.4-63.96-69.2-102.17,低-低-高-高,12.59%-19.45%-8.19%-47.63%,15.0,24.77,BUNGE GLOBAL SA,186.4,农产品,1WK,,,19.76
+2026-11-09 00:00:00,Long,BG,100.28,1.19%,89.54,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,BUNGE GLOBAL SA,186.4,农产品,1WK,200.0,7.31,19.76
+2026-11-09 00:00:00,Long,BG,100.28,1.19%,89.54,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,BUNGE GLOBAL SA,186.4,农产品,1WK,200.0,7.31,19.76
+2026-11-09 00:00:00,Long,DTE,139.69,3.41%,129.75,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,DTE ENERGY COMPANY,286.18,受监管电力,1WK,,,19.56
+2026-11-09 00:00:00,Short,SECZ,9.06,30.17%,12.52,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,SECURITIZE CORP,13.13,应用软件,1WK,200.0,,亏损
+2026-11-09 00:00:00,Short,SECZ,9.06,30.17%,12.52,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,SECURITIZE CORP,13.13,应用软件,1WK,200.0,,亏损
+2026-11-09 00:00:00,Short,OTTR,77.82,-0.79%,85.24,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,75.22-68.49-69.06-72.28-82.23,低-高-高-高,8.95%-0.84%-4.66%-13.76%,23.0,15.65,OTTER TAIL CORP,35.19,综合企业,1WK,,,12.80
+2026-11-09 00:00:00,Short,OTTR,77.82,-0.79%,85.24,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,nan-64.13-68.49-72.28-82.23,低-高-高-高,nan%-6.79%-5.54%-13.76%,23.0,15.65,OTTER TAIL CORP,35.19,综合企业,1WK,,,12.80
+2026-11-09 00:00:00,Long,REZI,23.0,18.56%,17.0,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,RESIDEO TECHNOLOGIES INC,31.14,工业分销,1WK,,,亏损
+2026-11-09 00:00:00,Long,REZI,23.0,18.56%,17.0,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,RESIDEO TECHNOLOGIES INC,31.14,工业分销,1WK,200.0,36.28,亏损
+2026-11-09 00:00:00,Long,REZI,23.0,18.56%,17.0,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,RESIDEO TECHNOLOGIES INC,31.14,工业分销,1WK,,,亏损
+2026-11-09 00:00:00,Long,REZI,23.0,18.56%,17.0,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,RESIDEO TECHNOLOGIES INC,31.14,工业分销,1WK,200.0,36.28,亏损
+2026-11-09 00:00:00,Long,MMS,65.38,-0.18%,59.38,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,90.67-75.54-90.7-98.42-63.43,低-高-高-低,16.69%-20.07%-8.51%-35.55%,14.0,24.28,MAXIMUS INC,35.87,专业商务服务,1WK,,,12.43
+2026-11-09 00:00:00,Long,FIGR,24.19,6.45%,17.03,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",,,,,,,FIGURE TECHNOLOGY SOLUT-CL A,51.65,资本市场,1WK,200.0,,80.21
+2026-11-09 00:00:00,Long,FIGR,24.19,6.45%,17.03,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",,,,,,,FIGURE TECHNOLOGY SOLUT-CL A,51.65,资本市场,1WK,200.0,,80.21
+2026-11-09 00:00:00,Long,TGLS,47.24,7.51%,40.6,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,TECNOGLASS HOLDINGS INC,18.99,建筑材料,1WK,,,12.52
+2026-11-09 00:00:00,Long,NXST,209.74,10.38%,175.77,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NEXSTAR MEDIA GROUP INC,57.03,广播,1WK,200.0,27.84,61.71
+2026-11-09 00:00:00,Long,NXST,209.74,10.38%,175.77,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,NEXSTAR MEDIA GROUP INC,57.03,广播,1WK,,,61.71
+2026-11-09 00:00:00,Long,NXST,209.74,10.38%,175.77,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NEXSTAR MEDIA GROUP INC,57.03,广播,1WK,200.0,27.84,61.71
+2026-11-09 00:00:00,Long,TCOM,43.61,-1.71%,40.4,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TRIP.COM GROUP LTD-ADR,268.82,旅游服务,1WK,200.0,-13.61,5.98
+2026-11-09 00:00:00,Long,TCOM,43.61,-1.71%,40.4,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TRIP.COM GROUP LTD-ADR,268.82,旅游服务,1WK,200.0,-13.61,5.98
+2026-11-09 00:00:00,Long,AERO,17.81,8.33%,15.05,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,GRUPO AEROMEXICO SAB DE CV,23.18,航空服务,1WK,,,6.59
+2026-11-09 00:00:00,Long,SNY,48.43,2.95%,45.39,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,SANOFI-ADR,1137.45,一般药品制造商,1WK,200.0,7.39,13.27
+2026-11-09 00:00:00,Long,SNY,48.43,2.95%,45.39,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,SANOFI-ADR,1137.45,一般药品制造商,1WK,200.0,7.39,13.27
+2026-11-09 00:00:00,Long,VTMX,37.87,0.66%,35.72,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,38.91-28.28-26.65-29.08-36.74,低-低-高-高,27.31%-5.77%-9.10%-26.36%,37.0,19.64,CORP INMOBILIARIA VESTA-ADR,34.34,多元化房地产,1WK,,,13.18
+2026-11-09 00:00:00,Long,VTMX,37.87,0.66%,35.72,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-38.91-29.08-36.74,低-低-高,nan%-25.27%-26.36%,37.0,19.64,CORP INMOBILIARIA VESTA-ADR,34.34,多元化房地产,1WK,,,13.18
+2026-11-09 00:00:00,Long,MSCI,661.53,3.20%,604.91,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,595.99-627.39-583.01-619.36-642.47,高-低-高-高,5.27%-7.07%-6.23%-3.73%,17.0,20.44,MSCI INC,482.12,金融数据与证券交易所,1WK,,,42.98
+2026-11-09 00:00:00,Long,BLCO,21.32,6.65%,18.67,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-21.95-17.69-21.69-18.92,低-低-高-低,nan%-19.38%-22.58%-12.79%,37.0,29.11,BAUSCH + LOMB CORP,73.64,医疗设备和用品,1WK,,,亏损
+2026-11-09 00:00:00,Long,OKLO,25.86,9.81%,15.21,mfa,参数一,"{""mfa"": {""mfa_all"": 18}}",,,,,,,OKLO INC,41.15,独立电力生产商,1WK,200.0,-26.61,亏损
+2026-11-09 00:00:00,Long,OKLO,25.86,9.81%,15.21,mfa,参数二,"{""mfa"": {""mfa_all"": 18}}",,,,,,,OKLO INC,41.15,独立电力生产商,1WK,200.0,-26.61,亏损
+2026-11-09 00:00:00,Long,VCTR,125.74,5.45%,113.46,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-69.63-70.7,低-高,nan%-1.55%,62.0,27.12,VICTORY CAPITAL HOLDING - A,73.93,资产管理,1WK,,,29.46
+2026-11-09 00:00:00,Long,GGG,72.98,7.54%,64.23,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,GRACO INC,111.91,专用工业机械,1WK,200.0,-8.28,22.66
+2026-11-09 00:00:00,Long,GGG,72.98,7.54%,64.23,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,GRACO INC,111.91,专用工业机械,1WK,200.0,-8.28,22.66
+2026-11-09 00:00:00,Long,ITUB,7.55,2.17%,6.67,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,ITAU UNIBANCO H-SPON PRF ADR,802.4,地区银行,1WK,200.0,36.96,9.90
+2026-11-09 00:00:00,Long,ITUB,7.55,2.17%,6.67,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,ITAU UNIBANCO H-SPON PRF ADR,802.4,地区银行,1WK,200.0,36.96,9.90
+2026-11-09 00:00:00,Long,HUBB,443.48,3.27%,401.85,mfa,参数一,"{""mfa"": {""mfa_all"": 11}}",,,,,,,HUBBELL INC,231.55,电气设备及零件,1WK,200.0,15.38,26.50
+2026-11-09 00:00:00,Long,HUBB,443.48,3.27%,401.85,mfa,参数二,"{""mfa"": {""mfa_all"": 11}}",,,,,,,HUBBELL INC,231.55,电气设备及零件,1WK,200.0,15.38,26.50
+2026-11-09 00:00:00,Long,SIGI,103.0,3.58%,93.43,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,100.12-90.69-89.39-90.0-99.94,低-低-高-高,9.42%-1.44%-0.68%-11.05%,18.0,20.38,SELECTIVE INSURANCE GROUP,60.89,财产和意外伤害保险,1WK,,,13.78
+2026-11-09 00:00:00,Long,DOLE,14.31,3.10%,12.77,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,DOLE PLC,13.06,农产品,1WK,,,26.09
+2026-11-09 00:00:00,Short,IOVA,8.09,0.62%,10.66,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,IOVANCE BIOTHERAPEUTICS INC,39.41,生物技术,1WK,200.0,26.98,亏损
+2026-11-09 00:00:00,Short,IOVA,8.09,0.62%,10.66,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,IOVANCE BIOTHERAPEUTICS INC,39.41,生物技术,1WK,200.0,26.98,亏损
+2026-11-09 00:00:00,Long,ALG,141.71,5.99%,124.07,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,ALAMO GROUP INC,17.53,农业和重型机械,1WK,200.0,-21.39,16.78
+2026-11-09 00:00:00,Long,ALG,141.71,5.99%,124.07,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ALAMO GROUP INC,17.53,农业和重型机械,1WK,200.0,-21.39,16.78
+2026-11-09 00:00:00,Long,ALG,141.71,5.99%,124.07,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,ALAMO GROUP INC,17.53,农业和重型机械,1WK,200.0,-21.39,16.78
+2026-11-09 00:00:00,Long,ALG,141.71,5.99%,124.07,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ALAMO GROUP INC,17.53,农业和重型机械,1WK,200.0,-21.39,16.78
+2026-11-09 00:00:00,Long,QNT,40.57,7.99%,25.91,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",,,,,,,QUANTINUUM INC-A,87.01,应用软件,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,QNT,40.57,7.99%,25.91,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",,,,,,,QUANTINUUM INC-A,87.01,应用软件,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,TER,265.78,21.79%,166.78,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,TERADYNE INC,391.86,半导体设备与材料,1WK,200.0,61.95,72.33
+2026-11-09 00:00:00,Long,TER,265.78,21.79%,166.78,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,TERADYNE INC,391.86,半导体设备与材料,1WK,200.0,61.95,72.33
+2026-11-09 00:00:00,Long,ECL,307.86,2.39%,287.9,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,185.03-257.18-268.73-282.27-306.79,高-高-高-高,38.99%-4.49%-5.04%-8.69%,37.0,26.85,ECOLAB INC,883.5,特殊化工用品,1WK,,,43.27
+2026-11-09 00:00:00,Short,FANG,180.98,1.13%,195.38,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,DIAMONDBACK ENERGY INC,510.68,油气勘探与开发,1WK,200.0,15.08,31.92
+2026-11-09 00:00:00,Short,FANG,180.98,1.13%,195.38,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,DIAMONDBACK ENERGY INC,510.68,油气勘探与开发,1WK,200.0,15.08,31.92
+2026-11-09 00:00:00,Long,ASR,271.71,2.99%,247.45,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,GRUPO AEROPORTUARIO SUR-ADR,81.6,机场和航空服务,1WK,,,14.15
+2026-11-09 00:00:00,Short,MTCH,41.63,6.66%,44.55,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,MATCH GROUP INC,91.49,互联网内容与信息,1WK,200.0,20.88,16.89
+2026-11-09 00:00:00,Short,MTCH,41.63,6.66%,44.55,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,MATCH GROUP INC,91.49,互联网内容与信息,1WK,200.0,20.88,16.89
+2026-11-09 00:00:00,Short,DT,44.24,1.84%,50.5,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,DYNATRACE INC,134.23,应用软件,1WK,200.0,-8.07,86.63
+2026-11-09 00:00:00,Short,DT,44.24,1.84%,50.5,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,DYNATRACE INC,134.23,应用软件,1WK,200.0,-8.07,86.63
+2026-11-09 00:00:00,Long,SYM,37.11,0.79%,31.2,mfa,参数一,"{""mfa"": {""mfa_all"": 26}}",,,,,,,SYMBOTIC INC,226.86,专用工业机械,1WK,200.0,-6.4,亏损
+2026-11-09 00:00:00,Long,SYM,37.11,0.79%,31.2,mfa,参数二,"{""mfa"": {""mfa_all"": 26}}",,,,,,,SYMBOTIC INC,226.86,专用工业机械,1WK,200.0,-6.4,亏损
+2026-11-09 00:00:00,Long,HGV,45.41,3.32%,40.08,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,HILTON GRAND VACATIONS INC,33.18,度假村与赌场,1WK,200.0,6.87,49.17
+2026-11-09 00:00:00,Long,HGV,45.41,3.32%,40.08,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,HILTON GRAND VACATIONS INC,33.18,度假村与赌场,1WK,200.0,6.87,49.17
+2026-11-09 00:00:00,Long,AAPG,15.0,-2.79%,13.09,mfa,参数一,"{""mfa"": {""mfa_all"": 43}}",,,,,,,ASCENTAGE PHARMA GR-ADR,14.07,生物技术,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,AAPG,15.0,-2.79%,13.09,mfa,参数二,"{""mfa"": {""mfa_all"": 43}}",,,,,,,ASCENTAGE PHARMA GR-ADR,14.07,生物技术,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,AHR,59.23,2.28%,54.95,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-53.86-58.42,低-高,nan%-8.47%,15.0,18.62,AMERICAN HEALTHCARE REIT INC,130.35,医疗设施REITs,1WK,,,134.21
+2026-11-09 00:00:00,Long,AHR,59.23,2.28%,54.95,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,AMERICAN HEALTHCARE REIT INC,130.35,医疗设施REITs,1WK,200.0,,134.21
+2026-11-09 00:00:00,Long,AHR,59.23,2.28%,54.95,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,AMERICAN HEALTHCARE REIT INC,130.35,医疗设施REITs,1WK,200.0,,134.21
+2026-11-09 00:00:00,Long,IRON,87.08,10.35%,68.7,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,DISC MEDICINE INC,36.97,生物技术,1WK,200.0,55.74,亏损
+2026-11-09 00:00:00,Long,IRON,87.08,10.35%,68.7,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,DISC MEDICINE INC,36.97,生物技术,1WK,200.0,55.74,亏损
+2026-11-09 00:00:00,Long,BNT,42.07,1.82%,39.76,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BROOKFIELD WEALTH SOLUTIONS,154.0,多元化保险,1WK,200.0,23.89,18.71
+2026-11-09 00:00:00,Long,BNT,42.07,1.82%,39.76,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,BROOKFIELD WEALTH SOLUTIONS,154.0,多元化保险,1WK,,,18.71
+2026-11-09 00:00:00,Long,BNT,42.07,1.82%,39.76,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BROOKFIELD WEALTH SOLUTIONS,154.0,多元化保险,1WK,200.0,23.89,18.71
+2026-11-09 00:00:00,Long,VC,80.07,5.80%,67.9,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,VISTEON CORP,19.84,汽车零件,1WK,200.0,-26.58,11.03
+2026-11-09 00:00:00,Long,VC,80.07,5.80%,67.9,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,VISTEON CORP,19.84,汽车零件,1WK,200.0,-26.58,11.03
+2026-11-09 00:00:00,Long,WRBY,30.15,18.33%,21.86,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,WARBY PARKER INC-CLASS A,26.32,医疗设备和用品,1WK,200.0,59.76,2129.00
+2026-11-09 00:00:00,Long,WRBY,30.15,18.33%,21.86,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,WARBY PARKER INC-CLASS A,26.32,医疗设备和用品,1WK,200.0,59.76,2129.00
+2026-11-09 00:00:00,Long,SRAD,13.22,-2.36%,11.52,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,SPORTRADAR GROUP AG-A,45.17,应用软件,1WK,200.0,-16.6,41.64
+2026-11-09 00:00:00,Long,SRAD,13.22,-2.36%,11.52,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,SPORTRADAR GROUP AG-A,45.17,应用软件,1WK,200.0,-16.6,41.64
+2026-11-09 00:00:00,Long,ACM,70.25,5.26%,62.1,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,AECOM,87.77,建筑工程,1WK,,,16.20
+2026-11-09 00:00:00,Long,ACM,70.25,5.26%,62.1,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,AECOM,87.77,建筑工程,1WK,200.0,-22.43,16.20
+2026-11-09 00:00:00,Long,ACM,70.25,5.26%,62.1,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,AECOM,87.77,建筑工程,1WK,200.0,-22.43,16.20
+2026-11-09 00:00:00,Long,UUUU,6.93,4.05%,4.63,mfa,参数一,"{""mfa"": {""mfa_all"": 19}}",,,,,,,ENERGY FUELS INC,19.01,铀,1WK,200.0,-25.49,亏损
+2026-11-09 00:00:00,Long,UUUU,6.93,4.05%,4.63,mfa,参数二,"{""mfa"": {""mfa_all"": 19}}",,,,,,,ENERGY FUELS INC,19.01,铀,1WK,200.0,-25.49,亏损
+2026-11-09 00:00:00,Long,DAN,23.19,7.86%,18.87,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,DANA INC,23.97,汽车零件,1WK,200.0,31.46,37.06
+2026-11-09 00:00:00,Long,DAN,23.19,7.86%,18.87,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,DANA INC,23.97,汽车零件,1WK,200.0,31.46,37.06
+2026-11-09 00:00:00,Short,NTRA,319.82,2.95%,360.06,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NATERA INC,563.65,诊断与研究,1WK,200.0,117.5,亏损
+2026-11-09 00:00:00,Short,NTRA,319.82,2.95%,360.06,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NATERA INC,563.65,诊断与研究,1WK,200.0,117.5,亏损
+2026-11-09 00:00:00,Long,JBTM,126.56,-1.39%,115.2,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,JBT MAREL CORP,64.5,专用工业机械,1WK,200.0,8.77,亏损
+2026-11-09 00:00:00,Long,JBTM,126.56,-1.39%,115.2,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,JBT MAREL CORP,64.5,专用工业机械,1WK,200.0,8.77,亏损
+2026-11-09 00:00:00,Long,FER,61.29,4.39%,56.67,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FERROVIAL NV,423.73,建筑工程,1WK,200.0,37.28,42.35
+2026-11-09 00:00:00,Long,FER,61.29,4.39%,56.67,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FERROVIAL NV,423.73,建筑工程,1WK,200.0,37.28,42.35
+2026-11-09 00:00:00,Long,HESM,30.92,3.20%,27.34,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,HESS MIDSTREAM LP - CLASS A,65.56,油气中游,1WK,200.0,2.64,11.12
+2026-11-09 00:00:00,Long,HESM,30.92,3.20%,27.34,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,HESS MIDSTREAM LP - CLASS A,65.56,油气中游,1WK,200.0,2.64,11.12
+2026-11-09 00:00:00,Long,GWW,1486.53,3.36%,1374.64,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,1011.2-1207.57-1090.15-1211.7-1414.69,高-低-高-高,19.42%-9.72%-11.15%-16.75%,17.0,14.63,WW GRAINGER INC,701.52,工业分销,1WK,,,42.07
+2026-11-09 00:00:00,Long,PVLA,163.94,-6.81%,144.36,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PALVELLA THERAPEUTICS INC,23.38,生物技术,1WK,200.0,188.92,亏损
+2026-11-09 00:00:00,Long,PVLA,163.94,-6.81%,144.36,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PALVELLA THERAPEUTICS INC,23.38,生物技术,1WK,200.0,188.92,亏损
+2026-11-09 00:00:00,Short,EQNR,41.33,-1.57%,44.75,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,EQUINOR ASA-SPON ADR,1014.29,综合油气,1WK,,,22.06
+2026-11-09 00:00:00,Long,MBLY,5.78,0.87%,4.54,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,MOBILEYE GLOBAL INC-A,45.4,汽车零件,1WK,200.0,-73.18,亏损
+2026-11-09 00:00:00,Long,MBLY,5.78,0.87%,4.54,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,MOBILEYE GLOBAL INC-A,45.4,汽车零件,1WK,200.0,-73.18,亏损
+2026-11-09 00:00:00,Long,AGLT,9.13,-7.78%,6.28,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,AGILITY ROBOTICS INC,,,1WK,200.0,,
+2026-11-09 00:00:00,Long,AGLT,9.13,-7.78%,6.28,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,AGILITY ROBOTICS INC,,,1WK,200.0,,
+2026-11-09 00:00:00,Short,LIFE,37.64,12.32%,44.81,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ETHOS TECHNOLOGIES INC CL-A,23.67,保险经纪,1WK,200.0,,32.80
+2026-11-09 00:00:00,Short,LIFE,37.64,12.32%,44.81,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ETHOS TECHNOLOGIES INC CL-A,23.67,保险经纪,1WK,200.0,,32.80
+2026-11-09 00:00:00,Short,CVI,40.61,6.50%,46.86,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CVR ENERGY INC,43.24,油气炼制与销售,1WK,200.0,42.53,159.30
+2026-11-09 00:00:00,Short,CVI,40.61,6.50%,46.86,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CVR ENERGY INC,43.24,油气炼制与销售,1WK,200.0,42.53,159.30
+2026-11-09 00:00:00,Long,AXSM,149.24,12.74%,113.16,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,AXSOME THERAPEUTICS INC,72.06,生物技术,1WK,200.0,29.91,亏损
+2026-11-09 00:00:00,Long,AXSM,149.24,12.74%,113.16,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,AXSOME THERAPEUTICS INC,72.06,生物技术,1WK,200.0,29.91,亏损
+2026-11-09 00:00:00,Long,TKC,4.78,4.60%,4.32,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TURKCELL ILETISIM HIZMET-ADR,41.18,电信服务,1WK,200.0,-11.89,11.71
+2026-11-09 00:00:00,Long,TKC,4.78,4.60%,4.32,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TURKCELL ILETISIM HIZMET-ADR,41.18,电信服务,1WK,200.0,-11.89,11.71
+2026-11-09 00:00:00,Short,PNTG,36.8,1.21%,41.21,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PENNANT GROUP INC/THE,15.38,医疗保健设施,1WK,200.0,49.94,52.43
+2026-11-09 00:00:00,Short,PNTG,36.8,1.21%,41.21,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PENNANT GROUP INC/THE,15.38,医疗保健设施,1WK,200.0,49.94,52.43
+2026-11-09 00:00:00,Long,TRV,399.46,1.08%,372.93,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,223.43-261.18-271.43-309.63-397.34,高-高-高-高,16.90%-3.92%-14.07%-28.33%,15.0,12.31,TRAVELERS COS INC/THE,853.59,财产和意外伤害保险,1WK,,,14.92
+2026-11-09 00:00:00,Long,ICL,4.57,-2.35%,4.2,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,ICL GROUP LTD,59.11,农业投入品,1WK,200.0,-12.76,25.44
+2026-11-09 00:00:00,Short,ICL,4.57,-2.35%,5.09,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,nan-4.48-3.96-3.57-4.63,低-低-低-高,nan%-11.48%-9.88%-29.75%,37.0,47.73,ICL GROUP LTD,59.11,农业投入品,1WK,,,25.44
+2026-11-09 00:00:00,Long,ICL,4.57,-2.35%,4.2,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,ICL GROUP LTD,59.11,农业投入品,1WK,200.0,-12.76,25.44
+2026-11-09 00:00:00,Long,BBD,2.57,1.18%,2.19,mfa,参数一,"{""mfa"": {""mfa_all"": 14}}",,,,,,,BANCO BRADESCO-ADR,287.21,地区银行,1WK,200.0,-2.11,6.59
+2026-11-09 00:00:00,Long,BBD,2.57,1.18%,2.19,mfa,参数二,"{""mfa"": {""mfa_all"": 14}}",,,,,,,BANCO BRADESCO-ADR,287.21,地区银行,1WK,200.0,-2.11,6.59
+2026-11-09 00:00:00,Long,TTD,15.98,23.59%,11.62,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TRADE DESK INC/THE -CLASS A,62.55,广告代理,1WK,200.0,-75.23,14.70
+2026-11-09 00:00:00,Long,TTD,15.98,23.59%,11.62,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TRADE DESK INC/THE -CLASS A,62.55,广告代理,1WK,200.0,-75.23,14.70
+2026-11-09 00:00:00,Long,BGSI,77.18,-13.01%,67.67,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BOYD GROUP SERVICES INC,25.13,汽车和卡车经销,1WK,200.0,,110.07
+2026-11-09 00:00:00,Long,BGSI,77.18,-13.01%,67.67,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BOYD GROUP SERVICES INC,25.13,汽车和卡车经销,1WK,200.0,,110.07
+2026-11-09 00:00:00,Long,BHF,45.33,6.41%,39.58,mfa,参数一,"{""mfa"": {""mfa_all"": 14}}",,,,,,,BRIGHTHOUSE FINANCIAL INC,24.41,人寿保险,1WK,200.0,-13.3,7.43
+2026-11-09 00:00:00,Long,BHF,45.33,6.41%,39.58,mfa,参数二,"{""mfa"": {""mfa_all"": 14}}",,,,,,,BRIGHTHOUSE FINANCIAL INC,24.41,人寿保险,1WK,200.0,-13.3,7.43
+2026-11-09 00:00:00,Long,ZBH,107.47,1.78%,99.22,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,114.14-112.44-112.66-106.88-100.68,低-高-低-低,1.49%-0.19%-5.13%-5.80%,37.0,27.93,ZIMMER BIOMET HOLDINGS INC,210.1,医疗设备,1WK,,,31.03
+2026-11-09 00:00:00,Long,ZBH,107.47,1.78%,99.22,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,144.52-130.66-112.66-106.88-100.68,低-低-低-低,9.59%-13.78%-5.13%-5.80%,37.0,27.93,ZIMMER BIOMET HOLDINGS INC,210.1,医疗设备,1WK,,,31.03
+2026-11-09 00:00:00,Long,USAR,8.27,0.49%,4.68,mfa,参数一,"{""mfa"": {""mfa_all"": 6}}",,,,,,,USA RARE EARTH INC,30.76,其他工业金属与采矿,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,USAR,8.27,0.49%,4.68,mfa,参数二,"{""mfa"": {""mfa_all"": 6}}",,,,,,,USA RARE EARTH INC,30.76,其他工业金属与采矿,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,CAMT,107.05,10.30%,77.79,mfa,参数一,"{""mfa"": {""mfa_all"": 11}}",,,,,,,CAMTEK LTD,47.41,半导体设备与材料,1WK,200.0,17.62,97.56
+2026-11-09 00:00:00,Long,CAMT,107.05,10.30%,77.79,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CAMTEK LTD,47.41,半导体设备与材料,1WK,200.0,17.62,97.56
+2026-11-09 00:00:00,Long,CAMT,107.05,10.30%,77.79,mfa,参数二,"{""mfa"": {""mfa_all"": 11}}",,,,,,,CAMTEK LTD,47.41,半导体设备与材料,1WK,200.0,17.62,97.56
+2026-11-09 00:00:00,Long,CAMT,107.05,10.30%,77.79,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CAMTEK LTD,47.41,半导体设备与材料,1WK,200.0,17.62,97.56
+2026-11-09 00:00:00,Short,DINO,101.73,4.68%,112.04,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,HF SINCLAIR CORP,179.2,油气炼制与销售,1WK,200.0,97.68,33.95
+2026-11-09 00:00:00,Short,DINO,101.73,4.68%,112.04,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,HF SINCLAIR CORP,179.2,油气炼制与销售,1WK,200.0,97.68,33.95
+2026-11-09 00:00:00,Short,IONS,28.33,-28.13%,38.25,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-35.95-23.95-68.9,低-低-高,nan%-33.38%-187.68%,33.0,25.89,IONIS PHARMACEUTICALS INC,66.72,生物技术,1WK,,,亏损
+2026-11-09 00:00:00,Long,INTR,4.03,4.40%,2.99,mfa,参数一,"{""mfa"": {""mfa_all"": 29}}",,,,,,,INTER & CO INC - CL A,17.48,地区银行,1WK,200.0,-29.02,7.31
+2026-11-09 00:00:00,Long,INTR,4.03,4.40%,2.99,mfa,参数二,"{""mfa"": {""mfa_all"": 29}}",,,,,,,INTER & CO INC - CL A,17.48,地区银行,1WK,200.0,-29.02,7.31
+2026-11-09 00:00:00,Long,QBTS,10.65,-0.28%,7.16,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,D-WAVE QUANTUM INC,38.66,计算机硬件,1WK,200.0,12.59,亏损
+2026-11-09 00:00:00,Long,QBTS,10.65,-0.28%,7.16,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,D-WAVE QUANTUM INC,38.66,计算机硬件,1WK,200.0,12.59,亏损
+2026-11-09 00:00:00,Long,QBTS,10.65,-0.28%,7.16,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,D-WAVE QUANTUM INC,38.66,计算机硬件,1WK,200.0,12.59,亏损
+2026-11-09 00:00:00,Long,QBTS,10.65,-0.28%,7.16,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,D-WAVE QUANTUM INC,38.66,计算机硬件,1WK,200.0,12.59,亏损
+2026-11-09 00:00:00,Long,BKV,19.24,9.63%,15.12,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",,,,,,,BKV CORPORATION,20.9,油气勘探与开发,1WK,200.0,,9.32
+2026-11-09 00:00:00,Long,BKV,19.24,9.63%,15.12,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",,,,,,,BKV CORPORATION,20.9,油气勘探与开发,1WK,200.0,,9.32
+2026-11-09 00:00:00,Long,TGT,162.7,3.43%,148.84,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-164.68-153.83-102.9,低-低-低,nan%-6.59%-33.11%,65.0,27.61,TARGET CORP,740.96,折扣店,1WK,,,20.06
+2026-11-09 00:00:00,Long,AIZ,323.38,5.34%,295.74,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,127.41-182.56-223.87-243.72-303.0,高-高-高-高,43.28%-22.63%-8.87%-24.32%,14.0,16.25,ASSURANT INC,152.17,财产和意外伤害保险,1WK,,,18.22
+2026-11-09 00:00:00,Long,GDS,22.62,1.21%,17.18,mfa,参数一,"{""mfa"": {""mfa_all"": 7}}",,,,,,,GDS HOLDINGS LTD - ADR,46.83,信息技术服务,1WK,200.0,-1.61,35.46
+2026-11-09 00:00:00,Long,GDS,22.62,1.21%,17.18,mfa,参数二,"{""mfa"": {""mfa_all"": 7}}",,,,,,,GDS HOLDINGS LTD - ADR,46.83,信息技术服务,1WK,200.0,-1.61,35.46
+2026-11-09 00:00:00,Long,LMRI,15.95,18.76%,11.81,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-13.0,低,nan%,13.0,32.25,LUMEXA IMAGING HOLDINGS INC,12.59,医疗设备,1WK,,,亏损
+2026-11-09 00:00:00,Long,BYD,77.5,1.21%,72.56,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BOYD GAMING CORP,54.91,度假村与赌场,1WK,200.0,10.63,3.44
+2026-11-09 00:00:00,Long,BYD,77.5,1.21%,72.56,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BOYD GAMING CORP,54.91,度假村与赌场,1WK,200.0,10.63,3.44
+2026-11-09 00:00:00,Long,MD,31.45,0.51%,28.28,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,16.41-17.67-15.37-24.99-27.94,高-低-高-高,7.68%-13.02%-62.59%-11.80%,18.0,23.63,PEDIATRIX MEDICAL GROUP INC,25.62,医疗保健设施,1WK,,,16.91
+2026-11-09 00:00:00,Long,TFII,96.89,2.05%,83.01,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,TFI INTERNATIONAL INC,82.4,货运,1WK,200.0,-17.87,26.95
+2026-11-09 00:00:00,Long,TFII,96.89,2.05%,83.01,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,TFI INTERNATIONAL INC,82.4,货运,1WK,200.0,-17.87,26.95
+2026-11-09 00:00:00,Short,CRWD,229.06,5.61%,265.89,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CROWDSTRIKE HOLDINGS INC - A,2467.68,软件基础设施,1WK,200.0,135.01,亏损
+2026-11-09 00:00:00,Short,CRWD,229.06,5.61%,265.89,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CROWDSTRIKE HOLDINGS INC - A,2467.68,软件基础设施,1WK,200.0,135.01,亏损
+2026-11-09 00:00:00,Short,INSW,101.27,3.32%,111.61,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,INTERNATIONAL SEAWAYS INC,50.83,油气中游,1WK,200.0,127.29,15.95
+2026-11-09 00:00:00,Short,INSW,101.27,3.32%,111.61,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,INTERNATIONAL SEAWAYS INC,50.83,油气中游,1WK,200.0,127.29,15.95
+2026-11-09 00:00:00,Short,NVDA,173.73,-6.92%,196.83,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,39.11-90.44-86.4-163.9-189.59,高-低-高-高,131.23%-4.46%-89.69%-15.68%,19.0,28.37,NVIDIA CORP,48231.33,半导体,1WK,,,40.84
+2026-11-09 00:00:00,Long,SEDG,26.67,-3.05%,18.57,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,SOLAREDGE TECHNOLOGIES INC,18.47,太阳能,1WK,200.0,-66.41,亏损
+2026-11-09 00:00:00,Long,SEDG,26.67,-3.05%,18.57,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,SOLAREDGE TECHNOLOGIES INC,18.47,太阳能,1WK,200.0,-66.41,亏损
+2026-11-09 00:00:00,Long,CHD,112.02,2.46%,104.08,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-96.69-107.32-114.24-105.37,低-高-高-低,nan%-11.00%-6.45%-7.76%,37.0,17.37,CHURCH & DWIGHT CO INC,264.43,家庭和个人用品,1WK,,,37.10
+2026-11-09 00:00:00,Long,LUMN,4.45,11.53%,3.04,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LUMEN TECHNOLOGIES INC,46.11,电信服务,1WK,200.0,-1.81,亏损
+2026-11-09 00:00:00,Long,LUMN,4.45,11.53%,3.04,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LUMEN TECHNOLOGIES INC,46.11,电信服务,1WK,200.0,-1.81,亏损
+2026-11-09 00:00:00,Long,TKO,199.5,4.45%,178.05,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,TKO GROUP HOLDINGS INC,366.2,娱乐,1WK,,,85.61
+2026-11-09 00:00:00,Long,TKO,199.5,4.45%,178.05,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TKO GROUP HOLDINGS INC,366.2,娱乐,1WK,200.0,44.9,85.61
+2026-11-09 00:00:00,Long,TKO,199.5,4.45%,178.05,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TKO GROUP HOLDINGS INC,366.2,娱乐,1WK,200.0,44.9,85.61
+2026-11-09 00:00:00,Long,PLUG,1.36,-6.55%,1.05,mfa,参数一,"{""mfa"": {""mfa_all"": 6}}",,,,,,,PLUG POWER INC,20.4,电气设备及零件,1WK,200.0,-66.32,亏损
+2026-11-09 00:00:00,Long,PLUG,1.36,-6.55%,1.05,mfa,参数二,"{""mfa"": {""mfa_all"": 6}}",,,,,,,PLUG POWER INC,20.4,电气设备及零件,1WK,200.0,-66.32,亏损
+2026-11-09 00:00:00,Long,IREN,20.84,-3.70%,11.19,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",,,,,,,IREN LTD,87.84,资本市场,1WK,200.0,9.18,亏损
+2026-11-09 00:00:00,Long,IREN,20.84,-3.70%,11.19,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",,,,,,,IREN LTD,87.84,资本市场,1WK,200.0,9.18,亏损
+2026-11-09 00:00:00,Long,ENS,147.65,0.43%,131.0,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,ENERSYS,56.26,电气设备及零件,1WK,200.0,25.72,20.26
+2026-11-09 00:00:00,Long,ENS,147.65,0.43%,131.0,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,ENERSYS,56.26,电气设备及零件,1WK,200.0,25.72,20.26
+2026-11-09 00:00:00,Long,KEEL,2.07,10.70%,1.12,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,KEEL INFRASTRUCTURE CORP,12.97,信息技术服务,1WK,200.0,-3.77,亏损
+2026-11-09 00:00:00,Long,KEEL,2.07,10.70%,1.12,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,KEEL INFRASTRUCTURE CORP,12.97,信息技术服务,1WK,200.0,-3.77,亏损
+2026-11-09 00:00:00,Long,CAT,601.61,7.69%,495.58,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,CATERPILLAR INC,2718.06,农业和重型机械,1WK,200.0,38.19,31.44
+2026-11-09 00:00:00,Long,CAT,601.61,7.69%,495.58,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,CATERPILLAR INC,2718.06,农业和重型机械,1WK,200.0,38.19,31.44
+2026-11-09 00:00:00,Long,LEU,112.17,7.24%,81.47,mfa,参数一,"{""mfa"": {""mfa_all"": 26}}",,,,,,,CENTRUS ENERGY CORP-CLASS A,18.94,铀,1WK,200.0,-1.38,23.74
+2026-11-09 00:00:00,Long,LEU,112.17,7.24%,81.47,mfa,参数二,"{""mfa"": {""mfa_all"": 26}}",,,,,,,CENTRUS ENERGY CORP-CLASS A,18.94,铀,1WK,200.0,-1.38,23.74
+2026-11-09 00:00:00,Short,SM,31.16,4.14%,34.89,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,SM ENERGY CO,73.0,油气勘探与开发,1WK,200.0,-2.33,5.51
+2026-11-09 00:00:00,Short,SM,31.16,4.14%,34.89,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,SM ENERGY CO,73.0,油气勘探与开发,1WK,200.0,-2.33,5.51
+2026-11-09 00:00:00,Long,HSY,176.43,-0.93%,159.74,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,HERSHEY CO/THE,350.71,糖果,1WK,200.0,-4.16,40.21
+2026-11-09 00:00:00,Long,HSY,176.43,-0.93%,159.74,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,HERSHEY CO/THE,350.71,糖果,1WK,200.0,-4.16,40.21
+2026-11-09 00:00:00,Short,P,106.5,10.08%,128.37,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,EVERPURE INC-A,372.45,计算机硬件,1WK,200.0,82.1,203.22
+2026-11-09 00:00:00,Short,P,106.5,10.08%,128.37,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,EVERPURE INC-A,372.45,计算机硬件,1WK,200.0,82.1,203.22
+2026-11-09 00:00:00,Short,COIN,136.27,1.12%,162.6,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,nan-46.43-146.12-142.58-139.36,低-高-低-低,nan%-214.71%-2.42%-2.26%,39.0,59.55,COINBASE GLOBAL INC -CLASS A,401.12,金融数据与证券交易所,1WK,,,34.04
+2026-11-09 00:00:00,Long,ICHR,37.45,20.94%,20.27,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ICHOR HOLDINGS LTD,12.67,半导体设备与材料,1WK,200.0,4.59,亏损
+2026-11-09 00:00:00,Long,ICHR,37.45,20.94%,20.27,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ICHOR HOLDINGS LTD,12.67,半导体设备与材料,1WK,200.0,4.59,亏损
+2026-11-09 00:00:00,Long,GPCR,20.95,2.95%,15.42,mfa,参数一,"{""mfa"": {""mfa_all"": 9}}",,,,,,,STRUCTURE THERAPEUTICS INC,14.52,生物技术,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,GPCR,20.95,2.95%,15.42,mfa,参数二,"{""mfa"": {""mfa_all"": 9}}",,,,,,,STRUCTURE THERAPEUTICS INC,14.52,生物技术,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,PFGC,111.21,3.45%,102.52,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PERFORMANCE FOOD GROUP CO,172.88,食品分销,1WK,200.0,38.19,47.85
+2026-11-09 00:00:00,Long,PFGC,111.21,3.45%,102.52,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PERFORMANCE FOOD GROUP CO,172.88,食品分销,1WK,200.0,38.19,47.85
+2026-11-09 00:00:00,Long,SQM,54.74,-4.83%,48.15,mfa,参数一,"{""mfa"": {""mfa_all"": 7}}",,,,,,,QUIMICA Y MINERA CHIL-SP ADR,164.41,特殊化工用品,1WK,200.0,1.24,27.96
+2026-11-09 00:00:00,Long,SQM,54.74,-4.83%,48.15,mfa,参数二,"{""mfa"": {""mfa_all"": 7}}",,,,,,,QUIMICA Y MINERA CHIL-SP ADR,164.41,特殊化工用品,1WK,200.0,1.24,27.96
+2026-11-09 00:00:00,Long,TFX,156.33,3.62%,138.66,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-268.27-251.38-244.76-135.86,低-低-低-低,nan%-6.30%-2.63%-44.49%,48.0,36.7,TELEFLEX INC,63.5,医疗设备和用品,1WK,,,亏损
+2026-11-09 00:00:00,Long,CL,98.0,1.49%,92.24,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-75.6-103.7-96.06-97.6,低-高-低-高,nan%-37.16%-7.36%-1.59%,37.0,20.7,COLGATE-PALMOLIVE CO,785.06,家庭和个人用品,1WK,,,37.55
+2026-11-09 00:00:00,Long,LUV,46.48,4.57%,42.33,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,SOUTHWEST AIRLINES CO,227.27,航空服务,1WK,,,58.76
+2026-11-09 00:00:00,Long,AOS,64.61,0.09%,59.68,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,85.14-87.83-74.81-80.43-64.38,高-低-高-低,3.16%-14.82%-7.52%-19.96%,15.0,18.74,SMITH (A.O.) CORP,90.09,专用工业机械,1WK,,,17.42
+2026-11-09 00:00:00,Long,AMKR,38.1,16.09%,24.69,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,AMKOR TECHNOLOGY INC,88.37,半导体设备与材料,1WK,200.0,14.42,23.77
+2026-11-09 00:00:00,Long,AMKR,38.1,16.09%,24.69,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,AMKOR TECHNOLOGY INC,88.37,半导体设备与材料,1WK,200.0,14.42,23.77
+2026-11-09 00:00:00,Long,AMKR,38.1,16.09%,24.69,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,AMKOR TECHNOLOGY INC,88.37,半导体设备与材料,1WK,200.0,14.42,23.77
+2026-11-09 00:00:00,Long,AMKR,38.1,16.09%,24.69,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,AMKOR TECHNOLOGY INC,88.37,半导体设备与材料,1WK,200.0,14.42,23.77
+2026-11-09 00:00:00,Long,CVCO,650.54,1.88%,589.87,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,544.08-542.47-549.99-713.01-630.48,低-高-高-低,0.30%-1.39%-29.64%-11.57%,20.0,24.84,CAVCO INDUSTRIES INC,51.79,住宅施工,1WK,,,28.30
+2026-11-09 00:00:00,Long,GFS,42.85,10.95%,32.21,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,GLOBALFOUNDRIES INC,224.86,半导体,1WK,200.0,-12.99,25.37
+2026-11-09 00:00:00,Long,GFS,42.85,10.95%,32.21,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,GLOBALFOUNDRIES INC,224.86,半导体,1WK,200.0,-12.99,25.37
+2026-11-09 00:00:00,Long,GATX,187.67,2.70%,174.05,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,GATX CORP,66.56,租赁服务,1WK,,,20.91
+2026-11-09 00:00:00,Long,GATX,187.67,2.70%,174.05,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,GATX CORP,66.56,租赁服务,1WK,200.0,31.3,20.91
+2026-11-09 00:00:00,Long,GATX,187.67,2.70%,174.05,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,GATX CORP,66.56,租赁服务,1WK,200.0,31.3,20.91
+2026-11-09 00:00:00,Long,MWA,24.23,1.08%,22.54,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,MUELLER WATER PRODUCTS INC-A,37.53,专用工业机械,1WK,200.0,18.87,19.70
+2026-11-09 00:00:00,Long,MWA,24.23,1.08%,22.54,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,MUELLER WATER PRODUCTS INC-A,37.53,专用工业机械,1WK,200.0,18.87,19.70
+2026-11-09 00:00:00,Long,GVA,126.4,4.88%,112.73,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,GRANITE CONSTRUCTION INC,58.42,建筑工程,1WK,,,34.30
+2026-11-09 00:00:00,Long,GVA,126.4,4.88%,112.73,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,GRANITE CONSTRUCTION INC,58.42,建筑工程,1WK,200.0,56.18,34.30
+2026-11-09 00:00:00,Long,GVA,126.4,4.88%,112.73,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,GRANITE CONSTRUCTION INC,58.42,建筑工程,1WK,200.0,56.18,34.30
+2026-11-09 00:00:00,Long,TMC,2.45,8.15%,1.56,mfa,参数一,"{""mfa"": {""mfa_all"": 20}}",,,,,,,TMC THE METALS CO INC,10.19,其他工业金属与采矿,1WK,200.0,-15.86,亏损
+2026-11-09 00:00:00,Long,TMC,2.45,8.15%,1.56,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TMC THE METALS CO INC,10.19,其他工业金属与采矿,1WK,200.0,-15.86,亏损
+2026-11-09 00:00:00,Long,TMC,2.45,8.15%,1.56,mfa,参数二,"{""mfa"": {""mfa_all"": 20}}",,,,,,,TMC THE METALS CO INC,10.19,其他工业金属与采矿,1WK,200.0,-15.86,亏损
+2026-11-09 00:00:00,Long,TMC,2.45,8.15%,1.56,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TMC THE METALS CO INC,10.19,其他工业金属与采矿,1WK,200.0,-15.86,亏损
+2026-11-09 00:00:00,Long,MLYS,16.16,5.41%,11.9,mfa,参数一,"{""mfa"": {""mfa_all"": 6}}",,,,,,,MINERALYS THERAPEUTICS INC,15.03,生物技术,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,MLYS,16.16,5.41%,11.9,mfa,参数二,"{""mfa"": {""mfa_all"": 6}}",,,,,,,MINERALYS THERAPEUTICS INC,15.03,生物技术,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,CWK,13.78,-1.29%,12.34,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CUSHMAN & WAKEFIELD LTD,35.05,房地产服务,1WK,200.0,15.2,39.29
+2026-11-09 00:00:00,Long,CWK,13.78,-1.29%,12.34,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CUSHMAN & WAKEFIELD LTD,35.05,房地产服务,1WK,200.0,15.2,39.29
+2026-11-09 00:00:00,Short,MTDR,52.08,4.23%,56.94,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,MATADOR RESOURCES CO,62.33,油气勘探与开发,1WK,200.0,2.29,8.27
+2026-11-09 00:00:00,Short,MTDR,52.08,4.23%,56.94,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,MATADOR RESOURCES CO,62.33,油气勘探与开发,1WK,200.0,2.29,8.27
+2026-11-09 00:00:00,Long,CRWV,60.77,30.97%,28.73,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",,,,,,,COREWEAVE INC-CL A,267.05,软件基础设施,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,CRWV,60.77,30.97%,28.73,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",,,,,,,COREWEAVE INC-CL A,267.05,软件基础设施,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,INSM,120.75,5.54%,100.35,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,INSMED INC,241.32,生物技术,1WK,,,亏损
+2026-11-09 00:00:00,Short,TALO,15.41,3.84%,16.97,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TALOS ENERGY INC,25.88,油气勘探与开发,1WK,200.0,21.25,亏损
+2026-11-09 00:00:00,Short,TALO,15.41,3.84%,16.97,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TALOS ENERGY INC,25.88,油气勘探与开发,1WK,200.0,21.25,亏损
+2026-11-09 00:00:00,Long,UFPT,314.05,3.49%,274.8,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-205.08-366.41-274.93,低-高-低,nan%-78.67%-24.97%,39.0,58.13,UFP TECHNOLOGIES INC,25.55,医疗设备,1WK,,,37.69
+2026-11-09 00:00:00,Long,BDC,104.17,6.48%,88.72,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,BELDEN INC,41.11,通讯设备,1WK,200.0,1.07,17.79
+2026-11-09 00:00:00,Long,BDC,104.17,6.48%,88.72,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,BELDEN INC,41.11,通讯设备,1WK,200.0,1.07,17.79
+2026-11-09 00:00:00,Long,GPGI,15.36,8.09%,12.23,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,GPGI INC,37.05,金属加工,1WK,,,亏损
+2026-11-09 00:00:00,Long,GPGI,15.36,8.09%,12.23,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,GPGI INC,37.05,金属加工,1WK,200.0,39.65,亏损
+2026-11-09 00:00:00,Long,GPGI,15.36,8.09%,12.23,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,GPGI INC,37.05,金属加工,1WK,200.0,39.65,亏损
+2026-11-09 00:00:00,Long,RSI,12.24,-0.33%,8.91,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,RUSH STREET INTERACTIVE INC,28.48,博彩,1WK,200.0,-2.95,39.84
+2026-11-09 00:00:00,Long,RSI,12.24,-0.33%,8.91,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,RUSH STREET INTERACTIVE INC,28.48,博彩,1WK,200.0,-2.95,39.84
+2026-11-09 00:00:00,Long,CIFR,7.11,8.63%,2.46,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,CIPHER DIGITAL INC,29.66,信息技术服务,1WK,200.0,-9.58,亏损
+2026-11-09 00:00:00,Long,CIFR,7.11,8.63%,2.46,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,CIPHER DIGITAL INC,29.66,信息技术服务,1WK,200.0,-9.58,亏损
+2026-11-09 00:00:00,Long,FCNCA,2315.61,1.84%,2150.38,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,1792.42-2155.69-2395.73-2158.88-2225.4,高-高-低-高,20.27%-11.13%-9.89%-3.08%,42.0,26.75,FIRST CITIZENS BCSHS  -CL A,259.11,地区银行,1WK,,,14.11
+2026-11-09 00:00:00,Short,ILMN,212.93,-0.09%,253.55,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ILLUMINA INC,342.53,诊断与研究,1WK,200.0,49.45,41.57
+2026-11-09 00:00:00,Short,ILMN,212.93,-0.09%,253.55,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ILLUMINA INC,342.53,诊断与研究,1WK,200.0,49.45,41.57
+2026-11-09 00:00:00,Short,VIST,55.97,-2.53%,64.32,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,36.01-32.11-31.63-43.71-59.82,低-低-高-高,10.83%-1.49%-38.19%-36.86%,19.0,33.35,VISTA ENERGY SAB DE CV,68.6,油气勘探与开发,1WK,,,9.25
+2026-11-09 00:00:00,Long,CLSK,6.91,12.18%,3.85,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,CLEANSPARK INC,17.46,资本市场,1WK,200.0,-33.88,6.07
+2026-11-09 00:00:00,Long,CLSK,6.91,12.18%,3.85,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,CLEANSPARK INC,17.46,资本市场,1WK,200.0,-33.88,6.07
+2026-11-09 00:00:00,Short,IRTC,88.68,-1.71%,107.46,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,93.54-70.24-55.92-92.52-100.85,低-低-高-高,24.91%-20.39%-65.45%-9.00%,21.0,37.2,IRHYTHM HOLDINGS INC,44.17,医疗设备,1WK,,,亏损
+2026-11-09 00:00:00,Long,LSTR,147.31,2.77%,131.16,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LANDSTAR SYSTEM INC,50.98,综合货运与物流,1WK,200.0,-10.24,45.69
+2026-11-09 00:00:00,Long,LSTR,147.31,2.77%,131.16,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LANDSTAR SYSTEM INC,50.98,综合货运与物流,1WK,200.0,-10.24,45.69
+2026-11-09 00:00:00,Long,MARA,7.66,20.63%,4.21,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,MARA HOLDINGS INC,26.54,资本市场,1WK,200.0,-46.65,亏损
+2026-11-09 00:00:00,Long,MARA,7.66,20.63%,4.21,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,MARA HOLDINGS INC,26.54,资本市场,1WK,200.0,-46.65,亏损
+2026-11-09 00:00:00,Long,MARA,7.66,20.63%,4.21,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,MARA HOLDINGS INC,26.54,资本市场,1WK,200.0,-46.65,亏损
+2026-11-09 00:00:00,Long,MARA,7.66,20.63%,4.21,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,MARA HOLDINGS INC,26.54,资本市场,1WK,200.0,-46.65,亏损
+2026-11-09 00:00:00,Long,AER,177.01,4.58%,164.38,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-67.71-153.33,低-高,nan%-126.44%,38.0,18.52,AERCAP HOLDINGS NV,251.67,租赁服务,1WK,,,7.78
+2026-11-09 00:00:00,Long,EMBJ,82.43,11.27%,70.09,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-17.02-80.29,低-高,nan%-371.59%,41.0,50.74,EMBRAER SA-SPON ADR,139.73,航空航天与国防,1WK,,,40.90
+2026-11-09 00:00:00,Short,EXPD,194.59,5.41%,204.15,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,EXPEDITORS INTL WASH INC,256.11,综合货运与物流,1WK,200.0,52.11,33.23
+2026-11-09 00:00:00,Short,EXPD,194.59,5.41%,204.15,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,EXPEDITORS INTL WASH INC,256.11,综合货运与物流,1WK,200.0,52.11,33.23
+2026-11-09 00:00:00,Short,XP,15.39,1.62%,18.83,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,XP INC - CLASS A,76.98,资本市场,1WK,200.0,-13.65,8.52
+2026-11-09 00:00:00,Short,XP,15.39,1.62%,18.83,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,XP INC - CLASS A,76.98,资本市场,1WK,200.0,-13.65,8.52
+2026-11-09 00:00:00,Long,FR,55.26,2.79%,51.46,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,FIRST INDUSTRIAL REALTY TR,73.59,工业REITs,1WK,200.0,8.95,29.68
+2026-11-09 00:00:00,Long,FR,55.26,2.79%,51.46,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,FIRST INDUSTRIAL REALTY TR,73.59,工业REITs,1WK,200.0,8.95,29.68
+2026-11-09 00:00:00,Long,AZTA,48.9,24.87%,34.69,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,69.16-63.58-55.64-35.33-41.73,低-低-低-高,8.07%-12.49%-36.50%-18.11%,42.0,161.96,AZENTA INC,17.15,医疗设备和用品,1WK,,,亏损
+2026-11-09 00:00:00,Long,BWXT,125.68,5.15%,107.56,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,BWX TECHNOLOGIES INC,111.32,航空航天与国防,1WK,200.0,3.36,33.94
+2026-11-09 00:00:00,Long,BWXT,125.68,5.15%,107.56,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,BWX TECHNOLOGIES INC,111.32,航空航天与国防,1WK,200.0,3.36,33.94
+2026-11-09 00:00:00,Long,REAL,14.55,13.05%,11.53,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,4.64-11.38-7.61-17.39-13.82,高-低-高-低,145.15%-33.14%-128.69%-20.54%,14.0,62.02,REALREAL INC/THE,16.92,奢侈品,1WK,,,亏损
+2026-11-09 00:00:00,Short,NLY,18.33,-2.24%,20.02,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,9.67-12.56-13.97-13.51-18.58,高-高-低-高,29.95%-11.18%-3.25%-37.50%,34.0,23.92,ANNALY CAPITAL MANAGEMENT IN,149.14,抵押贷款REITs,1WK,,,6.48
+2026-11-09 00:00:00,Short,NLY,18.33,-2.24%,20.02,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,nan-9.67-12.56-13.51-18.58,低-高-高-高,nan%-29.95%-7.56%-37.50%,34.0,23.92,ANNALY CAPITAL MANAGEMENT IN,149.14,抵押贷款REITs,1WK,,,6.48
+2026-11-09 00:00:00,Long,CHWY,23.15,2.62%,19.85,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,CHEWY INC - CLASS A,94.05,互联网零售,1WK,,,45.00
+2026-11-09 00:00:00,Long,CHWY,23.15,2.62%,19.85,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CHEWY INC - CLASS A,94.05,互联网零售,1WK,200.0,-20.11,45.00
+2026-11-09 00:00:00,Long,CHWY,23.15,2.62%,19.85,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,CHEWY INC - CLASS A,94.05,互联网零售,1WK,200.0,-20.11,45.00
+2026-11-09 00:00:00,Short,DVN,44.95,6.49%,48.6,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,DEVON ENERGY CORP,485.32,油气勘探与开发,1WK,200.0,10.08,10.58
+2026-11-09 00:00:00,Short,DVN,44.95,6.49%,48.6,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,DEVON ENERGY CORP,485.32,油气勘探与开发,1WK,200.0,10.08,10.58
+2026-11-09 00:00:00,Long,LI,12.14,-3.11%,11.05,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LI AUTO INC - ADR,119.35,汽车制造,1WK,200.0,-50.23,71.48
+2026-11-09 00:00:00,Long,LI,12.14,-3.11%,11.05,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LI AUTO INC - ADR,119.35,汽车制造,1WK,200.0,-50.23,71.48
+2026-11-09 00:00:00,Long,PSA,335.73,-0.51%,315.61,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,341.46-303.43-291.68-300.51-332.14,低-低-高-高,11.14%-3.87%-3.03%-10.53%,15.0,18.61,PUBLIC STORAGE,640.42,工业REITs,1WK,,,38.04
+2026-11-09 00:00:00,Long,TPR,133.34,0.41%,119.26,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TAPESTRY INC,248.66,奢侈品,1WK,200.0,77.99,17.24
+2026-11-09 00:00:00,Long,TPR,133.34,0.41%,119.26,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TAPESTRY INC,248.66,奢侈品,1WK,200.0,77.99,17.24
+2026-11-09 00:00:00,Long,MEOH,69.04,4.09%,58.01,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,nan-54.11-52.92-66.34,低-低-高,nan%-2.21%-25.37%,32.0,52.0,METHANEX CORP,50.46,化学制品,1WK,,,70.13
+2026-11-09 00:00:00,Long,PAGS,7.94,4.47%,6.63,mfa,参数一,"{""mfa"": {""mfa_all"": 24}}",,,,,,,PAGSEGURO DIGITAL LTD-CL A,21.98,软件基础设施,1WK,200.0,-12.97,6.08
+2026-11-09 00:00:00,Long,PAGS,7.94,4.47%,6.63,mfa,参数二,"{""mfa"": {""mfa_all"": 24}}",,,,,,,PAGSEGURO DIGITAL LTD-CL A,21.98,软件基础设施,1WK,200.0,-12.97,6.08
+2026-11-09 00:00:00,Long,IPAR,133.19,-1.74%,123.9,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,135.4-140.5-136.89-102.53-128.37,高-低-低-高,3.76%-2.57%-25.10%-25.20%,15.0,18.64,INTERPARFUMS INC,39.58,家庭和个人用品,1WK,,,23.58
+2026-11-09 00:00:00,Long,CEPU,10.19,2.31%,8.65,mfa,参数一,"{""mfa"": {""mfa_all"": 14}}",,,,,,,CENTRAL PUERTO-SPONSORED ADR,15.16,受监管电力,1WK,200.0,-3.27,6.80
+2026-11-09 00:00:00,Long,CEPU,10.19,2.31%,8.65,mfa,参数二,"{""mfa"": {""mfa_all"": 14}}",,,,,,,CENTRAL PUERTO-SPONSORED ADR,15.16,受监管电力,1WK,200.0,-3.27,6.80
+2026-11-09 00:00:00,Long,ETON,68.4,21.15%,50.42,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-5.81-5.11-21.48-23.0,低-低-高-高,nan%-12.05%-320.35%-7.08%,58.0,61.18,ETON PHARMACEUTICALS INC,14.5,专业与通用药品制造商,1WK,,,亏损
+2026-11-09 00:00:00,Long,RYAAY,59.43,0.22%,55.63,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,RYANAIR HOLDINGS PLC-SP ADR,305.83,航空服务,1WK,200.0,19.52,12.88
+2026-11-09 00:00:00,Long,RYAAY,59.43,0.22%,55.63,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,RYANAIR HOLDINGS PLC-SP ADR,305.83,航空服务,1WK,200.0,19.52,12.88
+2026-11-09 00:00:00,Short,TNK,88.96,3.79%,97.62,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TEEKAY TANKERS LTD-CLASS A,30.82,油气中游,1WK,200.0,69.4,8.80
+2026-11-09 00:00:00,Short,TNK,88.96,3.79%,97.62,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TEEKAY TANKERS LTD-CLASS A,30.82,油气中游,1WK,200.0,69.4,8.80
+2026-11-09 00:00:00,Long,FTS,59.07,-1.71%,56.91,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-40.85-38.39-43.26-57.82,低-低-高-高,nan%-6.04%-12.70%-33.64%,34.0,10.74,FORTIS INC,314.28,受监管电力,1WK,,,25.04
+2026-11-09 00:00:00,Long,RCUS,18.8,2.84%,14.96,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ARCUS BIOSCIENCES INC,27.35,生物技术,1WK,200.0,5.83,亏损
+2026-11-09 00:00:00,Long,RCUS,18.8,2.84%,14.96,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ARCUS BIOSCIENCES INC,27.35,生物技术,1WK,200.0,5.83,亏损
+2026-11-09 00:00:00,Long,AXS,108.4,2.29%,100.1,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,AXIS CAPITAL HOLDINGS LTD,77.32,专门保险,1WK,,,8.73
+2026-11-09 00:00:00,Long,CENX,36.71,9.68%,27.8,mfa,参数一,"{""mfa"": {""mfa_all"": 9}}",,,,,,,CENTURY ALUMINUM COMPANY,32.47,铝,1WK,200.0,57.31,78.10
+2026-11-09 00:00:00,Long,CENX,36.71,9.68%,27.8,mfa,参数二,"{""mfa"": {""mfa_all"": 9}}",,,,,,,CENTURY ALUMINUM COMPANY,32.47,铝,1WK,200.0,57.31,78.10
+2026-11-09 00:00:00,Short,EC,15.3,-1.61%,16.98,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,ECOPETROL SA-SPONSORED ADR,327.29,综合油气,1WK,,,10.05
+2026-11-09 00:00:00,Long,LIME,18.81,6.63%,12.57,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,NEUTRON HOLDINGS INC,12.01,租赁服务,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,LIME,18.81,6.63%,12.57,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,NEUTRON HOLDINGS INC,12.01,租赁服务,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,STN,75.5,1.56%,70.79,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,STANTEC INC,88.58,建筑工程,1WK,,,26.23
+2026-11-09 00:00:00,Short,TPB,58.81,-10.73%,74.54,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,nan-19.34-51.2-65.66,低-高-高,nan%-164.75%-28.25%,32.0,50.24,TURNING POINT BRANDS INC,14.11,烟草,1WK,,,22.64
+2026-11-09 00:00:00,Long,AMRC,26.51,22.67%,18.22,mfa,参数一,"{""mfa"": {""mfa_all"": 18}}",,,,,,,AMERESCO INC-CL A,11.28,建筑工程,1WK,200.0,-11.29,25.60
+2026-11-09 00:00:00,Long,AMRC,26.51,22.67%,18.22,mfa,参数二,"{""mfa"": {""mfa_all"": 18}}",,,,,,,AMERESCO INC-CL A,11.28,建筑工程,1WK,200.0,-11.29,25.60
+2026-11-09 00:00:00,Long,PDD,79.01,-4.84%,72.4,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PDD HOLDINGS INC,1169.32,互联网零售,1WK,200.0,-26.15,8.31
+2026-11-09 00:00:00,Long,PDD,79.01,-4.84%,72.4,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PDD HOLDINGS INC,1169.32,互联网零售,1WK,200.0,-26.15,8.31
+2026-11-09 00:00:00,Long,EMA,50.77,0.16%,48.35,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,EMERA INC,157.57,受监管电力,1WK,200.0,28.67,21.22
+2026-11-09 00:00:00,Long,EMA,50.77,0.16%,48.35,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,EMERA INC,157.57,受监管电力,1WK,200.0,28.67,21.22
+2026-11-09 00:00:00,Long,AON,336.55,0.52%,311.02,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,AON PLC-CLASS A,731.24,保险经纪,1WK,200.0,1.84,20.25
+2026-11-09 00:00:00,Long,AON,336.55,0.52%,311.02,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,AON PLC-CLASS A,731.24,保险经纪,1WK,200.0,1.84,20.25
+2026-11-09 00:00:00,Long,MTZ,189.18,8.66%,143.7,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,MASTEC INC,134.59,建筑工程,1WK,200.0,17.92,33.06
+2026-11-09 00:00:00,Long,MTZ,189.18,8.66%,143.7,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,MASTEC INC,134.59,建筑工程,1WK,200.0,17.92,33.06
+2026-11-09 00:00:00,Long,VICI,24.94,0.61%,23.61,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,VICI PROPERTIES INC,278.02,多元化REITs,1WK,,,9.67
+2026-11-09 00:00:00,Long,VICI,24.94,0.61%,23.61,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,VICI PROPERTIES INC,278.02,多元化REITs,1WK,200.0,-7.03,9.67
+2026-11-09 00:00:00,Long,VICI,24.94,0.61%,23.61,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,VICI PROPERTIES INC,278.02,多元化REITs,1WK,200.0,-7.03,9.67
+2026-11-09 00:00:00,Long,PATK,79.47,0.86%,70.85,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PATRICK INDUSTRIES INC,27.2,休闲车,1WK,200.0,1.51,21.71
+2026-11-09 00:00:00,Long,PATK,79.47,0.86%,70.85,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,PATRICK INDUSTRIES INC,27.2,休闲车,1WK,200.0,1.51,21.71
+2026-11-09 00:00:00,Long,CC,13.72,7.61%,11.18,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CHEMOURS CO/THE,20.76,特殊化工用品,1WK,200.0,-32.04,亏损
+2026-11-09 00:00:00,Long,CC,13.72,7.61%,11.18,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CHEMOURS CO/THE,20.76,特殊化工用品,1WK,200.0,-32.04,亏损
+2026-11-09 00:00:00,Long,SBGI,15.0,9.65%,12.26,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,SINCLAIR INC,10.2,广播,1WK,,,亏损
+2026-11-09 00:00:00,Long,MGEE,79.53,-0.91%,75.38,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,MGE ENERGY INC,29.35,受监管电力,1WK,200.0,2.68,20.86
+2026-11-09 00:00:00,Long,MGEE,79.53,-0.91%,75.38,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,MGE ENERGY INC,29.35,受监管电力,1WK,200.0,2.68,20.86
+2026-11-09 00:00:00,Long,AAOI,55.86,11.43%,20.7,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,APPLIED OPTOELECTRONICS INC,50.32,通讯设备,1WK,200.0,51.28,亏损
+2026-11-09 00:00:00,Long,AAOI,55.86,11.43%,20.7,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,APPLIED OPTOELECTRONICS INC,50.32,通讯设备,1WK,200.0,51.28,亏损
+2026-11-09 00:00:00,Long,THO,78.36,-2.98%,70.93,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,THOR INDUSTRIES INC,43.83,休闲车,1WK,200.0,-13.43,25.04
+2026-11-09 00:00:00,Long,THO,78.36,-2.98%,70.93,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,THOR INDUSTRIES INC,43.83,休闲车,1WK,200.0,-13.43,25.04
+2026-11-09 00:00:00,Long,MDLN,42.16,6.36%,36.09,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,MEDLINE INC-CL A,530.48,医疗设备和用品,1WK,,,28.28
+2026-11-09 00:00:00,Long,LCID,3.67,11.55%,2.15,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LUCID GROUP INC,13.28,汽车制造,1WK,200.0,-88.49,亏损
+2026-11-09 00:00:00,Long,LCID,3.67,11.55%,2.15,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LUCID GROUP INC,13.28,汽车制造,1WK,200.0,-88.49,亏损
+2026-11-09 00:00:00,Long,DJT,5.19,30.08%,2.6,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,TRUMP MEDIA & TECHNOLOGY GRO,12.48,互联网内容与信息,1WK,200.0,-74.01,亏损
+2026-11-09 00:00:00,Long,DJT,5.19,30.08%,2.6,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TRUMP MEDIA & TECHNOLOGY GRO,12.48,互联网内容与信息,1WK,200.0,-74.01,亏损
+2026-11-09 00:00:00,Long,DJT,5.19,30.08%,2.6,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,TRUMP MEDIA & TECHNOLOGY GRO,12.48,互联网内容与信息,1WK,200.0,-74.01,亏损
+2026-11-09 00:00:00,Long,DJT,5.19,30.08%,2.6,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TRUMP MEDIA & TECHNOLOGY GRO,12.48,互联网内容与信息,1WK,200.0,-74.01,亏损
+2026-11-09 00:00:00,Short,LOPE,117.75,0.05%,132.06,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,nan-99.65-130.69,低-高,nan%-31.15%,107.0,70.66,GRAND CANYON EDUCATION INC,39.27,教育培训,1WK,,,19.54
+2026-11-09 00:00:00,Long,THG,248.53,2.32%,230.28,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-129.9-185.45-235.07,低-高-高,nan%-42.76%-26.76%,14.0,10.04,HANOVER INSURANCE GROUP INC/,85.91,财产和意外伤害保险,1WK,,,13.76
+2026-11-09 00:00:00,Long,GLIBK,28.41,6.68%,22.91,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LIBERTY CAPITAL CORP-CL C,9.29,电信服务,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,GLIBK,28.41,6.68%,22.91,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LIBERTY CAPITAL CORP-CL C,9.29,电信服务,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,PAX,9.69,2.00%,8.58,mfa,参数一,"{""mfa"": {""mfa_all"": 37}}",,,,,,,PATRIA INVESTMENTS LTD-A,15.86,资产管理,1WK,200.0,-19.34,18.42
+2026-11-09 00:00:00,Long,PAX,9.69,2.00%,8.58,mfa,参数二,"{""mfa"": {""mfa_all"": 37}}",,,,,,,PATRIA INVESTMENTS LTD-A,15.86,资产管理,1WK,200.0,-19.34,18.42
+2026-11-09 00:00:00,Long,UI,679.42,14.60%,542.91,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,UBIQUITI INC,339.41,通讯设备,1WK,,,35.39
+2026-11-09 00:00:00,Long,OGN,13.89,0.29%,13.58,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,21.15-21.98-16.68-11.18-9.87,高-低-低-低,3.92%-24.09%-32.97%-11.72%,42.0,74.26,ORGANON & CO,36.32,一般药品制造商,1WK,,,19.21
+2026-11-09 00:00:00,Long,BBAR,10.66,0.57%,8.83,mfa,参数一,"{""mfa"": {""mfa_all"": 7}}",,,,,,,BBVA ARGENTINA SA-ADR,22.83,地区银行,1WK,200.0,-6.39,11.21
+2026-11-09 00:00:00,Long,BBAR,10.66,0.57%,8.83,mfa,参数二,"{""mfa"": {""mfa_all"": 7}}",,,,,,,BBVA ARGENTINA SA-ADR,22.83,地区银行,1WK,200.0,-6.39,11.21
+2026-11-09 00:00:00,Long,AHCO,7.8,6.41%,6.28,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,ADAPTHEALTH CORP,9.98,医疗设备,1WK,,,亏损
+2026-11-09 00:00:00,Long,ACIW,61.85,3.05%,55.55,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-59.71-58.14-54.28-61.08,低-低-低-高,nan%-2.63%-6.64%-12.53%,15.0,27.76,ACI WORLDWIDE INC,59.76,软件基础设施,1WK,,,27.40
+2026-11-09 00:00:00,Long,CALX,32.6,6.54%,27.17,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CALIX INC,20.92,软件基础设施,1WK,200.0,-24.5,130.19
+2026-11-09 00:00:00,Long,CALX,32.6,6.54%,27.17,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CALIX INC,20.92,软件基础设施,1WK,200.0,-24.5,130.19
+2026-11-09 00:00:00,Long,VIPS,13.17,-4.98%,12.23,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,VIPSHOP HOLDINGS LTD - ADR,65.48,互联网零售,1WK,200.0,-9.04,6.50
+2026-11-09 00:00:00,Long,VIPS,13.17,-4.98%,12.23,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,VIPSHOP HOLDINGS LTD - ADR,65.48,互联网零售,1WK,200.0,-9.04,6.50
+2026-11-09 00:00:00,Long,CSL,397.62,5.82%,354.62,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,278.75-470.12-429.03-428.8-397.57,高-低-低-低,68.66%-8.74%-0.05%-7.28%,19.0,28.09,CARLISLE COS INC,154.13,建筑产品与设备,1WK,,,23.30
+2026-11-09 00:00:00,Long,APP,404.77,3.46%,326.89,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,APPLOVIN CORP-CLASS A,909.41,广告代理,1WK,200.0,61.87,27.87
+2026-11-09 00:00:00,Long,APP,404.77,3.46%,326.89,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,APPLOVIN CORP-CLASS A,909.41,广告代理,1WK,200.0,61.87,27.87
+2026-11-09 00:00:00,Long,TDG,1245.0,4.01%,1130.04,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,TRANSDIGM GROUP INC,672.65,航空航天与国防,1WK,,,37.93
+2026-11-09 00:00:00,Long,TDG,1245.0,4.01%,1130.04,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TRANSDIGM GROUP INC,672.65,航空航天与国防,1WK,200.0,13.47,37.93
+2026-11-09 00:00:00,Long,TDG,1245.0,4.01%,1130.04,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TRANSDIGM GROUP INC,672.65,航空航天与国防,1WK,200.0,13.47,37.93
+2026-11-09 00:00:00,Long,RHLD,159.47,3.75%,128.89,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,RESOLUTE HOLDINGS MANAG,10.23,专业商务服务,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,RHLD,159.47,3.75%,128.89,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,RESOLUTE HOLDINGS MANAG,10.23,专业商务服务,1WK,,,亏损
+2026-11-09 00:00:00,Long,RHLD,159.47,3.75%,128.89,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,RESOLUTE HOLDINGS MANAG,10.23,专业商务服务,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,CLS,242.92,17.53%,155.07,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,CELESTICA INC,298.14,电子元件,1WK,200.0,74.13,33.02
+2026-11-09 00:00:00,Long,CLS,242.92,17.53%,155.07,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,CELESTICA INC,298.14,电子元件,1WK,200.0,74.13,33.02
+2026-11-09 00:00:00,Long,BANF,118.14,2.55%,109.85,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,BANCFIRST CORP,38.66,地区银行,1WK,,,16.17
+2026-11-09 00:00:00,Long,WERN,27.84,3.30%,24.1,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,WERNER ENTERPRISES INC,17.6,货运,1WK,200.0,-20.83,亏损
+2026-11-09 00:00:00,Long,WERN,27.84,3.30%,24.1,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,WERNER ENTERPRISES INC,17.6,货运,1WK,200.0,-20.83,亏损
+2026-11-09 00:00:00,Long,ALGM,32.11,13.99%,22.75,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ALLEGRO MICROSYSTEMS INC,58.28,半导体,1WK,200.0,-0.99,亏损
+2026-11-09 00:00:00,Long,ALGM,32.11,13.99%,22.75,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ALLEGRO MICROSYSTEMS INC,58.28,半导体,1WK,200.0,-0.99,亏损
+2026-11-09 00:00:00,Long,FNF,44.16,0.73%,40.22,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,FIDELITY NATIONAL FINANCIAL,116.07,专门保险,1WK,,,19.58
+2026-11-09 00:00:00,Long,ASTS,36.62,13.27%,19.57,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,AST SPACEMOBILE INC,138.62,通讯设备,1WK,200.0,9.13,亏损
+2026-11-09 00:00:00,Long,ASTS,36.62,13.27%,19.57,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,AST SPACEMOBILE INC,138.62,通讯设备,1WK,200.0,9.13,亏损
+2026-11-09 00:00:00,Long,EVRG,88.34,0.91%,83.64,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-55.39-48.82-76.65-87.89,低-低-高-高,nan%-11.86%-57.00%-14.66%,18.0,13.98,EVERGY INC,198.77,受监管电力,1WK,,,23.55
+2026-11-09 00:00:00,Long,VYX,10.45,7.18%,8.24,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,17.39-15.22-15.34-14.67-10.14,低-高-低-低,12.48%-0.79%-4.37%-30.88%,14.0,55.28,NCR VOYIX CORP,13.02,信息技术服务,1WK,,,31.43
+2026-11-09 00:00:00,Long,POWI,46.49,15.47%,33.26,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,POWER INTEGRATIONS INC,26.15,半导体,1WK,200.0,-25.67,120.00
+2026-11-09 00:00:00,Long,POWI,46.49,15.47%,33.26,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,POWER INTEGRATIONS INC,26.15,半导体,1WK,200.0,-25.67,120.00
+2026-11-09 00:00:00,Long,VALE,11.58,-0.09%,10.47,mfa,参数一,"{""mfa"": {""mfa_all"": 8}}",,,,,,,VALE SA-SP ADR,486.43,其他工业金属与采矿,1WK,200.0,5.21,20.78
+2026-11-09 00:00:00,Long,VALE,11.58,-0.09%,10.47,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,VALE SA-SP ADR,486.43,其他工业金属与采矿,1WK,200.0,5.21,20.78
+2026-11-09 00:00:00,Long,VALE,11.58,-0.09%,10.47,mfa,参数二,"{""mfa"": {""mfa_all"": 8}}",,,,,,,VALE SA-SP ADR,486.43,其他工业金属与采矿,1WK,200.0,5.21,20.78
+2026-11-09 00:00:00,Long,VALE,11.58,-0.09%,10.47,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,VALE SA-SP ADR,486.43,其他工业金属与采矿,1WK,200.0,5.21,20.78
+2026-11-09 00:00:00,Long,HL,14.12,-4.21%,11.93,mfa,参数一,"{""mfa"": {""mfa_all"": 16}}",,,,,,,HECLA MINING CO,100.43,其他贵金属和采矿,1WK,200.0,54.69,30.51
+2026-11-09 00:00:00,Long,HL,14.12,-4.21%,11.93,mfa,参数二,"{""mfa"": {""mfa_all"": 16}}",,,,,,,HECLA MINING CO,100.43,其他贵金属和采矿,1WK,200.0,54.69,30.51
+2026-11-09 00:00:00,Long,CIG,1.9,2.15%,1.71,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,CIA ENERGETICA DE-SPON ADR,52.06,受监管电力,1WK,200.0,15.56,5.74
+2026-11-09 00:00:00,Long,CIG,1.9,2.15%,1.71,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,CIA ENERGETICA DE-SPON ADR,52.06,受监管电力,1WK,200.0,15.56,5.74
+2026-11-09 00:00:00,Long,TEO,10.58,6.12%,8.46,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,TELECOM ARGENTINA SA-SP ADR,44.97,电信服务,1WK,200.0,16.56,亏损
+2026-11-09 00:00:00,Long,TEO,10.58,6.12%,8.46,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,TELECOM ARGENTINA SA-SP ADR,44.97,电信服务,1WK,200.0,16.56,亏损
+2026-11-09 00:00:00,Short,SIM,24.36,-6.31%,26.2,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,nan-29.1-28.15-22.15-25.0,低-低-低-高,nan%-3.26%-21.31%-12.87%,61.0,38.36,GRUPO SIMEC SAB-SPON ADR,39.88,钢,1WK,,,49.62
+2026-11-09 00:00:00,Long,SPXC,153.86,7.81%,129.18,mfa,参数一,"{""mfa"": {""mfa_all"": 9}}",,,,,,,SPX TECHNOLOGIES INC,76.89,建筑产品与设备,1WK,200.0,4.68,30.51
+2026-11-09 00:00:00,Long,SPXC,153.86,7.81%,129.18,mfa,参数二,"{""mfa"": {""mfa_all"": 9}}",,,,,,,SPX TECHNOLOGIES INC,76.89,建筑产品与设备,1WK,200.0,4.68,30.51
+2026-11-09 00:00:00,Long,CBRS,101.08,12.71%,46.6,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,CEREBRAS SYSTEMS INC - A,218.2,半导体,1WK,200.0,,225.12
+2026-11-09 00:00:00,Long,CBRS,101.08,12.71%,46.6,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,CEREBRAS SYSTEMS INC - A,218.2,半导体,1WK,200.0,,225.12
+2026-11-09 00:00:00,Long,ICE,180.59,4.83%,163.89,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,nan-135.76-186.34-174.25,低-高-低,nan%-37.25%-6.49%,41.0,43.55,INTERCONTINENTAL EXCHANGE IN,977.56,金融数据与证券交易所,1WK,,,30.32
+2026-11-09 00:00:00,Long,CCJ,74.32,4.24%,63.03,mfa,参数一,"{""mfa"": {""mfa_all"": 18}}",,,,,,,CAMECO CORP,312.19,铀,1WK,200.0,20.53,74.20
+2026-11-09 00:00:00,Long,CCJ,74.32,4.24%,63.03,mfa,参数二,"{""mfa"": {""mfa_all"": 18}}",,,,,,,CAMECO CORP,312.19,铀,1WK,200.0,20.53,74.20
+2026-11-09 00:00:00,Long,BBY,105.16,5.55%,92.74,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-72.86-93.46-80.69,低-高-低,nan%-28.28%-13.66%,54.0,49.95,BEST BUY CO INC,212.58,专业零售,1WK,,,20.11
+2026-11-09 00:00:00,Long,MP,36.73,3.73%,28.41,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,MP MATERIALS CORP,63.96,其他工业金属与采矿,1WK,200.0,8.92,亏损
+2026-11-09 00:00:00,Long,MP,36.73,3.73%,28.41,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,MP MATERIALS CORP,63.96,其他工业金属与采矿,1WK,200.0,8.92,亏损
+2026-11-09 00:00:00,Long,HDB,26.02,3.50%,24.06,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,HDFC BANK LTD-ADR,1248.4,地区银行,1WK,,,16.70
+2026-11-09 00:00:00,Long,BLDR,62.34,-0.32%,53.63,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BUILDERS FIRSTSOURCE INC,74.79,建筑产品与设备,1WK,200.0,-50.72,17.87
+2026-11-09 00:00:00,Long,BLDR,62.34,-0.32%,53.63,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BUILDERS FIRSTSOURCE INC,74.79,建筑产品与设备,1WK,200.0,-50.72,17.87
+2026-11-09 00:00:00,Long,MAZE,36.73,7.43%,29.92,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-53.65-33.5,低-低,nan%-37.56%,18.0,52.62,MAZE THERAPEUTICS INC,18.54,生物技术,1WK,,,亏损
+2026-11-09 00:00:00,Long,PLAB,28.93,5.74%,23.97,mfa,参数一,"{""mfa"": {""mfa_all"": 11}}",,,,,,,PHOTRONICS INC,16.15,半导体设备与材料,1WK,200.0,12.37,12.01
+2026-11-09 00:00:00,Long,PLAB,28.93,5.74%,23.97,mfa,参数二,"{""mfa"": {""mfa_all"": 11}}",,,,,,,PHOTRONICS INC,16.15,半导体设备与材料,1WK,200.0,12.37,12.01
+2026-11-09 00:00:00,Long,KMT,24.59,7.85%,20.35,mfa,参数一,"{""mfa"": {""mfa_all"": 12}}",,,,,,,KENNAMETAL INC,20.25,工具及配件,1WK,200.0,-3.03,5.95
+2026-11-09 00:00:00,Long,KMT,24.59,7.85%,20.35,mfa,参数二,"{""mfa"": {""mfa_all"": 12}}",,,,,,,KENNAMETAL INC,20.25,工具及配件,1WK,200.0,-3.03,5.95
+2026-11-09 00:00:00,Long,KTOS,36.69,4.53%,27.58,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,KRATOS DEFENSE & SECURITY,67.5,航空航天与国防,1WK,200.0,-3.06,276.62
+2026-11-09 00:00:00,Long,KTOS,36.69,4.53%,27.58,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,KRATOS DEFENSE & SECURITY,67.5,航空航天与国防,1WK,200.0,-3.06,276.62
+2026-11-09 00:00:00,Short,TK,13.32,5.30%,14.54,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TEEKAY CORP LTD,11.79,油气中游,1WK,200.0,86.44,11.89
+2026-11-09 00:00:00,Short,TK,13.32,5.30%,14.54,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,TEEKAY CORP LTD,11.79,油气中游,1WK,200.0,86.44,11.89
+2026-11-09 00:00:00,Long,KSS,24.65,6.99%,21.32,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,24.14-24.93-25.56-20.61-24.48,高-高-低-高,3.26%-2.56%-19.40%-18.80%,49.0,118.26,KOHLS CORP,28.75,百货公司,1WK,,,10.66
+2026-11-09 00:00:00,Long,VSEC,191.94,11.07%,154.09,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,VSE CORP,46.02,航空航天与国防,1WK,,,298.11
+2026-11-09 00:00:00,Long,MGNI,29.21,6.64%,25.19,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直释放,nan-15.73-15.92-21.29-26.65,低-高-高-高,nan%-1.21%-33.73%-25.18%,63.0,146.3,MAGNITE INC,32.72,广告代理,1WK,,,23.99
+2026-11-09 00:00:00,Long,NIO,3.24,-4.42%,2.83,mfa,参数一,"{""mfa"": {""mfa_all"": 12}}",,,,,,,NIO INC - ADR,82.69,汽车制造,1WK,200.0,-46.27,亏损
+2026-11-09 00:00:00,Long,NIO,3.24,-4.42%,2.83,mfa,参数二,"{""mfa"": {""mfa_all"": 12}}",,,,,,,NIO INC - ADR,82.69,汽车制造,1WK,200.0,-46.27,亏损
+2026-11-09 00:00:00,Long,KRMN,44.69,-2.02%,34.88,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,KARMAN HOLDINGS INC,45.29,航空航天与国防,1WK,200.0,,260.84
+2026-11-09 00:00:00,Long,KRMN,44.69,-2.02%,34.88,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,KARMAN HOLDINGS INC,45.29,航空航天与国防,1WK,200.0,,260.84
+2026-11-09 00:00:00,Long,STRL,303.85,20.18%,172.35,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,STERLING INFRASTRUCTURE INC,86.52,建筑工程,1WK,200.0,32.56,30.24
+2026-11-09 00:00:00,Long,STRL,303.85,20.18%,172.35,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,STERLING INFRASTRUCTURE INC,86.52,建筑工程,1WK,200.0,32.56,30.24
+2026-11-09 00:00:00,Long,PLGO,27.97,0.87%,25.91,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,14.47-19.52-20.52-17.47-26.18,高-高-低-高,34.91%-5.10%-14.86%-49.88%,15.0,26.33,PELAGOS INSURANCE CAPITAL LT,22.68,多元化保险,1WK,,,13.00
+2026-11-09 00:00:00,Short,ARWR,49.36,-15.13%,61.12,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,20.67-21.39-17.05-9.57-54.02,高-低-低-高,3.48%-20.29%-43.87%-464.47%,35.0,76.77,ARROWHEAD PHARMACEUTICALS IN,87.08,生物技术,1WK,,,亏损
+2026-11-09 00:00:00,Long,LOB,34.3,1.12%,31.33,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LIVE OAK BANCSHARES INC,16.3,地区银行,1WK,200.0,-1.82,15.76
+2026-11-09 00:00:00,Long,LOB,34.3,1.12%,31.33,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,LIVE OAK BANCSHARES INC,16.3,地区银行,1WK,200.0,-1.82,15.76
+2026-11-09 00:00:00,Long,VRSN,314.09,1.76%,285.37,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,nan-225.62-216.97-305.89-311.57,低-低-高-高,nan%-3.84%-40.98%-1.85%,25.0,27.68,VERISIGN INC,285.27,软件基础设施,1WK,,,36.10
+2026-11-09 00:00:00,Long,BAM,52.56,-0.74%,49.49,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BROOKFIELD ASSET MGMT-A,864.27,资产管理,1WK,200.0,23.19,35.60
+2026-11-09 00:00:00,Long,BAM,52.56,-0.74%,49.49,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BROOKFIELD ASSET MGMT-A,864.27,资产管理,1WK,200.0,23.19,35.60
+2026-11-09 00:00:00,Long,BULL,5.06,2.85%,3.72,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,WEBULL CORP,29.14,应用软件,1WK,200.0,-51.25,亏损
+2026-11-09 00:00:00,Long,BULL,5.06,2.85%,3.72,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,WEBULL CORP,29.14,应用软件,1WK,200.0,-51.25,亏损
+2026-11-09 00:00:00,Long,RKT,14.44,-4.12%,12.59,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ROCKET COS INC-CLASS A,425.97,抵押贷款金融,1WK,200.0,9.21,亏损
+2026-11-09 00:00:00,Long,RKT,14.44,-4.12%,12.59,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ROCKET COS INC-CLASS A,425.97,抵押贷款金融,1WK,200.0,9.21,亏损
+2026-11-09 00:00:00,Long,NAMS,20.72,9.63%,14.69,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,NEWAMSTERDAM PHARMA CO NV,25.1,生物技术,1WK,200.0,-3.14,亏损
+2026-11-09 00:00:00,Long,NAMS,20.72,9.63%,14.69,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,NEWAMSTERDAM PHARMA CO NV,25.1,生物技术,1WK,200.0,-3.14,亏损
+2026-11-09 00:00:00,Short,AGNC,8.48,-3.42%,9.44,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,4.4-6.14-6.86-6.26-8.77,高-高-低-高,39.47%-11.76%-8.75%-40.00%,33.0,24.46,AGNC INVESTMENT CORP,112.99,抵押贷款REITs,1WK,,,6.03
+2026-11-09 00:00:00,Short,AGNC,8.48,-3.42%,9.44,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,4.4-6.14-6.86-6.26-8.77,高-高-低-高,39.47%-11.76%-8.75%-40.00%,33.0,24.46,AGNC INVESTMENT CORP,112.99,抵押贷款REITs,1WK,,,6.03
+2026-11-09 00:00:00,Long,GLXY,15.97,16.91%,8.72,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,GALAXY DIGITAL INC-A,54.27,资本市场,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,GLXY,15.97,16.91%,8.72,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,GALAXY DIGITAL INC-A,54.27,资本市场,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,GPI,270.27,3.41%,231.75,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,GROUP 1 AUTOMOTIVE INC,32.59,汽车和卡车经销,1WK,200.0,-17.25,10.81
+2026-11-09 00:00:00,Long,GPI,270.27,3.41%,231.75,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,GROUP 1 AUTOMOTIVE INC,32.59,汽车和卡车经销,1WK,200.0,-17.25,10.81
+2026-11-09 00:00:00,Long,HROW,29.37,9.22%,21.81,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,HARROW INC,10.78,专业与通用药品制造商,1WK,200.0,2.15,亏损
+2026-11-09 00:00:00,Long,HROW,29.37,9.22%,21.81,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,HARROW INC,10.78,专业与通用药品制造商,1WK,200.0,2.15,亏损
+2026-11-09 00:00:00,Long,LYFT,17.29,1.17%,14.95,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LYFT INC-A,70.94,应用软件,1WK,200.0,21.05,2.75
+2026-11-09 00:00:00,Long,LYFT,17.29,1.17%,14.95,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,LYFT INC-A,70.94,应用软件,1WK,200.0,21.05,2.75
+2026-11-09 00:00:00,Short,NICE,94.23,-2.00%,109.55,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NICE LTD - SPON ADR,59.16,应用软件,1WK,200.0,-42.12,10.30
+2026-11-09 00:00:00,Short,NICE,94.23,-2.00%,109.55,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NICE LTD - SPON ADR,59.16,应用软件,1WK,200.0,-42.12,10.30
+2026-11-09 00:00:00,Long,FDXF,132.64,7.35%,106.75,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FEDEX FREIGHT HOLDING CO,193.53,综合货运与物流,1WK,200.0,,29.55
+2026-11-09 00:00:00,Long,FDXF,132.64,7.35%,106.75,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FEDEX FREIGHT HOLDING CO,193.53,综合货运与物流,1WK,200.0,,29.55
+2026-11-09 00:00:00,Long,FORTY,127.28,15.45%,105.73,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FORMULA SYSTEMS 1985-SP ADR,18.28,信息技术服务,1WK,200.0,44.91,3.11
+2026-11-09 00:00:00,Long,FORTY,127.28,15.45%,105.73,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FORMULA SYSTEMS 1985-SP ADR,18.28,信息技术服务,1WK,200.0,44.91,3.11
+2026-11-09 00:00:00,Short,PAAS,39.34,-4.44%,47.88,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,17.38-19.45-20.27-45.63-40.62,高-高-高-低,11.93%-4.23%-125.11%-10.99%,17.0,37.87,PAN AMERICAN SILVER CORP,172.03,黄金,1WK,,,16.21
+2026-11-09 00:00:00,Long,AAON,76.33,33.47%,44.16,mfa,参数一,"{""mfa"": {""mfa_all"": 12}}",,,,,,,AAON INC,48.03,建筑产品与设备,1WK,200.0,-10.32,45.16
+2026-11-09 00:00:00,Long,AAON,76.33,33.47%,44.16,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,AAON INC,48.03,建筑产品与设备,1WK,200.0,-10.32,45.16
+2026-11-09 00:00:00,Long,AAON,76.33,33.47%,44.16,mfa,参数二,"{""mfa"": {""mfa_all"": 12}}",,,,,,,AAON INC,48.03,建筑产品与设备,1WK,200.0,-10.32,45.16
+2026-11-09 00:00:00,Long,AAON,76.33,33.47%,44.16,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,AAON INC,48.03,建筑产品与设备,1WK,200.0,-10.32,45.16
+2026-11-09 00:00:00,Long,AI,12.19,4.28%,10.23,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮绿,nan-48.87-38.3-45.08-11.82,低-低-高-低,nan%-21.63%-17.70%-73.78%,23.0,49.43,C3.AI INC-A,19.23,软件基础设施,1WK,,,亏损
+2026-11-09 00:00:00,Long,EXK,8.12,3.57%,6.51,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,ENDEAVOUR SILVER CORP,23.19,白银,1WK,200.0,54.39,亏损
+2026-11-09 00:00:00,Long,EXK,8.12,3.57%,6.51,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,ENDEAVOUR SILVER CORP,23.19,白银,1WK,200.0,54.39,亏损
+2026-11-09 00:00:00,Long,KD,17.13,5.16%,14.24,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,28.6-43.61-44.2-14.94-14.71,高-高-低-低,52.48%-1.35%-66.21%-1.51%,14.0,34.28,KYNDRYL HOLDINGS INC,36.68,信息技术服务,1WK,,,19.81
+2026-11-09 00:00:00,Long,VMC,284.37,0.77%,266.64,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,VULCAN MATERIALS CO,382.07,建筑材料,1WK,,,36.71
+2026-11-09 00:00:00,Long,ATAT,37.63,4.79%,31.93,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,ATOUR LIFESTYLE HOLDINGS-ADR,47.7,住宿,1WK,,,20.17
+2026-11-09 00:00:00,Long,ATAT,37.63,4.79%,31.93,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ATOUR LIFESTYLE HOLDINGS-ADR,47.7,住宿,1WK,200.0,43.48,20.17
+2026-11-09 00:00:00,Long,ATAT,37.63,4.79%,31.93,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,ATOUR LIFESTYLE HOLDINGS-ADR,47.7,住宿,1WK,,,20.17
+2026-11-09 00:00:00,Long,ATAT,37.63,4.79%,31.93,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ATOUR LIFESTYLE HOLDINGS-ADR,47.7,住宿,1WK,200.0,43.48,20.17
+2026-11-09 00:00:00,Short,CMRE,12.98,2.04%,14.26,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,6.99-7.88-11.98-6.39-13.64,高-高-低-高,12.75%-52.04%-46.64%-113.29%,19.0,16.47,COSTAMARE INC,15.91,海运,1WK,,,4.60
+2026-11-09 00:00:00,Long,ATMU,56.48,11.62%,47.52,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,ATMUS FILTRATION TECHNOLOGIE,39.03,汽车零件,1WK,,,19.13
+2026-11-09 00:00:00,Long,ATMU,56.48,11.62%,47.52,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ATMUS FILTRATION TECHNOLOGIE,39.03,汽车零件,1WK,200.0,,19.13
+2026-11-09 00:00:00,Long,ATMU,56.48,11.62%,47.52,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,ATMUS FILTRATION TECHNOLOGIE,39.03,汽车零件,1WK,,,19.13
+2026-11-09 00:00:00,Long,ATMU,56.48,11.62%,47.52,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ATMUS FILTRATION TECHNOLOGIE,39.03,汽车零件,1WK,200.0,,19.13
+2026-11-09 00:00:00,Long,MOD,106.67,10.41%,70.2,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,MODINE MANUFACTURING CO,52.43,建筑产品与设备,1WK,200.0,-6.12,43.61
+2026-11-09 00:00:00,Long,MOD,106.67,10.41%,70.2,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,MODINE MANUFACTURING CO,52.43,建筑产品与设备,1WK,200.0,-6.12,43.61
+2026-11-09 00:00:00,Long,BN,42.06,1.64%,39.71,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BROOKFIELD CORP,962.14,资产管理,1WK,200.0,24.29,87.96
+2026-11-09 00:00:00,Long,BN,42.06,1.64%,39.71,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,BROOKFIELD CORP,962.14,资产管理,1WK,,,87.96
+2026-11-09 00:00:00,Long,BN,42.06,1.64%,39.71,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BROOKFIELD CORP,962.14,资产管理,1WK,200.0,24.29,87.96
+2026-11-09 00:00:00,Long,TH,11.8,3.87%,7.66,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TARGET HOSPITALITY CORP,11.06,专业商务服务,1WK,200.0,5.17,亏损
+2026-11-09 00:00:00,Long,TH,11.8,3.87%,7.66,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,TARGET HOSPITALITY CORP,11.06,专业商务服务,1WK,200.0,5.17,亏损
+2026-11-09 00:00:00,Short,VET,10.64,1.82%,11.92,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,VERMILION ENERGY INC,16.32,油气勘探与开发,1WK,200.0,4.14,亏损
+2026-11-09 00:00:00,Short,VET,10.64,1.82%,11.92,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,VERMILION ENERGY INC,16.32,油气勘探与开发,1WK,200.0,4.14,亏损
+2026-11-09 00:00:00,Long,CPNG,15.99,-1.84%,14.16,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,COUPANG INC,305.59,互联网零售,1WK,200.0,-22.64,155.00
+2026-11-09 00:00:00,Long,CPNG,15.99,-1.84%,14.16,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,COUPANG INC,305.59,互联网零售,1WK,200.0,-22.64,155.00
+2026-11-09 00:00:00,Long,BBDO,2.38,-0.83%,2.0,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,BANCO BRADESCO-ADR,257.93,地区银行,1WK,200.0,1.5,6.26
+2026-11-09 00:00:00,Long,BBDO,2.38,-0.83%,2.0,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,BANCO BRADESCO-ADR,257.93,地区银行,1WK,200.0,1.5,6.26
+2026-11-09 00:00:00,Long,DD,155.61,6.20%,141.93,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,93.27-92.55-108.8-156.04-154.24,低-高-高-低,0.77%-17.56%-43.42%-1.15%,26.0,25.6,DUPONT DE NEMOURS INC,199.77,特殊化工用品,1WK,,,亏损
+2026-11-09 00:00:00,Long,ESAB,85.82,3.61%,75.87,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ESAB CORP,48.71,金属加工,1WK,200.0,-10.42,21.35
+2026-11-09 00:00:00,Long,ESAB,85.82,3.61%,75.87,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,ESAB CORP,48.71,金属加工,1WK,,,21.35
+2026-11-09 00:00:00,Long,ESAB,85.82,3.61%,75.87,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ESAB CORP,48.71,金属加工,1WK,200.0,-10.42,21.35
+2026-11-09 00:00:00,Long,PLMR,159.15,2.21%,142.8,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-61.36-175.24-139.02-147.11,低-高-低-高,nan%-185.61%-20.67%-5.82%,18.0,23.04,PALOMAR HOLDINGS INC,37.91,财产和意外伤害保险,1WK,,,20.09
+2026-11-09 00:00:00,Long,MGRC,128.79,3.02%,118.79,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,112.68-126.09-125.71-121.93-124.77,高-低-低-高,11.91%-0.31%-3.00%-2.33%,20.0,15.21,MCGRATH RENTCORP,32.37,租赁服务,1WK,,,20.92
+2026-11-09 00:00:00,Long,TBBK,48.61,0.75%,43.22,mfa,参数一,"{""mfa"": {""mfa_all"": 10}}",,,,,,,BANCORP INC/THE,19.31,地区银行,1WK,200.0,-1.37,9.62
+2026-11-09 00:00:00,Long,TBBK,48.61,0.75%,43.22,mfa,参数二,"{""mfa"": {""mfa_all"": 10}}",,,,,,,BANCORP INC/THE,19.31,地区银行,1WK,200.0,-1.37,9.62
+2026-11-09 00:00:00,Long,PPTA,18.94,-3.02%,15.72,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,PERPETUA RESOURCES CORP,20.45,其他贵金属和采矿,1WK,200.0,48.31,亏损
+2026-11-09 00:00:00,Long,PPTA,18.94,-3.02%,15.72,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,PERPETUA RESOURCES CORP,20.45,其他贵金属和采矿,1WK,200.0,48.31,亏损
+2026-11-09 00:00:00,Long,TMDX,92.01,4.27%,76.55,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,TRANSMEDICS GROUP INC,25.23,医疗设备,1WK,,,14.94
+2026-11-09 00:00:00,Short,COGT,29.4,-7.09%,37.28,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",一直亮红,nan-3.67-3.72-30.87,低-高-高,nan%-1.36%-729.84%,25.0,40.56,COGENT BIOSCIENCES INC,54.64,生物技术,1WK,,,亏损
+2026-11-09 00:00:00,Long,TDAY,7.25,10.35%,5.81,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,USA TODAY CO INC,8.91,出版,1WK,200.0,69.62,607.00
+2026-11-09 00:00:00,Long,TDAY,7.25,10.35%,5.81,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,USA TODAY CO INC,8.91,出版,1WK,200.0,69.62,607.00
+2026-11-09 00:00:00,Long,AWK,149.66,-0.42%,141.14,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-143.26-149.61-139.28,低-高-低,nan%-4.43%-6.90%,35.0,16.29,AMERICAN WATER WORKS CO INC,297.92,受监管自来水,1WK,,,26.30
+2026-11-09 00:00:00,Long,GIL,35.8,3.02%,30.2,mfa,参数一,"{""mfa"": {""mfa_all"": 9}}",,,,,,,GILDAN ACTIVEWEAR INC,80.13,服装制造,1WK,200.0,-17.44,16.58
+2026-11-09 00:00:00,Long,GIL,35.8,3.02%,30.2,mfa,参数二,"{""mfa"": {""mfa_all"": 9}}",,,,,,,GILDAN ACTIVEWEAR INC,80.13,服装制造,1WK,200.0,-17.44,16.58
+2026-11-09 00:00:00,Long,BEPC,31.28,-1.45%,28.36,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BROOKFIELD RENEWABLE CORP,119.96,可再生能源公用事业,1WK,200.0,6.55,亏损
+2026-11-09 00:00:00,Long,BEPC,31.28,-1.45%,28.36,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,BROOKFIELD RENEWABLE CORP,119.96,可再生能源公用事业,1WK,200.0,6.55,亏损
+2026-11-09 00:00:00,Long,PONY,4.72,-0.63%,3.49,mfa,参数一,"{""mfa"": {""mfa_all"": 35}}",,,,,,,PONY AI INC,20.67,信息技术服务,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,PONY,4.72,-0.63%,3.49,mfa,参数二,"{""mfa"": {""mfa_all"": 35}}",,,,,,,PONY AI INC,20.67,信息技术服务,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,ABEV,2.8,0.36%,2.54,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,AMBEV SA-ADR,425.5,啤酒,1WK,200.0,15.66,15.25
+2026-11-09 00:00:00,Long,ABEV,2.8,0.36%,2.54,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,AMBEV SA-ADR,425.5,啤酒,1WK,200.0,15.66,15.25
+2026-11-09 00:00:00,Long,VIAV,33.0,15.91%,22.0,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,VIAVI SOLUTIONS INC,72.25,通讯设备,1WK,200.0,101.02,亏损
+2026-11-09 00:00:00,Long,VIAV,33.0,15.91%,22.0,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,VIAVI SOLUTIONS INC,72.25,通讯设备,1WK,200.0,101.02,亏损
+2026-11-09 00:00:00,Long,BMA,57.23,-0.92%,49.01,mfa,参数一,"{""mfa"": {""mfa_all"": 7}}",,,,,,,BANCO MACRO SA-ADR,38.29,地区银行,1WK,200.0,2.18,20.46
+2026-11-09 00:00:00,Long,BMA,57.23,-0.92%,49.01,mfa,参数二,"{""mfa"": {""mfa_all"": 7}}",,,,,,,BANCO MACRO SA-ADR,38.29,地区银行,1WK,200.0,2.18,20.46
+2026-11-09 00:00:00,Long,RGTI,11.11,-5.45%,8.33,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,RIGETTI COMPUTING INC,37.42,计算机硬件,1WK,200.0,17.92,亏损
+2026-11-09 00:00:00,Long,RGTI,11.11,-5.45%,8.33,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,RIGETTI COMPUTING INC,37.42,计算机硬件,1WK,200.0,17.92,亏损
+2026-11-09 00:00:00,Long,SID,0.83,-2.42%,0.62,mfa,参数一,"{""mfa"": {""mfa_all"": 23}}",,,,,,,CIA SIDERURGICA NACL-SP ADR,10.3,钢,1WK,200.0,-56.53,亏损
+2026-11-09 00:00:00,Long,SID,0.83,-2.42%,0.62,mfa,参数二,"{""mfa"": {""mfa_all"": 23}}",,,,,,,CIA SIDERURGICA NACL-SP ADR,10.3,钢,1WK,200.0,-56.53,亏损
+2026-11-09 00:00:00,Long,CRS,304.86,9.54%,238.2,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,CARPENTER TECHNOLOGY,144.71,金属加工,1WK,200.0,48.31,27.77
+2026-11-09 00:00:00,Long,CRS,304.86,9.54%,238.2,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,CARPENTER TECHNOLOGY,144.71,金属加工,1WK,200.0,48.31,27.77
+2026-11-09 00:00:00,Long,DMC,27.71,2.27%,24.93,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,DEL MONTE CORP,13.53,农产品,1WK,200.0,-2.06,15.27
+2026-11-09 00:00:00,Long,DMC,27.71,2.27%,24.93,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,DEL MONTE CORP,13.53,农产品,1WK,200.0,-2.06,15.27
+2026-11-09 00:00:00,Long,TTC,107.28,2.33%,99.75,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-96.76-82.44-103.87,低-低-高,nan%-14.81%-26.01%,36.0,24.33,TORO CO,101.75,工具及配件,1WK,,,33.91
+2026-11-09 00:00:00,Long,RBA,95.67,2.30%,87.03,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,RB GLOBAL INC,176.11,专业商务服务,1WK,,,46.61
+2026-11-09 00:00:00,Long,RRR,50.18,4.06%,44.64,mfa,参数一,"{""mfa"": {""mfa_all"": 8}}",,,,,,,RED ROCK RESORTS INC-CLASS A,51.1,度假村与赌场,1WK,200.0,1.93,15.60
+2026-11-09 00:00:00,Long,RRR,50.18,4.06%,44.64,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,RED ROCK RESORTS INC-CLASS A,51.1,度假村与赌场,1WK,200.0,1.93,15.60
+2026-11-09 00:00:00,Long,RRR,50.18,4.06%,44.64,mfa,参数二,"{""mfa"": {""mfa_all"": 8}}",,,,,,,RED ROCK RESORTS INC-CLASS A,51.1,度假村与赌场,1WK,200.0,1.93,15.60
+2026-11-09 00:00:00,Long,RRR,50.18,4.06%,44.64,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,RED ROCK RESORTS INC-CLASS A,51.1,度假村与赌场,1WK,200.0,1.93,15.60
+2026-11-09 00:00:00,Short,IBRX,6.67,-22.76%,8.64,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,IMMUNITYBIO INC,94.64,生物技术,1WK,,,亏损
+2026-11-09 00:00:00,Short,IBRX,6.67,-22.76%,8.64,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,IMMUNITYBIO INC,94.64,生物技术,1WK,200.0,50.91,亏损
+2026-11-09 00:00:00,Short,IBRX,6.67,-22.76%,8.64,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,IMMUNITYBIO INC,94.64,生物技术,1WK,,,亏损
+2026-11-09 00:00:00,Short,IBRX,6.67,-22.76%,8.64,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,IMMUNITYBIO INC,94.64,生物技术,1WK,200.0,50.91,亏损
+2026-11-09 00:00:00,Long,APLD,17.91,15.18%,10.21,mfa,参数一,"{""mfa"": {""mfa_all"": 5}}",,,,,,,APPLIED DIGITAL CORP,50.23,信息技术服务,1WK,200.0,31.35,亏损
+2026-11-09 00:00:00,Long,APLD,17.91,15.18%,10.21,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,APPLIED DIGITAL CORP,50.23,信息技术服务,1WK,200.0,31.35,亏损
+2026-11-09 00:00:00,Long,APLD,17.91,15.18%,10.21,mfa,参数二,"{""mfa"": {""mfa_all"": 5}}",,,,,,,APPLIED DIGITAL CORP,50.23,信息技术服务,1WK,200.0,31.35,亏损
+2026-11-09 00:00:00,Long,APLD,17.91,15.18%,10.21,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,APPLIED DIGITAL CORP,50.23,信息技术服务,1WK,200.0,31.35,亏损
+2026-11-09 00:00:00,Long,BTDR,7.03,16.87%,3.58,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,BITDEER TECHNOLOGIES GROUP-A,17.75,应用软件,1WK,200.0,-35.5,亏损
+2026-11-09 00:00:00,Long,BTDR,7.03,16.87%,3.58,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,BITDEER TECHNOLOGIES GROUP-A,17.75,应用软件,1WK,200.0,-35.5,亏损
+2026-11-09 00:00:00,Long,BTDR,7.03,16.87%,3.58,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,BITDEER TECHNOLOGIES GROUP-A,17.75,应用软件,1WK,200.0,-35.5,亏损
+2026-11-09 00:00:00,Long,BTDR,7.03,16.87%,3.58,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,BITDEER TECHNOLOGIES GROUP-A,17.75,应用软件,1WK,200.0,-35.5,亏损
+2026-11-09 00:00:00,Long,INGR,92.83,1.21%,85.47,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,INGREDION INC,61.4,包装食品,1WK,200.0,-15.07,8.71
+2026-11-09 00:00:00,Long,INGR,92.83,1.21%,85.47,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,INGREDION INC,61.4,包装食品,1WK,200.0,-15.07,8.71
+2026-11-09 00:00:00,Long,RJET,21.34,5.91%,18.39,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,REPUBLIC AIRWAYS HOLDINGS IN,9.58,航空服务,1WK,,,12.30
+2026-11-09 00:00:00,Long,RJET,21.34,5.91%,18.39,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,REPUBLIC AIRWAYS HOLDINGS IN,9.58,航空服务,1WK,200.0,6.54,12.30
+2026-11-09 00:00:00,Long,RJET,21.34,5.91%,18.39,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,REPUBLIC AIRWAYS HOLDINGS IN,9.58,航空服务,1WK,200.0,6.54,12.30
+2026-11-09 00:00:00,Long,NNI,126.46,-3.12%,119.5,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NELNET INC-CL A,45.65,信贷,1WK,200.0,16.22,10.82
+2026-11-09 00:00:00,Long,NNI,126.46,-3.12%,119.5,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,NELNET INC-CL A,45.65,信贷,1WK,200.0,16.22,10.82
+2026-11-09 00:00:00,Short,NEOG,11.6,-1.36%,13.3,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,NEOGEN CORP,27.2,医疗设备,1WK,,,亏损
+2026-11-09 00:00:00,Long,WELL,247.35,1.30%,231.71,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,WELLTOWER INC,1819.28,医疗设施REITs,1WK,,,178.41
+2026-11-09 00:00:00,Long,WELL,247.35,1.30%,231.71,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,WELLTOWER INC,1819.28,医疗设施REITs,1WK,200.0,80.95,178.41
+2026-11-09 00:00:00,Long,WELL,247.35,1.30%,231.71,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,WELLTOWER INC,1819.28,医疗设施REITs,1WK,200.0,80.95,178.41
+2026-11-09 00:00:00,Long,IQMX,7.49,-4.59%,6.25,mfa,参数一,"{""mfa"": {""mfa_all"": 18}}",,,,,,,IQM QUANTUM COMPUTERS OY-ADR,16.68,计算机硬件,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,IQMX,7.49,-4.59%,6.25,mfa,参数二,"{""mfa"": {""mfa_all"": 18}}",,,,,,,IQM QUANTUM COMPUTERS OY-ADR,16.68,计算机硬件,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,STUB,5.58,-9.12%,3.95,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,STUBHUB HOLDINGS INC-CLASS A,25.18,互联网内容与信息,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,STUB,5.58,-9.12%,3.95,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,STUBHUB HOLDINGS INC-CLASS A,25.18,互联网内容与信息,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,USAS,2.96,-4.21%,2.2,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,AMERICAS GOLD AND SILVER COR,10.42,其他工业金属与采矿,1WK,200.0,25.11,亏损
+2026-11-09 00:00:00,Long,USAS,2.96,-4.21%,2.2,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,AMERICAS GOLD AND SILVER COR,10.42,其他工业金属与采矿,1WK,200.0,25.11,亏损
+2026-11-09 00:00:00,Long,MTX,62.12,0.80%,57.41,mfa,参数一,"{""mfa"": {""mfa_all"": 7}}",,,,,,,MINERALS TECHNOLOGIES INC,20.45,特殊化工用品,1WK,200.0,-6.1,亏损
+2026-11-09 00:00:00,Long,MTX,62.12,0.80%,57.41,mfa,参数二,"{""mfa"": {""mfa_all"": 7}}",,,,,,,MINERALS TECHNOLOGIES INC,20.45,特殊化工用品,1WK,200.0,-6.1,亏损
+2026-11-09 00:00:00,Long,UCTT,49.63,20.67%,28.37,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ULTRA CLEAN HOLDINGS INC,21.12,半导体设备与材料,1WK,200.0,19.28,亏损
+2026-11-09 00:00:00,Long,UCTT,49.63,20.67%,28.37,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,ULTRA CLEAN HOLDINGS INC,21.12,半导体设备与材料,1WK,200.0,19.28,亏损
+2026-11-09 00:00:00,Long,PLBL,5.64,5.51%,4.14,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,POLIBELI GROUP LTD-A,19.97,百货公司,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,PLBL,5.64,5.51%,4.14,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,POLIBELI GROUP LTD-A,19.97,百货公司,1WK,200.0,,亏损
+2026-11-09 00:00:00,Long,DNN,2.19,0.00%,1.83,mfa,参数一,"{""mfa"": {""mfa_all"": 8}}",,,,,,,DENISON MINES CORP,19.1,铀,1WK,200.0,2.96,亏损
+2026-11-09 00:00:00,Long,DNN,2.19,0.00%,1.83,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,DENISON MINES CORP,19.1,铀,1WK,200.0,2.96,亏损
+2026-11-09 00:00:00,Long,DNN,2.19,0.00%,1.83,mfa,参数二,"{""mfa"": {""mfa_all"": 8}}",,,,,,,DENISON MINES CORP,19.1,铀,1WK,200.0,2.96,亏损
+2026-11-09 00:00:00,Long,DNN,2.19,0.00%,1.83,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,DENISON MINES CORP,19.1,铀,1WK,200.0,2.96,亏损
+2026-11-09 00:00:00,Long,BTSG,72.62,8.15%,62.05,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,BRIGHTSPRING HEALTH SERVICES,138.89,健康信息服务,1WK,,,80.23
+2026-11-09 00:00:00,Long,KC,8.52,0.00%,6.9,mfa,参数一,"{""mfa"": {""mfa_all"": 4}}",,,,,,,KINGSOFT CLOUD HOLDINGS-ADR,24.31,应用软件,1WK,200.0,0.43,亏损
+2026-11-09 00:00:00,Long,KC,8.52,0.00%,6.9,mfa,参数二,"{""mfa"": {""mfa_all"": 4}}",,,,,,,KINGSOFT CLOUD HOLDINGS-ADR,24.31,应用软件,1WK,200.0,0.43,亏损
+2026-11-09 00:00:00,Short,IE,7.48,-1.32%,10.01,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",支撑释放,10.57-7.29-6.31-4.5-7.86,低-低-低-高,31.03%-13.44%-28.68%-74.56%,16.0,59.26,IVANHOE ELECTRIC INC / US,12.38,铜,1WK,,,亏损
+2026-11-09 00:00:00,Long,CMI,463.26,2.93%,410.71,mfa,参数一,"{""mfa"": {""mfa_all"": 3}}",,,,,,,CUMMINS INC,649.56,专用工业机械,1WK,200.0,28.38,23.02
+2026-11-09 00:00:00,Long,CMI,463.26,2.93%,410.71,mfa,参数二,"{""mfa"": {""mfa_all"": 3}}",,,,,,,CUMMINS INC,649.56,专用工业机械,1WK,200.0,28.38,23.02
+2026-11-09 00:00:00,Long,ODFL,170.5,3.38%,150.21,mfa,参数一,"{""mfa"": {""mfa_all"": 9}}",,,,,,,OLD DOMINION FREIGHT LINE,371.98,货运,1WK,200.0,-6.59,37.06
+2026-11-09 00:00:00,Long,ODFL,170.5,3.38%,150.21,mfa,参数二,"{""mfa"": {""mfa_all"": 9}}",,,,,,,OLD DOMINION FREIGHT LINE,371.98,货运,1WK,200.0,-6.59,37.06
+2026-11-09 00:00:00,Long,CALM,66.71,3.27%,59.06,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CAL-MAINE FOODS INC,31.8,农产品,1WK,200.0,-2.9,10.27
+2026-11-09 00:00:00,Long,CALM,66.71,3.27%,59.06,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,CAL-MAINE FOODS INC,31.8,农产品,1WK,200.0,-2.9,10.27
+2026-11-09 00:00:00,Short,VLO,363.71,4.98%,396.72,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,VALERO ENERGY CORP,1018.88,油气炼制与销售,1WK,200.0,118.96,48.26
+2026-11-09 00:00:00,Short,VLO,363.71,4.98%,396.72,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,VALERO ENERGY CORP,1018.88,油气炼制与销售,1WK,200.0,118.96,48.26
+2026-11-09 00:00:00,Long,ACHC,38.8,4.86%,34.22,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,87.77-82.41-47.08-27.5-35.83,低-低-低-高,6.11%-42.87%-41.59%-30.29%,16.0,34.6,ACADIA HEALTHCARE CO INC,29.98,医疗保健设施,1WK,,,亏损
+2026-11-09 00:00:00,Long,AMSC,25.77,10.18%,19.03,suf,参数一,"{""suf"": {""timeframe"": ""w""}}",,,,,,,AMERICAN SUPERCONDUCTOR CORP,12.72,专用工业机械,1WK,200.0,6.71,8.61
+2026-11-09 00:00:00,Long,AMSC,25.77,10.18%,19.03,suf,参数二,"{""suf"": {""timeframe"": ""w""}}",,,,,,,AMERICAN SUPERCONDUCTOR CORP,12.72,专用工业机械,1WK,200.0,6.71,8.61
+2026-11-09 00:00:00,Long,AWI,176.62,3.15%,163.92,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ARMSTRONG WORLD INDUSTRIES,73.61,建筑产品与设备,1WK,200.0,33.34,24.85
+2026-11-09 00:00:00,Long,AWI,176.62,3.15%,163.92,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,ARMSTRONG WORLD INDUSTRIES,73.61,建筑产品与设备,1WK,200.0,33.34,24.85
+2026-11-09 00:00:00,Long,FOXA,67.98,2.01%,61.13,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FOX CORP - CLASS A,293.78,娱乐,1WK,200.0,47.13,18.14
+2026-11-09 00:00:00,Long,FOXA,67.98,2.01%,61.13,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FOX CORP - CLASS A,293.78,娱乐,1WK,200.0,47.13,18.14
+2026-11-09 00:00:00,Long,EW,105.81,3.59%,96.49,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,95.25-76.73-83.0-87.89-96.29,低-高-高-高,19.44%-8.17%-5.89%-9.56%,18.0,18.64,EDWARDS LIFESCIENCES CORP,572.77,医疗设备,1WK,,,54.30
+2026-11-09 00:00:00,Long,EW,105.81,3.59%,96.49,sqz,参数二,"{""sqz"": {""bb_length"": 20, ""bb_mult"": 1.8, ""kc_length"": 20, ""kc_mult"": 1.5, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 15, ""srb_right"": 15}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,nan-94.87-96.12-87.89-96.29,低-高-低-高,nan%-1.32%-8.56%-9.56%,18.0,18.64,EDWARDS LIFESCIENCES CORP,572.77,医疗设备,1WK,,,54.30
+2026-11-09 00:00:00,Long,GXO,54.99,-0.34%,51.09,sqz,参数一,"{""sqz"": {""bb_length"": 15, ""bb_mult"": 1.5, ""kc_length"": 15, ""kc_mult"": 1.2, ""min_sqz_bars"": 4}, ""r&s"": {""srb_left"": 10, ""srb_right"": 10}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",压力释放,67.57-63.07-63.33-66.85-54.78,低-高-高-低,6.66%-0.41%-5.56%-18.06%,17.0,25.61,GXO LOGISTICS INC,65.32,综合货运与物流,1WK,,,203.43
+2026-11-09 00:00:00,Long,EVR,298.08,4.72%,266.09,utb,参数一,"{""utb"": {""key_value"": 2, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,EVERCORE INC - A,119.62,资本市场,1WK,,,22.14
+2026-11-09 00:00:00,Long,EVR,298.08,4.72%,266.09,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,EVERCORE INC - A,119.62,资本市场,1WK,200.0,28.7,22.14
+2026-11-09 00:00:00,Long,EVR,298.08,4.72%,266.09,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,EVERCORE INC - A,119.62,资本市场,1WK,200.0,28.7,22.14
+2026-11-09 00:00:00,Long,FOX,60.63,1.90%,54.77,tma,参数一,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FOX CORP - CLASS B,259.91,娱乐,1WK,200.0,43.65,16.05
+2026-11-09 00:00:00,Long,FOX,60.63,1.90%,54.77,tma,参数二,"{""tma"": {""timeframe"": ""w""}}",,,,,,,FOX CORP - CLASS B,259.91,娱乐,1WK,200.0,43.65,16.05
+2026-11-09 00:00:00,Long,ULS,81.58,3.73%,72.55,utb,参数二,"{""utb"": {""key_value"": 2.5, ""atr_period"": 14, ""use_ha"": false}, ""stc"": {""stc_length"": 80, ""stc_fast_length"": 27, ""stc_slow_length"": 50, ""stc_factor"": 0.5}, ""atr"": {""atr_length"": 14, ""atr_mult"": 1.0}}",,,,,,,UL SOLUTIONS INC - CLASS A,160.98,专业商务服务,1WK,,,49.83
