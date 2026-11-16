@@ -50,7 +50,7 @@ PARAM_SETS = [
         "use_ha": False,
         # stc_indicator
         "stc_length": 80,
-        "stc_fast_length": 27,
+        "stc_fast_length": 21,
         "stc_slow_length": 50,
         "stc_factor": 0.5,
         # rgf_indicator
@@ -91,7 +91,7 @@ PARAM_SETS = [
         "atr_period": 14,
         "use_ha": False,
         "stc_length": 80,
-        "stc_fast_length": 27,
+        "stc_fast_length": 21,
         "stc_slow_length": 50,
         "stc_factor": 0.5,
         "rgf_per": 14,

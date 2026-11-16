@@ -13,7 +13,7 @@ import numpy as np
 def stc_indicator(
     df: pd.DataFrame,
     stc_length: int = 12,
-    stc_fast_length: int = 26,
+    stc_fast_length: int = 21,
     stc_slow_length: int = 50,
     stc_factor: float = 0.5
 ) -> pd.DataFrame:
