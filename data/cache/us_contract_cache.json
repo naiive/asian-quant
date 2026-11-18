@@ -473,8 +473,8 @@
             "name": "HYUNDAI"
         },
         {
-            "code": "ANTHROPIC",
-            "name": "ANTHROPIC"
+            "code": "ANT",
+            "name": "ANT"
         },
         {
             "code": "SITM",
@@ -1475,6 +1475,10 @@
         {
             "code": "FRHC",
             "name": "FRHC"
+        },
+        {
+            "code": "DXY",
+            "name": "DXY"
         }
     ]
 }
