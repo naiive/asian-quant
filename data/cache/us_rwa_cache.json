@@ -1,1708 +1,808 @@
 {
     "data": [
         {
-            "code": "ZSEP",
-            "name": "Innovator ZSEP ETF"
-        },
-        {
-            "code": "APH",
-            "name": "Amphenol"
-        },
-        {
-            "code": "HAL",
-            "name": "Halliburton"
-        },
-        {
-            "code": "IEF",
-            "name": "iShares 7-10 Year Treasury Bond ETF"
-        },
-        {
-            "code": "IRDM",
-            "name": "Iridium Communications"
-        },
-        {
-            "code": "LLY",
-            "name": "Eli Lilly"
-        },
-        {
-            "code": "NFLX",
-            "name": "Netflix"
-        },
-        {
-            "code": "NVTS",
-            "name": "Navitas Semiconductor"
-        },
-        {
-            "code": "ARM",
-            "name": "Arm Holdings plc"
-        },
-        {
-            "code": "INRO",
-            "name": "iShares US Industry Rotation Active ETF"
-        },
-        {
-            "code": "PPLT",
-            "name": "abrdn Physical Platinum Shares ETF"
-        },
-        {
-            "code": "RGTI",
-            "name": "Rigetti Computing"
-        },
-        {
-            "code": "SCHW",
-            "name": "Charles Schwab"
-        },
-        {
-            "code": "VTV",
-            "name": "Vanguard Value ETF"
-        },
-        {
-            "code": "WCC",
-            "name": "WESCO International"
-        },
-        {
-            "code": "ECH",
-            "name": "iShares MSCI Chile ETF"
-        },
-        {
-            "code": "MTSI",
-            "name": "MACOM Technology Solutions Holdings"
-        },
-        {
-            "code": "PBR",
-            "name": "Petrobras"
-        },
-        {
-            "code": "SQQQ",
-            "name": "ProShares UltraPro Short QQQ"
-        },
-        {
-            "code": "ZFEB",
-            "name": "Innovator ZFEB ETF"
-        },
-        {
-            "code": "AMC",
-            "name": "AMC Entertainment"
-        },
-        {
-            "code": "BRHY",
-            "name": "iShares High Yield Active ETF"
-        },
-        {
-            "code": "GME",
-            "name": "GameStop"
-        },
-        {
-            "code": "MP",
-            "name": "MP Materials"
-        },
-        {
-            "code": "AIQ",
-            "name": "Global X Artificial Intelligence & Technology ETF"
-        },
-        {
-            "code": "CORO",
-            "name": "iShares International Country Rotation Active ETF"
-        },
-        {
-            "code": "FPS",
-            "name": "Forgent Power Solutions"
-        },
-        {
-            "code": "NUE",
-            "name": "Nucor"
-        },
-        {
-            "code": "PFE",
-            "name": "Pfizer"
-        },
-        {
-            "code": "REGN",
-            "name": "Regeneron Pharmaceuticals"
-        },
-        {
-            "code": "SMR",
-            "name": "NuScale Power"
-        },
-        {
-            "code": "WMB",
-            "name": "Williams"
-        },
-        {
-            "code": "JD",
-            "name": "JD.com"
-        },
-        {
-            "code": "ONDS",
-            "name": "Ondas Holdings"
-        },
-        {
-            "code": "PLTR",
-            "name": "Palantir Technologies"
-        },
-        {
-            "code": "SOXL",
-            "name": "Direxion Daily Semi Bull 3X ETF"
-        },
-        {
-            "code": "ZMAR",
-            "name": "Innovator ZMAR ETF"
-        },
-        {
-            "code": "ABNB",
-            "name": "Airbnb"
-        },
-        {
-            "code": "BOT",
-            "name": "RoboStrategy"
-        },
-        {
-            "code": "KOPN",
-            "name": "Kopin"
-        },
-        {
-            "code": "BZ",
-            "name": "Kanzhun"
-        },
-        {
-            "code": "INDA",
-            "name": "iShares MSCI India ETF"
-        },
-        {
-            "code": "STRC",
-            "name": "Strategy Stretch Preferred"
-        },
-        {
-            "code": "TLN",
-            "name": "Talen Energy"
-        },
-        {
-            "code": "ALAB",
-            "name": "Astera Labs"
-        },
-        {
-            "code": "RKLB",
-            "name": "Rocket Lab"
-        },
-        {
-            "code": "USHY",
-            "name": "iShares Broad USD High Yield Corporate Bond ETF"
-        },
-        {
-            "code": "IWN",
-            "name": "iShares Russell 2000 Value ETF"
-        },
-        {
-            "code": "LEMB",
-            "name": "iShares J.P. Morgan EM Local Currency Bond ETF"
-        },
-        {
-            "code": "ANET",
-            "name": "Arista Networks"
-        },
-        {
-            "code": "DTCR",
-            "name": "Global X Data Center & Digital Infrastructure ETF"
-        },
-        {
-            "code": "VCX",
-            "name": "Fundrise Innovation Fund"
-        },
-        {
-            "code": "SPCX",
-            "name": "SpaceX"
-        },
-        {
-            "code": "FIGR",
-            "name": "Figure Technology Solutions"
-        },
-        {
-            "code": "IONQ",
-            "name": "IonQ"
-        },
-        {
-            "code": "ISRG",
-            "name": "Intuitive Surgical"
-        },
-        {
-            "code": "MRK",
-            "name": "Merck"
-        },
-        {
-            "code": "MSFT",
-            "name": "Microsoft"
-        },
-        {
-            "code": "TWST",
-            "name": "Twist Bioscience"
-        },
-        {
-            "code": "UNG",
-            "name": "US Natural Gas Fund"
-        },
-        {
-            "code": "IDEF",
-            "name": "iShares Defense Industrials Active ETF"
-        },
-        {
-            "code": "KO",
-            "name": "Coca-Cola"
-        },
-        {
-            "code": "TM",
-            "name": "Toyota"
-        },
-        {
-            "code": "TT",
-            "name": "Trane Technologies"
-        },
-        {
-            "code": "T",
-            "name": "AT&T"
-        },
-        {
-            "code": "BE",
-            "name": "Bloom Energy"
-        },
-        {
-            "code": "DE",
-            "name": "Deere"
-        },
-        {
-            "code": "EWJ",
-            "name": "iShares MSCI Japan ETF"
-        },
-        {
-            "code": "LASR",
-            "name": "nLIGHT"
-        },
-        {
-            "code": "PG",
-            "name": "Procter & Gamble"
-        },
-        {
-            "code": "UCTT",
-            "name": "Ultra Clean Holdings"
-        },
-        {
-            "code": "IEFA",
-            "name": "iShares Core MSCI EAFE ETF"
-        },
-        {
-            "code": "ECO",
-            "name": "Okeanis Eco Tankers"
-        },
-        {
-            "code": "GRAB",
-            "name": "Grab Holdings"
-        },
-        {
-            "code": "OPRA",
-            "name": "Opera"
-        },
-        {
-            "code": "PRIM",
-            "name": "Primoris Services"
-        },
-        {
-            "code": "ITOT",
-            "name": "iShares Core S&P Total US Stock Market ETF"
-        },
-        {
-            "code": "JPM",
-            "name": "JPMorgan Chase"
-        },
-        {
-            "code": "SPGI",
-            "name": "S&P Global"
-        },
-        {
-            "code": "USO",
-            "name": "United States Oil Fund"
-        },
-        {
-            "code": "EFA",
-            "name": "iShares MSCI EAFE ETF"
-        },
-        {
-            "code": "STNG",
-            "name": "Scorpio Tankers"
-        },
-        {
-            "code": "TCOM",
-            "name": "Trip.com Group"
-        },
-        {
-            "code": "WDC",
-            "name": "Western Digital"
-        },
-        {
-            "code": "BMNR",
-            "name": "BitMine Immersion Technologies"
-        },
-        {
-            "code": "HIMX",
-            "name": "Himax Technologies"
-        },
-        {
-            "code": "IJH",
-            "name": "iShares Core S&P MidCap ETF"
-        },
-        {
-            "code": "TIP",
-            "name": "iShares TIPS Bond ETF"
-        },
-        {
-            "code": "URNM",
-            "name": "Sprott Uranium Miners ETF"
-        },
-        {
-            "code": "ZNOV",
-            "name": "Innovator ZNOV ETF"
-        },
-        {
-            "code": "BKCH",
-            "name": "Global X Blockchain ETF"
-        },
-        {
-            "code": "CPER",
-            "name": "US Copper Index Fund"
-        },
-        {
-            "code": "QYLD",
-            "name": "Global X NASDAQ 100 Covered Call ETF"
-        },
-        {
-            "code": "EMR",
-            "name": "Emerson Electric"
-        },
-        {
-            "code": "EQT",
-            "name": "EQT"
-        },
-        {
-            "code": "TASK",
-            "name": "TaskUs"
-        },
-        {
-            "code": "BOTZ",
-            "name": "Global X Robotics & Artificial Intelligence ETF"
-        },
-        {
-            "code": "ENB",
-            "name": "Enbridge"
-        },
-        {
-            "code": "NEAR",
-            "name": "iShares Short Duration Bond Active ETF"
-        },
-        {
-            "code": "SO",
-            "name": "Southern"
-        },
-        {
-            "code": "TSEM",
-            "name": "Tower Semiconductor"
-        },
-        {
-            "code": "ZDEK",
-            "name": "Innovator ZDEK ETF"
-        },
-        {
-            "code": "EQIX",
-            "name": "Equinix"
-        },
-        {
-            "code": "EWY",
-            "name": "iShares MSCI South Korea ETF"
-        },
-        {
-            "code": "IEMG",
-            "name": "iShares Core MSCI Emerging Markets ETF"
-        },
-        {
-            "code": "MBLY",
-            "name": "Mobileye Global"
-        },
-        {
-            "code": "NEM",
-            "name": "Newmont"
-        },
-        {
-            "code": "WS",
-            "name": "Worthington Steel"
-        },
-        {
-            "code": "HYG",
-            "name": "iBoxx $ High Yield Corporate Bond ETF"
-        },
-        {
-            "code": "COPX",
-            "name": "Global X Copper Miners ETF"
-        },
-        {
-            "code": "DASH",
-            "name": "DoorDash"
-        },
-        {
-            "code": "EEM",
-            "name": "iShares MSCI Emerging Markets ETF"
-        },
-        {
-            "code": "KLAC",
-            "name": "KLA"
-        },
-        {
-            "code": "MKSI",
-            "name": "MKS Inc."
-        },
-        {
-            "code": "PL",
-            "name": "Planet Labs"
-        },
-        {
-            "code": "ZOCT",
-            "name": "Innovator ZOCT ETF"
-        },
-        {
-            "code": "NAT",
-            "name": "Nordic American Tankers"
-        },
-        {
-            "code": "SAP",
-            "name": "SAP"
-        },
-        {
-            "code": "DELL",
-            "name": "Dell Technologies"
-        },
-        {
-            "code": "DRS",
-            "name": "Leonardo DRS"
-        },
-        {
-            "code": "OII",
-            "name": "Oceaneering International"
-        },
-        {
-            "code": "PAVE",
-            "name": "Global X US Infrastructure Development ETF"
-        },
-        {
-            "code": "SHOP",
-            "name": "Shopify"
-        },
-        {
-            "code": "QQQ",
-            "name": "Invesco QQQ"
-        },
-        {
-            "code": "XYZ",
-            "name": "Block"
-        },
-        {
-            "code": "DGXX",
-            "name": "Digi Power X"
-        },
-        {
-            "code": "NNE",
-            "name": "NANO Nuclear Energy"
-        },
-        {
-            "code": "ZJUL",
-            "name": "Innovator ZJUL ETF"
-        },
-        {
-            "code": "ZJUN",
-            "name": "Innovator ZJUN ETF"
-        },
-        {
-            "code": "RTX",
-            "name": "RTX"
-        },
-        {
-            "code": "AAOI",
-            "name": "Applied Optoelectronics"
-        },
-        {
-            "code": "CIBR",
-            "name": "First Trust NASDAQ Cybersecurity ETF"
-        },
-        {
-            "code": "ETN",
-            "name": "Eaton"
-        },
-        {
-            "code": "JNJ",
-            "name": "Johnson & Johnson"
-        },
-        {
-            "code": "UEC",
-            "name": "Uranium Energy"
-        },
-        {
-            "code": "VPG",
-            "name": "Vishay Precision Group"
-        },
-        {
-            "code": "FGDL",
-            "name": "Franklin Responsibly Sourced Gold ETF"
-        },
-        {
-            "code": "HII",
-            "name": "Huntington Ingalls Industries"
-        },
-        {
-            "code": "ZAPR",
-            "name": "Innovator ZAPR ETF"
-        },
-        {
-            "code": "JAAA",
-            "name": "Janus Henderson AAA CLO ETF"
-        },
-        {
-            "code": "OPEN",
-            "name": "Opendoor Technologies"
-        },
-        {
-            "code": "RXRX",
-            "name": "Recursion Pharmaceuticals"
-        },
-        {
-            "code": "TTMI",
-            "name": "TTM Technologies"
-        },
-        {
-            "code": "CRCL",
-            "name": "Circle Internet Group"
-        },
-        {
-            "code": "REMX",
-            "name": "VanEck Rare Earth and Strategic Metals ETF"
-        },
-        {
-            "code": "VDE",
-            "name": "Vanguard Energy ETF"
-        },
-        {
-            "code": "VZ",
-            "name": "Verizon"
-        },
-        {
-            "code": "PYPL",
-            "name": "PayPal"
-        },
-        {
-            "code": "AMKR",
-            "name": "Amkor Technology"
-        },
-        {
-            "code": "BNO",
-            "name": "US Brent Oil Fund"
-        },
-        {
-            "code": "CRDO",
-            "name": "Credo Technology Group Holding"
-        },
-        {
-            "code": "FFOG",
-            "name": "Franklin Focused Growth ETF"
-        },
-        {
-            "code": "MCD",
-            "name": "McDonald's"
-        },
-        {
-            "code": "NOK",
-            "name": "Nokia"
-        },
-        {
-            "code": "ETHA",
-            "name": "iShares Ethereum Trust ETF"
-        },
-        {
-            "code": "HSAI",
-            "name": "Hesai Group"
-        },
-        {
-            "code": "LECO",
-            "name": "Lincoln Electric"
-        },
-        {
-            "code": "SEDG",
-            "name": "SolarEdge Technologies"
-        },
-        {
-            "code": "COF",
-            "name": "Capital One"
-        },
-        {
-            "code": "C",
-            "name": "Citigroup"
-        },
-        {
-            "code": "IEI",
-            "name": "iShares 3-7 Year Treasury Bond ETF"
-        },
-        {
-            "code": "PDBC",
-            "name": "Invesco Optimum Yld Dvsfd Cmd Str No K-1 ETF"
-        },
-        {
-            "code": "ACMR",
-            "name": "ACM Research"
-        },
-        {
-            "code": "DNN",
-            "name": "Denison Mines"
-        },
-        {
-            "code": "HYDB",
-            "name": "iShares High Yield Systematic Bond ETF"
-        },
-        {
-            "code": "SOFI",
-            "name": "SoFi Technologies"
-        },
-        {
-            "code": "AME",
-            "name": "AMETEK"
-        },
-        {
-            "code": "SOXX",
-            "name": "iShares Semiconductor ETF"
-        },
-        {
-            "code": "SKHY",
-            "name": "SK Hynix"
-        },
-        {
-            "code": "TXN",
-            "name": "Texas Instruments"
-        },
-        {
-            "code": "CIFR",
-            "name": "Cipher Mining"
-        },
-        {
-            "code": "FUTU",
-            "name": "Futu Holdings"
-        },
-        {
-            "code": "QTUM",
-            "name": "Defiance Quantum ETF"
-        },
-        {
-            "code": "ACLS",
-            "name": "Axcelis Technologies"
-        },
-        {
-            "code": "COP",
-            "name": "ConocoPhillips"
-        },
-        {
-            "code": "FCEL",
-            "name": "FuelCell Energy"
-        },
-        {
-            "code": "GLD",
-            "name": "SPDR Gold Shares"
-        },
-        {
-            "code": "MRNA",
-            "name": "Moderna"
-        },
-        {
-            "code": "OKLO",
-            "name": "Oklo"
-        },
-        {
-            "code": "PURR",
-            "name": "Hyperliquid Strategies"
-        },
-        {
-            "code": "STLD",
-            "name": "Steel Dynamics"
-        },
-        {
-            "code": "ACN",
-            "name": "Accenture"
-        },
-        {
-            "code": "MELI",
-            "name": "MercadoLibre"
-        },
-        {
-            "code": "NET",
-            "name": "Cloudflare"
-        },
-        {
-            "code": "SATA",
-            "name": "Strive Preferred"
-        },
-        {
-            "code": "SYSB",
-            "name": "iShares Systematic Bond ETF"
-        },
-        {
-            "code": "TQQQ",
-            "name": "ProShares UltraPro QQQ"
-        },
-        {
-            "code": "VTI",
-            "name": "Vanguard Total Stock Market ETF"
-        },
-        {
-            "code": "KEYS",
-            "name": "Keysight Technologies"
-        },
-        {
-            "code": "PANW",
-            "name": "Palo Alto Networks"
-        },
-        {
-            "code": "PTGX",
-            "name": "Protagonist Therapeutics"
-        },
-        {
-            "code": "POWI",
-            "name": "Power Integrations"
-        },
-        {
-            "code": "GOOGL",
-            "name": "Alphabet Class A"
-        },
-        {
-            "code": "CPNG",
-            "name": "Coupang"
-        },
-        {
-            "code": "HOOD",
-            "name": "Robinhood Markets"
-        },
-        {
-            "code": "PSQ",
-            "name": "ProShares Short QQQ"
-        },
-        {
-            "code": "QCOM",
-            "name": "Qualcomm"
-        },
-        {
-            "code": "VNQ",
-            "name": "Vanguard Real Estate ETF"
-        },
-        {
-            "code": "COHR",
-            "name": "Coherent"
-        },
-        {
-            "code": "WFC",
-            "name": "Wells Fargo"
-        },
-        {
-            "code": "AG",
-            "name": "First Majestic Silver"
-        },
-        {
-            "code": "NTES",
-            "name": "NetEase"
-        },
-        {
-            "code": "INTC",
-            "name": "Intel"
-        },
-        {
-            "code": "IWF",
-            "name": "iShares Russell 1000 Growth ETF"
-        },
-        {
-            "code": "AXTI",
-            "name": "AXT"
-        },
-        {
-            "code": "PALL",
-            "name": "abrdn Physical Palladium Shares ETF"
-        },
-        {
-            "code": "CIEN",
-            "name": "Ciena"
-        },
-        {
-            "code": "ROK",
-            "name": "Rockwell Automation"
-        },
-        {
-            "code": "FXI",
-            "name": "iShares China Large-Cap ETF"
-        },
-        {
-            "code": "AI",
-            "name": "C3.ai"
-        },
-        {
-            "code": "COST",
-            "name": "Costco"
-        },
-        {
-            "code": "EFV",
-            "name": "iShares MSCI EAFE Value ETF"
-        },
-        {
-            "code": "LITE",
-            "name": "Lumentum Holdings"
-        },
-        {
-            "code": "MXL",
-            "name": "MaxLinear"
-        },
-        {
-            "code": "UBER",
-            "name": "Uber"
-        },
-        {
-            "code": "BTDR",
-            "name": "Bitdeer Technologies"
-        },
-        {
-            "code": "EUHY",
-            "name": "iShares Euro High Yield Corporate Bond USD Hedged ETF"
-        },
-        {
-            "code": "ON",
-            "name": "ON Semiconductor"
-        },
-        {
-            "code": "RMBS",
-            "name": "Rambus"
-        },
-        {
-            "code": "CRM",
-            "name": "Salesforce"
-        },
-        {
-            "code": "DIS",
-            "name": "Disney"
-        },
-        {
-            "code": "WMT",
-            "name": "Walmart"
-        },
-        {
-            "code": "WOLF",
-            "name": "Wolfspeed"
-        },
-        {
-            "code": "APLD",
-            "name": "Applied Digital"
-        },
-        {
-            "code": "BNTX",
-            "name": "BioNTech"
-        },
-        {
-            "code": "BRLN",
-            "name": "iShares Floating Rate Loan Active ETF"
-        },
-        {
-            "code": "HUBB",
-            "name": "Hubbell"
-        },
-        {
-            "code": "QUBT",
-            "name": "Quantum Computing"
-        },
-        {
-            "code": "BILI",
-            "name": "Bilibili"
-        },
-        {
-            "code": "IAU",
-            "name": "iShares Gold Trust"
-        },
-        {
-            "code": "WM",
-            "name": "Waste Management"
-        },
-        {
-            "code": "FTGC",
-            "name": "First Trust Global Tactical Commodity Strategy Fund"
-        },
-        {
-            "code": "INSM",
-            "name": "Insmed"
-        },
-        {
-            "code": "UNH",
-            "name": "UnitedHealth"
-        },
-        {
-            "code": "AAON",
-            "name": "AAON"
-        },
-        {
-            "code": "CEVA",
-            "name": "CEVA"
-        },
-        {
-            "code": "IJS",
-            "name": "iShares S&P Small-Cap 600 Value ETF"
-        },
-        {
-            "code": "NIO",
-            "name": "NIO"
-        },
-        {
-            "code": "PWR",
-            "name": "Quanta Services"
-        },
-        {
-            "code": "VRSN",
-            "name": "VeriSign"
-        },
-        {
-            "code": "BLK",
-            "name": "Blackrock, Inc."
-        },
-        {
-            "code": "CAMT",
-            "name": "Camtek"
-        },
-        {
-            "code": "DGRW",
-            "name": "WisdomTree US Quality Dividend Growth Fund"
-        },
-        {
-            "code": "DRAM",
-            "name": "Roundhill Memory ETF"
-        },
-        {
-            "code": "GOOG",
-            "name": "Alphabet Inc. Class C"
-        },
-        {
-            "code": "HYS",
-            "name": "PIMCO 0-5 Year High Yield Corporate Bond Index ETF"
-        },
-        {
-            "code": "TEN",
-            "name": "Tsakos Energy Navigation"
-        },
-        {
-            "code": "AUR",
-            "name": "Aurora Innovation"
-        },
-        {
-            "code": "QLTA",
-            "name": "iShares Aaa - A Rated Corporate Bond ETF"
-        },
-        {
-            "code": "SOUN",
-            "name": "SoundHound AI"
-        },
-        {
-            "code": "AMZN",
-            "name": "Amazon"
-        },
-        {
-            "code": "GGOV",
-            "name": "iShares Global Government Bond USD Hedged Active ETF"
-        },
-        {
-            "code": "INOD",
-            "name": "Innodata"
-        },
-        {
-            "code": "RIOT",
-            "name": "Riot Platforms"
-        },
-        {
-            "code": "SBET",
-            "name": "SharpLink Gaming, Inc"
-        },
-        {
-            "code": "SECU",
-            "name": "iShares Securitized Income Active ETF"
-        },
-        {
-            "code": "SPY",
-            "name": "SPDR S&P 500 ETF"
-        },
-        {
-            "code": "IYW",
-            "name": "iShares US Technology ETF"
-        },
-        {
-            "code": "CVNA",
-            "name": "Carvana"
-        },
-        {
-            "code": "FORM",
-            "name": "FormFactor"
-        },
-        {
-            "code": "INTU",
-            "name": "Intuit"
-        },
-        {
-            "code": "SYM",
-            "name": "Symbotic"
-        },
-        {
-            "code": "BITA",
-            "name": "iShares Bitcoin Premium Income ETF"
-        },
-        {
-            "code": "META",
-            "name": "Meta Platforms"
-        },
-        {
-            "code": "ROIV",
-            "name": "Roivant Sciences"
-        },
-        {
-            "code": "BAC",
-            "name": "Bank of America"
-        },
-        {
-            "code": "CBRS",
-            "name": "Cerebras Systems"
-        },
-        {
-            "code": "HTZ",
-            "name": "Hertz Global Holdings"
-        },
-        {
-            "code": "TMO",
-            "name": "Thermo Fisher Scientific"
-        },
-        {
-            "code": "BTG",
-            "name": "B2Gold"
-        },
-        {
-            "code": "F",
-            "name": "Ford Motor"
-        },
-        {
-            "code": "LRCX",
-            "name": "Lam Research"
-        },
-        {
-            "code": "MARA",
-            "name": "MARA Holdings"
-        },
-        {
-            "code": "SPOT",
-            "name": "Spotify"
-        },
-        {
-            "code": "AMAT",
-            "name": "Applied Materials"
-        },
-        {
-            "code": "MA",
-            "name": "Mastercard"
-        },
-        {
-            "code": "MEI",
-            "name": "Methode Electronics"
-        },
-        {
-            "code": "VST",
-            "name": "Vistra"
-        },
-        {
-            "code": "WEN",
-            "name": "Wendy's"
-        },
-        {
-            "code": "ASML",
-            "name": "ASML Holding NV"
-        },
-        {
-            "code": "POWL",
-            "name": "Powell Industries"
-        },
-        {
-            "code": "CORZ",
-            "name": "Core Scientific"
-        },
-        {
-            "code": "RDDT",
-            "name": "Reddit"
-        },
-        {
-            "code": "VRT",
-            "name": "Vertiv"
-        },
-        {
-            "code": "CAI",
-            "name": "Caris Life Sciences"
-        },
-        {
-            "code": "EXTR",
-            "name": "Extreme Networks"
-        },
-        {
-            "code": "OIH",
-            "name": "VanEck Oil Services ETF"
-        },
-        {
-            "code": "CAT",
-            "name": "Caterpillar"
-        },
-        {
-            "code": "GEV",
-            "name": "GE Vernova"
-        },
-        {
-            "code": "AOSL",
-            "name": "Alpha and Omega Semiconductor"
-        },
-        {
-            "code": "CRWD",
-            "name": "CrowdStrike"
-        },
-        {
-            "code": "SHLD",
-            "name": "Global X Defense Tech ETF"
-        },
-        {
-            "code": "SOXQ",
-            "name": "Invesco PHLX Semiconductor ETF"
-        },
-        {
-            "code": "V",
-            "name": "Visa"
-        },
-        {
-            "code": "GE",
-            "name": "General Electric"
-        },
-        {
-            "code": "HIMS",
-            "name": "Hims & Hers Health"
-        },
-        {
-            "code": "IGEB",
-            "name": "iShares Investment Grade Systematic Bond ETF"
-        },
-        {
-            "code": "LMT",
-            "name": "Lockheed"
-        },
-        {
-            "code": "MU",
-            "name": "Micron Technology"
-        },
-        {
-            "code": "CLOI",
-            "name": "VanEck CLO ETF"
-        },
-        {
-            "code": "LI",
-            "name": "Li Auto"
-        },
-        {
-            "code": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing"
-        },
-        {
-            "code": "USFR",
-            "name": "WisdomTree Floating Rate Treasury Fund"
-        },
-        {
-            "code": "ASST",
-            "name": "Strive"
-        },
-        {
-            "code": "LIN",
-            "name": "Linde plc"
-        },
-        {
-            "code": "GLXY",
-            "name": "Galaxy Digital"
-        },
-        {
-            "code": "SWKS",
-            "name": "Skyworks Solutions"
-        },
-        {
-            "code": "ADI",
-            "name": "Analog Devices"
-        },
-        {
-            "code": "ADBE",
-            "name": "Adobe"
-        },
-        {
-            "code": "CSCO",
-            "name": "Cisco Systems"
-        },
-        {
-            "code": "FLNC",
-            "name": "Fluence Energy"
-        },
-        {
-            "code": "NKE",
-            "name": "Nike"
-        },
-        {
             "code": "VRTX",
             "name": "Vertex Pharmaceuticals"
-        },
-        {
-            "code": "CCJ",
-            "name": "Cameco"
-        },
-        {
-            "code": "EWZ",
-            "name": "iShares MSCI Brazil ETF"
-        },
-        {
-            "code": "HUT",
-            "name": "Hut 8"
-        },
-        {
-            "code": "AAPL",
-            "name": "Apple"
-        },
-        {
-            "code": "SNDK",
-            "name": "SanDisk"
-        },
-        {
-            "code": "WYFI",
-            "name": "WhiteFiber"
-        },
-        {
-            "code": "APP",
-            "name": "AppLovin"
-        },
-        {
-            "code": "FIG",
-            "name": "Figma"
-        },
-        {
-            "code": "HLIT",
-            "name": "Harmonic"
-        },
-        {
-            "code": "NVO",
-            "name": "Novo Nordisk"
-        },
-        {
-            "code": "BINC",
-            "name": "iShares Flexible Income Active ETF"
-        },
-        {
-            "code": "GEMI",
-            "name": "Gemini Space Station"
-        },
-        {
-            "code": "IVV",
-            "name": "iShares Core S&P 500 ETF"
-        },
-        {
-            "code": "MRVL",
-            "name": "Marvell Technology"
-        },
-        {
-            "code": "NBIS",
-            "name": "Nebius Group"
-        },
-        {
-            "code": "PDD",
-            "name": "PDD Holdings"
-        },
-        {
-            "code": "VICR",
-            "name": "Vicor"
-        },
-        {
-            "code": "CMG",
-            "name": "Chipotle"
-        },
-        {
-            "code": "ICHR",
-            "name": "Ichor Holdings"
-        },
-        {
-            "code": "USAR",
-            "name": "USA Rare Earth"
-        },
-        {
-            "code": "NOW",
-            "name": "ServiceNow"
-        },
-        {
-            "code": "PCG",
-            "name": "PG&E"
-        },
-        {
-            "code": "VSH",
-            "name": "Vishay Intertechnology"
-        },
-        {
-            "code": "DYNF",
-            "name": "iShares US Equity Factor Rotation Active ETF"
-        },
-        {
-            "code": "INCE",
-            "name": "Franklin Income Equity Focus ETF"
-        },
-        {
-            "code": "TEL",
-            "name": "TE Connectivity"
-        },
-        {
-            "code": "FCX",
-            "name": "Freeport-McMoRan"
-        },
-        {
-            "code": "FLQL",
-            "name": "Franklin US Large Cap Multifactor Index ETF"
-        },
-        {
-            "code": "COHU",
-            "name": "Cohu"
-        },
-        {
-            "code": "BLCR",
-            "name": "iShares Large Cap Core Active ETF"
-        },
-        {
-            "code": "LPTH",
-            "name": "LightPath Technologies"
-        },
-        {
-            "code": "AAL",
-            "name": "American Airlines Group"
-        },
-        {
-            "code": "INSW",
-            "name": "International Seaways"
-        },
-        {
-            "code": "LIT",
-            "name": "Global X Lithium & Battery Tech ETF"
-        },
-        {
-            "code": "ZJAN",
-            "name": "Innovator ZJAN ETF"
-        },
-        {
-            "code": "BA",
-            "name": "Boeing"
-        },
-        {
-            "code": "ERAS",
-            "name": "Erasca"
-        },
-        {
-            "code": "OUST",
-            "name": "Ouster"
-        },
-        {
-            "code": "SBUX",
-            "name": "Starbucks"
-        },
-        {
-            "code": "SMCI",
-            "name": "Super Micro Computer"
-        },
-        {
-            "code": "UUUU",
-            "name": "Energy Fuels"
-        },
-        {
-            "code": "TSLA",
-            "name": "Tesla"
-        },
-        {
-            "code": "ENPH",
-            "name": "Enphase Energy"
-        },
-        {
-            "code": "IWM",
-            "name": "iShares Russell 2000 ETF"
-        },
-        {
-            "code": "SATS",
-            "name": "Strive SATS Preferred"
-        },
-        {
-            "code": "AGG",
-            "name": "iShares Core US Aggregate Bond ETF"
-        },
-        {
-            "code": "AMD",
-            "name": "AMD"
-        },
-        {
-            "code": "ALOY",
-            "name": "REalloys"
-        },
-        {
-            "code": "OSCR",
-            "name": "Oscar Health"
-        },
-        {
-            "code": "SGOV",
-            "name": "iShares 0-3 Month Treasury Bond ETF"
-        },
-        {
-            "code": "UAMY",
-            "name": "United States Antimony"
-        },
-        {
-            "code": "CVX",
-            "name": "Chevron"
-        },
-        {
-            "code": "ORCL",
-            "name": "Oracle"
-        },
-        {
-            "code": "PEP",
-            "name": "PepsiCo"
-        },
-        {
-            "code": "HD",
-            "name": "Home Depot"
-        },
-        {
-            "code": "STX",
-            "name": "Seagate"
-        },
-        {
-            "code": "ACHR",
-            "name": "Archer Aviation"
-        },
-        {
-            "code": "ARQQ",
-            "name": "Arqit Quantum"
-        },
-        {
-            "code": "ITA",
-            "name": "iShares US Aerospace and Defense ETF"
-        },
-        {
-            "code": "BRTR",
-            "name": "iShares Total Return Active ETF"
-        },
-        {
-            "code": "GLW",
-            "name": "Corning"
-        },
-        {
-            "code": "RIVN",
-            "name": "Rivian Automotive"
-        },
-        {
-            "code": "SLV",
-            "name": "iShares Silver Trust"
-        },
-        {
-            "code": "ZMAY",
-            "name": "Innovator ZMAY ETF"
-        },
-        {
-            "code": "CAPR",
-            "name": "Capricor Therapeutics"
         },
         {
             "code": "CLOA",
             "name": "iShares AAA CLO Active ETF"
         },
         {
-            "code": "GD",
-            "name": "General Dynamics"
+            "code": "EWJ",
+            "name": "iShares MSCI Japan ETF"
         },
         {
-            "code": "LSCC",
-            "name": "Lattice Semiconductor"
+            "code": "MRNA",
+            "name": "Moderna"
         },
         {
-            "code": "MSTR",
-            "name": "MicroStrategy"
+            "code": "RIOT",
+            "name": "Riot Platforms"
         },
         {
-            "code": "NOC",
-            "name": "Northrop Grumman"
+            "code": "SIL",
+            "name": "Global X Silver Miners ETF"
         },
         {
-            "code": "PENG",
-            "name": "Penguin Solutions"
+            "code": "STX",
+            "name": "Seagate"
         },
         {
-            "code": "ATKR",
-            "name": "Atkore"
+            "code": "UNG",
+            "name": "US Natural Gas Fund"
         },
         {
-            "code": "GS",
-            "name": "Goldman Sachs"
+            "code": "CPNG",
+            "name": "Coupang"
         },
         {
-            "code": "CEG",
-            "name": "Constellation Energy"
+            "code": "NET",
+            "name": "Cloudflare"
         },
         {
-            "code": "MTZ",
-            "name": "MasTec"
+            "code": "GLW",
+            "name": "Corning"
         },
         {
-            "code": "RDW",
-            "name": "Redwire"
+            "code": "LECO",
+            "name": "Lincoln Electric"
         },
         {
-            "code": "SNOW",
-            "name": "Snowflake"
+            "code": "MRVL",
+            "name": "Marvell Technology"
         },
         {
-            "code": "IBM",
-            "name": "IBM"
+            "code": "SOUN",
+            "name": "SoundHound AI"
         },
         {
-            "code": "NVT",
-            "name": "nVent Electric"
+            "code": "CAPR",
+            "name": "Capricor Therapeutics"
         },
         {
-            "code": "XYLD",
-            "name": "Global X S&P 500 Covered Call ETF"
+            "code": "FLQL",
+            "name": "Franklin US Large Cap Multifactor Index ETF"
         },
         {
-            "code": "AEHR",
-            "name": "Aehr Test Systems"
+            "code": "LLY",
+            "name": "Eli Lilly"
         },
         {
-            "code": "FLHY",
-            "name": "Franklin High Yield Corporate ETF"
+            "code": "NEAR",
+            "name": "iShares Short Duration Bond Active ETF"
         },
         {
-            "code": "NVMI",
-            "name": "Nova"
+            "code": "AVGO",
+            "name": "Broadcom"
         },
         {
-            "code": "ONTO",
-            "name": "Onto Innovation"
+            "code": "BA",
+            "name": "Boeing"
         },
         {
-            "code": "SLB",
-            "name": "SLB"
+            "code": "PFE",
+            "name": "Pfizer"
         },
         {
-            "code": "TLT",
-            "name": "iShares 20+ Year Treasury Bond ETF"
+            "code": "BTDR",
+            "name": "Bitdeer Technologies"
         },
         {
-            "code": "UNP",
-            "name": "Union Pacific Corporation"
+            "code": "GEMI",
+            "name": "Gemini Space Station"
         },
         {
-            "code": "GFS",
-            "name": "GlobalFoundries"
+            "code": "LOW",
+            "name": "Lowe's"
         },
         {
-            "code": "HIVE",
-            "name": "HIVE Digital Technologies"
+            "code": "CEVA",
+            "name": "CEVA"
         },
         {
-            "code": "ZAUG",
-            "name": "Innovator ZAUG ETF"
+            "code": "QTUM",
+            "name": "Defiance Quantum ETF"
         },
         {
-            "code": "TMUS",
-            "name": "T-Mobile US"
+            "code": "SOXL",
+            "name": "Direxion Daily Semi Bull 3X ETF"
         },
         {
-            "code": "BWET",
-            "name": "Breakwave Tanker Shipping ETF"
+            "code": "VSH",
+            "name": "Vishay Intertechnology"
         },
         {
-            "code": "GRND",
-            "name": "Grindr"
-        },
-        {
-            "code": "IALT",
-            "name": "iShares Systematic Alternatives Active ETF"
-        },
-        {
-            "code": "MYRG",
-            "name": "MYR Group"
-        },
-        {
-            "code": "NEE",
-            "name": "NextEra Energy"
-        },
-        {
-            "code": "BIDU",
-            "name": "Baidu"
-        },
-        {
-            "code": "IBIT",
-            "name": "iShares Bitcoin Trust ETF"
-        },
-        {
-            "code": "AMGN",
-            "name": "Amgen"
+            "code": "DTCR",
+            "name": "Global X Data Center & Digital Infrastructure ETF"
         },
         {
             "code": "KWEB",
             "name": "KraneShares CSI China Internet ETF"
         },
         {
-            "code": "ABT",
-            "name": "Abbott"
+            "code": "ONTO",
+            "name": "Onto Innovation"
+        },
+        {
+            "code": "REMX",
+            "name": "VanEck Rare Earth and Strategic Metals ETF"
+        },
+        {
+            "code": "SHLD",
+            "name": "Global X Defense Tech ETF"
+        },
+        {
+            "code": "NUE",
+            "name": "Nucor"
+        },
+        {
+            "code": "ON",
+            "name": "ON Semiconductor"
+        },
+        {
+            "code": "XYLD",
+            "name": "Global X S&P 500 Covered Call ETF"
+        },
+        {
+            "code": "HII",
+            "name": "Huntington Ingalls Industries"
+        },
+        {
+            "code": "ICHR",
+            "name": "Ichor Holdings"
         },
         {
             "code": "KEEL",
             "name": "Keel Infrastructure"
         },
         {
-            "code": "TNK",
-            "name": "Teekay Tankers"
+            "code": "MKSI",
+            "name": "MKS Inc."
+        },
+        {
+            "code": "SPY",
+            "name": "SPDR S&P 500 ETF"
+        },
+        {
+            "code": "GGOV",
+            "name": "iShares Global Government Bond USD Hedged Active ETF"
+        },
+        {
+            "code": "USAR",
+            "name": "USA Rare Earth"
+        },
+        {
+            "code": "ZMAY",
+            "name": "Innovator ZMAY ETF"
+        },
+        {
+            "code": "AOSL",
+            "name": "Alpha and Omega Semiconductor"
+        },
+        {
+            "code": "BRTR",
+            "name": "iShares Total Return Active ETF"
+        },
+        {
+            "code": "INRO",
+            "name": "iShares US Industry Rotation Active ETF"
+        },
+        {
+            "code": "MA",
+            "name": "Mastercard"
+        },
+        {
+            "code": "NVDA",
+            "name": "NVIDIA"
+        },
+        {
+            "code": "CRWD",
+            "name": "CrowdStrike"
+        },
+        {
+            "code": "EWY",
+            "name": "iShares MSCI South Korea ETF"
+        },
+        {
+            "code": "HOOD",
+            "name": "Robinhood Markets"
+        },
+        {
+            "code": "APP",
+            "name": "AppLovin"
+        },
+        {
+            "code": "EFV",
+            "name": "iShares MSCI EAFE Value ETF"
+        },
+        {
+            "code": "IAU",
+            "name": "iShares Gold Trust"
+        },
+        {
+            "code": "IEMG",
+            "name": "iShares Core MSCI Emerging Markets ETF"
+        },
+        {
+            "code": "NOC",
+            "name": "Northrop Grumman"
+        },
+        {
+            "code": "NVT",
+            "name": "nVent Electric"
+        },
+        {
+            "code": "SQQQ",
+            "name": "ProShares UltraPro Short QQQ"
+        },
+        {
+            "code": "ASML",
+            "name": "ASML Holding NV"
+        },
+        {
+            "code": "IDEF",
+            "name": "iShares Defense Industrials Active ETF"
+        },
+        {
+            "code": "ZSEP",
+            "name": "Innovator ZSEP ETF"
+        },
+        {
+            "code": "SPCX",
+            "name": "SpaceX"
+        },
+        {
+            "code": "ADI",
+            "name": "Analog Devices"
+        },
+        {
+            "code": "AMAT",
+            "name": "Applied Materials"
+        },
+        {
+            "code": "DNN",
+            "name": "Denison Mines"
+        },
+        {
+            "code": "HAL",
+            "name": "Halliburton"
+        },
+        {
+            "code": "IONQ",
+            "name": "IonQ"
+        },
+        {
+            "code": "QYLD",
+            "name": "Global X NASDAQ 100 Covered Call ETF"
+        },
+        {
+            "code": "TT",
+            "name": "Trane Technologies"
+        },
+        {
+            "code": "ZMAR",
+            "name": "Innovator ZMAR ETF"
+        },
+        {
+            "code": "AMD",
+            "name": "AMD"
+        },
+        {
+            "code": "LI",
+            "name": "Li Auto"
+        },
+        {
+            "code": "MTZ",
+            "name": "MasTec"
+        },
+        {
+            "code": "NTES",
+            "name": "NetEase"
+        },
+        {
+            "code": "PINS",
+            "name": "Pinterest"
+        },
+        {
+            "code": "WLK",
+            "name": "Westlake"
+        },
+        {
+            "code": "YEAR",
+            "name": "AB Ultra Short Income ETF"
+        },
+        {
+            "code": "AMZN",
+            "name": "Amazon"
+        },
+        {
+            "code": "ENTG",
+            "name": "Entegris"
+        },
+        {
+            "code": "ZAPR",
+            "name": "Innovator ZAPR ETF"
+        },
+        {
+            "code": "CMG",
+            "name": "Chipotle"
+        },
+        {
+            "code": "PLTR",
+            "name": "Palantir Technologies"
+        },
+        {
+            "code": "ACN",
+            "name": "Accenture"
+        },
+        {
+            "code": "EMR",
+            "name": "Emerson Electric"
+        },
+        {
+            "code": "SKHY",
+            "name": "SK Hynix"
+        },
+        {
+            "code": "MSFT",
+            "name": "Microsoft"
+        },
+        {
+            "code": "CEG",
+            "name": "Constellation Energy"
+        },
+        {
+            "code": "DE",
+            "name": "Deere"
+        },
+        {
+            "code": "HPE",
+            "name": "Hewlett Packard Enterprise"
+        },
+        {
+            "code": "IYW",
+            "name": "iShares US Technology ETF"
+        },
+        {
+            "code": "UAMY",
+            "name": "United States Antimony"
+        },
+        {
+            "code": "ANT",
+            "name": "Anthropic"
         },
         {
             "code": "ABBV",
             "name": "AbbVie"
         },
         {
+            "code": "REGN",
+            "name": "Regeneron Pharmaceuticals"
+        },
+        {
+            "code": "AXP",
+            "name": "American Express"
+        },
+        {
+            "code": "BLCR",
+            "name": "iShares Large Cap Core Active ETF"
+        },
+        {
+            "code": "BMRN",
+            "name": "BioMarin Pharmaceutical"
+        },
+        {
+            "code": "CRDO",
+            "name": "Credo Technology Group Holding"
+        },
+        {
+            "code": "NFLX",
+            "name": "Netflix"
+        },
+        {
+            "code": "QQQ",
+            "name": "Invesco QQQ"
+        },
+        {
             "code": "AIP",
             "name": "Arteris"
         },
         {
-            "code": "BABA",
-            "name": "Alibaba"
+            "code": "BTG",
+            "name": "B2Gold"
         },
         {
-            "code": "BAI",
-            "name": "iShares A.I. Innovation and Tech Active ETF"
+            "code": "LRCX",
+            "name": "Lam Research"
         },
         {
-            "code": "BIL",
-            "name": "SPDR Bloomberg 1-3 Month T-Bill ETF"
+            "code": "TASK",
+            "name": "TaskUs"
         },
         {
-            "code": "BLSH",
-            "name": "Bullish"
+            "code": "FLCB",
+            "name": "Franklin US Core Bond ETF"
         },
         {
-            "code": "CLS",
-            "name": "Celestica"
+            "code": "COP",
+            "name": "ConocoPhillips"
         },
         {
-            "code": "CRWV",
-            "name": "CoreWeave"
+            "code": "ITA",
+            "name": "iShares US Aerospace and Defense ETF"
         },
         {
-            "code": "LWLG",
-            "name": "Lightwave Logic"
+            "code": "NNE",
+            "name": "NANO Nuclear Energy"
         },
         {
-            "code": "ORBX",
-            "name": "Global X Space Tech ETF"
+            "code": "UNH",
+            "name": "UnitedHealth"
+        },
+        {
+            "code": "IEF",
+            "name": "iShares 7-10 Year Treasury Bond ETF"
+        },
+        {
+            "code": "PDBC",
+            "name": "Invesco Optimum Yld Dvsfd Cmd Str No K-1 ETF"
+        },
+        {
+            "code": "SNAP",
+            "name": "Snap"
+        },
+        {
+            "code": "VST",
+            "name": "Vistra"
+        },
+        {
+            "code": "NBIS",
+            "name": "Nebius Group"
+        },
+        {
+            "code": "PG",
+            "name": "Procter & Gamble"
+        },
+        {
+            "code": "PWR",
+            "name": "Quanta Services"
+        },
+        {
+            "code": "PYPL",
+            "name": "PayPal"
+        },
+        {
+            "code": "AG",
+            "name": "First Majestic Silver"
+        },
+        {
+            "code": "FUTU",
+            "name": "Futu Holdings"
+        },
+        {
+            "code": "IJH",
+            "name": "iShares Core S&P MidCap ETF"
+        },
+        {
+            "code": "PCG",
+            "name": "PG&E"
+        },
+        {
+            "code": "SMCI",
+            "name": "Super Micro Computer"
+        },
+        {
+            "code": "FSOL",
+            "name": "Fidelity Solana Fund"
+        },
+        {
+            "code": "LSCC",
+            "name": "Lattice Semiconductor"
+        },
+        {
+            "code": "RDDT",
+            "name": "Reddit"
+        },
+        {
+            "code": "ROIV",
+            "name": "Roivant Sciences"
+        },
+        {
+            "code": "SGOV",
+            "name": "iShares 0-3 Month Treasury Bond ETF"
+        },
+        {
+            "code": "ZOCT",
+            "name": "Innovator ZOCT ETF"
+        },
+        {
+            "code": "DBC",
+            "name": "Invesco DB Commodity Index Tracking Fund"
+        },
+        {
+            "code": "EQT",
+            "name": "EQT"
+        },
+        {
+            "code": "FN",
+            "name": "Fabrinet"
+        },
+        {
+            "code": "KOPN",
+            "name": "Kopin"
+        },
+        {
+            "code": "PSQ",
+            "name": "ProShares Short QQQ"
+        },
+        {
+            "code": "URNM",
+            "name": "Sprott Uranium Miners ETF"
+        },
+        {
+            "code": "V",
+            "name": "Visa"
+        },
+        {
+            "code": "NIO",
+            "name": "NIO"
+        },
+        {
+            "code": "STRC",
+            "name": "Strategy Stretch Preferred"
+        },
+        {
+            "code": "ALAB",
+            "name": "Astera Labs"
+        },
+        {
+            "code": "SCHW",
+            "name": "Charles Schwab"
+        },
+        {
+            "code": "USPX",
+            "name": "Franklin US Equity Index ETF"
+        },
+        {
+            "code": "HD",
+            "name": "Home Depot"
+        },
+        {
+            "code": "ADBE",
+            "name": "Adobe"
+        },
+        {
+            "code": "BINC",
+            "name": "iShares Flexible Income Active ETF"
+        },
+        {
+            "code": "EWZ",
+            "name": "iShares MSCI Brazil ETF"
+        },
+        {
+            "code": "TMO",
+            "name": "Thermo Fisher Scientific"
+        },
+        {
+            "code": "BLK",
+            "name": "Blackrock, Inc."
+        },
+        {
+            "code": "BRLN",
+            "name": "iShares Floating Rate Loan Active ETF"
+        },
+        {
+            "code": "TSEM",
+            "name": "Tower Semiconductor"
+        },
+        {
+            "code": "VTV",
+            "name": "Vanguard Value ETF"
+        },
+        {
+            "code": "ARM",
+            "name": "Arm Holdings plc"
+        },
+        {
+            "code": "COPX",
+            "name": "Global X Copper Miners ETF"
+        },
+        {
+            "code": "ENPH",
+            "name": "Enphase Energy"
+        },
+        {
+            "code": "NVTS",
+            "name": "Navitas Semiconductor"
+        },
+        {
+            "code": "SOXX",
+            "name": "iShares Semiconductor ETF"
+        },
+        {
+            "code": "TLN",
+            "name": "Talen Energy"
+        },
+        {
+            "code": "BOT",
+            "name": "RoboStrategy"
+        },
+        {
+            "code": "LITE",
+            "name": "Lumentum Holdings"
+        },
+        {
+            "code": "TMUS",
+            "name": "T-Mobile US"
+        },
+        {
+            "code": "AMC",
+            "name": "AMC Entertainment"
+        },
+        {
+            "code": "HIVE",
+            "name": "HIVE Digital Technologies"
+        },
+        {
+            "code": "IBM",
+            "name": "IBM"
+        },
+        {
+            "code": "AMKR",
+            "name": "Amkor Technology"
+        },
+        {
+            "code": "ASTS",
+            "name": "AST SpaceMobile"
+        },
+        {
+            "code": "HYG",
+            "name": "iBoxx $ High Yield Corporate Bond ETF"
+        },
+        {
+            "code": "GOOGL",
+            "name": "Alphabet Class A"
+        },
+        {
+            "code": "DGRW",
+            "name": "WisdomTree US Quality Dividend Growth Fund"
+        },
+        {
+            "code": "GRND",
+            "name": "Grindr"
+        },
+        {
+            "code": "NKE",
+            "name": "Nike"
+        },
+        {
+            "code": "PTGX",
+            "name": "Protagonist Therapeutics"
+        },
+        {
+            "code": "VZ",
+            "name": "Verizon"
+        },
+        {
+            "code": "ALOY",
+            "name": "REalloys"
+        },
+        {
+            "code": "COHR",
+            "name": "Coherent"
+        },
+        {
+            "code": "LIT",
+            "name": "Global X Lithium & Battery Tech ETF"
+        },
+        {
+            "code": "LMT",
+            "name": "Lockheed"
+        },
+        {
+            "code": "NVMI",
+            "name": "Nova"
+        },
+        {
+            "code": "SOFI",
+            "name": "SoFi Technologies"
+        },
+        {
+            "code": "SPGI",
+            "name": "S&P Global"
+        },
+        {
+            "code": "HUBB",
+            "name": "Hubbell"
+        },
+        {
+            "code": "JNJ",
+            "name": "Johnson & Johnson"
+        },
+        {
+            "code": "MRK",
+            "name": "Merck"
+        },
+        {
+            "code": "WM",
+            "name": "Waste Management"
+        },
+        {
+            "code": "BBAI",
+            "name": "BigBear.ai Holdings"
+        },
+        {
+            "code": "COF",
+            "name": "Capital One"
+        },
+        {
+            "code": "INCE",
+            "name": "Franklin Income Equity Focus ETF"
+        },
+        {
+            "code": "OSCR",
+            "name": "Oscar Health"
+        },
+        {
+            "code": "BNO",
+            "name": "US Brent Oil Fund"
+        },
+        {
+            "code": "BTGO",
+            "name": "BitGo Holdings"
+        },
+        {
+            "code": "EEM",
+            "name": "iShares MSCI Emerging Markets ETF"
+        },
+        {
+            "code": "GD",
+            "name": "General Dynamics"
+        },
+        {
+            "code": "HLIT",
+            "name": "Harmonic"
+        },
+        {
+            "code": "AEHR",
+            "name": "Aehr Test Systems"
+        },
+        {
+            "code": "ACLS",
+            "name": "Axcelis Technologies"
+        },
+        {
+            "code": "DRAM",
+            "name": "Roundhill Memory ETF"
+        },
+        {
+            "code": "GFS",
+            "name": "GlobalFoundries"
+        },
+        {
+            "code": "OPRA",
+            "name": "Opera"
+        },
+        {
+            "code": "CVX",
+            "name": "Chevron"
+        },
+        {
+            "code": "HYDB",
+            "name": "iShares High Yield Systematic Bond ETF"
+        },
+        {
+            "code": "TIP",
+            "name": "iShares TIPS Bond ETF"
+        },
+        {
+            "code": "UBER",
+            "name": "Uber"
+        },
+        {
+            "code": "AI",
+            "name": "C3.ai"
         },
         {
             "code": "OXY",
@@ -1713,188 +813,1112 @@
             "name": "Plug Power"
         },
         {
-            "code": "LOW",
-            "name": "Lowe's"
+            "code": "SYM",
+            "name": "Symbotic"
         },
         {
-            "code": "SHY",
-            "name": "iShares 1-3 Year Treasury Bond ETF"
+            "code": "TLT",
+            "name": "iShares 20+ Year Treasury Bond ETF"
         },
         {
-            "code": "SNAP",
-            "name": "Snap"
+            "code": "VTI",
+            "name": "Vanguard Total Stock Market ETF"
         },
         {
-            "code": "STM",
-            "name": "STMicroelectronics"
-        },
-        {
-            "code": "UMC",
-            "name": "United Microelectronics"
-        },
-        {
-            "code": "WLK",
-            "name": "Westlake"
-        },
-        {
-            "code": "XOM",
-            "name": "Exxon Mobil"
-        },
-        {
-            "code": "AVGO",
-            "name": "Broadcom"
-        },
-        {
-            "code": "NTRA",
-            "name": "Natera"
-        },
-        {
-            "code": "BBAI",
-            "name": "BigBear.ai Holdings"
-        },
-        {
-            "code": "FN",
-            "name": "Fabrinet"
-        },
-        {
-            "code": "JBL",
-            "name": "Jabil"
-        },
-        {
-            "code": "SOXS",
-            "name": "Direxion Daily Semi Bear 3X ETF"
-        },
-        {
-            "code": "ENLV",
-            "name": "Enlivex Therapeutics"
-        },
-        {
-            "code": "HPE",
-            "name": "Hewlett Packard Enterprise"
-        },
-        {
-            "code": "ARGT",
-            "name": "Global X MSCI Argentina ETF"
-        },
-        {
-            "code": "EXOD",
-            "name": "Exodus Movement"
-        },
-        {
-            "code": "IGV",
-            "name": "iShares Expanded Tech-Software ETF"
-        },
-        {
-            "code": "QBTS",
-            "name": "D-Wave Quantum"
-        },
-        {
-            "code": "SCCO",
-            "name": "Southern Copper"
-        },
-        {
-            "code": "ASTS",
-            "name": "AST SpaceMobile"
-        },
-        {
-            "code": "COIN",
-            "name": "Coinbase"
-        },
-        {
-            "code": "APO",
-            "name": "Apollo Global Management"
-        },
-        {
-            "code": "AXP",
-            "name": "American Express"
-        },
-        {
-            "code": "SIL",
-            "name": "Global X Silver Miners ETF"
-        },
-        {
-            "code": "WULF",
-            "name": "Terawulf"
-        },
-        {
-            "code": "YEAR",
-            "name": "AB Ultra Short Income ETF"
-        },
-        {
-            "code": "GNRC",
-            "name": "Generac Holdings"
-        },
-        {
-            "code": "NIKL",
-            "name": "Sprott Nickel Miners ETF"
-        },
-        {
-            "code": "URA",
-            "name": "Global X Uranium ETF"
-        },
-        {
-            "code": "IREN",
-            "name": "IREN"
-        },
-        {
-            "code": "BTGO",
-            "name": "BitGo Holdings"
-        },
-        {
-            "code": "CLF",
-            "name": "Cleveland-Cliffs"
-        },
-        {
-            "code": "ENTG",
-            "name": "Entegris"
+            "code": "HIMS",
+            "name": "Hims & Hers Health"
         },
         {
             "code": "LUNR",
             "name": "Intuitive Machines"
         },
         {
-            "code": "VFS",
-            "name": "VinFast Auto"
+            "code": "SO",
+            "name": "Southern"
         },
         {
-            "code": "DBC",
-            "name": "Invesco DB Commodity Index Tracking Fund"
+            "code": "IWF",
+            "name": "iShares Russell 1000 Growth ETF"
         },
         {
-            "code": "TER",
-            "name": "Teradyne"
+            "code": "NVO",
+            "name": "Novo Nordisk"
         },
         {
-            "code": "BMRN",
-            "name": "BioMarin Pharmaceutical"
+            "code": "OUST",
+            "name": "Ouster"
         },
         {
-            "code": "FSOL",
-            "name": "Fidelity Solana Fund"
+            "code": "ZDEK",
+            "name": "Innovator ZDEK ETF"
         },
         {
-            "code": "GLTR",
-            "name": "abrdn Physical Precious Metals Basket Shares ETF"
+            "code": "BIDU",
+            "name": "Baidu"
         },
         {
-            "code": "PINS",
-            "name": "Pinterest"
+            "code": "JAAA",
+            "name": "Janus Henderson AAA CLO ETF"
         },
         {
-            "code": "NVDA",
-            "name": "NVIDIA"
+            "code": "WULF",
+            "name": "Terawulf"
         },
         {
-            "code": "ALB",
-            "name": "Albemarle"
+            "code": "ZJUL",
+            "name": "Innovator ZJUL ETF"
+        },
+        {
+            "code": "COST",
+            "name": "Costco"
+        },
+        {
+            "code": "ETHA",
+            "name": "iShares Ethereum Trust ETF"
+        },
+        {
+            "code": "IBIT",
+            "name": "iShares Bitcoin Trust ETF"
+        },
+        {
+            "code": "SCCO",
+            "name": "Southern Copper"
+        },
+        {
+            "code": "TWST",
+            "name": "Twist Bioscience"
+        },
+        {
+            "code": "ANET",
+            "name": "Arista Networks"
+        },
+        {
+            "code": "CVNA",
+            "name": "Carvana"
+        },
+        {
+            "code": "MXL",
+            "name": "MaxLinear"
+        },
+        {
+            "code": "OKLO",
+            "name": "Oklo"
+        },
+        {
+            "code": "SPOT",
+            "name": "Spotify"
+        },
+        {
+            "code": "SYSB",
+            "name": "iShares Systematic Bond ETF"
+        },
+        {
+            "code": "WDC",
+            "name": "Western Digital"
+        },
+        {
+            "code": "WOLF",
+            "name": "Wolfspeed"
+        },
+        {
+            "code": "BMNR",
+            "name": "BitMine Immersion Technologies"
+        },
+        {
+            "code": "EUHY",
+            "name": "iShares Euro High Yield Corporate Bond USD Hedged ETF"
+        },
+        {
+            "code": "SEDG",
+            "name": "SolarEdge Technologies"
+        },
+        {
+            "code": "ABT",
+            "name": "Abbott"
+        },
+        {
+            "code": "CIEN",
+            "name": "Ciena"
+        },
+        {
+            "code": "DRS",
+            "name": "Leonardo DRS"
+        },
+        {
+            "code": "HSAI",
+            "name": "Hesai Group"
+        },
+        {
+            "code": "HUT",
+            "name": "Hut 8"
+        },
+        {
+            "code": "TCOM",
+            "name": "Trip.com Group"
+        },
+        {
+            "code": "VNQ",
+            "name": "Vanguard Real Estate ETF"
+        },
+        {
+            "code": "CSCO",
+            "name": "Cisco Systems"
+        },
+        {
+            "code": "PALL",
+            "name": "abrdn Physical Palladium Shares ETF"
+        },
+        {
+            "code": "CBRS",
+            "name": "Cerebras Systems"
+        },
+        {
+            "code": "LIN",
+            "name": "Linde plc"
+        },
+        {
+            "code": "NTRA",
+            "name": "Natera"
+        },
+        {
+            "code": "SHY",
+            "name": "iShares 1-3 Year Treasury Bond ETF"
         },
         {
             "code": "FLEX",
             "name": "Flex"
         },
         {
+            "code": "RKLB",
+            "name": "Rocket Lab"
+        },
+        {
+            "code": "RTX",
+            "name": "RTX"
+        },
+        {
+            "code": "SLV",
+            "name": "iShares Silver Trust"
+        },
+        {
+            "code": "IGV",
+            "name": "iShares Expanded Tech-Software ETF"
+        },
+        {
+            "code": "CRM",
+            "name": "Salesforce"
+        },
+        {
+            "code": "BZ",
+            "name": "Kanzhun"
+        },
+        {
+            "code": "CIFR",
+            "name": "Cipher Mining"
+        },
+        {
+            "code": "CIBR",
+            "name": "First Trust NASDAQ Cybersecurity ETF"
+        },
+        {
+            "code": "DIS",
+            "name": "Disney"
+        },
+        {
+            "code": "FPS",
+            "name": "Forgent Power Solutions"
+        },
+        {
+            "code": "VICR",
+            "name": "Vicor"
+        },
+        {
+            "code": "AAPL",
+            "name": "Apple"
+        },
+        {
+            "code": "JPM",
+            "name": "JPMorgan Chase"
+        },
+        {
+            "code": "IWN",
+            "name": "iShares Russell 2000 Value ETF"
+        },
+        {
+            "code": "LASR",
+            "name": "nLIGHT"
+        },
+        {
+            "code": "PEP",
+            "name": "PepsiCo"
+        },
+        {
+            "code": "UUUU",
+            "name": "Energy Fuels"
+        },
+        {
+            "code": "ECH",
+            "name": "iShares MSCI Chile ETF"
+        },
+        {
+            "code": "TSLA",
+            "name": "Tesla"
+        },
+        {
+            "code": "TQQQ",
+            "name": "ProShares UltraPro QQQ"
+        },
+        {
+            "code": "CLS",
+            "name": "Celestica"
+        },
+        {
+            "code": "ROK",
+            "name": "Rockwell Automation"
+        },
+        {
+            "code": "QLTA",
+            "name": "iShares Aaa - A Rated Corporate Bond ETF"
+        },
+        {
+            "code": "GLXY",
+            "name": "Galaxy Digital"
+        },
+        {
+            "code": "C",
+            "name": "Citigroup"
+        },
+        {
+            "code": "COHU",
+            "name": "Cohu"
+        },
+        {
+            "code": "ENB",
+            "name": "Enbridge"
+        },
+        {
+            "code": "FBEQ",
+            "name": "Franklin US Equity Bitcoin DRIP Index ETF"
+        },
+        {
+            "code": "BRHY",
+            "name": "iShares High Yield Active ETF"
+        },
+        {
+            "code": "CRCL",
+            "name": "Circle Internet Group"
+        },
+        {
+            "code": "EQIX",
+            "name": "Equinix"
+        },
+        {
+            "code": "MARA",
+            "name": "MARA Holdings"
+        },
+        {
+            "code": "SLB",
+            "name": "SLB"
+        },
+        {
+            "code": "ABNB",
+            "name": "Airbnb"
+        },
+        {
+            "code": "PRIM",
+            "name": "Primoris Services"
+        },
+        {
+            "code": "FXI",
+            "name": "iShares China Large-Cap ETF"
+        },
+        {
+            "code": "AGG",
+            "name": "iShares Core US Aggregate Bond ETF"
+        },
+        {
+            "code": "AME",
+            "name": "AMETEK"
+        },
+        {
+            "code": "ATKR",
+            "name": "Atkore"
+        },
+        {
+            "code": "BAC",
+            "name": "Bank of America"
+        },
+        {
+            "code": "GLTR",
+            "name": "abrdn Physical Precious Metals Basket Shares ETF"
+        },
+        {
+            "code": "INSM",
+            "name": "Insmed"
+        },
+        {
+            "code": "VCX",
+            "name": "Fundrise Innovation Fund"
+        },
+        {
+            "code": "FLGV",
+            "name": "Franklin US Treasury Bond ETF"
+        },
+        {
+            "code": "CAT",
+            "name": "Caterpillar"
+        },
+        {
+            "code": "IRDM",
+            "name": "Iridium Communications"
+        },
+        {
+            "code": "QBTS",
+            "name": "D-Wave Quantum"
+        },
+        {
+            "code": "WYFI",
+            "name": "WhiteFiber"
+        },
+        {
+            "code": "PURR",
+            "name": "Hyperliquid Strategies"
+        },
+        {
+            "code": "UMC",
+            "name": "United Microelectronics"
+        },
+        {
+            "code": "ERAS",
+            "name": "Erasca"
+        },
+        {
+            "code": "ORBX",
+            "name": "Global X Space Tech ETF"
+        },
+        {
+            "code": "SATA",
+            "name": "Strive Preferred"
+        },
+        {
+            "code": "BITA",
+            "name": "iShares Bitcoin Premium Income ETF"
+        },
+        {
+            "code": "MSTR",
+            "name": "MicroStrategy"
+        },
+        {
+            "code": "HTZ",
+            "name": "Hertz Global Holdings"
+        },
+        {
+            "code": "TER",
+            "name": "Teradyne"
+        },
+        {
+            "code": "WCC",
+            "name": "WESCO International"
+        },
+        {
+            "code": "AAL",
+            "name": "American Airlines Group"
+        },
+        {
+            "code": "PAVE",
+            "name": "Global X US Infrastructure Development ETF"
+        },
+        {
+            "code": "PBR",
+            "name": "Petrobras"
+        },
+        {
+            "code": "SWKS",
+            "name": "Skyworks Solutions"
+        },
+        {
+            "code": "AUR",
+            "name": "Aurora Innovation"
+        },
+        {
+            "code": "LPTH",
+            "name": "LightPath Technologies"
+        },
+        {
+            "code": "OPEN",
+            "name": "Opendoor Technologies"
+        },
+        {
+            "code": "UEC",
+            "name": "Uranium Energy"
+        },
+        {
+            "code": "VRT",
+            "name": "Vertiv"
+        },
+        {
+            "code": "ACHR",
+            "name": "Archer Aviation"
+        },
+        {
+            "code": "EXOD",
+            "name": "Exodus Movement"
+        },
+        {
+            "code": "SMR",
+            "name": "NuScale Power"
+        },
+        {
+            "code": "TEN",
+            "name": "Tsakos Energy Navigation"
+        },
+        {
+            "code": "UCTT",
+            "name": "Ultra Clean Holdings"
+        },
+        {
+            "code": "BE",
+            "name": "Bloom Energy"
+        },
+        {
+            "code": "QCOM",
+            "name": "Qualcomm"
+        },
+        {
+            "code": "CAI",
+            "name": "Caris Life Sciences"
+        },
+        {
+            "code": "COIN",
+            "name": "Coinbase"
+        },
+        {
+            "code": "FGDL",
+            "name": "Franklin Responsibly Sourced Gold ETF"
+        },
+        {
+            "code": "TTMI",
+            "name": "TTM Technologies"
+        },
+        {
+            "code": "USFR",
+            "name": "WisdomTree Floating Rate Treasury Fund"
+        },
+        {
+            "code": "USHY",
+            "name": "iShares Broad USD High Yield Corporate Bond ETF"
+        },
+        {
+            "code": "BIL",
+            "name": "SPDR Bloomberg 1-3 Month T-Bill ETF"
+        },
+        {
+            "code": "FCX",
+            "name": "Freeport-McMoRan"
+        },
+        {
+            "code": "MTSI",
+            "name": "MACOM Technology Solutions Holdings"
+        },
+        {
+            "code": "OIH",
+            "name": "VanEck Oil Services ETF"
+        },
+        {
+            "code": "T",
+            "name": "AT&T"
+        },
+        {
+            "code": "CCJ",
+            "name": "Cameco"
+        },
+        {
+            "code": "RXRX",
+            "name": "Recursion Pharmaceuticals"
+        },
+        {
+            "code": "WMT",
+            "name": "Walmart"
+        },
+        {
+            "code": "XOM",
+            "name": "Exxon Mobil"
+        },
+        {
+            "code": "CORZ",
+            "name": "Core Scientific"
+        },
+        {
+            "code": "INTC",
+            "name": "Intel"
+        },
+        {
+            "code": "ONDS",
+            "name": "Ondas Holdings"
+        },
+        {
+            "code": "PL",
+            "name": "Planet Labs"
+        },
+        {
+            "code": "CLF",
+            "name": "Cleveland-Cliffs"
+        },
+        {
+            "code": "SNOW",
+            "name": "Snowflake"
+        },
+        {
+            "code": "GNRC",
+            "name": "Generac Holdings"
+        },
+        {
             "code": "HYGW",
             "name": "iShares High Yield Corporate Bond Buywrite Strategy ETF"
+        },
+        {
+            "code": "XYZ",
+            "name": "Block"
+        },
+        {
+            "code": "APO",
+            "name": "Apollo Global Management"
+        },
+        {
+            "code": "INDA",
+            "name": "iShares MSCI India ETF"
+        },
+        {
+            "code": "LEMB",
+            "name": "iShares J.P. Morgan EM Local Currency Bond ETF"
+        },
+        {
+            "code": "ZJUN",
+            "name": "Innovator ZJUN ETF"
+        },
+        {
+            "code": "IEI",
+            "name": "iShares 3-7 Year Treasury Bond ETF"
+        },
+        {
+            "code": "WMB",
+            "name": "Williams"
+        },
+        {
+            "code": "ZNOV",
+            "name": "Innovator ZNOV ETF"
+        },
+        {
+            "code": "CLOI",
+            "name": "VanEck CLO ETF"
+        },
+        {
+            "code": "HIMX",
+            "name": "Himax Technologies"
+        },
+        {
+            "code": "IALT",
+            "name": "iShares Systematic Alternatives Active ETF"
+        },
+        {
+            "code": "IEFA",
+            "name": "iShares Core MSCI EAFE ETF"
+        },
+        {
+            "code": "MBLY",
+            "name": "Mobileye Global"
+        },
+        {
+            "code": "POWI",
+            "name": "Power Integrations"
+        },
+        {
+            "code": "ARGT",
+            "name": "Global X MSCI Argentina ETF"
+        },
+        {
+            "code": "WEN",
+            "name": "Wendy's"
+        },
+        {
+            "code": "AAOI",
+            "name": "Applied Optoelectronics"
+        },
+        {
+            "code": "AMGN",
+            "name": "Amgen"
+        },
+        {
+            "code": "BWET",
+            "name": "Breakwave Tanker Shipping ETF"
+        },
+        {
+            "code": "GEV",
+            "name": "GE Vernova"
+        },
+        {
+            "code": "STLD",
+            "name": "Steel Dynamics"
+        },
+        {
+            "code": "INSW",
+            "name": "International Seaways"
+        },
+        {
+            "code": "CRWV",
+            "name": "CoreWeave"
+        },
+        {
+            "code": "GE",
+            "name": "General Electric"
+        },
+        {
+            "code": "MP",
+            "name": "MP Materials"
+        },
+        {
+            "code": "RDW",
+            "name": "Redwire"
+        },
+        {
+            "code": "VPG",
+            "name": "Vishay Precision Group"
+        },
+        {
+            "code": "ALB",
+            "name": "Albemarle"
+        },
+        {
+            "code": "IGEB",
+            "name": "iShares Investment Grade Systematic Bond ETF"
+        },
+        {
+            "code": "PDD",
+            "name": "PDD Holdings"
+        },
+        {
+            "code": "BKCH",
+            "name": "Global X Blockchain ETF"
+        },
+        {
+            "code": "BLSH",
+            "name": "Bullish"
+        },
+        {
+            "code": "GME",
+            "name": "GameStop"
+        },
+        {
+            "code": "MEI",
+            "name": "Methode Electronics"
+        },
+        {
+            "code": "MCD",
+            "name": "McDonald's"
+        },
+        {
+            "code": "VFS",
+            "name": "VinFast Auto"
+        },
+        {
+            "code": "ENLV",
+            "name": "Enlivex Therapeutics"
+        },
+        {
+            "code": "FIGR",
+            "name": "Figure Technology Solutions"
+        },
+        {
+            "code": "FLNC",
+            "name": "Fluence Energy"
+        },
+        {
+            "code": "IVV",
+            "name": "iShares Core S&P 500 ETF"
+        },
+        {
+            "code": "BAI",
+            "name": "iShares A.I. Innovation and Tech Active ETF"
+        },
+        {
+            "code": "SECU",
+            "name": "iShares Securitized Income Active ETF"
+        },
+        {
+            "code": "SNDK",
+            "name": "SanDisk"
+        },
+        {
+            "code": "FLHY",
+            "name": "Franklin High Yield Corporate ETF"
+        },
+        {
+            "code": "UNP",
+            "name": "Union Pacific Corporation"
+        },
+        {
+            "code": "VRSN",
+            "name": "VeriSign"
+        },
+        {
+            "code": "GOOG",
+            "name": "Alphabet Inc. Class C"
+        },
+        {
+            "code": "SBET",
+            "name": "SharpLink Gaming, Inc"
+        },
+        {
+            "code": "VDE",
+            "name": "Vanguard Energy ETF"
+        },
+        {
+            "code": "FIG",
+            "name": "Figma"
+        },
+        {
+            "code": "RGTI",
+            "name": "Rigetti Computing"
+        },
+        {
+            "code": "AXTI",
+            "name": "AXT"
+        },
+        {
+            "code": "HYS",
+            "name": "PIMCO 0-5 Year High Yield Corporate Bond Index ETF"
+        },
+        {
+            "code": "ZAUG",
+            "name": "Innovator ZAUG ETF"
+        },
+        {
+            "code": "BILI",
+            "name": "Bilibili"
+        },
+        {
+            "code": "PENG",
+            "name": "Penguin Solutions"
+        },
+        {
+            "code": "APH",
+            "name": "Amphenol"
+        },
+        {
+            "code": "ACMR",
+            "name": "ACM Research"
+        },
+        {
+            "code": "FFOG",
+            "name": "Franklin Focused Growth ETF"
+        },
+        {
+            "code": "APLD",
+            "name": "Applied Digital"
+        },
+        {
+            "code": "GS",
+            "name": "Goldman Sachs"
+        },
+        {
+            "code": "KLAC",
+            "name": "KLA"
+        },
+        {
+            "code": "MELI",
+            "name": "MercadoLibre"
+        },
+        {
+            "code": "NEM",
+            "name": "Newmont"
+        },
+        {
+            "code": "NIKL",
+            "name": "Sprott Nickel Miners ETF"
+        },
+        {
+            "code": "DASH",
+            "name": "DoorDash"
+        },
+        {
+            "code": "META",
+            "name": "Meta Platforms"
+        },
+        {
+            "code": "OII",
+            "name": "Oceaneering International"
+        },
+        {
+            "code": "ORCL",
+            "name": "Oracle"
+        },
+        {
+            "code": "USO",
+            "name": "United States Oil Fund"
+        },
+        {
+            "code": "AIQ",
+            "name": "Global X Artificial Intelligence & Technology ETF"
+        },
+        {
+            "code": "CAMT",
+            "name": "Camtek"
+        },
+        {
+            "code": "DELL",
+            "name": "Dell Technologies"
+        },
+        {
+            "code": "GRAB",
+            "name": "Grab Holdings"
+        },
+        {
+            "code": "SHOP",
+            "name": "Shopify"
+        },
+        {
+            "code": "ARQQ",
+            "name": "Arqit Quantum"
+        },
+        {
+            "code": "ASST",
+            "name": "Strive"
+        },
+        {
+            "code": "LWLG",
+            "name": "Lightwave Logic"
+        },
+        {
+            "code": "EFA",
+            "name": "iShares MSCI EAFE ETF"
+        },
+        {
+            "code": "FCEL",
+            "name": "FuelCell Energy"
+        },
+        {
+            "code": "INOD",
+            "name": "Innodata"
+        },
+        {
+            "code": "KEYS",
+            "name": "Keysight Technologies"
+        },
+        {
+            "code": "BABA",
+            "name": "Alibaba"
+        },
+        {
+            "code": "CORO",
+            "name": "iShares International Country Rotation Active ETF"
+        },
+        {
+            "code": "FORM",
+            "name": "FormFactor"
+        },
+        {
+            "code": "BNTX",
+            "name": "BioNTech"
+        },
+        {
+            "code": "CPER",
+            "name": "US Copper Index Fund"
+        },
+        {
+            "code": "MU",
+            "name": "Micron Technology"
+        },
+        {
+            "code": "NAT",
+            "name": "Nordic American Tankers"
+        },
+        {
+            "code": "STM",
+            "name": "STMicroelectronics"
+        },
+        {
+            "code": "NOK",
+            "name": "Nokia"
+        },
+        {
+            "code": "SOXS",
+            "name": "Direxion Daily Semi Bear 3X ETF"
+        },
+        {
+            "code": "TNK",
+            "name": "Teekay Tankers"
+        },
+        {
+            "code": "DYNF",
+            "name": "iShares US Equity Factor Rotation Active ETF"
+        },
+        {
+            "code": "JD",
+            "name": "JD.com"
+        },
+        {
+            "code": "PANW",
+            "name": "Palo Alto Networks"
+        },
+        {
+            "code": "SAP",
+            "name": "SAP"
+        },
+        {
+            "code": "TEL",
+            "name": "TE Connectivity"
+        },
+        {
+            "code": "BOTZ",
+            "name": "Global X Robotics & Artificial Intelligence ETF"
+        },
+        {
+            "code": "NEE",
+            "name": "NextEra Energy"
+        },
+        {
+            "code": "NOW",
+            "name": "ServiceNow"
+        },
+        {
+            "code": "URA",
+            "name": "Global X Uranium ETF"
+        },
+        {
+            "code": "TTWO",
+            "name": "Take-Two Interactive Software"
+        },
+        {
+            "code": "AAON",
+            "name": "AAON"
+        },
+        {
+            "code": "RIVN",
+            "name": "Rivian Automotive"
+        },
+        {
+            "code": "TXN",
+            "name": "Texas Instruments"
+        },
+        {
+            "code": "ZFEB",
+            "name": "Innovator ZFEB ETF"
+        },
+        {
+            "code": "IREN",
+            "name": "IREN"
+        },
+        {
+            "code": "ISRG",
+            "name": "Intuitive Surgical"
+        },
+        {
+            "code": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing"
+        },
+        {
+            "code": "SOXQ",
+            "name": "Invesco PHLX Semiconductor ETF"
+        },
+        {
+            "code": "WFC",
+            "name": "Wells Fargo"
+        },
+        {
+            "code": "IWM",
+            "name": "iShares Russell 2000 ETF"
+        },
+        {
+            "code": "KO",
+            "name": "Coca-Cola"
+        },
+        {
+            "code": "JBL",
+            "name": "Jabil"
+        },
+        {
+            "code": "WS",
+            "name": "Worthington Steel"
+        },
+        {
+            "code": "ZJAN",
+            "name": "Innovator ZJAN ETF"
+        },
+        {
+            "code": "POWL",
+            "name": "Powell Industries"
+        },
+        {
+            "code": "SATS",
+            "name": "Strive SATS Preferred"
+        },
+        {
+            "code": "ITOT",
+            "name": "iShares Core S&P Total US Stock Market ETF"
+        },
+        {
+            "code": "DGXX",
+            "name": "Digi Power X"
+        },
+        {
+            "code": "ETN",
+            "name": "Eaton"
+        },
+        {
+            "code": "GLD",
+            "name": "SPDR Gold Shares"
+        },
+        {
+            "code": "MYRG",
+            "name": "MYR Group"
+        },
+        {
+            "code": "EXTR",
+            "name": "Extreme Networks"
+        },
+        {
+            "code": "TM",
+            "name": "Toyota"
+        },
+        {
+            "code": "F",
+            "name": "Ford Motor"
+        },
+        {
+            "code": "INTU",
+            "name": "Intuit"
+        },
+        {
+            "code": "PPLT",
+            "name": "abrdn Physical Platinum Shares ETF"
+        },
+        {
+            "code": "SBUX",
+            "name": "Starbucks"
+        },
+        {
+            "code": "ECO",
+            "name": "Okeanis Eco Tankers"
+        },
+        {
+            "code": "FTGC",
+            "name": "First Trust Global Tactical Commodity Strategy Fund"
+        },
+        {
+            "code": "STNG",
+            "name": "Scorpio Tankers"
+        },
+        {
+            "code": "IJS",
+            "name": "iShares S&P Small-Cap 600 Value ETF"
+        },
+        {
+            "code": "QUBT",
+            "name": "Quantum Computing"
+        },
+        {
+            "code": "RMBS",
+            "name": "Rambus"
         }
     ]
 }
